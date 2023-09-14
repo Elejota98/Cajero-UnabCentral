@@ -1,0 +1,68 @@
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\GS.Apdu.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\GS.CSharpPCSC.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\GS.HexLibrary.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\GS.Apdu.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\GS.CSharpPCSC.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\GS.HexLibrary.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\GS.CSharpPCSC.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.BusinessObjects\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.BusinessObjects\bin\Debug\GS.CSharpPCSC.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.BusinessObjects\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.BusinessObjects\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.BusinessObjects\bin\Debug\GS.CSharpPCSC.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.BusinessObjects\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.BusinessObjects\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.BusinessObjects\bin\Debug\GS.CSharpPCSC.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.BusinessObjects\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.SmartCard.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.BusinessObjects\bin\Debug\GS.Apdu.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.BusinessObjects\bin\Debug\GS.CSharpPCSC.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.BusinessObjects\bin\Debug\GS.HexLibrary.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.Tools.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.pdb

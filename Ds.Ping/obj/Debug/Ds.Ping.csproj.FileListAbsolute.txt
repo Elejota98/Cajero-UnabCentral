@@ -1,0 +1,129 @@
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.Ping\bin\Debug\EGlobal_ATM.Ping.dll
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.Ping\bin\Debug\EGlobal_ATM.Ping.pdb
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.Ping\obj\Debug\EGlobal_ATM.Ping.dll
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.Ping\obj\Debug\EGlobal_ATM.Ping.pdb
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_SmartCoinOld\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Proyectos\Desarrollo_CityParking\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Proyectos\Desarrollo_CityParking\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Ping\obj\Debug\Ds.Ping.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Ping\bin\Debug\Ds.Ping.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Ping\bin\Debug\Ds.Ping.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Ping\obj\Debug\Ds.Ping.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Ping\obj\Debug\Ds.Ping.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache

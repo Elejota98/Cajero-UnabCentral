@@ -1,0 +1,174 @@
+C:\Proyectos\Desarrollo_CityParking\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_CityParking\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.Datafono\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\bin\Debug\GS.Apdu.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\obj\Debug\Ds.Datafono.pdb

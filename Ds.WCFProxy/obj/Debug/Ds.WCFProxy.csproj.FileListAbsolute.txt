@@ -1,0 +1,397 @@
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobal_ATM.WCFProxy.dll
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobal_ATM.WCFProxy.pdb
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobal_ATM.Exception.dll
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobal_ATM.Mensajes.dll
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobal_ATM.Ping.dll
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobal_ATM.Utilidades.dll
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobal_ATM.Global.dll
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobalT_ATM.BusinessObjects.dll
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobal_ATM.Exception.pdb
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobal_ATM.Mensajes.pdb
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobal_ATM.Ping.pdb
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobal_ATM.Utilidades.pdb
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobal_ATM.Global.pdb
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\bin\Debug\EGlobalT_ATM.BusinessObjects.pdb
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\obj\Debug\EGlobal_ATM.WCFProxy.dll
+C:\Proyectos\Payment\Desarrollo Coin1 - copia\Ds.WCFProxy\obj\Debug\EGlobal_ATM.WCFProxy.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.WCFProxy.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Exception.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Mensajes.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Ping.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Utilidades.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Global.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\GS.Apdu.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\EGlobalT.Device.SmartCard.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\GS.HexLibrary.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\EGlobalT.Device.Tools.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Exception.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Mensajes.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Ping.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Utilidades.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.Global.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb

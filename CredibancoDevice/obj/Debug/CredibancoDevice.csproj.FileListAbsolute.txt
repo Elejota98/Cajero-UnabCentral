@@ -1,0 +1,48 @@
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\CredibancoDevice\bin\Debug\CredibancoDevice.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\CredibancoDevice\bin\Debug\CredibancoDevice.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\CredibancoDevice\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\CredibancoDevice\bin\Debug\KioskosLib.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\CredibancoDevice\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\CredibancoDevice\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\CredibancoDevice\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\CredibancoDevice\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\CredibancoDevice\obj\Debug\CredibancoDevice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\CredibancoDevice\obj\Debug\CredibancoDevice.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\CredibancoDevice\obj\Debug\CredibancoDevice.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\CredibancoDevice\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\CredibancoDevice\bin\Debug\CredibancoDevice.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\CredibancoDevice\bin\Debug\CredibancoDevice.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\CredibancoDevice\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\CredibancoDevice\bin\Debug\KioskosLib.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\CredibancoDevice\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\CredibancoDevice\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\CredibancoDevice\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\CredibancoDevice\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\CredibancoDevice\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\CredibancoDevice\obj\Debug\CredibancoDevice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\CredibancoDevice\obj\Debug\CredibancoDevice.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\CredibancoDevice\obj\Debug\CredibancoDevice.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\CredibancoDevice\bin\Debug\CredibancoDevice.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\CredibancoDevice\bin\Debug\CredibancoDevice.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\CredibancoDevice\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\CredibancoDevice\bin\Debug\KioskosLib.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\CredibancoDevice\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\CredibancoDevice\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\CredibancoDevice\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\CredibancoDevice\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\CredibancoDevice\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\CredibancoDevice\obj\Debug\CredibancoDevice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\CredibancoDevice\obj\Debug\CredibancoDevice.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\CredibancoDevice\obj\Debug\CredibancoDevice.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\bin\Debug\CredibancoDevice.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\bin\Debug\CredibancoDevice.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\bin\Debug\Ds.BusinessObjects.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\bin\Debug\KioskosLib.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\bin\Debug\GS.Apdu.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\bin\Debug\EGlobalT.Device.SmartCard.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\bin\Debug\GS.HexLibrary.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\bin\Debug\EGlobalT.Device.Tools.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\bin\Debug\Ds.BusinessObjects.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\obj\Debug\CredibancoDevice.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\obj\Debug\CredibancoDevice.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\obj\Debug\CredibancoDevice.pdb

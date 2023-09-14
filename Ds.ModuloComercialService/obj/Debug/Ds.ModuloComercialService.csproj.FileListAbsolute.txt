@@ -1,0 +1,236 @@
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_CityParking\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb

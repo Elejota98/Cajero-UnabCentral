@@ -1,0 +1,157 @@
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Proyectos\Ds\Desarrollo_SmartCoin\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\USB\Ds\Desarrollo_SmartCoin\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Proyectos\Desarrollo_SmartCoinOLD\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Proyectos\Desarrollo_SmartCoinServices\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Proyectos\Desarrollo_CityParking\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\Desarrollo_CityParking\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_CityParking\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Proyectos\Desarrollo_CityParking\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Users\Administrador\Desktop\Desarrollo_ParquearseATM\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Proyectos\Desarrollo_ParquearseATM\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Proyectos\CCFLORIDA\CAJERO\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Users\Administrador\Documents\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Users\Parquearse\Documents\BACKUP\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Users\Parquearse\Documents\CAJERO_CC_FLORIDA\CAJERO_CCFLORIDA\CAJERO\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Users\Parquearse\Documents\CAJERO_CABECERA\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Users\Administrador\Documents\CAJERO_CABECERA\CAJERO_CABECERA\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Proyectos\PARQUEARSE\CAJERO\CAJERO_BOSQUE\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Users\Administrador\Desktop\CAJERO_BOSQUE\CAJERO_BOSQUE\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO_BOSQUE\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\ATM\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\cAJERO uNAB ceNTRaL\Ds.DataService\obj\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.DataService\bin\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.DataService\bin\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.DataService\obj\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\COD cAJERO UNAB CENTRAL\Ds.DataService\obj\Debug\Ds.DataService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.DataService\bin\Debug\Ds.DataService.dll.config
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.DataService\bin\Debug\Ds.DataService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.DataService\bin\Debug\Ds.DataService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.DataService\bin\Debug\Ds.BusinessService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.DataService\bin\Debug\Ds.BusinessService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.DataService\obj\Debug\Ds.DataService.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.DataService\obj\Debug\Ds.DataService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.DataService\obj\Debug\Ds.DataService.pdb
