@@ -51,5 +51,6 @@ namespace Ds.BusinessObjects.Enums
         PinInvalidoTarjeta = 40,
         DetallePagoDatafono = 41,
         PagoParcial = 42,
+        DigiteNitCliente = 43,
     }
 }

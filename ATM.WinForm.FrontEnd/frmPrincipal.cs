@@ -44,6 +44,14 @@ namespace ATM.WinForm.FrontEnd
         #endregion
 
         #region Definiciones
+
+        private string _rtaCliente = string.Empty;
+        public string rtaCliente 
+        {
+            get { return _rtaCliente; }
+            set { _rtaCliente = value; }
+        }
+
         private bool _DatafonoReady = false;
         public bool DatafonoReady
         {
@@ -1248,6 +1256,15 @@ namespace ATM.WinForm.FrontEnd
                     
                     break;
                 case Pantalla.SeleccionPago:
+                    if (Cnt_Reinicio == (int)TimeOut.TimeOut_Flujo)
+                    {
+                        Cnt_Reinicio = 0;
+                        Presentacion = Pantalla.TransaccionCancelada;
+                    }
+
+                    break;
+
+                case Pantalla.DigiteNitCliente:
                     if (Cnt_Reinicio == (int)TimeOut.TimeOut_Flujo)
                     {
                         Cnt_Reinicio = 0;
@@ -3259,6 +3276,30 @@ namespace ATM.WinForm.FrontEnd
                 btn_BorrarCredito.LockPush = false;
                 btn_BorrarCredito.Text = string.Empty;
 
+
+                btn_NitCliente1.LockPush = false;
+                btn_NitCliente1.Text = string.Empty;
+                btn_NitCliente2.LockPush = false;
+                btn_NitCliente2.Text=string.Empty;
+                btn_NitCliente3.LockPush = false;
+                btn_NitCliente3.Text= string.Empty;
+                btn_NitCliente4.LockPush = false;
+                btn_NitCliente4.Text = string.Empty;
+                btn_NitCliente5.LockPush = false;
+                btn_NitCliente5.Text = string.Empty;
+                btn_NitCliente6.LockPush= false;
+                btn_NitCliente6.Text = string.Empty;
+                btn_NitCliente7.LockPush = false;
+                btn_NitCliente7.Text = string.Empty;
+                btn_NitCliente8.LockPush = false;
+                btn_NitCliente8.Text = string.Empty;
+                btn_NitCliente9.LockPush = false;
+                btn_NitCliente9.Text = string.Empty;
+                btn_NitCliente0.LockPush = false;
+                btn_NitCliente0.Text = string.Empty;
+
+
+
                 ok = true;
 
             }
@@ -4163,6 +4204,7 @@ namespace ATM.WinForm.FrontEnd
             //    Presentacion = Pantalla.TransaccionCancelada;
             //}
 #endregion
+
             #region New 
 
             lblFecha.Text = _Tarjeta.DateTimeEntrance.ToString();
@@ -4786,5 +4828,17 @@ namespace ATM.WinForm.FrontEnd
             Presentacion = Pantalla.TransaccionCancelada;
         }
 
+        private void btn_BorrarNitCliente_Click(object sender, EventArgs e)
+        {
+            if (lblDigitosCredito.Text != string.Empty)
+            {
+                lblDigitosCredito.Text = lblDigitosCredito.Text.Remove(lblDigitosCredito.Text.Length - 1, 1);
+            }
+        }
+
+        private void btn_ConfirmarPagoFE_Click(object sender, EventArgs e)
+        {
+            Presentacion = Pantalla.DigiteNitCliente;
+        }
     }
 }
