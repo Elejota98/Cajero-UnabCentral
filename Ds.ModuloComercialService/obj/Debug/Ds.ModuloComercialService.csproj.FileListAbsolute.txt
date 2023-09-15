@@ -234,3 +234,7 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercial
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csproj.AssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csproj.CoreCompileInputs.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
