@@ -3,6 +3,7 @@ using Ds.BusinessObjects.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -736,6 +737,19 @@ namespace ATM.WinForm.Model
                 // Generar Alarma para Base de Datos
             }
 
+            return oResultadoOperacion;
+        }
+
+        public ResultadoOperacion ObtenerInfoCliente( int identificacion)
+        {
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+
+            oResultadoOperacion = _ProxyServicios.ObtenerInfoCliente(identificacion);
+
+            if (oResultadoOperacion.oEstado == TipoRespuesta.Error)
+            {
+
+            }
             return oResultadoOperacion;
         }
 

@@ -238,3 +238,14 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialServic
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csproj.CoreCompileInputs.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll.config
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csproj.CopyComplete

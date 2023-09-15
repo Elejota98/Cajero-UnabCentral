@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://www.dsystem.co/types/" elementFormDefault="qualified" targetNamespace="http://www.dsystem.co/types/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:tns="http://www.dsystem.co/types/" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" elementFormDefault="qualified" targetNamespace="http://www.dsystem.co/types/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:import schemaLocation="http://localhost:99/DsService/Ds_ModuloComercialService.svc?xsd=xsd3" namespace="http://www.eglobalt.com/types/" />
   <xs:import schemaLocation="http://localhost:99/DsService/Ds_ModuloComercialService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
   <xs:import schemaLocation="http://localhost:99/DsService/Ds_ModuloComercialService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Ds.BusinessService.Enums" />
@@ -1365,4 +1365,24 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="getTarjetas_Response" nillable="true" type="tns:getTarjetas_Response" />
+  <xs:complexType name="getNitCliente_Request">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RequestBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="oIdentificacion" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="getNitCliente_Request" nillable="true" type="tns:getNitCliente_Request" />
+  <xs:complexType name="getNitCliente_Response">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ResponseBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="rtaCliente" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="getNitCliente_Response" nillable="true" type="tns:getNitCliente_Response" />
 </xs:schema>

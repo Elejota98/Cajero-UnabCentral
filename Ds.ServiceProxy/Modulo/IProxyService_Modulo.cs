@@ -54,5 +54,6 @@ namespace Ds.ServiceProxy
         ResultadoOperacion RegistrarConvenio(long IdTransaccion, int Convenio);
         ResultadoOperacion ObtenerFechaConvenio(long IdTransaccion);
         ResultadoOperacion ObtenerTarjetas(long idEstacionamiento);
+        ResultadoOperacion ObtenerInfoCliente(int identificacion);
     }
 }

@@ -1912,8 +1912,6 @@ namespace Ds.ServiceProxy
             return oResultadoOperacion;
         }
 
-
-
         public ResultadoOperacion ObtenerTransaccionesOfflineModulo()
         {
             ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
@@ -2991,6 +2989,7 @@ namespace Ds.ServiceProxy
             List<DtoTarjetas> lstDtoTarjetas = new List<DtoTarjetas>();
 
             getTarjetas_Request request = new getTarjetas_Request();
+            
             request.RequestId = NuevoRequestId;
 
             request.oIdEstacionamiento = idEstacionamiento;
@@ -3041,6 +3040,67 @@ namespace Ds.ServiceProxy
             oResultadoOperacion.ListaEntidadDatos = lstDtoTarjetas;
 
             return oResultadoOperacion;
+        }
+
+        public ResultadoOperacion ObtenerInfoCliente(int identificacion)
+        {
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+
+            string rtaCliente = string.Empty;
+
+            getNitCliente_Request request = new getNitCliente_Request();
+            request.RequestId = NuevoRequestId;
+
+            request.oIdentificacion = identificacion;
+
+            getNitCliente_Response response = null;
+
+            try
+            {
+                SafeProxy.DoAction<ModuloServiceClient>(_Ds_ModuloServices, client =>
+                { response = client.getNitCliente(request); });
+            }
+            catch (System.Exception)
+            {
+                oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                oResultadoOperacion.Mensaje = "Error conexion Modulo Service";
+                return oResultadoOperacion;
+            }
+
+            if (response != null)
+            {
+                if (request.RequestId == response.CorrelationId)
+                {
+                    if (response.Acknowledge == Ds.ServiceProxy.Ds_ModuloComercialService.AcknowledgeType.Success)
+                    {
+                        rtaCliente = response.rtaCliente;
+                    }
+                    else
+                    {
+                        oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                        oResultadoOperacion.Mensaje = response.Message;
+                        return oResultadoOperacion;
+                    }
+                }
+                else
+                {
+                    oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                    oResultadoOperacion.Mensaje = "Respuesta Invalida Modulo Service: getParametrosModulo";
+                    return oResultadoOperacion;
+                }
+            }
+            else
+            {
+                oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                oResultadoOperacion.Mensaje = "Error Respuesta Modulo Service: getParametrosModulo";
+                return oResultadoOperacion;
+            }
+
+            oResultadoOperacion.EntidadDatos = rtaCliente;
+
+            return oResultadoOperacion;
+
+
         }
     }
 }

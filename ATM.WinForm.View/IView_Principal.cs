@@ -114,5 +114,6 @@ namespace ATM.WinForm.View
         bool Writeok { get; set; }
         bool DatafonoReady { get; set; }
         int IntentoPin { get; set; }
+        string rtaCliente { get; set; }
     }
 }

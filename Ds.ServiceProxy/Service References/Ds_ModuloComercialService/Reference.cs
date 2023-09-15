@@ -54,6 +54,7 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getFecha_Request))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarConvenioAplicado_Request))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getTarjetas_Request))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getNitCliente_Request))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getInformacionModulo_Request))]
     public partial class RequestBase : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -1214,6 +1215,29 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
                 if ((this.oIdEstacionamientoField.Equals(value) != true)) {
                     this.oIdEstacionamientoField = value;
                     this.RaisePropertyChanged("oIdEstacionamiento");
+                }
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="getNitCliente_Request", Namespace="http://www.dsystem.co/types/")]
+    [System.SerializableAttribute()]
+    public partial class getNitCliente_Request : Ds.ServiceProxy.Ds_ModuloComercialService.RequestBase {
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int oIdentificacionField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int oIdentificacion {
+            get {
+                return this.oIdentificacionField;
+            }
+            set {
+                if ((this.oIdentificacionField.Equals(value) != true)) {
+                    this.oIdentificacionField = value;
+                    this.RaisePropertyChanged("oIdentificacion");
                 }
             }
         }
@@ -3845,6 +3869,11 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="ServiceConsultarResult", Namespace="http://www.dsystem.co/types/")]
     [System.SerializableAttribute()]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.TipoEstadoPago))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.TipoPago))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.TipoOperacion))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.TipoMovimiento))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getPagosOffline_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getInformacionModulo_Request))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.RequestBase))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceParteModulo[]))]
@@ -3959,13 +3988,8 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarConvenioAplicado_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getTarjetas_Request))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getTarjetas_Response))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getPagosOffline_Response))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.TipoEstadoPago))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.TipoPago))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.TipoOperacion))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.TipoMovimiento))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoTarjetas[]))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoTarjetas))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getNitCliente_Request))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getNitCliente_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceModulo))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceUsuario))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoUsuario))]
@@ -3974,6 +3998,8 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceLogWS))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoIngresos[]))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoIngresos))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoTarjetas[]))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoTarjetas))]
     public partial class ServiceConsultarResult : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
@@ -4955,6 +4981,29 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="getPagosOffline_Response", Namespace="http://www.dsystem.com/types/")]
+    [System.SerializableAttribute()]
+    public partial class getPagosOffline_Response : Ds.ServiceProxy.Ds_ModuloComercialService.ResponseBase {
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoPago[] lstDtoPagoField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoPago[] lstDtoPago {
+            get {
+                return this.lstDtoPagoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.lstDtoPagoField, value) != true)) {
+                    this.lstDtoPagoField = value;
+                    this.RaisePropertyChanged("lstDtoPago");
+                }
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="getInformacionModulo_Response", Namespace="http://www.dsystem.co/types/")]
     [System.SerializableAttribute()]
     public partial class getInformacionModulo_Response : Ds.ServiceProxy.Ds_ModuloComercialService.ResponseBase {
@@ -4980,6 +5029,7 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="ResponseBase", Namespace="http://www.dsystem.co/types/")]
     [System.SerializableAttribute()]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getInformacionModulo_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getInformacionFactura_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getPartesModulo_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getParametrosModulo_Response))]
@@ -5016,8 +5066,8 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getFecha_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarConvenioAplicado_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getTarjetas_Response))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getNitCliente_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getPagosOffline_Response))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getInformacionModulo_Response))]
     public partial class ResponseBase : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
@@ -9263,100 +9313,23 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="getPagosOffline_Response", Namespace="http://www.dsystem.com/types/")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="getNitCliente_Response", Namespace="http://www.dsystem.co/types/")]
     [System.SerializableAttribute()]
-    public partial class getPagosOffline_Response : Ds.ServiceProxy.Ds_ModuloComercialService.ResponseBase {
+    public partial class getNitCliente_Response : Ds.ServiceProxy.Ds_ModuloComercialService.ResponseBase {
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoPago[] lstDtoPagoField;
+        private string rtaClienteField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoPago[] lstDtoPago {
+        public string rtaCliente {
             get {
-                return this.lstDtoPagoField;
+                return this.rtaClienteField;
             }
             set {
-                if ((object.ReferenceEquals(this.lstDtoPagoField, value) != true)) {
-                    this.lstDtoPagoField = value;
-                    this.RaisePropertyChanged("lstDtoPago");
+                if ((object.ReferenceEquals(this.rtaClienteField, value) != true)) {
+                    this.rtaClienteField = value;
+                    this.RaisePropertyChanged("rtaCliente");
                 }
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ServiceDtoTarjetas", Namespace="http://www.MillensCorp.com/types/")]
-    [System.SerializableAttribute()]
-    public partial class ServiceDtoTarjetas : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private bool EstadoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private long IdEstacionamientoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string IdTarjetaField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public bool Estado {
-            get {
-                return this.EstadoField;
-            }
-            set {
-                if ((this.EstadoField.Equals(value) != true)) {
-                    this.EstadoField = value;
-                    this.RaisePropertyChanged("Estado");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public long IdEstacionamiento {
-            get {
-                return this.IdEstacionamientoField;
-            }
-            set {
-                if ((this.IdEstacionamientoField.Equals(value) != true)) {
-                    this.IdEstacionamientoField = value;
-                    this.RaisePropertyChanged("IdEstacionamiento");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string IdTarjeta {
-            get {
-                return this.IdTarjetaField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.IdTarjetaField, value) != true)) {
-                    this.IdTarjetaField = value;
-                    this.RaisePropertyChanged("IdTarjeta");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
             }
         }
     }
@@ -9610,6 +9583,83 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
                 if ((object.ReferenceEquals(this.StatusField, value) != true)) {
                     this.StatusField = value;
                     this.RaisePropertyChanged("Status");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ServiceDtoTarjetas", Namespace="http://www.MillensCorp.com/types/")]
+    [System.SerializableAttribute()]
+    public partial class ServiceDtoTarjetas : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool EstadoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdEstacionamientoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string IdTarjetaField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Estado {
+            get {
+                return this.EstadoField;
+            }
+            set {
+                if ((this.EstadoField.Equals(value) != true)) {
+                    this.EstadoField = value;
+                    this.RaisePropertyChanged("Estado");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long IdEstacionamiento {
+            get {
+                return this.IdEstacionamientoField;
+            }
+            set {
+                if ((this.IdEstacionamientoField.Equals(value) != true)) {
+                    this.IdEstacionamientoField = value;
+                    this.RaisePropertyChanged("IdEstacionamiento");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string IdTarjeta {
+            get {
+                return this.IdTarjetaField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.IdTarjetaField, value) != true)) {
+                    this.IdTarjetaField = value;
+                    this.RaisePropertyChanged("IdTarjeta");
                 }
             }
         }
@@ -9915,6 +9965,12 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IModuloService/getTarjetas", ReplyAction="http://tempuri.org/IModuloService/getTarjetasResponse")]
         System.Threading.Tasks.Task<Ds.ServiceProxy.Ds_ModuloComercialService.getTarjetas_Response> getTarjetasAsync(Ds.ServiceProxy.Ds_ModuloComercialService.getTarjetas_Request request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IModuloService/getNitCliente", ReplyAction="http://tempuri.org/IModuloService/getNitClienteResponse")]
+        Ds.ServiceProxy.Ds_ModuloComercialService.getNitCliente_Response getNitCliente(Ds.ServiceProxy.Ds_ModuloComercialService.getNitCliente_Request request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IModuloService/getNitCliente", ReplyAction="http://tempuri.org/IModuloService/getNitClienteResponse")]
+        System.Threading.Tasks.Task<Ds.ServiceProxy.Ds_ModuloComercialService.getNitCliente_Response> getNitClienteAsync(Ds.ServiceProxy.Ds_ModuloComercialService.getNitCliente_Request request);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -10326,6 +10382,14 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
         
         public System.Threading.Tasks.Task<Ds.ServiceProxy.Ds_ModuloComercialService.getTarjetas_Response> getTarjetasAsync(Ds.ServiceProxy.Ds_ModuloComercialService.getTarjetas_Request request) {
             return base.Channel.getTarjetasAsync(request);
+        }
+        
+        public Ds.ServiceProxy.Ds_ModuloComercialService.getNitCliente_Response getNitCliente(Ds.ServiceProxy.Ds_ModuloComercialService.getNitCliente_Request request) {
+            return base.Channel.getNitCliente(request);
+        }
+        
+        public System.Threading.Tasks.Task<Ds.ServiceProxy.Ds_ModuloComercialService.getNitCliente_Response> getNitClienteAsync(Ds.ServiceProxy.Ds_ModuloComercialService.getNitCliente_Request request) {
+            return base.Channel.getNitClienteAsync(request);
         }
     }
 }

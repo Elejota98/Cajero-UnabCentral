@@ -674,4 +674,18 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="getNitCliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q97="http://www.dsystem.co/types/" minOccurs="0" name="request" nillable="true" type="q97:getNitCliente_Request" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getNitClienteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q98="http://www.dsystem.co/types/" minOccurs="0" name="getNitClienteResult" nillable="true" type="q98:getNitCliente_Response" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>

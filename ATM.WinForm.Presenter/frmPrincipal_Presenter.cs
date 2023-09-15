@@ -1389,6 +1389,26 @@ namespace ATM.WinForm.Presenter
 
             return ok;
         }
+
+        public bool ObtenerInfoCliente(int identificacion)
+        {
+            bool ok = false;
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+
+            oResultadoOperacion = Model.ObtenerInfoCliente(identificacion);
+
+            if (oResultadoOperacion.oEstado == TipoRespuesta.Exito)
+            {
+                View.rtaCliente = (string)oResultadoOperacion.EntidadDatos;
+                ok = true;
+            }
+            else
+            {
+                ok = false;
+            }
+            return ok;
+
+        }
         #endregion
 
         #region ModuloCentral
