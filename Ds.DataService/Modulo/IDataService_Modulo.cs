@@ -82,5 +82,6 @@ namespace Ds.DataService
         ResultadoOperacion ObtenerFechaConvenio(long idTransaccion);
 
         ResultadoOperacion ObtenerTarjetas(long IdEstacionamiento);
+        ResultadoOperacion ObtenerInfoCliente(int identificacion);
     }
 }

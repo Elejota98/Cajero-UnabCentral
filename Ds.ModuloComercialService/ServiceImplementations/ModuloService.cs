@@ -16,6 +16,7 @@ using Ds.BaseService.MessageBase;
 using System.Net;
 using System.IO;
 using Newtonsoft.Json;
+using Ds.DataService.ModuloDataSetTableAdapters;
 
 namespace Ds.ModuloComercialService.ServiceImplementations
 {
@@ -1579,6 +1580,29 @@ namespace Ds.ModuloComercialService.ServiceImplementations
             {
                 List<DtoTarjetas> olstDtoTarjetas = (List<DtoTarjetas>)oResultadoOperacion.ListaEntidadDatos;
                 response.olstDtoTarjetas = olstDtoTarjetas;
+            }
+            else
+            {
+                response.Acknowledge = AcknowledgeType.Failure;
+                response.Message = oResultadoOperacion.Mensaje;
+            }
+
+            return response;
+        }
+
+        public getNitCliente_Response getNitCliente (getNitCliente_Request request)
+        {
+            getNitCliente_Response response = new getNitCliente_Response();
+
+            response.CorrelationId = request.RequestId;
+
+            if (!ValidRequest(request, response))
+                return response;
+
+            ResultadoOperacion oResultadoOperacion = _DataService.ObtenerInfoCliente(request.oIdentificacion);
+            if (oResultadoOperacion.oEstado == TipoRespuesta.Exito)
+            {
+                response.rtaCliente = (string)oResultadoOperacion.EntidadDatos;
             }
             else
             {

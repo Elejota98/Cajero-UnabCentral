@@ -161,5 +161,8 @@ namespace Ds.ModuloComercialService.ServiceContracts
 
         [OperationContract]
         getTarjetas_Response getTarjetas(getTarjetas_Request request);
+
+        [OperationContract]
+        getNitCliente_Response getNitCliente(getNitCliente_Request request)
     }
 }

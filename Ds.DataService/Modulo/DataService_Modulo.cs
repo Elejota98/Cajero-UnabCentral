@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -2051,6 +2052,53 @@ namespace Ds.DataService
             }
 
             return oResultadoOperacion;
+        }
+
+       public ResultadoOperacion ObtenerInfoCliente(int identificacion)
+        {
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+
+            string sRtaCliente = string.Empty;
+
+
+            ModuloDataSet.P_ObtenerDatosClientesDataTable _InfoClienteTable = new ModuloDataSet.P_ObtenerDatosClientesDataTable();
+            ModuloDataSetTableAdapters.P_ObtenerDatosClientesTableAdapter _InfoClienteAdapter = new ModuloDataSetTableAdapters.P_ObtenerDatosClientesTableAdapter();
+            try
+            {
+                _InfoClienteTable.Constraints.Clear();
+
+                if (_InfoClienteAdapter.Fill(_InfoClienteTable, identificacion) > 0)
+                {
+                    oResultadoOperacion.oEstado = TipoRespuesta.Exito;
+                    oResultadoOperacion.Mensaje = "Info Tarjetas OK";
+
+                    for (int i = 0; i < _InfoClienteTable.Rows.Count; i++)
+                    {
+
+                        sRtaCliente = (_InfoClienteTable.Rows[i][0]).ToString();
+
+                    }
+
+                oResultadoOperacion.EntidadDatos = sRtaCliente;
+                    oResultadoOperacion.oEstado = TipoRespuesta.Exito;
+                }
+                else
+                {
+                    oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                    oResultadoOperacion.Mensaje = "Módulo sin tarjetas en base de datos.";
+                }
+
+            }
+            catch (Exception ex )
+            {
+
+                oResultadoOperacion.Mensaje = ex.ToString();
+                oResultadoOperacion.oEstado = TipoRespuesta.Error;
+            }
+
+            return oResultadoOperacion;
+
+
         }
     }
 }
