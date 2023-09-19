@@ -1024,6 +1024,7 @@ namespace Ds.ServiceProxy
             return oResultadoOperacion;
         }
 
+
         public ResultadoOperacion ConfirmarOperacionFE(Operacion oOperacion)
         {
             ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
@@ -1050,8 +1051,8 @@ namespace Ds.ServiceProxy
             oServiceOperacion.Descripcion = oOperacion.Descripcion;
             oServiceOperacion.Programa = oOperacion.Fundacion;
             oServiceOperacion.ValidacionCobro = oOperacion.ValidacionCobro;
+            oServiceOperacion.Pago.CodigoBarras = oOperacion.Pago.CodigoBarras;
             oServiceOperacion.Pago.Referencia = oOperacion.Pago.Referencia;
-
 
             if (oOperacion.Pago.EstadoPago == BusinessObjects.Enums.TipoEstadoPago.ReconteoExitoso)
             {
@@ -1065,10 +1066,18 @@ namespace Ds.ServiceProxy
             {
                 oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Mensualidad;
             }
-            //else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.CobroTarjetaMensual)
-            //{
-            //    oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.CobroTarjetaMensual;
-            //}
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.Casco)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Casco;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.Evento)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Evento;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.CobroTarjetaMensual)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.CobroTarjetaMensual;
+            }
             else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.Reposicion)
             {
                 oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Reposicion;

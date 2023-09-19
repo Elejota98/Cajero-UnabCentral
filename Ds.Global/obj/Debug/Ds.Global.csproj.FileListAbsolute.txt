@@ -244,9 +244,6 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Global\bin\Debug\EGlo
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Global\bin\Debug\GS.HexLibrary.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Global\bin\Debug\EGlobalT.Device.Tools.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Global\bin\Debug\Ds.Utilidades.pdb
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Global\bin\Debug\Ds.BusinessObjects.pdb
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Global\obj\Debug\Ds.Global.csproj.AssemblyReference.cache
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Global\obj\Debug\Ds.Global.csproj.CoreCompileInputs.cache
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Global\obj\Debug\Ds.Global.csproj.CopyComplete
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Global\obj\Debug\Ds.Global.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Global\obj\Debug\Ds.Global.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Global\obj\Debug\Ds.Global.csprojResolveAssemblyReference.cache

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="9.1" CheckSum="XITL9Y4xUh8MoVdt8w1TaKrBgTQRJsLCu5mW7cm2aAY=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="8iYBdaPPBzT/H0lw+WSA+YG1vRk=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="basicHttpBinding_ModuloService">
       <properties>

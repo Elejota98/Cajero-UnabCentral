@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:tns="http://www.dsystem.co/types/" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" elementFormDefault="qualified" targetNamespace="http://www.dsystem.co/types/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://www.dsystem.co/types/" elementFormDefault="qualified" targetNamespace="http://www.dsystem.co/types/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:import schemaLocation="http://localhost:99/DsService/Ds_ModuloComercialService.svc?xsd=xsd3" namespace="http://www.eglobalt.com/types/" />
   <xs:import schemaLocation="http://localhost:99/DsService/Ds_ModuloComercialService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
   <xs:import schemaLocation="http://localhost:99/DsService/Ds_ModuloComercialService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Ds.BusinessService.Enums" />
@@ -479,6 +479,26 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="ServiceDtoPago" nillable="true" type="tns:ServiceDtoPago" />
+  <xs:complexType name="setConfirmarOperacion_Request">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RequestBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="oOperacion" nillable="true" type="tns:ServiceOperacion" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="setConfirmarOperacion_Request" nillable="true" type="tns:setConfirmarOperacion_Request" />
+  <xs:complexType name="setConfirmarOperacion_Response">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ResponseBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="oDtoOperacion" nillable="true" type="tns:ServiceDtoOperacion" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="setConfirmarOperacion_Response" nillable="true" type="tns:setConfirmarOperacion_Response" />
   <xs:complexType name="setRegistrarMovimiento_Request">
     <xs:complexContent mixed="false">
       <xs:extension base="tns:RequestBase">
@@ -549,26 +569,6 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="ServiceDtoSaldos" nillable="true" type="tns:ServiceDtoSaldos" />
-  <xs:complexType name="setConfirmarOperacion_Request">
-    <xs:complexContent mixed="false">
-      <xs:extension base="tns:RequestBase">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="oOperacion" nillable="true" type="tns:ServiceOperacion" />
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="setConfirmarOperacion_Request" nillable="true" type="tns:setConfirmarOperacion_Request" />
-  <xs:complexType name="setConfirmarOperacion_Response">
-    <xs:complexContent mixed="false">
-      <xs:extension base="tns:ResponseBase">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="oDtoOperacion" nillable="true" type="tns:ServiceDtoOperacion" />
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="setConfirmarOperacion_Response" nillable="true" type="tns:setConfirmarOperacion_Response" />
   <xs:complexType name="getObtenerUsuario_Request">
     <xs:complexContent mixed="false">
       <xs:extension base="tns:RequestBase">

@@ -21,6 +21,7 @@ namespace Ds.ServiceProxy
         ResultadoOperacion RegistrarMovimiento(Movimiento oMovimiento);
         ResultadoOperacion ObtenerSaldosPartes(Modulo oModulo);
         ResultadoOperacion ConfirmarOperacion(Operacion oOperacion);
+        ResultadoOperacion ConfirmarOperacionFE(Operacion oOperacion);
         ResultadoOperacion RegistrarTransaccion(Transaccion oTransaccion);
         ResultadoOperacion CrearAlarma(Alarma oAlarma);
         ResultadoOperacion SolucionarTodasAlarmas(Modulo oModulo);

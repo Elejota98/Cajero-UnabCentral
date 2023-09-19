@@ -288,7 +288,6 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.HostModuloComer
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.HostModuloComercial.ActionServer\obj\Debug\Ds.HostModuloComercial.ActionServer.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.HostModuloComercial.ActionServer\obj\Debug\EGlobalT_ATM.Host.ActionServer.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.HostModuloComercial.ActionServer\obj\Debug\EGlobalT_ATM.Host.ActionServer.pdb
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\EGlobalT_ATM.Host.ActionServer.dll.config
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\EGlobalT_ATM.Host.ActionServer.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\EGlobalT_ATM.Host.ActionServer.pdb
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.ModuloService.dll
@@ -299,10 +298,7 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.A
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.ModuloService.pdb
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.BaseService.pdb
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.DataService.pdb
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.DataService.dll.config
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.BusinessService.pdb
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\obj\Debug\Ds.HostModuloComercial.ActionServer.csproj.AssemblyReference.cache
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\obj\Debug\Ds.HostModuloComercial.ActionServer.csproj.CoreCompileInputs.cache
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\obj\Debug\Ds.HostModuloComercial.ActionServer.csproj.CopyComplete
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\obj\Debug\EGlobalT_ATM.Host.ActionServer.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\obj\Debug\EGlobalT_ATM.Host.ActionServer.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\obj\Debug\Ds.HostModuloComercial.ActionServer.csprojResolveAssemblyReference.cache
