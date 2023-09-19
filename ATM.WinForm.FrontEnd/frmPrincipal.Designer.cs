@@ -30,37 +30,33 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
-            DevComponents.DotNetBar.Keyboard.VirtualKeyboardColorTable virtualKeyboardColorTable1 = new DevComponents.DotNetBar.Keyboard.VirtualKeyboardColorTable();
-            DevComponents.DotNetBar.Keyboard.FlatStyleRenderer flatStyleRenderer1 = new DevComponents.DotNetBar.Keyboard.FlatStyleRenderer();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            DevComponents.DotNetBar.Keyboard.VirtualKeyboardColorTable virtualKeyboardColorTable2 = new DevComponents.DotNetBar.Keyboard.VirtualKeyboardColorTable();
+            DevComponents.DotNetBar.Keyboard.FlatStyleRenderer flatStyleRenderer2 = new DevComponents.DotNetBar.Keyboard.FlatStyleRenderer();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tmrReset = new System.Windows.Forms.Timer(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.TabControlPrincipal = new Ds.Utilidades.CustomTabControl();
             this.tabInicio = new System.Windows.Forms.TabPage();
             this.tabPrincipal = new System.Windows.Forms.TabPage();
-            this.Imagen_Principal = new System.Windows.Forms.Panel();
-            this.Animacion_InserteTarjeta = new System.Windows.Forms.PictureBox();
-            this.pPublicidad = new System.Windows.Forms.PictureBox();
-            this.CapaMenuPrincipal = new TransparentControl.TransparentControl();
             this.tabProcesando = new System.Windows.Forms.TabPage();
             this.Imagen_Procesando = new System.Windows.Forms.Panel();
             this.pPublicidadProcesando = new System.Windows.Forms.PictureBox();
@@ -330,18 +326,21 @@
             this.btn_ConfirmarArqueoTotal = new CustomButton.CustomButton();
             this.tabDescargando = new System.Windows.Forms.TabPage();
             this.Imagen_Descargando = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.pInicio = new System.Windows.Forms.PictureBox();
+            this.Imagen_Inicio = new System.Windows.Forms.Panel();
+            this.Imagen_Principal = new System.Windows.Forms.Panel();
             this.btn_InserteTarjeta = new CustomButton.CustomButton();
             this.btn_Placa = new CustomButton.CustomButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Animacion_InserteTarjeta = new System.Windows.Forms.PictureBox();
+            this.pPublicidad = new System.Windows.Forms.PictureBox();
+            this.CapaMenuPrincipal = new TransparentControl.TransparentControl();
+            this.tabTarjetaVisitante = new System.Windows.Forms.TabPage();
+            this.Imagen_TarjetaVisitante = new System.Windows.Forms.Panel();
+            this.Animacion_Inserte = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.transparentControl1 = new TransparentControl.TransparentControl();
             this.TabControlPrincipal.SuspendLayout();
             this.tabInicio.SuspendLayout();
             this.tabPrincipal.SuspendLayout();
-            this.Imagen_Principal.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Animacion_InserteTarjeta)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pPublicidad)).BeginInit();
             this.tabProcesando.SuspendLayout();
             this.Imagen_Procesando.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pPublicidadProcesando)).BeginInit();
@@ -435,8 +434,14 @@
             this.Imagen_ArqueoTotal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AnimacionBoxTotal)).BeginInit();
             this.tabDescargando.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pInicio)).BeginInit();
+            this.Imagen_Inicio.SuspendLayout();
+            this.Imagen_Principal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Animacion_InserteTarjeta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pPublicidad)).BeginInit();
+            this.tabTarjetaVisitante.SuspendLayout();
+            this.Imagen_TarjetaVisitante.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Animacion_Inserte)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -455,6 +460,7 @@
             // 
             this.TabControlPrincipal.Controls.Add(this.tabInicio);
             this.TabControlPrincipal.Controls.Add(this.tabPrincipal);
+            this.TabControlPrincipal.Controls.Add(this.tabTarjetaVisitante);
             this.TabControlPrincipal.Controls.Add(this.tabProcesando);
             this.TabControlPrincipal.Controls.Add(this.tabTarjetaMensual);
             this.TabControlPrincipal.Controls.Add(this.tabSeleccionPago);
@@ -504,7 +510,7 @@
             // 
             // tabInicio
             // 
-            this.tabInicio.Controls.Add(this.panel3);
+            this.tabInicio.Controls.Add(this.Imagen_Inicio);
             this.tabInicio.Location = new System.Drawing.Point(4, 22);
             this.tabInicio.Name = "tabInicio";
             this.tabInicio.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
@@ -519,49 +525,10 @@
             this.tabPrincipal.Location = new System.Drawing.Point(4, 22);
             this.tabPrincipal.Name = "tabPrincipal";
             this.tabPrincipal.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPrincipal.Size = new System.Drawing.Size(1270, 854);
+            this.tabPrincipal.Size = new System.Drawing.Size(1270, 852);
             this.tabPrincipal.TabIndex = 46;
             this.tabPrincipal.Text = "Principal";
             this.tabPrincipal.UseVisualStyleBackColor = true;
-            // 
-            // Imagen_Principal
-            // 
-            this.Imagen_Principal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Imagen_Principal.Controls.Add(this.Animacion_InserteTarjeta);
-            this.Imagen_Principal.Controls.Add(this.pPublicidad);
-            this.Imagen_Principal.Controls.Add(this.CapaMenuPrincipal);
-            this.Imagen_Principal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Imagen_Principal.Location = new System.Drawing.Point(3, 3);
-            this.Imagen_Principal.Name = "Imagen_Principal";
-            this.Imagen_Principal.Size = new System.Drawing.Size(1264, 848);
-            this.Imagen_Principal.TabIndex = 5021;
-            // 
-            // Animacion_InserteTarjeta
-            // 
-            this.Animacion_InserteTarjeta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Animacion_InserteTarjeta.Location = new System.Drawing.Point(138, 504);
-            this.Animacion_InserteTarjeta.Name = "Animacion_InserteTarjeta";
-            this.Animacion_InserteTarjeta.Size = new System.Drawing.Size(989, 374);
-            this.Animacion_InserteTarjeta.TabIndex = 5026;
-            this.Animacion_InserteTarjeta.TabStop = false;
-            // 
-            // pPublicidad
-            // 
-            this.pPublicidad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pPublicidad.Location = new System.Drawing.Point(5, 0);
-            this.pPublicidad.Name = "pPublicidad";
-            this.pPublicidad.Size = new System.Drawing.Size(1258, 417);
-            this.pPublicidad.TabIndex = 5024;
-            this.pPublicidad.TabStop = false;
-            // 
-            // CapaMenuPrincipal
-            // 
-            this.CapaMenuPrincipal.Location = new System.Drawing.Point(525, 928);
-            this.CapaMenuPrincipal.Name = "CapaMenuPrincipal";
-            this.CapaMenuPrincipal.Size = new System.Drawing.Size(145, 79);
-            this.CapaMenuPrincipal.TabIndex = 5023;
-            this.CapaMenuPrincipal.Text = "CAPA";
-            this.CapaMenuPrincipal.Click += new System.EventHandler(this.CapaMenuPrincipal_Click);
             // 
             // tabProcesando
             // 
@@ -569,7 +536,7 @@
             this.tabProcesando.Location = new System.Drawing.Point(4, 22);
             this.tabProcesando.Name = "tabProcesando";
             this.tabProcesando.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabProcesando.Size = new System.Drawing.Size(1270, 854);
+            this.tabProcesando.Size = new System.Drawing.Size(1270, 852);
             this.tabProcesando.TabIndex = 57;
             this.tabProcesando.Text = "Procesando";
             this.tabProcesando.UseVisualStyleBackColor = true;
@@ -581,7 +548,7 @@
             this.Imagen_Procesando.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_Procesando.Location = new System.Drawing.Point(3, 3);
             this.Imagen_Procesando.Name = "Imagen_Procesando";
-            this.Imagen_Procesando.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_Procesando.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_Procesando.TabIndex = 5023;
             // 
             // pPublicidadProcesando
@@ -599,7 +566,7 @@
             this.tabTarjetaMensual.Location = new System.Drawing.Point(4, 22);
             this.tabTarjetaMensual.Name = "tabTarjetaMensual";
             this.tabTarjetaMensual.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabTarjetaMensual.Size = new System.Drawing.Size(1270, 854);
+            this.tabTarjetaMensual.Size = new System.Drawing.Size(1270, 852);
             this.tabTarjetaMensual.TabIndex = 65;
             this.tabTarjetaMensual.Text = "TarjetaMensual";
             this.tabTarjetaMensual.UseVisualStyleBackColor = true;
@@ -613,7 +580,7 @@
             this.Imagen_TarjetaMensual.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_TarjetaMensual.Location = new System.Drawing.Point(3, 3);
             this.Imagen_TarjetaMensual.Name = "Imagen_TarjetaMensual";
-            this.Imagen_TarjetaMensual.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_TarjetaMensual.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_TarjetaMensual.TabIndex = 5024;
             // 
             // pPublicidadMensul
@@ -663,7 +630,7 @@
             this.tabSeleccionPago.Controls.Add(this.Imagen_SeleccionPago);
             this.tabSeleccionPago.Location = new System.Drawing.Point(4, 22);
             this.tabSeleccionPago.Name = "tabSeleccionPago";
-            this.tabSeleccionPago.Size = new System.Drawing.Size(1270, 854);
+            this.tabSeleccionPago.Size = new System.Drawing.Size(1270, 852);
             this.tabSeleccionPago.TabIndex = 70;
             this.tabSeleccionPago.Text = "SeleccionPago";
             this.tabSeleccionPago.UseVisualStyleBackColor = true;
@@ -677,7 +644,7 @@
             this.Imagen_SeleccionPago.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_SeleccionPago.Location = new System.Drawing.Point(0, 0);
             this.Imagen_SeleccionPago.Name = "Imagen_SeleccionPago";
-            this.Imagen_SeleccionPago.Size = new System.Drawing.Size(1270, 854);
+            this.Imagen_SeleccionPago.Size = new System.Drawing.Size(1270, 852);
             this.Imagen_SeleccionPago.TabIndex = 5024;
             // 
             // pPublicidadSeleccionPago
@@ -727,7 +694,7 @@
             this.tabTipoCuenta.Controls.Add(this.Imagen_TipoCuenta);
             this.tabTipoCuenta.Location = new System.Drawing.Point(4, 22);
             this.tabTipoCuenta.Name = "tabTipoCuenta";
-            this.tabTipoCuenta.Size = new System.Drawing.Size(1270, 854);
+            this.tabTipoCuenta.Size = new System.Drawing.Size(1270, 852);
             this.tabTipoCuenta.TabIndex = 73;
             this.tabTipoCuenta.Text = "TipoCuenta";
             this.tabTipoCuenta.UseVisualStyleBackColor = true;
@@ -743,7 +710,7 @@
             this.Imagen_TipoCuenta.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_TipoCuenta.Location = new System.Drawing.Point(0, 0);
             this.Imagen_TipoCuenta.Name = "Imagen_TipoCuenta";
-            this.Imagen_TipoCuenta.Size = new System.Drawing.Size(1270, 854);
+            this.Imagen_TipoCuenta.Size = new System.Drawing.Size(1270, 852);
             this.Imagen_TipoCuenta.TabIndex = 5025;
             // 
             // btn_CancelarTipoCuenta
@@ -827,7 +794,7 @@
             this.tabDigiteCredito.Controls.Add(this.Imagen_DigiteCredito);
             this.tabDigiteCredito.Location = new System.Drawing.Point(4, 22);
             this.tabDigiteCredito.Name = "tabDigiteCredito";
-            this.tabDigiteCredito.Size = new System.Drawing.Size(1270, 854);
+            this.tabDigiteCredito.Size = new System.Drawing.Size(1270, 852);
             this.tabDigiteCredito.TabIndex = 74;
             this.tabDigiteCredito.Text = "DigiteCredito";
             this.tabDigiteCredito.UseVisualStyleBackColor = true;
@@ -853,7 +820,7 @@
             this.Imagen_DigiteCredito.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_DigiteCredito.Location = new System.Drawing.Point(0, 0);
             this.Imagen_DigiteCredito.Name = "Imagen_DigiteCredito";
-            this.Imagen_DigiteCredito.Size = new System.Drawing.Size(1270, 854);
+            this.Imagen_DigiteCredito.Size = new System.Drawing.Size(1270, 852);
             this.Imagen_DigiteCredito.TabIndex = 5026;
             // 
             // pPublicidadCredito
@@ -1103,7 +1070,7 @@
             this.tabDetallePagoDatafono.Controls.Add(this.Imagen_DetallePagoDatafono);
             this.tabDetallePagoDatafono.Location = new System.Drawing.Point(4, 22);
             this.tabDetallePagoDatafono.Name = "tabDetallePagoDatafono";
-            this.tabDetallePagoDatafono.Size = new System.Drawing.Size(1270, 854);
+            this.tabDetallePagoDatafono.Size = new System.Drawing.Size(1270, 852);
             this.tabDetallePagoDatafono.TabIndex = 75;
             this.tabDetallePagoDatafono.Text = "DetallePagoDatafono";
             this.tabDetallePagoDatafono.UseVisualStyleBackColor = true;
@@ -1122,7 +1089,7 @@
             this.Imagen_DetallePagoDatafono.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_DetallePagoDatafono.Location = new System.Drawing.Point(0, 0);
             this.Imagen_DetallePagoDatafono.Name = "Imagen_DetallePagoDatafono";
-            this.Imagen_DetallePagoDatafono.Size = new System.Drawing.Size(1270, 854);
+            this.Imagen_DetallePagoDatafono.Size = new System.Drawing.Size(1270, 852);
             this.Imagen_DetallePagoDatafono.TabIndex = 5023;
             // 
             // btn_ConfirmarDetalle
@@ -1234,7 +1201,7 @@
             this.tabDetallePago.Location = new System.Drawing.Point(4, 22);
             this.tabDetallePago.Name = "tabDetallePago";
             this.tabDetallePago.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabDetallePago.Size = new System.Drawing.Size(1270, 854);
+            this.tabDetallePago.Size = new System.Drawing.Size(1270, 852);
             this.tabDetallePago.TabIndex = 47;
             this.tabDetallePago.Text = "DetallePago";
             this.tabDetallePago.UseVisualStyleBackColor = true;
@@ -1255,7 +1222,7 @@
             this.Imagen_DetallePago.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_DetallePago.Location = new System.Drawing.Point(3, 3);
             this.Imagen_DetallePago.Name = "Imagen_DetallePago";
-            this.Imagen_DetallePago.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_DetallePago.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_DetallePago.TabIndex = 5022;
             // 
             // tbCodigo
@@ -1384,7 +1351,7 @@
             this.tabInserteTarjetaDatafono.Controls.Add(this.Imagen_InserteTarjetaDatafono);
             this.tabInserteTarjetaDatafono.Location = new System.Drawing.Point(4, 22);
             this.tabInserteTarjetaDatafono.Name = "tabInserteTarjetaDatafono";
-            this.tabInserteTarjetaDatafono.Size = new System.Drawing.Size(1270, 854);
+            this.tabInserteTarjetaDatafono.Size = new System.Drawing.Size(1270, 852);
             this.tabInserteTarjetaDatafono.TabIndex = 71;
             this.tabInserteTarjetaDatafono.Text = "InserteTarjetaDatafono";
             this.tabInserteTarjetaDatafono.UseVisualStyleBackColor = true;
@@ -1400,7 +1367,7 @@
             this.Imagen_InserteTarjetaDatafono.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_InserteTarjetaDatafono.Location = new System.Drawing.Point(0, 0);
             this.Imagen_InserteTarjetaDatafono.Name = "Imagen_InserteTarjetaDatafono";
-            this.Imagen_InserteTarjetaDatafono.Size = new System.Drawing.Size(1270, 854);
+            this.Imagen_InserteTarjetaDatafono.Size = new System.Drawing.Size(1270, 852);
             this.Imagen_InserteTarjetaDatafono.TabIndex = 5025;
             // 
             // btn_Volver2
@@ -1488,7 +1455,7 @@
             this.tabNumeroCuotas.Controls.Add(this.Imagen_NumeroCuotas);
             this.tabNumeroCuotas.Location = new System.Drawing.Point(4, 22);
             this.tabNumeroCuotas.Name = "tabNumeroCuotas";
-            this.tabNumeroCuotas.Size = new System.Drawing.Size(1270, 854);
+            this.tabNumeroCuotas.Size = new System.Drawing.Size(1270, 852);
             this.tabNumeroCuotas.TabIndex = 72;
             this.tabNumeroCuotas.Text = "NumeroCuotas";
             this.tabNumeroCuotas.UseVisualStyleBackColor = true;
@@ -1514,7 +1481,7 @@
             this.Imagen_NumeroCuotas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_NumeroCuotas.Location = new System.Drawing.Point(0, 0);
             this.Imagen_NumeroCuotas.Name = "Imagen_NumeroCuotas";
-            this.Imagen_NumeroCuotas.Size = new System.Drawing.Size(1270, 854);
+            this.Imagen_NumeroCuotas.Size = new System.Drawing.Size(1270, 852);
             this.Imagen_NumeroCuotas.TabIndex = 5027;
             // 
             // pPublicidadCuotas
@@ -1765,7 +1732,7 @@
             this.tabConsultaFallida.Location = new System.Drawing.Point(4, 22);
             this.tabConsultaFallida.Name = "tabConsultaFallida";
             this.tabConsultaFallida.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabConsultaFallida.Size = new System.Drawing.Size(1270, 854);
+            this.tabConsultaFallida.Size = new System.Drawing.Size(1270, 852);
             this.tabConsultaFallida.TabIndex = 69;
             this.tabConsultaFallida.Text = "ConsultaFallida";
             this.tabConsultaFallida.UseVisualStyleBackColor = true;
@@ -1778,7 +1745,7 @@
             this.Imagen_ConsultaFallida.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_ConsultaFallida.Location = new System.Drawing.Point(3, 3);
             this.Imagen_ConsultaFallida.Name = "Imagen_ConsultaFallida";
-            this.Imagen_ConsultaFallida.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_ConsultaFallida.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_ConsultaFallida.TabIndex = 5025;
             // 
             // customButton1
@@ -1819,7 +1786,7 @@
             this.tabPuedeSalir.Location = new System.Drawing.Point(4, 22);
             this.tabPuedeSalir.Name = "tabPuedeSalir";
             this.tabPuedeSalir.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPuedeSalir.Size = new System.Drawing.Size(1270, 854);
+            this.tabPuedeSalir.Size = new System.Drawing.Size(1270, 852);
             this.tabPuedeSalir.TabIndex = 68;
             this.tabPuedeSalir.Text = "PuedeSalir";
             this.tabPuedeSalir.UseVisualStyleBackColor = true;
@@ -1833,7 +1800,7 @@
             this.imagen_PuedeSalir.Dock = System.Windows.Forms.DockStyle.Fill;
             this.imagen_PuedeSalir.Location = new System.Drawing.Point(3, 3);
             this.imagen_PuedeSalir.Name = "imagen_PuedeSalir";
-            this.imagen_PuedeSalir.Size = new System.Drawing.Size(1264, 848);
+            this.imagen_PuedeSalir.Size = new System.Drawing.Size(1264, 846);
             this.imagen_PuedeSalir.TabIndex = 5022;
             // 
             // lblTiempoSalida
@@ -1860,7 +1827,7 @@
             this.tabPagoParcial.Controls.Add(this.pPublicidadPagoParcial);
             this.tabPagoParcial.Location = new System.Drawing.Point(4, 22);
             this.tabPagoParcial.Name = "tabPagoParcial";
-            this.tabPagoParcial.Size = new System.Drawing.Size(1270, 854);
+            this.tabPagoParcial.Size = new System.Drawing.Size(1270, 852);
             this.tabPagoParcial.TabIndex = 76;
             this.tabPagoParcial.Text = "PagoParcial";
             this.tabPagoParcial.UseVisualStyleBackColor = true;
@@ -1879,7 +1846,7 @@
             this.Imagen_PagoParcial.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_PagoParcial.Location = new System.Drawing.Point(0, 0);
             this.Imagen_PagoParcial.Name = "Imagen_PagoParcial";
-            this.Imagen_PagoParcial.Size = new System.Drawing.Size(1270, 854);
+            this.Imagen_PagoParcial.Size = new System.Drawing.Size(1270, 852);
             this.Imagen_PagoParcial.TabIndex = 5072;
             // 
             // btn_ConfirmarPagoFE
@@ -2003,7 +1970,7 @@
             this.tabNitCliente.Location = new System.Drawing.Point(4, 22);
             this.tabNitCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabNitCliente.Name = "tabNitCliente";
-            this.tabNitCliente.Size = new System.Drawing.Size(1270, 854);
+            this.tabNitCliente.Size = new System.Drawing.Size(1270, 852);
             this.tabNitCliente.TabIndex = 77;
             this.tabNitCliente.Text = "NitCliente";
             this.tabNitCliente.UseVisualStyleBackColor = true;
@@ -2017,7 +1984,7 @@
             this.Imagen_DigiteNitCliente.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_DigiteNitCliente.Location = new System.Drawing.Point(0, 0);
             this.Imagen_DigiteNitCliente.Name = "Imagen_DigiteNitCliente";
-            this.Imagen_DigiteNitCliente.Size = new System.Drawing.Size(1270, 854);
+            this.Imagen_DigiteNitCliente.Size = new System.Drawing.Size(1270, 852);
             this.Imagen_DigiteNitCliente.TabIndex = 5021;
             // 
             // panel2
@@ -2260,7 +2227,7 @@
             this.tabAtasco.Location = new System.Drawing.Point(4, 22);
             this.tabAtasco.Name = "tabAtasco";
             this.tabAtasco.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabAtasco.Size = new System.Drawing.Size(1270, 854);
+            this.tabAtasco.Size = new System.Drawing.Size(1270, 852);
             this.tabAtasco.TabIndex = 67;
             this.tabAtasco.Text = "Atasco";
             this.tabAtasco.UseVisualStyleBackColor = true;
@@ -2272,7 +2239,7 @@
             this.Imagen_Atasco.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_Atasco.Location = new System.Drawing.Point(3, 3);
             this.Imagen_Atasco.Name = "Imagen_Atasco";
-            this.Imagen_Atasco.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_Atasco.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_Atasco.TabIndex = 5022;
             // 
             // capaAtasco
@@ -2290,7 +2257,7 @@
             this.tabDetallePagoMensual.Location = new System.Drawing.Point(4, 22);
             this.tabDetallePagoMensual.Name = "tabDetallePagoMensual";
             this.tabDetallePagoMensual.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabDetallePagoMensual.Size = new System.Drawing.Size(1270, 854);
+            this.tabDetallePagoMensual.Size = new System.Drawing.Size(1270, 852);
             this.tabDetallePagoMensual.TabIndex = 66;
             this.tabDetallePagoMensual.Text = "DetallePagoMensual";
             this.tabDetallePagoMensual.UseVisualStyleBackColor = true;
@@ -2309,7 +2276,7 @@
             this.Imagen_DetallePagoMensual.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_DetallePagoMensual.Location = new System.Drawing.Point(3, 3);
             this.Imagen_DetallePagoMensual.Name = "Imagen_DetallePagoMensual";
-            this.Imagen_DetallePagoMensual.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_DetallePagoMensual.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_DetallePagoMensual.TabIndex = 5023;
             // 
             // pPublicidadPagoAuto
@@ -2417,7 +2384,7 @@
             this.tabTransaccionCancelada.Location = new System.Drawing.Point(4, 22);
             this.tabTransaccionCancelada.Name = "tabTransaccionCancelada";
             this.tabTransaccionCancelada.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabTransaccionCancelada.Size = new System.Drawing.Size(1270, 854);
+            this.tabTransaccionCancelada.Size = new System.Drawing.Size(1270, 852);
             this.tabTransaccionCancelada.TabIndex = 51;
             this.tabTransaccionCancelada.Text = "TransaccionCancelada";
             this.tabTransaccionCancelada.UseVisualStyleBackColor = true;
@@ -2429,7 +2396,7 @@
             this.Imagen_TransaccionCancelada.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_TransaccionCancelada.Location = new System.Drawing.Point(3, 3);
             this.Imagen_TransaccionCancelada.Name = "Imagen_TransaccionCancelada";
-            this.Imagen_TransaccionCancelada.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_TransaccionCancelada.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_TransaccionCancelada.TabIndex = 5021;
             // 
             // pPublicidadCancelada
@@ -2446,7 +2413,7 @@
             this.tabTarjetaNoGeneraPago.Location = new System.Drawing.Point(4, 22);
             this.tabTarjetaNoGeneraPago.Name = "tabTarjetaNoGeneraPago";
             this.tabTarjetaNoGeneraPago.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabTarjetaNoGeneraPago.Size = new System.Drawing.Size(1270, 854);
+            this.tabTarjetaNoGeneraPago.Size = new System.Drawing.Size(1270, 852);
             this.tabTarjetaNoGeneraPago.TabIndex = 60;
             this.tabTarjetaNoGeneraPago.Text = "TarjetaNoGeneraPago";
             this.tabTarjetaNoGeneraPago.UseVisualStyleBackColor = true;
@@ -2458,7 +2425,7 @@
             this.Imagen_NoGeneraPago.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_NoGeneraPago.Location = new System.Drawing.Point(3, 3);
             this.Imagen_NoGeneraPago.Name = "Imagen_NoGeneraPago";
-            this.Imagen_NoGeneraPago.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_NoGeneraPago.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_NoGeneraPago.TabIndex = 5022;
             // 
             // pPublicidadNoPago
@@ -2475,7 +2442,7 @@
             this.tabTarjetaSinEntrada.Location = new System.Drawing.Point(4, 22);
             this.tabTarjetaSinEntrada.Name = "tabTarjetaSinEntrada";
             this.tabTarjetaSinEntrada.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabTarjetaSinEntrada.Size = new System.Drawing.Size(1270, 854);
+            this.tabTarjetaSinEntrada.Size = new System.Drawing.Size(1270, 852);
             this.tabTarjetaSinEntrada.TabIndex = 61;
             this.tabTarjetaSinEntrada.Text = "TarjetaSinEntrada";
             this.tabTarjetaSinEntrada.UseVisualStyleBackColor = true;
@@ -2487,7 +2454,7 @@
             this.Imagen_TarjetaSinEntrada.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_TarjetaSinEntrada.Location = new System.Drawing.Point(3, 3);
             this.Imagen_TarjetaSinEntrada.Name = "Imagen_TarjetaSinEntrada";
-            this.Imagen_TarjetaSinEntrada.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_TarjetaSinEntrada.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_TarjetaSinEntrada.TabIndex = 5023;
             // 
             // pPublicidadSinEntrada
@@ -2504,7 +2471,7 @@
             this.tabTransaccionCanceladaPago.Location = new System.Drawing.Point(4, 22);
             this.tabTransaccionCanceladaPago.Name = "tabTransaccionCanceladaPago";
             this.tabTransaccionCanceladaPago.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabTransaccionCanceladaPago.Size = new System.Drawing.Size(1270, 854);
+            this.tabTransaccionCanceladaPago.Size = new System.Drawing.Size(1270, 852);
             this.tabTransaccionCanceladaPago.TabIndex = 59;
             this.tabTransaccionCanceladaPago.Text = "TransaccionCanceladaPago";
             this.tabTransaccionCanceladaPago.UseVisualStyleBackColor = true;
@@ -2516,7 +2483,7 @@
             this.Imagen_TransaccionCanceladaPago.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_TransaccionCanceladaPago.Location = new System.Drawing.Point(3, 3);
             this.Imagen_TransaccionCanceladaPago.Name = "Imagen_TransaccionCanceladaPago";
-            this.Imagen_TransaccionCanceladaPago.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_TransaccionCanceladaPago.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_TransaccionCanceladaPago.TabIndex = 5022;
             // 
             // pPublicidadCanceladaPago
@@ -2533,7 +2500,7 @@
             this.tabPagoCelular.Location = new System.Drawing.Point(4, 22);
             this.tabPagoCelular.Name = "tabPagoCelular";
             this.tabPagoCelular.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPagoCelular.Size = new System.Drawing.Size(1270, 854);
+            this.tabPagoCelular.Size = new System.Drawing.Size(1270, 852);
             this.tabPagoCelular.TabIndex = 53;
             this.tabPagoCelular.Text = "PagoCelular";
             this.tabPagoCelular.UseVisualStyleBackColor = true;
@@ -2551,7 +2518,7 @@
             this.Imagen_PagoCelular.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_PagoCelular.Location = new System.Drawing.Point(3, 3);
             this.Imagen_PagoCelular.Name = "Imagen_PagoCelular";
-            this.Imagen_PagoCelular.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_PagoCelular.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_PagoCelular.TabIndex = 5023;
             // 
             // btn_ContinuarCelular
@@ -2647,7 +2614,7 @@
             this.pCelular.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pCelular.Location = new System.Drawing.Point(0, 0);
             this.pCelular.Name = "pCelular";
-            this.pCelular.Size = new System.Drawing.Size(1264, 848);
+            this.pCelular.Size = new System.Drawing.Size(1264, 846);
             this.pCelular.TabIndex = 1140;
             this.pCelular.TabStop = false;
             // 
@@ -2657,7 +2624,7 @@
             this.tabPagoEfectivo.Location = new System.Drawing.Point(4, 22);
             this.tabPagoEfectivo.Name = "tabPagoEfectivo";
             this.tabPagoEfectivo.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPagoEfectivo.Size = new System.Drawing.Size(1270, 854);
+            this.tabPagoEfectivo.Size = new System.Drawing.Size(1270, 852);
             this.tabPagoEfectivo.TabIndex = 54;
             this.tabPagoEfectivo.Text = "PagoEfectivo";
             this.tabPagoEfectivo.UseVisualStyleBackColor = true;
@@ -2670,7 +2637,7 @@
             this.Imagen_PagoEfectivo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_PagoEfectivo.Location = new System.Drawing.Point(3, 3);
             this.Imagen_PagoEfectivo.Name = "Imagen_PagoEfectivo";
-            this.Imagen_PagoEfectivo.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_PagoEfectivo.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_PagoEfectivo.TabIndex = 5023;
             // 
             // btn_VolverMedios
@@ -2695,7 +2662,7 @@
             this.pPagoEfectivo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pPagoEfectivo.Location = new System.Drawing.Point(0, 0);
             this.pPagoEfectivo.Name = "pPagoEfectivo";
-            this.pPagoEfectivo.Size = new System.Drawing.Size(1264, 848);
+            this.pPagoEfectivo.Size = new System.Drawing.Size(1264, 846);
             this.pPagoEfectivo.TabIndex = 1136;
             this.pPagoEfectivo.TabStop = false;
             // 
@@ -2705,7 +2672,7 @@
             this.tabPagoPrepago.Location = new System.Drawing.Point(4, 22);
             this.tabPagoPrepago.Name = "tabPagoPrepago";
             this.tabPagoPrepago.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPagoPrepago.Size = new System.Drawing.Size(1270, 854);
+            this.tabPagoPrepago.Size = new System.Drawing.Size(1270, 852);
             this.tabPagoPrepago.TabIndex = 55;
             this.tabPagoPrepago.Text = "PagoPrepago";
             this.tabPagoPrepago.UseVisualStyleBackColor = true;
@@ -2720,7 +2687,7 @@
             this.Imagen_Prepago.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_Prepago.Location = new System.Drawing.Point(3, 3);
             this.Imagen_Prepago.Name = "Imagen_Prepago";
-            this.Imagen_Prepago.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_Prepago.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_Prepago.TabIndex = 5024;
             // 
             // btn_MediosPrepago
@@ -2773,7 +2740,7 @@
             this.pPrepago.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pPrepago.Location = new System.Drawing.Point(0, 0);
             this.pPrepago.Name = "pPrepago";
-            this.pPrepago.Size = new System.Drawing.Size(1264, 848);
+            this.pPrepago.Size = new System.Drawing.Size(1264, 846);
             this.pPrepago.TabIndex = 1135;
             this.pPrepago.TabStop = false;
             // 
@@ -2783,7 +2750,7 @@
             this.tabPagoDatafono.Location = new System.Drawing.Point(4, 22);
             this.tabPagoDatafono.Name = "tabPagoDatafono";
             this.tabPagoDatafono.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPagoDatafono.Size = new System.Drawing.Size(1270, 854);
+            this.tabPagoDatafono.Size = new System.Drawing.Size(1270, 852);
             this.tabPagoDatafono.TabIndex = 56;
             this.tabPagoDatafono.Text = "PagoDatafono";
             this.tabPagoDatafono.UseVisualStyleBackColor = true;
@@ -2798,7 +2765,7 @@
             this.Imagen_PagoDatafono.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_PagoDatafono.Location = new System.Drawing.Point(3, 3);
             this.Imagen_PagoDatafono.Name = "Imagen_PagoDatafono";
-            this.Imagen_PagoDatafono.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_PagoDatafono.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_PagoDatafono.TabIndex = 5024;
             // 
             // lblValorPagarDatafono
@@ -2854,7 +2821,7 @@
             this.pDatafono.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pDatafono.Location = new System.Drawing.Point(0, 0);
             this.pDatafono.Name = "pDatafono";
-            this.pDatafono.Size = new System.Drawing.Size(1264, 848);
+            this.pDatafono.Size = new System.Drawing.Size(1264, 846);
             this.pDatafono.TabIndex = 1137;
             this.pDatafono.TabStop = false;
             // 
@@ -2864,7 +2831,7 @@
             this.tabImprimirFactura.Location = new System.Drawing.Point(4, 22);
             this.tabImprimirFactura.Name = "tabImprimirFactura";
             this.tabImprimirFactura.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabImprimirFactura.Size = new System.Drawing.Size(1270, 854);
+            this.tabImprimirFactura.Size = new System.Drawing.Size(1270, 852);
             this.tabImprimirFactura.TabIndex = 50;
             this.tabImprimirFactura.Text = "ImprimirFactura";
             this.tabImprimirFactura.UseVisualStyleBackColor = true;
@@ -2878,7 +2845,7 @@
             this.Imagen_ImprimirFactura.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_ImprimirFactura.Location = new System.Drawing.Point(3, 3);
             this.Imagen_ImprimirFactura.Name = "Imagen_ImprimirFactura";
-            this.Imagen_ImprimirFactura.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_ImprimirFactura.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_ImprimirFactura.TabIndex = 5023;
             // 
             // pPublicidadImprimir
@@ -2929,7 +2896,7 @@
             this.tabGraciasPago.Location = new System.Drawing.Point(4, 22);
             this.tabGraciasPago.Name = "tabGraciasPago";
             this.tabGraciasPago.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabGraciasPago.Size = new System.Drawing.Size(1270, 854);
+            this.tabGraciasPago.Size = new System.Drawing.Size(1270, 852);
             this.tabGraciasPago.TabIndex = 49;
             this.tabGraciasPago.Text = "GraciasPago";
             this.tabGraciasPago.UseVisualStyleBackColor = true;
@@ -2941,7 +2908,7 @@
             this.Imagen_GraciasPago.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_GraciasPago.Location = new System.Drawing.Point(3, 3);
             this.Imagen_GraciasPago.Name = "Imagen_GraciasPago";
-            this.Imagen_GraciasPago.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_GraciasPago.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_GraciasPago.TabIndex = 5022;
             // 
             // pPublicidadGracias
@@ -2958,7 +2925,7 @@
             this.tabContrasenaInvalida.Location = new System.Drawing.Point(4, 22);
             this.tabContrasenaInvalida.Name = "tabContrasenaInvalida";
             this.tabContrasenaInvalida.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabContrasenaInvalida.Size = new System.Drawing.Size(1270, 854);
+            this.tabContrasenaInvalida.Size = new System.Drawing.Size(1270, 852);
             this.tabContrasenaInvalida.TabIndex = 7;
             this.tabContrasenaInvalida.Text = "ContrasenaInvalida";
             this.tabContrasenaInvalida.UseVisualStyleBackColor = true;
@@ -2968,7 +2935,7 @@
             this.Imagen_ContraseñaInvalida.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_ContraseñaInvalida.Location = new System.Drawing.Point(3, 3);
             this.Imagen_ContraseñaInvalida.Name = "Imagen_ContraseñaInvalida";
-            this.Imagen_ContraseñaInvalida.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_ContraseñaInvalida.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_ContraseñaInvalida.TabIndex = 5019;
             // 
             // tabIngresoPass
@@ -2977,7 +2944,7 @@
             this.tabIngresoPass.Location = new System.Drawing.Point(4, 22);
             this.tabIngresoPass.Name = "tabIngresoPass";
             this.tabIngresoPass.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabIngresoPass.Size = new System.Drawing.Size(1270, 854);
+            this.tabIngresoPass.Size = new System.Drawing.Size(1270, 852);
             this.tabIngresoPass.TabIndex = 9;
             this.tabIngresoPass.Text = "IngresoPass";
             this.tabIngresoPass.UseVisualStyleBackColor = true;
@@ -2996,7 +2963,7 @@
             this.Imagen_IngresoPass.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_IngresoPass.Location = new System.Drawing.Point(3, 3);
             this.Imagen_IngresoPass.Name = "Imagen_IngresoPass";
-            this.Imagen_IngresoPass.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_IngresoPass.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_IngresoPass.TabIndex = 5020;
             // 
             // CapaUsuario
@@ -3023,23 +2990,23 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.kbUsuarioPass.BackColor = System.Drawing.Color.White;
-            virtualKeyboardColorTable1.BackgroundColor = System.Drawing.Color.Black;
-            virtualKeyboardColorTable1.DarkKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
-            virtualKeyboardColorTable1.DownKeysColor = System.Drawing.Color.White;
-            virtualKeyboardColorTable1.DownTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            virtualKeyboardColorTable1.KeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(47)))), ((int)(((byte)(55)))));
-            virtualKeyboardColorTable1.LightKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
-            virtualKeyboardColorTable1.PressedKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(161)))), ((int)(((byte)(81)))));
-            virtualKeyboardColorTable1.TextColor = System.Drawing.Color.White;
-            virtualKeyboardColorTable1.ToggleTextColor = System.Drawing.Color.Green;
-            virtualKeyboardColorTable1.TopBarTextColor = System.Drawing.Color.White;
-            this.kbUsuarioPass.ColorTable = virtualKeyboardColorTable1;
+            virtualKeyboardColorTable2.BackgroundColor = System.Drawing.Color.Black;
+            virtualKeyboardColorTable2.DarkKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
+            virtualKeyboardColorTable2.DownKeysColor = System.Drawing.Color.White;
+            virtualKeyboardColorTable2.DownTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            virtualKeyboardColorTable2.KeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(47)))), ((int)(((byte)(55)))));
+            virtualKeyboardColorTable2.LightKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
+            virtualKeyboardColorTable2.PressedKeysColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(161)))), ((int)(((byte)(81)))));
+            virtualKeyboardColorTable2.TextColor = System.Drawing.Color.White;
+            virtualKeyboardColorTable2.ToggleTextColor = System.Drawing.Color.Green;
+            virtualKeyboardColorTable2.TopBarTextColor = System.Drawing.Color.White;
+            this.kbUsuarioPass.ColorTable = virtualKeyboardColorTable2;
             this.kbUsuarioPass.ForeColor = System.Drawing.Color.White;
             this.kbUsuarioPass.Location = new System.Drawing.Point(268, 595);
             this.kbUsuarioPass.Name = "kbUsuarioPass";
-            flatStyleRenderer1.ColorTable = virtualKeyboardColorTable1;
-            flatStyleRenderer1.ForceAntiAlias = false;
-            this.kbUsuarioPass.Renderer = flatStyleRenderer1;
+            flatStyleRenderer2.ColorTable = virtualKeyboardColorTable2;
+            flatStyleRenderer2.ForceAntiAlias = false;
+            this.kbUsuarioPass.Renderer = flatStyleRenderer2;
             this.kbUsuarioPass.Size = new System.Drawing.Size(804, 140);
             this.kbUsuarioPass.TabIndex = 5064;
             // 
@@ -3120,7 +3087,7 @@
             this.tabSegundoPass.Location = new System.Drawing.Point(4, 22);
             this.tabSegundoPass.Name = "tabSegundoPass";
             this.tabSegundoPass.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabSegundoPass.Size = new System.Drawing.Size(1270, 854);
+            this.tabSegundoPass.Size = new System.Drawing.Size(1270, 852);
             this.tabSegundoPass.TabIndex = 10;
             this.tabSegundoPass.Text = "SegundoPass";
             this.tabSegundoPass.UseVisualStyleBackColor = true;
@@ -3136,7 +3103,7 @@
             this.Imagen_SegundaPass.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_SegundaPass.Location = new System.Drawing.Point(3, 3);
             this.Imagen_SegundaPass.Name = "Imagen_SegundaPass";
-            this.Imagen_SegundaPass.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_SegundaPass.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_SegundaPass.TabIndex = 5021;
             // 
             // lblCodigo
@@ -3213,7 +3180,7 @@
             this.tabMantenimiento.Location = new System.Drawing.Point(4, 22);
             this.tabMantenimiento.Name = "tabMantenimiento";
             this.tabMantenimiento.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabMantenimiento.Size = new System.Drawing.Size(1270, 854);
+            this.tabMantenimiento.Size = new System.Drawing.Size(1270, 852);
             this.tabMantenimiento.TabIndex = 11;
             this.tabMantenimiento.Text = "Mantenimiento";
             this.tabMantenimiento.UseVisualStyleBackColor = true;
@@ -3225,7 +3192,7 @@
             this.Imagen_Mantenimiento.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_Mantenimiento.Location = new System.Drawing.Point(3, 3);
             this.Imagen_Mantenimiento.Name = "Imagen_Mantenimiento";
-            this.Imagen_Mantenimiento.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_Mantenimiento.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_Mantenimiento.TabIndex = 5020;
             // 
             // CapaMantenimientoCaleto
@@ -3243,7 +3210,7 @@
             this.tabArqueo.Location = new System.Drawing.Point(4, 22);
             this.tabArqueo.Name = "tabArqueo";
             this.tabArqueo.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabArqueo.Size = new System.Drawing.Size(1270, 854);
+            this.tabArqueo.Size = new System.Drawing.Size(1270, 852);
             this.tabArqueo.TabIndex = 12;
             this.tabArqueo.Text = "Arqueo";
             this.tabArqueo.UseVisualStyleBackColor = true;
@@ -3257,7 +3224,7 @@
             this.Imagen_Arqueo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_Arqueo.Location = new System.Drawing.Point(3, 3);
             this.Imagen_Arqueo.Name = "Imagen_Arqueo";
-            this.Imagen_Arqueo.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_Arqueo.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_Arqueo.TabIndex = 5020;
             // 
             // btn_ArqueoTotal
@@ -3317,7 +3284,7 @@
             this.tabCarga.Location = new System.Drawing.Point(4, 22);
             this.tabCarga.Name = "tabCarga";
             this.tabCarga.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabCarga.Size = new System.Drawing.Size(1270, 854);
+            this.tabCarga.Size = new System.Drawing.Size(1270, 852);
             this.tabCarga.TabIndex = 13;
             this.tabCarga.Text = "Carga";
             this.tabCarga.UseVisualStyleBackColor = true;
@@ -3331,7 +3298,7 @@
             this.Imagen_Carga.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_Carga.Location = new System.Drawing.Point(3, 3);
             this.Imagen_Carga.Name = "Imagen_Carga";
-            this.Imagen_Carga.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_Carga.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_Carga.TabIndex = 5021;
             // 
             // btn_CargaMonedas
@@ -3391,7 +3358,7 @@
             this.tabCargaBilletes.Location = new System.Drawing.Point(4, 22);
             this.tabCargaBilletes.Name = "tabCargaBilletes";
             this.tabCargaBilletes.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabCargaBilletes.Size = new System.Drawing.Size(1270, 854);
+            this.tabCargaBilletes.Size = new System.Drawing.Size(1270, 852);
             this.tabCargaBilletes.TabIndex = 14;
             this.tabCargaBilletes.Text = "CargaBilletes";
             this.tabCargaBilletes.UseVisualStyleBackColor = true;
@@ -3407,7 +3374,7 @@
             this.Imagen_CargaBilletes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_CargaBilletes.Location = new System.Drawing.Point(3, 3);
             this.Imagen_CargaBilletes.Name = "Imagen_CargaBilletes";
-            this.Imagen_CargaBilletes.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_CargaBilletes.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_CargaBilletes.TabIndex = 5026;
             // 
             // label1
@@ -3455,44 +3422,44 @@
             this.grvCargaActualBilletesF56.AllowUserToDeleteRows = false;
             this.grvCargaActualBilletesF56.AllowUserToResizeColumns = false;
             this.grvCargaActualBilletesF56.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.grvCargaActualBilletesF56.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.grvCargaActualBilletesF56.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
             this.grvCargaActualBilletesF56.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grvCargaActualBilletesF56.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle22.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grvCargaActualBilletesF56.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.grvCargaActualBilletesF56.ColumnHeadersHeight = 22;
             this.grvCargaActualBilletesF56.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grvCargaActualBilletesF56.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grvCargaActualBilletesF56.DefaultCellStyle = dataGridViewCellStyle23;
             this.grvCargaActualBilletesF56.Location = new System.Drawing.Point(109, 661);
             this.grvCargaActualBilletesF56.MultiSelect = false;
             this.grvCargaActualBilletesF56.Name = "grvCargaActualBilletesF56";
             this.grvCargaActualBilletesF56.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grvCargaActualBilletesF56.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grvCargaActualBilletesF56.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
             this.grvCargaActualBilletesF56.RowHeadersVisible = false;
             this.grvCargaActualBilletesF56.RowHeadersWidth = 25;
             this.grvCargaActualBilletesF56.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.grvCargaActualBilletesF56.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.grvCargaActualBilletesF56.RowsDefaultCellStyle = dataGridViewCellStyle25;
             this.grvCargaActualBilletesF56.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.grvCargaActualBilletesF56.Size = new System.Drawing.Size(327, 232);
             this.grvCargaActualBilletesF56.TabIndex = 154;
@@ -3503,43 +3470,43 @@
             this.grvCargaTotalBilletesF56.AllowUserToDeleteRows = false;
             this.grvCargaTotalBilletesF56.AllowUserToResizeColumns = false;
             this.grvCargaTotalBilletesF56.AllowUserToResizeRows = false;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.grvCargaTotalBilletesF56.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.grvCargaTotalBilletesF56.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle26;
             this.grvCargaTotalBilletesF56.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grvCargaTotalBilletesF56.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grvCargaTotalBilletesF56.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle27;
             this.grvCargaTotalBilletesF56.ColumnHeadersHeight = 22;
             this.grvCargaTotalBilletesF56.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grvCargaTotalBilletesF56.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grvCargaTotalBilletesF56.DefaultCellStyle = dataGridViewCellStyle28;
             this.grvCargaTotalBilletesF56.Location = new System.Drawing.Point(506, 661);
             this.grvCargaTotalBilletesF56.Name = "grvCargaTotalBilletesF56";
             this.grvCargaTotalBilletesF56.ReadOnly = true;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grvCargaTotalBilletesF56.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grvCargaTotalBilletesF56.RowHeadersDefaultCellStyle = dataGridViewCellStyle29;
             this.grvCargaTotalBilletesF56.RowHeadersVisible = false;
             this.grvCargaTotalBilletesF56.RowHeadersWidth = 25;
             this.grvCargaTotalBilletesF56.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.grvCargaTotalBilletesF56.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.grvCargaTotalBilletesF56.RowsDefaultCellStyle = dataGridViewCellStyle30;
             this.grvCargaTotalBilletesF56.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.grvCargaTotalBilletesF56.Size = new System.Drawing.Size(327, 232);
             this.grvCargaTotalBilletesF56.TabIndex = 153;
@@ -3550,7 +3517,7 @@
             this.tabCargaMonedas.Location = new System.Drawing.Point(4, 22);
             this.tabCargaMonedas.Name = "tabCargaMonedas";
             this.tabCargaMonedas.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabCargaMonedas.Size = new System.Drawing.Size(1270, 854);
+            this.tabCargaMonedas.Size = new System.Drawing.Size(1270, 852);
             this.tabCargaMonedas.TabIndex = 15;
             this.tabCargaMonedas.Text = "CargaMonedas";
             this.tabCargaMonedas.UseVisualStyleBackColor = true;
@@ -3583,7 +3550,7 @@
             this.Imagen_CargaMonedas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_CargaMonedas.Location = new System.Drawing.Point(3, 3);
             this.Imagen_CargaMonedas.Name = "Imagen_CargaMonedas";
-            this.Imagen_CargaMonedas.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_CargaMonedas.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_CargaMonedas.TabIndex = 5027;
             // 
             // label3
@@ -3882,44 +3849,44 @@
             this.grvCargaActualMonedas.AllowUserToDeleteRows = false;
             this.grvCargaActualMonedas.AllowUserToResizeColumns = false;
             this.grvCargaActualMonedas.AllowUserToResizeRows = false;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.grvCargaActualMonedas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.grvCargaActualMonedas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
             this.grvCargaActualMonedas.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grvCargaActualMonedas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle32.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle32.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grvCargaActualMonedas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
             this.grvCargaActualMonedas.ColumnHeadersHeight = 22;
             this.grvCargaActualMonedas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grvCargaActualMonedas.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle33.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle33.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grvCargaActualMonedas.DefaultCellStyle = dataGridViewCellStyle33;
             this.grvCargaActualMonedas.Location = new System.Drawing.Point(43, 759);
             this.grvCargaActualMonedas.MultiSelect = false;
             this.grvCargaActualMonedas.Name = "grvCargaActualMonedas";
             this.grvCargaActualMonedas.ReadOnly = true;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grvCargaActualMonedas.RowHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle34.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle34.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grvCargaActualMonedas.RowHeadersDefaultCellStyle = dataGridViewCellStyle34;
             this.grvCargaActualMonedas.RowHeadersVisible = false;
             this.grvCargaActualMonedas.RowHeadersWidth = 25;
             this.grvCargaActualMonedas.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.grvCargaActualMonedas.RowsDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.grvCargaActualMonedas.RowsDefaultCellStyle = dataGridViewCellStyle35;
             this.grvCargaActualMonedas.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.grvCargaActualMonedas.Size = new System.Drawing.Size(326, 108);
             this.grvCargaActualMonedas.TabIndex = 154;
@@ -3930,43 +3897,43 @@
             this.grvCargaTotalMonedas.AllowUserToDeleteRows = false;
             this.grvCargaTotalMonedas.AllowUserToResizeColumns = false;
             this.grvCargaTotalMonedas.AllowUserToResizeRows = false;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.grvCargaTotalMonedas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.grvCargaTotalMonedas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle36;
             this.grvCargaTotalMonedas.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grvCargaTotalMonedas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle37.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle37.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grvCargaTotalMonedas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle37;
             this.grvCargaTotalMonedas.ColumnHeadersHeight = 22;
             this.grvCargaTotalMonedas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grvCargaTotalMonedas.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle38.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle38.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grvCargaTotalMonedas.DefaultCellStyle = dataGridViewCellStyle38;
             this.grvCargaTotalMonedas.Location = new System.Drawing.Point(429, 759);
             this.grvCargaTotalMonedas.Name = "grvCargaTotalMonedas";
             this.grvCargaTotalMonedas.ReadOnly = true;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grvCargaTotalMonedas.RowHeadersDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle39.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grvCargaTotalMonedas.RowHeadersDefaultCellStyle = dataGridViewCellStyle39;
             this.grvCargaTotalMonedas.RowHeadersVisible = false;
             this.grvCargaTotalMonedas.RowHeadersWidth = 25;
             this.grvCargaTotalMonedas.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.grvCargaTotalMonedas.RowsDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.grvCargaTotalMonedas.RowsDefaultCellStyle = dataGridViewCellStyle40;
             this.grvCargaTotalMonedas.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.grvCargaTotalMonedas.Size = new System.Drawing.Size(326, 108);
             this.grvCargaTotalMonedas.TabIndex = 153;
@@ -4011,7 +3978,7 @@
             this.tabMenuSistemas.Location = new System.Drawing.Point(4, 22);
             this.tabMenuSistemas.Name = "tabMenuSistemas";
             this.tabMenuSistemas.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabMenuSistemas.Size = new System.Drawing.Size(1270, 854);
+            this.tabMenuSistemas.Size = new System.Drawing.Size(1270, 852);
             this.tabMenuSistemas.TabIndex = 17;
             this.tabMenuSistemas.Text = "MenuSistemas";
             this.tabMenuSistemas.UseVisualStyleBackColor = true;
@@ -4029,7 +3996,7 @@
             this.Imagen_MenuSistema.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_MenuSistema.Location = new System.Drawing.Point(3, 3);
             this.Imagen_MenuSistema.Name = "Imagen_MenuSistema";
-            this.Imagen_MenuSistema.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_MenuSistema.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_MenuSistema.TabIndex = 5019;
             // 
             // lblFechaActual
@@ -4151,7 +4118,7 @@
             this.tabCerrarOperacion.Location = new System.Drawing.Point(4, 22);
             this.tabCerrarOperacion.Name = "tabCerrarOperacion";
             this.tabCerrarOperacion.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabCerrarOperacion.Size = new System.Drawing.Size(1270, 854);
+            this.tabCerrarOperacion.Size = new System.Drawing.Size(1270, 852);
             this.tabCerrarOperacion.TabIndex = 44;
             this.tabCerrarOperacion.Text = "CerrarOperacion";
             this.tabCerrarOperacion.UseVisualStyleBackColor = true;
@@ -4163,7 +4130,7 @@
             this.Imagen_CerrarOperacion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_CerrarOperacion.Location = new System.Drawing.Point(3, 3);
             this.Imagen_CerrarOperacion.Name = "Imagen_CerrarOperacion";
-            this.Imagen_CerrarOperacion.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_CerrarOperacion.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_CerrarOperacion.TabIndex = 5021;
             // 
             // pPublicidadCerrar
@@ -4179,7 +4146,7 @@
             this.tabSistemaSuspendido.Location = new System.Drawing.Point(4, 22);
             this.tabSistemaSuspendido.Name = "tabSistemaSuspendido";
             this.tabSistemaSuspendido.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabSistemaSuspendido.Size = new System.Drawing.Size(1270, 854);
+            this.tabSistemaSuspendido.Size = new System.Drawing.Size(1270, 852);
             this.tabSistemaSuspendido.TabIndex = 48;
             this.tabSistemaSuspendido.Text = "SistemaSuspendido";
             this.tabSistemaSuspendido.UseVisualStyleBackColor = true;
@@ -4192,7 +4159,7 @@
             this.Imagen_SistemaSupendido.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_SistemaSupendido.Location = new System.Drawing.Point(3, 3);
             this.Imagen_SistemaSupendido.Name = "Imagen_SistemaSupendido";
-            this.Imagen_SistemaSupendido.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_SistemaSupendido.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_SistemaSupendido.TabIndex = 5021;
             // 
             // pPublicidadSuspendido
@@ -4218,7 +4185,7 @@
             this.tabTarjetaInvalida.Location = new System.Drawing.Point(4, 22);
             this.tabTarjetaInvalida.Name = "tabTarjetaInvalida";
             this.tabTarjetaInvalida.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabTarjetaInvalida.Size = new System.Drawing.Size(1270, 854);
+            this.tabTarjetaInvalida.Size = new System.Drawing.Size(1270, 852);
             this.tabTarjetaInvalida.TabIndex = 58;
             this.tabTarjetaInvalida.Text = "TarjetaInvalida";
             this.tabTarjetaInvalida.UseVisualStyleBackColor = true;
@@ -4230,7 +4197,7 @@
             this.Imagen_TarjetaInvalida.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_TarjetaInvalida.Location = new System.Drawing.Point(3, 3);
             this.Imagen_TarjetaInvalida.Name = "Imagen_TarjetaInvalida";
-            this.Imagen_TarjetaInvalida.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_TarjetaInvalida.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_TarjetaInvalida.TabIndex = 5022;
             // 
             // pPublicidadInvalida
@@ -4247,7 +4214,7 @@
             this.tabArqueoParcial.Location = new System.Drawing.Point(4, 22);
             this.tabArqueoParcial.Name = "tabArqueoParcial";
             this.tabArqueoParcial.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabArqueoParcial.Size = new System.Drawing.Size(1270, 854);
+            this.tabArqueoParcial.Size = new System.Drawing.Size(1270, 852);
             this.tabArqueoParcial.TabIndex = 62;
             this.tabArqueoParcial.Text = "ArqueoParcial";
             this.tabArqueoParcial.UseVisualStyleBackColor = true;
@@ -4260,7 +4227,7 @@
             this.Imagen_ArqueoParcial.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_ArqueoParcial.Location = new System.Drawing.Point(3, 3);
             this.Imagen_ArqueoParcial.Name = "Imagen_ArqueoParcial";
-            this.Imagen_ArqueoParcial.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_ArqueoParcial.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_ArqueoParcial.TabIndex = 5021;
             // 
             // Animacion_RetireBox
@@ -4295,7 +4262,7 @@
             this.tabArqueoTotal.Location = new System.Drawing.Point(4, 22);
             this.tabArqueoTotal.Name = "tabArqueoTotal";
             this.tabArqueoTotal.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabArqueoTotal.Size = new System.Drawing.Size(1270, 854);
+            this.tabArqueoTotal.Size = new System.Drawing.Size(1270, 852);
             this.tabArqueoTotal.TabIndex = 63;
             this.tabArqueoTotal.Text = "ArqueoTotal";
             this.tabArqueoTotal.UseVisualStyleBackColor = true;
@@ -4308,7 +4275,7 @@
             this.Imagen_ArqueoTotal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_ArqueoTotal.Location = new System.Drawing.Point(3, 3);
             this.Imagen_ArqueoTotal.Name = "Imagen_ArqueoTotal";
-            this.Imagen_ArqueoTotal.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_ArqueoTotal.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_ArqueoTotal.TabIndex = 5022;
             // 
             // AnimacionBoxTotal
@@ -4343,7 +4310,7 @@
             this.tabDescargando.Location = new System.Drawing.Point(4, 22);
             this.tabDescargando.Name = "tabDescargando";
             this.tabDescargando.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabDescargando.Size = new System.Drawing.Size(1270, 854);
+            this.tabDescargando.Size = new System.Drawing.Size(1270, 852);
             this.tabDescargando.TabIndex = 64;
             this.tabDescargando.Text = "Descargando";
             this.tabDescargando.UseVisualStyleBackColor = true;
@@ -4354,22 +4321,41 @@
             this.Imagen_Descargando.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Imagen_Descargando.Location = new System.Drawing.Point(3, 3);
             this.Imagen_Descargando.Name = "Imagen_Descargando";
-            this.Imagen_Descargando.Size = new System.Drawing.Size(1264, 848);
+            this.Imagen_Descargando.Size = new System.Drawing.Size(1264, 846);
             this.Imagen_Descargando.TabIndex = 5023;
             // 
-            // panel3
+            // pInicio
             // 
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Controls.Add(this.btn_InserteTarjeta);
-            this.panel3.Controls.Add(this.btn_Placa);
-            this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Controls.Add(this.transparentControl1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1264, 846);
-            this.panel3.TabIndex = 5022;
+            this.pInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pInicio.Location = new System.Drawing.Point(158, 462);
+            this.pInicio.Name = "pInicio";
+            this.pInicio.Size = new System.Drawing.Size(804, 512);
+            this.pInicio.TabIndex = 2;
+            this.pInicio.TabStop = false;
+            // 
+            // Imagen_Inicio
+            // 
+            this.Imagen_Inicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Imagen_Inicio.Controls.Add(this.pInicio);
+            this.Imagen_Inicio.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Imagen_Inicio.Location = new System.Drawing.Point(3, 3);
+            this.Imagen_Inicio.Name = "Imagen_Inicio";
+            this.Imagen_Inicio.Size = new System.Drawing.Size(1264, 846);
+            this.Imagen_Inicio.TabIndex = 5020;
+            // 
+            // Imagen_Principal
+            // 
+            this.Imagen_Principal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Imagen_Principal.Controls.Add(this.btn_InserteTarjeta);
+            this.Imagen_Principal.Controls.Add(this.btn_Placa);
+            this.Imagen_Principal.Controls.Add(this.Animacion_InserteTarjeta);
+            this.Imagen_Principal.Controls.Add(this.pPublicidad);
+            this.Imagen_Principal.Controls.Add(this.CapaMenuPrincipal);
+            this.Imagen_Principal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Imagen_Principal.Location = new System.Drawing.Point(3, 3);
+            this.Imagen_Principal.Name = "Imagen_Principal";
+            this.Imagen_Principal.Size = new System.Drawing.Size(1264, 846);
+            this.Imagen_Principal.TabIndex = 5022;
             // 
             // btn_InserteTarjeta
             // 
@@ -4386,6 +4372,7 @@
             this.btn_InserteTarjeta.TabIndex = 5029;
             this.btn_InserteTarjeta.Text = "PLACA";
             this.btn_InserteTarjeta.UseVisualStyleBackColor = false;
+            this.btn_InserteTarjeta.Click += new System.EventHandler(this.btn_InserteTarjeta_Click);
             // 
             // btn_Placa
             // 
@@ -4402,32 +4389,72 @@
             this.btn_Placa.TabIndex = 5028;
             this.btn_Placa.Text = "PLACA";
             this.btn_Placa.UseVisualStyleBackColor = false;
+            this.btn_Placa.Click += new System.EventHandler(this.btn_Placa_Click);
             // 
-            // pictureBox1
+            // Animacion_InserteTarjeta
             // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 413);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(44, 27);
-            this.pictureBox1.TabIndex = 5026;
-            this.pictureBox1.TabStop = false;
+            this.Animacion_InserteTarjeta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Animacion_InserteTarjeta.Location = new System.Drawing.Point(3, 413);
+            this.Animacion_InserteTarjeta.Name = "Animacion_InserteTarjeta";
+            this.Animacion_InserteTarjeta.Size = new System.Drawing.Size(44, 27);
+            this.Animacion_InserteTarjeta.TabIndex = 5026;
+            this.Animacion_InserteTarjeta.TabStop = false;
+            // 
+            // pPublicidad
+            // 
+            this.pPublicidad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pPublicidad.Location = new System.Drawing.Point(5, 0);
+            this.pPublicidad.Name = "pPublicidad";
+            this.pPublicidad.Size = new System.Drawing.Size(1258, 417);
+            this.pPublicidad.TabIndex = 5024;
+            this.pPublicidad.TabStop = false;
+            // 
+            // CapaMenuPrincipal
+            // 
+            this.CapaMenuPrincipal.Location = new System.Drawing.Point(408, 900);
+            this.CapaMenuPrincipal.Name = "CapaMenuPrincipal";
+            this.CapaMenuPrincipal.Size = new System.Drawing.Size(145, 79);
+            this.CapaMenuPrincipal.TabIndex = 5023;
+            this.CapaMenuPrincipal.Text = "CAPA";
+            // 
+            // tabTarjetaVisitante
+            // 
+            this.tabTarjetaVisitante.Controls.Add(this.Imagen_TarjetaVisitante);
+            this.tabTarjetaVisitante.Location = new System.Drawing.Point(4, 22);
+            this.tabTarjetaVisitante.Name = "tabTarjetaVisitante";
+            this.tabTarjetaVisitante.Size = new System.Drawing.Size(1270, 852);
+            this.tabTarjetaVisitante.TabIndex = 78;
+            this.tabTarjetaVisitante.Text = "TarjetaVisitante";
+            this.tabTarjetaVisitante.UseVisualStyleBackColor = true;
+            // 
+            // Imagen_TarjetaVisitante
+            // 
+            this.Imagen_TarjetaVisitante.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Imagen_TarjetaVisitante.Controls.Add(this.Animacion_Inserte);
+            this.Imagen_TarjetaVisitante.Controls.Add(this.pictureBox2);
+            this.Imagen_TarjetaVisitante.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Imagen_TarjetaVisitante.Location = new System.Drawing.Point(0, 0);
+            this.Imagen_TarjetaVisitante.Name = "Imagen_TarjetaVisitante";
+            this.Imagen_TarjetaVisitante.Size = new System.Drawing.Size(1270, 852);
+            this.Imagen_TarjetaVisitante.TabIndex = 5029;
+            // 
+            // Animacion_Inserte
+            // 
+            this.Animacion_Inserte.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Animacion_Inserte.Location = new System.Drawing.Point(121, 384);
+            this.Animacion_Inserte.Name = "Animacion_Inserte";
+            this.Animacion_Inserte.Size = new System.Drawing.Size(918, 512);
+            this.Animacion_Inserte.TabIndex = 5027;
+            this.Animacion_Inserte.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(5, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(-4, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1258, 417);
-            this.pictureBox2.TabIndex = 5024;
+            this.pictureBox2.Size = new System.Drawing.Size(1293, 417);
+            this.pictureBox2.TabIndex = 5025;
             this.pictureBox2.TabStop = false;
-            // 
-            // transparentControl1
-            // 
-            this.transparentControl1.Location = new System.Drawing.Point(408, 900);
-            this.transparentControl1.Name = "transparentControl1";
-            this.transparentControl1.Size = new System.Drawing.Size(145, 79);
-            this.transparentControl1.TabIndex = 5023;
-            this.transparentControl1.Text = "CAPA";
             // 
             // frmPrincipal
             // 
@@ -4447,9 +4474,6 @@
             this.TabControlPrincipal.ResumeLayout(false);
             this.tabInicio.ResumeLayout(false);
             this.tabPrincipal.ResumeLayout(false);
-            this.Imagen_Principal.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Animacion_InserteTarjeta)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pPublicidad)).EndInit();
             this.tabProcesando.ResumeLayout(false);
             this.Imagen_Procesando.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pPublicidadProcesando)).EndInit();
@@ -4570,9 +4594,15 @@
             this.Imagen_ArqueoTotal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AnimacionBoxTotal)).EndInit();
             this.tabDescargando.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pInicio)).EndInit();
+            this.Imagen_Inicio.ResumeLayout(false);
+            this.Imagen_Principal.ResumeLayout(false);
+            this.Imagen_Principal.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Animacion_InserteTarjeta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pPublicidad)).EndInit();
+            this.tabTarjetaVisitante.ResumeLayout(false);
+            this.Imagen_TarjetaVisitante.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Animacion_Inserte)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -4666,7 +4696,6 @@
         private System.Windows.Forms.Panel Imagen_TransaccionCancelada;
         private System.Windows.Forms.TabPage tabDetallePago;
         private System.Windows.Forms.TabPage tabPrincipal;
-        private System.Windows.Forms.Panel Imagen_Principal;
         private System.Windows.Forms.TabPage tabInicio;
         private Ds.Utilidades.CustomTabControl TabControlPrincipal;
         private System.Windows.Forms.TabPage tabPagoEfectivo;
@@ -4719,7 +4748,6 @@
         private System.Windows.Forms.Panel pPublicidadSinEntrada;
         private System.Windows.Forms.Label lblCambio;
         private System.Windows.Forms.Label lblValorRecibido;
-        private TransparentControl.TransparentControl CapaMenuPrincipal;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
@@ -4737,7 +4765,6 @@
         private System.Windows.Forms.Panel pPublicidadImprimir;
         private System.Windows.Forms.Panel pPublicidadSuspendido;
         private System.Windows.Forms.TextBox tbCodigo;
-        private System.Windows.Forms.PictureBox pPublicidad;
         private System.Windows.Forms.TabPage tabTarjetaMensual;
         private System.Windows.Forms.Panel Imagen_TarjetaMensual;
         private System.Windows.Forms.Panel pPublicidadMensul;
@@ -4764,7 +4791,6 @@
         private System.Windows.Forms.Panel Imagen_ConsultaFallida;
         private CustomButton.CustomButton customButton1;
         private CustomButton.CustomButton customButton2;
-        private System.Windows.Forms.PictureBox Animacion_InserteTarjeta;
         private System.Windows.Forms.PictureBox Animacion_RetireBox;
         private System.Windows.Forms.PictureBox AnimacionBoxTotal;
         private System.Windows.Forms.TabPage tabSeleccionPago;
@@ -4858,12 +4884,18 @@
         private System.Windows.Forms.Label lblNitCliente;
         private System.Windows.Forms.Panel panel2;
         private CustomButton.CustomButton btn_ConfirmarPagoFE;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel Imagen_Inicio;
+        private System.Windows.Forms.PictureBox pInicio;
+        private System.Windows.Forms.Panel Imagen_Principal;
         private CustomButton.CustomButton btn_InserteTarjeta;
         private CustomButton.CustomButton btn_Placa;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox Animacion_InserteTarjeta;
+        private System.Windows.Forms.PictureBox pPublicidad;
+        private TransparentControl.TransparentControl CapaMenuPrincipal;
+        private System.Windows.Forms.TabPage tabTarjetaVisitante;
+        private System.Windows.Forms.Panel Imagen_TarjetaVisitante;
+        private System.Windows.Forms.PictureBox Animacion_Inserte;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private TransparentControl.TransparentControl transparentControl1;
     }
 }
 

@@ -45,6 +45,9 @@ namespace ATM.WinForm.FrontEnd
 
         #region Definiciones
 
+        bool bPlaca = false;
+
+
         private string _rtaCliente = string.Empty;
         public string rtaCliente 
         {
@@ -1132,6 +1135,87 @@ namespace ATM.WinForm.FrontEnd
                                 }
                             }
                             else 
+                            {
+                                SetearPantalla(Pantalla.TarjetaInvalida);
+                                _frmPrincipal_Presenter.ExpulsarTarjeta();
+                            }
+                        }
+                    }
+                    break;
+                case Pantalla.TarjetaVisitante:
+                    if (_frmPrincipal_Presenter.LeerTarjetaCRT())
+                    {
+                        if (_Tarjeta.CodeCard != string.Empty)
+                        {
+                            bool TarOK = false;
+
+                            //aca falta poner lo dela logica mensual 
+                            if (_frmPrincipal_Presenter.ObtenerTarjetas())
+                            {
+                                for (int i = 0; i < _lstDtoTarjetas.Count; i++)
+                                {
+
+                                    if (_lstDtoTarjetas[i].IdTarjeta == _Tarjeta.CodeCard && _lstDtoTarjetas[i].Estado)
+                                    {
+                                        General_Events = "TARJETA ESTADO TRUE";
+                                        TarOK = true;
+                                        break;
+                                    }
+                                }
+                            }
+
+
+
+                            if (TarOK)
+                            {
+                                if (_Tarjeta.ActiveCycle == true)
+                                {
+                                    Presentacion = Pantalla.Procesando;
+                                    if (ValidarMensualidad())
+                                    {
+                                        Presentacion = Pantalla.TarjetaMensual;
+                                        //if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                                        //{
+                                        //    lblConvenio.Text = _TipoPago;
+                                        //    RegistrarOperacionPago();
+                                        //}
+                                        //else
+                                        //{
+                                        //    _frmPrincipal_Presenter.ExpulsarTarjeta();
+                                        //    Presentacion = Pantalla.TransaccionCancelada;
+                                        //}
+                                    }
+                                    else
+                                    {
+                                        ValidarPago();
+                                    }
+                                }
+                                else
+                                {
+                                    Presentacion = Pantalla.Procesando;
+                                    if (ValidarMensualidad())
+                                    {
+                                        Presentacion = Pantalla.TarjetaMensual;
+                                        //if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                                        //{
+                                        //    lblConvenio.Text = _TipoPago;
+                                        //    RegistrarOperacionPago();
+                                        //}
+                                        //else
+                                        //{
+                                        //    _frmPrincipal_Presenter.ExpulsarTarjeta();
+                                        //    Presentacion = Pantalla.TransaccionCancelada;
+                                        //}
+
+                                    }
+                                    else
+                                    {
+                                        SetearPantalla(Pantalla.TarjetaInvalida);
+                                        _frmPrincipal_Presenter.ExpulsarTarjeta();
+                                    }
+                                }
+                            }
+                            else
                             {
                                 SetearPantalla(Pantalla.TarjetaInvalida);
                                 _frmPrincipal_Presenter.ExpulsarTarjeta();
@@ -3097,6 +3181,7 @@ namespace ATM.WinForm.FrontEnd
                 Imagen_TipoCuenta.Dock = DockStyle.Fill;
                 Imagen_DetallePagoDatafono.Dock = DockStyle.Fill;
                 Imagen_PagoParcial.Dock = DockStyle.Fill;
+                Imagen_TarjetaVisitante.Dock = DockStyle.Fill;
 
 
 
@@ -3438,6 +3523,8 @@ namespace ATM.WinForm.FrontEnd
                 Imagen_PagoParcial.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_PagoParcial.png"));
                 btn_ConfirmarPagoParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"));
                 btn_AnularPagoParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"));
+                Imagen_TarjetaVisitante.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_Inicio.jpg"));
+
                 #endregion
 
                 #region ImagenesBotones
@@ -4389,6 +4476,10 @@ namespace ATM.WinForm.FrontEnd
                         Limpiartext();
                         TabControlPrincipal.SelectedTab = tabPrincipal;
                         break;
+                    case Pantalla.TarjetaVisitante:
+                        Cnt_Reinicio = 0;
+                        TabControlPrincipal.SelectedTab = tabTarjetaVisitante;
+                        break;
                     case Pantalla.DetallePago:
                         Cnt_Reinicio = 0;
                         _ComPrint = false;
@@ -4839,6 +4930,17 @@ namespace ATM.WinForm.FrontEnd
         private void btn_ConfirmarPagoFE_Click(object sender, EventArgs e)
         {
             Presentacion = Pantalla.DigiteNitCliente;
+        }
+
+        private void btn_Placa_Click(object sender, EventArgs e)
+        {
+            bPlaca = true;
+            Presentacion = Pantalla.DigitePlaca;
+        }
+
+        private void btn_InserteTarjeta_Click(object sender, EventArgs e)
+        {
+            Presentacion = Pantalla.TarjetaVisitante;
         }
     }
 }

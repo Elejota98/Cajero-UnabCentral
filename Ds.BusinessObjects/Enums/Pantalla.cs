@@ -52,5 +52,7 @@ namespace Ds.BusinessObjects.Enums
         DetallePagoDatafono = 41,
         PagoParcial = 42,
         DigiteNitCliente = 43,
+        TarjetaVisitante = 45,
+
     }
 }
