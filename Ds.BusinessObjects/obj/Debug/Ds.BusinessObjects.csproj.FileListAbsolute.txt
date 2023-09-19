@@ -73,9 +73,5 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\D
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\Debug\GS.CSharpPCSC.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\Debug\GS.HexLibrary.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.Tools.dll
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.csproj.AssemblyReference.cache
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.csproj.CoreCompileInputs.cache
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.csproj.CopyComplete
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.pdb
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.csprojResolveAssemblyReference.cache

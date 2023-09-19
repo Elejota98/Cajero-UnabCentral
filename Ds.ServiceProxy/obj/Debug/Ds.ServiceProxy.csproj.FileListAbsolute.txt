@@ -441,3 +441,4 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ServiceProxy\obj\Debu
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ServiceProxy\obj\Debug\Ds.ServiceProxy.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ServiceProxy\obj\Debug\Ds.ServiceProxy.pdb
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ServiceProxy\obj\Debug\Ds.ServiceProxy.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.ServiceProxy\bin\Debug\Ds.BusinessObjects.pdb

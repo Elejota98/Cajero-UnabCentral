@@ -118,6 +118,20 @@ namespace ATM.WinForm.Model
 
             return oResultadoOperacion;
         }
+
+        public ResultadoOperacion ConfirmarOperacionFE(Operacion oOperacion)
+        {
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+
+            oResultadoOperacion = _ProxyServicios.ConfirmarOperacionFE(oOperacion);
+
+            if (oResultadoOperacion.oEstado == TipoRespuesta.Error)
+            {
+                // Generar Alarma para Base de Datos
+            }
+
+            return oResultadoOperacion;
+        }
         public ResultadoOperacion ConfirmarOperacionCentral(Operacion oOperacion)
         {
             ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();

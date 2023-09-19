@@ -17,6 +17,7 @@ namespace ATM.WinForm.Model
         ResultadoOperacion RegistrarMovimiento(Movimiento oMovimiento);
         ResultadoOperacion RegistrarMovimientoCentral(Movimiento oMovimiento);
         ResultadoOperacion ConfirmarOperacion(Operacion oOperacion);
+        ResultadoOperacion ConfirmarOperacionFE(Operacion oOperacion);
         ResultadoOperacion RegistrarTransaccion(Transaccion oTransaccion);
         ResultadoOperacion CrearAlarma(Alarma oAlarma);
         ResultadoOperacion CrearAlarmaCentral(Alarma oAlarma);

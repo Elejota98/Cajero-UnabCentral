@@ -81,6 +81,7 @@
     </Compile>
     <Compile Include="DataSetTicketPago.cs">
       <DependentUpon>DataSetTicketPago.xsd</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="DataSetTicketPago.Designer.cs">
       <AutoGen>True</AutoGen>

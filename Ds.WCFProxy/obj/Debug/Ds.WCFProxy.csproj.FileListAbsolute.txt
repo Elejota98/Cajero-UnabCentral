@@ -415,3 +415,4 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.WCFProxy\bin\Debug\Ds
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.pdb
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.WCFProxy\obj\Debug\Ds.WCFProxy.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.WCFProxy\bin\Debug\Ds.BusinessObjects.pdb
