@@ -47,7 +47,12 @@ namespace ATM.WinForm.FrontEnd
 
         bool bPlaca = false;
 
-
+        private bool _pagoFacturaElectronica = false;
+        public bool pagoFacturaElectronica
+        {
+            get { return _pagoFacturaElectronica; }
+            set { _pagoFacturaElectronica = value; }
+        }
         private string _rtaCliente = string.Empty;
         public string rtaCliente 
         {
@@ -1559,255 +1564,420 @@ namespace ATM.WinForm.FrontEnd
         }
         private void frmPrincipal_KeyUp(object sender, KeyEventArgs e)
         {
-            if (!bUsuario)
+            if (bPlaca)
             {
-                if (lblUsuario.Text.Length < 10)
+                Cnt_Reinicio = 0;
+                if (lblPlaca.Text.Length < 6)
                 {
                     if (e.KeyCode == Keys.D0)
                     {
-                        lblUsuario.Text += "0";
+                        lblPlaca.Text += "0";
                     }
                     else if (e.KeyCode == Keys.D1)
                     {
-                        lblUsuario.Text += "1";
+                        lblPlaca.Text += "1";
                     }
                     else if (e.KeyCode == Keys.D2)
                     {
-                        lblUsuario.Text += "2";
+                        lblPlaca.Text += "2";
                     }
                     else if (e.KeyCode == Keys.D3)
                     {
-                        lblUsuario.Text += "3";
+                        lblPlaca.Text += "3";
                     }
                     else if (e.KeyCode == Keys.D4)
                     {
-                        lblUsuario.Text += "4";
+                        lblPlaca.Text += "4";
                     }
                     else if (e.KeyCode == Keys.D5)
                     {
-                        lblUsuario.Text += "5";
+                        lblPlaca.Text += "5";
                     }
                     else if (e.KeyCode == Keys.D6)
                     {
-                        lblUsuario.Text += "6";
+                        lblPlaca.Text += "6";
                     }
                     else if (e.KeyCode == Keys.D7)
                     {
-                        lblUsuario.Text += "7";
+                        lblPlaca.Text += "7";
                     }
                     else if (e.KeyCode == Keys.D8)
                     {
-                        lblUsuario.Text += "8";
+                        lblPlaca.Text += "8";
                     }
                     else if (e.KeyCode == Keys.D9)
                     {
-                        lblUsuario.Text += "9";
+                        lblPlaca.Text += "9";
+                    }
+                    else if (e.KeyCode == Keys.A)
+                    {
+                        lblPlaca.Text += "A";
+                    }
+                    else if (e.KeyCode == Keys.B)
+                    {
+                        lblPlaca.Text += "B";
+                    }
+                    else if (e.KeyCode == Keys.C)
+                    {
+                        lblPlaca.Text += "C";
+                    }
+                    else if (e.KeyCode == Keys.D)
+                    {
+                        lblPlaca.Text += "D";
+                    }
+                    else if (e.KeyCode == Keys.E)
+                    {
+                        lblPlaca.Text += "E";
+                    }
+                    else if (e.KeyCode == Keys.F)
+                    {
+                        lblPlaca.Text += "F";
+                    }
+                    else if (e.KeyCode == Keys.G)
+                    {
+                        lblPlaca.Text += "G";
+                    }
+                    else if (e.KeyCode == Keys.H)
+                    {
+                        lblPlaca.Text += "H";
+                    }
+                    else if (e.KeyCode == Keys.I)
+                    {
+                        lblPlaca.Text += "I";
+                    }
+                    else if (e.KeyCode == Keys.J)
+                    {
+                        lblPlaca.Text += "J";
+                    }
+                    else if (e.KeyCode == Keys.K)
+                    {
+                        lblPlaca.Text += "K";
+                    }
+                    else if (e.KeyCode == Keys.L)
+                    {
+                        lblPlaca.Text += "L";
+                    }
+                    else if (e.KeyCode == Keys.M)
+                    {
+                        lblPlaca.Text += "M";
+                    }
+                    else if (e.KeyCode == Keys.N)
+                    {
+                        lblPlaca.Text += "N";
+                    }
+                    else if (e.KeyCode == Keys.O)
+                    {
+                        lblPlaca.Text += "O";
+                    }
+                    else if (e.KeyCode == Keys.P)
+                    {
+                        lblPlaca.Text += "P";
+                    }
+                    else if (e.KeyCode == Keys.Q)
+                    {
+                        lblPlaca.Text += "Q";
+                    }
+                    else if (e.KeyCode == Keys.R)
+                    {
+                        lblPlaca.Text += "R";
+                    }
+                    else if (e.KeyCode == Keys.S)
+                    {
+                        lblPlaca.Text += "S";
+                    }
+                    else if (e.KeyCode == Keys.T)
+                    {
+                        lblPlaca.Text += "T";
+                    }
+                    else if (e.KeyCode == Keys.U)
+                    {
+                        lblPlaca.Text += "U";
+                    }
+                    else if (e.KeyCode == Keys.V)
+                    {
+                        lblPlaca.Text += "V";
+                    }
+                    else if (e.KeyCode == Keys.W)
+                    {
+                        lblPlaca.Text += "W";
+                    }
+                    else if (e.KeyCode == Keys.X)
+                    {
+                        lblPlaca.Text += "X";
+                    }
+                    else if (e.KeyCode == Keys.Y)
+                    {
+                        lblPlaca.Text += "Y";
+                    }
+                    else if (e.KeyCode == Keys.Z)
+                    {
+                        lblPlaca.Text += "Z";
+                    }
+                    else if (e.KeyCode == Keys.Space)
+                    {
+                        lblPlaca.Text += " ";
                     }
                 }
                 if (e.KeyCode == Keys.Back)
                 {
-                    if (lblUsuario.Text != string.Empty)
+                    if (lblPlaca.Text != string.Empty)
                     {
-                        lblUsuario.Text = lblUsuario.Text.Remove(lblUsuario.Text.Length - 1, 1);
+                        lblPlaca.Text = lblPlaca.Text.Remove(lblPlaca.Text.Length - 1, 1);
                     }
                 }
             }
             else
             {
-                if (lblPassword.Text.Length < 9)
+                if (!bUsuario)
                 {
-                    if (e.KeyCode == Keys.D0)
+                    if (lblUsuario.Text.Length < 10)
                     {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "0";
+                        if (e.KeyCode == Keys.D0)
+                        {
+                            lblUsuario.Text += "0";
+                        }
+                        else if (e.KeyCode == Keys.D1)
+                        {
+                            lblUsuario.Text += "1";
+                        }
+                        else if (e.KeyCode == Keys.D2)
+                        {
+                            lblUsuario.Text += "2";
+                        }
+                        else if (e.KeyCode == Keys.D3)
+                        {
+                            lblUsuario.Text += "3";
+                        }
+                        else if (e.KeyCode == Keys.D4)
+                        {
+                            lblUsuario.Text += "4";
+                        }
+                        else if (e.KeyCode == Keys.D5)
+                        {
+                            lblUsuario.Text += "5";
+                        }
+                        else if (e.KeyCode == Keys.D6)
+                        {
+                            lblUsuario.Text += "6";
+                        }
+                        else if (e.KeyCode == Keys.D7)
+                        {
+                            lblUsuario.Text += "7";
+                        }
+                        else if (e.KeyCode == Keys.D8)
+                        {
+                            lblUsuario.Text += "8";
+                        }
+                        else if (e.KeyCode == Keys.D9)
+                        {
+                            lblUsuario.Text += "9";
+                        }
                     }
-                    else if (e.KeyCode == Keys.D1)
+                    if (e.KeyCode == Keys.Back)
                     {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "1";
-                    }
-                    else if (e.KeyCode == Keys.D2)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "2";
-                    }
-                    else if (e.KeyCode == Keys.D3)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "3";
-                    }
-                    else if (e.KeyCode == Keys.D4)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "4";
-                    }
-                    else if (e.KeyCode == Keys.D5)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "5";
-                    }
-                    else if (e.KeyCode == Keys.D6)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "6";
-                    }
-                    else if (e.KeyCode == Keys.D7)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "7";
-                    }
-                    else if (e.KeyCode == Keys.D8)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "8";
-                    }
-                    else if (e.KeyCode == Keys.D9)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "9";
-                    }
-                    else if (e.KeyCode == Keys.A)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "A";
-                    }
-                    else if (e.KeyCode == Keys.B)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "B";
-                    }
-                    else if (e.KeyCode == Keys.C)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "C";
-                    }
-                    else if (e.KeyCode == Keys.D)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "D";
-                    }
-                    else if (e.KeyCode == Keys.E)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "E";
-                    }
-                    else if (e.KeyCode == Keys.F)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "F";
-                    }
-                    else if (e.KeyCode == Keys.G)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "G";
-                    }
-                    else if (e.KeyCode == Keys.H)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "H";
-                    }
-                    else if (e.KeyCode == Keys.I)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "I";
-                    }
-                    else if (e.KeyCode == Keys.J)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "J";
-                    }
-                    else if (e.KeyCode == Keys.K)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "K";
-                    }
-                    else if (e.KeyCode == Keys.L)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "L";
-                    }
-                    else if (e.KeyCode == Keys.M)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "M";
-                    }
-                    else if (e.KeyCode == Keys.N)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "N";
-                    }
-                    else if (e.KeyCode == Keys.O)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "O";
-                    }
-                    else if (e.KeyCode == Keys.P)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "P";
-                    }
-                    else if (e.KeyCode == Keys.Q)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "Q";
-                    }
-                    else if (e.KeyCode == Keys.R)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "R";
-                    }
-                    else if (e.KeyCode == Keys.S)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "S";
-                    }
-                    else if (e.KeyCode == Keys.T)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "T";
-                    }
-                    else if (e.KeyCode == Keys.U)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "U";
-                    }
-                    else if (e.KeyCode == Keys.V)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "V";
-                    }
-                    else if (e.KeyCode == Keys.W)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "W";
-                    }
-                    else if (e.KeyCode == Keys.X)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "X";
-                    }
-                    else if (e.KeyCode == Keys.Y)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "Y";
-                    }
-                    else if (e.KeyCode == Keys.Z)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + "Z";
-                    }
-                    else if (e.KeyCode == Keys.Space)
-                    {
-                        lblPassword.Text += "*";
-                        Pass = Pass + " ";
+                        if (lblUsuario.Text != string.Empty)
+                        {
+                            lblUsuario.Text = lblUsuario.Text.Remove(lblUsuario.Text.Length - 1, 1);
+                        }
                     }
                 }
-                if (e.KeyCode == Keys.Back)
+                else
                 {
-                    if (lblPassword.Text != string.Empty)
+                    if (lblPassword.Text.Length < 9)
                     {
-                        lblPassword.Text = lblPassword.Text.Remove(lblPassword.Text.Length - 1, 1);
-                        Pass = Pass.Remove(Pass.Length - 1, 1);
+                        if (e.KeyCode == Keys.D0)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "0";
+                        }
+                        else if (e.KeyCode == Keys.D1)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "1";
+                        }
+                        else if (e.KeyCode == Keys.D2)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "2";
+                        }
+                        else if (e.KeyCode == Keys.D3)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "3";
+                        }
+                        else if (e.KeyCode == Keys.D4)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "4";
+                        }
+                        else if (e.KeyCode == Keys.D5)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "5";
+                        }
+                        else if (e.KeyCode == Keys.D6)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "6";
+                        }
+                        else if (e.KeyCode == Keys.D7)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "7";
+                        }
+                        else if (e.KeyCode == Keys.D8)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "8";
+                        }
+                        else if (e.KeyCode == Keys.D9)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "9";
+                        }
+                        else if (e.KeyCode == Keys.A)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "A";
+                        }
+                        else if (e.KeyCode == Keys.B)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "B";
+                        }
+                        else if (e.KeyCode == Keys.C)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "C";
+                        }
+                        else if (e.KeyCode == Keys.D)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "D";
+                        }
+                        else if (e.KeyCode == Keys.E)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "E";
+                        }
+                        else if (e.KeyCode == Keys.F)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "F";
+                        }
+                        else if (e.KeyCode == Keys.G)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "G";
+                        }
+                        else if (e.KeyCode == Keys.H)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "H";
+                        }
+                        else if (e.KeyCode == Keys.I)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "I";
+                        }
+                        else if (e.KeyCode == Keys.J)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "J";
+                        }
+                        else if (e.KeyCode == Keys.K)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "K";
+                        }
+                        else if (e.KeyCode == Keys.L)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "L";
+                        }
+                        else if (e.KeyCode == Keys.M)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "M";
+                        }
+                        else if (e.KeyCode == Keys.N)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "N";
+                        }
+                        else if (e.KeyCode == Keys.O)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "O";
+                        }
+                        else if (e.KeyCode == Keys.P)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "P";
+                        }
+                        else if (e.KeyCode == Keys.Q)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "Q";
+                        }
+                        else if (e.KeyCode == Keys.R)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "R";
+                        }
+                        else if (e.KeyCode == Keys.S)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "S";
+                        }
+                        else if (e.KeyCode == Keys.T)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "T";
+                        }
+                        else if (e.KeyCode == Keys.U)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "U";
+                        }
+                        else if (e.KeyCode == Keys.V)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "V";
+                        }
+                        else if (e.KeyCode == Keys.W)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "W";
+                        }
+                        else if (e.KeyCode == Keys.X)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "X";
+                        }
+                        else if (e.KeyCode == Keys.Y)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "Y";
+                        }
+                        else if (e.KeyCode == Keys.Z)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + "Z";
+                        }
+                        else if (e.KeyCode == Keys.Space)
+                        {
+                            lblPassword.Text += "*";
+                            Pass = Pass + " ";
+                        }
+                    }
+                    if (e.KeyCode == Keys.Back)
+                    {
+                        if (lblPassword.Text != string.Empty)
+                        {
+                            lblPassword.Text = lblPassword.Text.Remove(lblPassword.Text.Length - 1, 1);
+                            Pass = Pass.Remove(Pass.Length - 1, 1);
+                        }
                     }
                 }
             }
@@ -3033,6 +3203,12 @@ namespace ATM.WinForm.FrontEnd
 
             try
             {
+                btn_CancelarPlaca.Text = string.Empty;
+                btn_CancelarPlaca.LockPush = false;
+
+                btn_AceptarPlaca.Text = string.Empty;
+                btn_AceptarPlaca.LockPush = false;
+
                 btn_CancelarDetalle.Text = string.Empty;
                 btn_CancelarDetalle.LockPush = false;
 
@@ -3097,6 +3273,7 @@ namespace ATM.WinForm.FrontEnd
 
                 tbCodigo.Parent = Imagen_DetallePago;
 
+                lblPlaca.Text = string.Empty;
 
                 btnPrintNO.Text = string.Empty;
                 btnPrintNO.LockPush = false;
@@ -3182,6 +3359,7 @@ namespace ATM.WinForm.FrontEnd
                 Imagen_DetallePagoDatafono.Dock = DockStyle.Fill;
                 Imagen_PagoParcial.Dock = DockStyle.Fill;
                 Imagen_TarjetaVisitante.Dock = DockStyle.Fill;
+                Imagen_NoMensual.Dock = DockStyle.Fill;
 
 
 
@@ -3190,6 +3368,12 @@ namespace ATM.WinForm.FrontEnd
 
                 kbUsuarioPass.Location = new Point(16, 679);
                 kbUsuarioPass.Size = new System.Drawing.Size(804, 282);
+
+                kbPlaca.Keyboard = CreateCustomKeyboard();
+                kbPlaca.Parent = Imagen_DigitePlaca;
+
+                kbPlaca.Location = new Point(74, 550);
+                kbPlaca.Size = new System.Drawing.Size(988, 287);
 
                 KeyBoardLoad();
 
@@ -3524,6 +3708,7 @@ namespace ATM.WinForm.FrontEnd
                 btn_ConfirmarPagoParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"));
                 btn_AnularPagoParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"));
                 Imagen_TarjetaVisitante.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_Inicio.jpg"));
+                Imagen_NoMensual.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_NoMensual.jpg"));
 
                 #endregion
 
@@ -3627,6 +3812,10 @@ namespace ATM.WinForm.FrontEnd
                 btn_CancelarDetalle.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Volver1.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Volver1.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Volver1.png"));
                 btn_CancelarCredito.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Volver1.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Volver1.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Volver1.png"));
 
+                btn_CancelarPlaca.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPresionado.png"));
+                btn_AceptarPlaca.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Aceptar.png"));
+
+
                 #endregion
 
                 ok = true;
@@ -3686,6 +3875,8 @@ namespace ATM.WinForm.FrontEnd
             _BanderaPagoFinal = false;
             btn_CancelarPagoEfectivo.Enabled = true;
             _BanderaRecaudo = false;
+            lblPlaca.Text = string.Empty;
+
         }
         private bool CargaSonidos()
         {
@@ -3934,6 +4125,8 @@ namespace ATM.WinForm.FrontEnd
 
 
             kbUsuarioPass.ColorTable = _ColorTableCustom;
+            kbPlaca.ColorTable = _ColorTableCustom;
+
         }
         private Keyboard CreateCustomKeyboard()
         {
@@ -4542,6 +4735,11 @@ namespace ATM.WinForm.FrontEnd
                         break;
                     case Pantalla.TarjetaMensual:
                         Cnt_Reinicio = 0;
+                        _ComPrint = false;
+                        lblNombreAutoN.Text = _DatosAuto;
+                        lblFechaFinAutoN.Text = _FechaFinAuto;
+                        string valorCobroMensualidad = _PagoEfectivo.ValorPago.ToString();
+                        lblValorPagarAutoN.Text = "$" + String.Format("{0:#,##0.##}", Convert.ToDouble(valorCobroMensualidad.Replace("$", "").Replace(".", "")));
                         TabControlPrincipal.SelectedTab = tabTarjetaMensual;
                         break;
                     case Pantalla.PagoEfectivo:
@@ -4941,6 +5139,145 @@ namespace ATM.WinForm.FrontEnd
         private void btn_InserteTarjeta_Click(object sender, EventArgs e)
         {
             Presentacion = Pantalla.TarjetaVisitante;
+        }
+
+        private void btn_CancelarPlaca_Click(object sender, EventArgs e)
+        {
+            Presentacion = Pantalla.PublicidadPrincipal;
+
+        }
+
+        private void btn_AceptarPlaca_Click(object sender, EventArgs e)
+        {
+            //Presentacion = Pantalla.Procesando;
+            if (ValidarMensualidad())
+            {
+                //_TipoPago = "MENSUALIDAD";
+                //_BanderaRecaudo = true;
+                if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                {
+                    if (_PagoEfectivo.ValorPago > 0)
+                    {
+                        Presentacion = Pantalla.TarjetaMensual;
+
+                    }
+                    else
+                    {
+                        Presentacion = Pantalla.PublicidadPrincipal;
+                    }
+                }
+            }
+            else
+            {
+                Presentacion = Pantalla.NoMensual;
+            }
+        }
+
+        private void btn_ConfirmarPagoMensualFE_Click(object sender, EventArgs e)
+        {
+            Presentacion = Pantalla.DigiteNitCliente;
+        }
+
+        private void btn_ConfirmarPagoMensual_Click(object sender, EventArgs e)
+        {
+            //_pagoFacturaElectronica = false;
+            //pagoFacturaElectronica = _pagoFacturaElectronica;
+            _PagoEfectivo.ValorPago = 0;
+            Presentacion = Pantalla.SeleccionPago;
+        }
+
+        private void btn_AnularPagoMensualParcial_Click(object sender, EventArgs e)
+        {
+            _frmPrincipal_Presenter.ExpulsarTarjeta();
+            Presentacion = Pantalla.PublicidadPrincipal;
+        }
+
+        private void btn_NitCliente1_Click(object sender, EventArgs e)
+        {
+            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            {
+                lblNitCliente.Text += "1";
+            }
+        }
+
+        private void btn_NitCliente2_Click(object sender, EventArgs e)
+        {
+            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            {
+                lblNitCliente.Text += "2";
+            }
+        }
+
+        private void btn_NitCliente3_Click(object sender, EventArgs e)
+        {
+            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            {
+                lblNitCliente.Text += "3";
+            }
+        }
+
+        private void btn_NitCliente4_Click(object sender, EventArgs e)
+        {
+            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            {
+                lblNitCliente.Text += "5";
+            }
+        }
+
+        private void btn_NitCliente5_Click(object sender, EventArgs e)
+        {
+            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            {
+                lblNitCliente.Text += "5";
+            }
+        }
+
+        private void btn_NitCliente6_Click(object sender, EventArgs e)
+        {
+            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            {
+                lblNitCliente.Text += "6";
+            }
+        }
+
+        private void btn_NitCliente7_Click(object sender, EventArgs e)
+        {
+            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            {
+                lblNitCliente.Text += "7";
+            }
+        }
+
+        private void btn_NitCliente8_Click(object sender, EventArgs e)
+        {
+            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            {
+                lblNitCliente.Text += "8";
+            }
+        }
+
+        private void btn_NitCliente9_Click(object sender, EventArgs e)
+        {
+            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            {
+                lblNitCliente.Text += "9";
+            }
+        }
+
+        private void btn_NitCliente0_Click(object sender, EventArgs e)
+        {
+            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            {
+                lblNitCliente.Text += "0";
+            }
+        }
+
+        private void btn_OkNitCliente_Click(object sender, EventArgs e)
+        {
+            if (_frmPrincipal_Presenter.ObtenerInfoCliente(Convert.ToInt32(lblNitCliente.Text)))
+            {
+                _pagoFacturaElectronica = true;
+            }
         }
     }
 }
