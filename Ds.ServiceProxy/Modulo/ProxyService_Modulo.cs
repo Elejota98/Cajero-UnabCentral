@@ -1024,6 +1024,240 @@ namespace Ds.ServiceProxy
             return oResultadoOperacion;
         }
 
+        public ResultadoOperacion ConfirmarOperacionFE(Operacion oOperacion)
+        {
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+
+            DtoOperacion oDtoOperacion = new DtoOperacion();
+
+            setConfirmarOperacion_Request request = new setConfirmarOperacion_Request();
+            request.RequestId = NuevoRequestId;
+
+            ServiceOperacion oServiceOperacion = new ServiceOperacion();
+            oServiceOperacion.Pago = new ServicePago();
+            oServiceOperacion.ID_Modulo = oOperacion.ID_Modulo;
+            oServiceOperacion.ID_Operacion = oOperacion.ID_Operacion;
+            oServiceOperacion.ID_Transaccion = oOperacion.ID_Transaccion;
+            oServiceOperacion.IdSede = oOperacion.IdSede;
+            oServiceOperacion.Total = oOperacion.Total;
+            oServiceOperacion.Comision = oOperacion.Comision;
+            oServiceOperacion.Redondeo = oOperacion.Redondeo;
+            oServiceOperacion.Iva = oOperacion.Iva;
+            oServiceOperacion.TotalPagado = oOperacion.TotalPagado;
+            oServiceOperacion.Donacion = oOperacion.Donacion;
+            oServiceOperacion.Linea = oOperacion.Linea;
+            oServiceOperacion.Operador = oOperacion.Operador;
+            oServiceOperacion.Descripcion = oOperacion.Descripcion;
+            oServiceOperacion.Programa = oOperacion.Fundacion;
+            oServiceOperacion.ValidacionCobro = oOperacion.ValidacionCobro;
+            oServiceOperacion.Pago.Referencia = oOperacion.Pago.Referencia;
+
+
+            if (oOperacion.Pago.EstadoPago == BusinessObjects.Enums.TipoEstadoPago.ReconteoExitoso)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Pago;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.Pago)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Pago;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.Mensualidad)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Mensualidad;
+            }
+            //else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.CobroTarjetaMensual)
+            //{
+            //    oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.CobroTarjetaMensual;
+            //}
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.Reposicion)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Reposicion;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.Recarga)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Recarga;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.Donacion)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Donacion;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.ArqueoParcial)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.ArqueoParcial;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.ArqueoTotal)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.ArqueoTotal;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.Carga)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Carga;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.CerrarAplicacion)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.CerrarAplicacion;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.Mantenimiento)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Mantenimiento;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.Pago)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Pago;
+            }
+            else if (oOperacion.TipoOperacion == BusinessObjects.Enums.TipoOperacion.Datafono)
+            {
+                oServiceOperacion.TipoOperacion = Ds_ModuloComercialService.TipoOperacion.Datafono;
+            }
+
+            if (oOperacion.Pago.EstadoPago == BusinessObjects.Enums.TipoEstadoPago.Aprobado)
+            {
+                oServiceOperacion.Pago.EstadoPago = Ds_ModuloComercialService.TipoEstadoPago.Aprobado;
+            }
+            else if (oOperacion.Pago.EstadoPago == BusinessObjects.Enums.TipoEstadoPago.Cancelado)
+            {
+                oServiceOperacion.Pago.EstadoPago = Ds_ModuloComercialService.TipoEstadoPago.Cancelado;
+            }
+            else if (oOperacion.Pago.EstadoPago == BusinessObjects.Enums.TipoEstadoPago.Error_Dispositivo)
+            {
+                oServiceOperacion.Pago.EstadoPago = Ds_ModuloComercialService.TipoEstadoPago.Error_Dispositivo;
+            }
+            else if (oOperacion.Pago.EstadoPago == BusinessObjects.Enums.TipoEstadoPago.Error_WebService)
+            {
+                oServiceOperacion.Pago.EstadoPago = Ds_ModuloComercialService.TipoEstadoPago.Error_WebService;
+            }
+            else if (oOperacion.Pago.EstadoPago == BusinessObjects.Enums.TipoEstadoPago.NoAplica)
+            {
+                oServiceOperacion.Pago.EstadoPago = Ds_ModuloComercialService.TipoEstadoPago.NoAplica;
+            }
+            else if (oOperacion.Pago.EstadoPago == BusinessObjects.Enums.TipoEstadoPago.Error_Dispositivo_NoConfirmaPago)
+            {
+                oServiceOperacion.Pago.EstadoPago = Ds_ModuloComercialService.TipoEstadoPago.Error_Dispositivo_NoConfirmaPago;
+            }
+            else if (oOperacion.Pago.EstadoPago == BusinessObjects.Enums.TipoEstadoPago.ReconteoExitoso)
+            {
+                oServiceOperacion.Pago.EstadoPago = Ds_ModuloComercialService.TipoEstadoPago.ReconteoExitoso;
+            }
+
+            oServiceOperacion.Pago.Factura = oOperacion.Pago.Factura;
+            oServiceOperacion.Pago.Referencia = oOperacion.Pago.Referencia;
+
+            if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.Credito)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.Credito;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.Ahorros)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.Ahorros;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.Efectivo)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.Efectivo;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.BolsilloCredito)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.BolsilloCredito;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.BolsilloDebito)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.BolsilloDebito;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.BonoDescuento)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.BonoDescuento;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.BonoEfectivo)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.BonoEfectivo;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.BonoRegalo)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.BonoRegalo;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.Corriente)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.Corriente;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.CreditoRotativo)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.CreditoRotativo;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.CuotaMonetaria)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.CuotaMonetaria;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.CupoCredito)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.CupoCredito;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.Lealtad)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.Lealtad;
+            }
+            else if (oOperacion.Pago.TipoPago == BusinessObjects.Enums.TipoPago.SuperCupo)
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.SuperCupo;
+            }
+            else
+            {
+                oServiceOperacion.Pago.TipoPago = Ds_ModuloComercialService.TipoPago.NoAplica;
+            }
+
+            oServiceOperacion.Pago.NoAutorizacion = oOperacion.Pago.NoAutorizacion;
+            oServiceOperacion.Pago.NoTarjeta = oOperacion.Pago.NoTarjeta;
+            oServiceOperacion.Pago.Franquicia = oOperacion.Pago.Franquicia;
+
+
+            request.oOperacion = oServiceOperacion;
+
+            setConfirmarOperacion_Response response = null;
+
+            try
+            {
+                SafeProxy.DoAction<ModuloServiceClient>(_Ds_ModuloServices, client =>
+                { response = client.setConfirmarOperacionFE(request); });
+            }
+            catch (System.Exception)
+            {
+                oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                oResultadoOperacion.Mensaje = "Error conexion Modulo Service";
+                return oResultadoOperacion;
+            }
+
+            if (response != null)
+            {
+                if (request.RequestId == response.CorrelationId)
+                {
+                    if (response.Acknowledge == Ds.ServiceProxy.Ds_ModuloComercialService.AcknowledgeType.Success)
+                    {
+                        oDtoOperacion = Mapper.FromDataTransferObject(response.oDtoOperacion);
+                    }
+                    else
+                    {
+                        oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                        oResultadoOperacion.Mensaje = response.Message;
+                        return oResultadoOperacion;
+                    }
+                }
+                else
+                {
+                    oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                    oResultadoOperacion.Mensaje = "Respuesta Invalida Modulo Service: setConfirmarOperacion";
+                    return oResultadoOperacion;
+                }
+            }
+            else
+            {
+                oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                oResultadoOperacion.Mensaje = "Error Respuesta Modulo Service: setConfirmarOperacion";
+                return oResultadoOperacion;
+            }
+
+            oResultadoOperacion.EntidadDatos = oDtoOperacion;
+
+            return oResultadoOperacion;
+        }
+
         public ResultadoOperacion RegistrarTransaccion(Transaccion oTransaccion)
         {
             ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();

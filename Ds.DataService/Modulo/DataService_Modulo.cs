@@ -1078,7 +1078,7 @@ namespace Ds.DataService
                             TipoPago = 4;
                         }
 
-                        if (_PagoAdapter.Fill(_PagoTable, oOperacion.ID_Transaccion, (int)oOperacion.Pago.EstadoPago, 0, TipoPago, oOperacion.Total, oOperacion.Iva, oOperacion.TotalPagado, oOperacion.Comision) > 0)
+                        if (_PagoAdapter.Fill(_PagoTable, Convert.ToString(oOperacion.ID_Transaccion), (int)oOperacion.Pago.EstadoPago, 0, TipoPago, oOperacion.Total, oOperacion.Iva, oOperacion.TotalPagado, oOperacion.Comision) > 0)
                         {
                             for (int i = 0; i < _PagoTable.Count; i++)
                             {

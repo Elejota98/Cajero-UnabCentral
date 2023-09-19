@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Messages\setRegistrarOperacionFE_Request.cs" />
+    <Compile Include="Messages\setRegistrarOperacionFE_Response.cs" />
     <Compile Include="Messages\getNitCliente_Request.cs" />
     <Compile Include="Messages\getNitCliente_Response.cs" />
     <Compile Include="Messages\getTarjetas_Request.cs" />

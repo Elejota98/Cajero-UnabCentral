@@ -34,6 +34,9 @@ namespace Ds.ModuloComercialService.ServiceContracts
         setRegistrarOperacion_Response setRegistrarOperacion(setRegistrarOperacion_Request request);
 
         [OperationContract]
+        setConfirmarOperacion_Response setConfirmarOperacionFE(setConfirmarOperacion_Request request);
+
+        [OperationContract]
         setRegistrarOperacion_Response setRegistrarArqueo(setRegistrarOperacion_Request request);
 
         [OperationContract]

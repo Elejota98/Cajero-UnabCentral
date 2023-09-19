@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Ds.ModuloService.Messages
 {
     [DataContract(Namespace = "http://www.dsystem.co/types/")]
-    public class setRegistrarOperacion_Response : ResponseBase
+    public class setRegistrarOperacionFE_Response : ResponseBase
     {
         [DataMember]
         public DtoOperacion oDtoOperacion;

@@ -93,7 +93,5 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.BusinessService
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.BusinessService\obj\Debug\Ds.BusinessService.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\bin\Debug\Ds.BusinessService.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\bin\Debug\Ds.BusinessService.pdb
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.csproj.AssemblyReference.cache
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.csproj.CoreCompileInputs.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.pdb

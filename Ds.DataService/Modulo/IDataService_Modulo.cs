@@ -32,6 +32,8 @@ namespace Ds.DataService
 
         ResultadoOperacion ConfirmarOperacion(Operacion oOperacion);
 
+        ResultadoOperacion ConfirmarOperacionFE(Operacion oOperacion);
+
         ResultadoOperacion ObtenerUsuario(Usuario oUsuario);
 
         ResultadoOperacion ValidarClave(long Identificacion, string clave);

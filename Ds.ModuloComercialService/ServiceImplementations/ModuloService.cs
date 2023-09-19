@@ -334,6 +334,31 @@ namespace Ds.ModuloComercialService.ServiceImplementations
             return response;
         }
 
+        public setConfirmarOperacion_Response setConfirmarOperacionFE(setConfirmarOperacion_Request request)
+        {
+            setConfirmarOperacion_Response response = new setConfirmarOperacion_Response();
+
+            response.CorrelationId = request.RequestId;
+
+            if (!ValidRequest(request, response))
+                return response;
+
+            ResultadoOperacion oResultadoOperacion = _DataService.ConfirmarOperacionFE(request.oOperacion);
+            if (oResultadoOperacion.oEstado == TipoRespuesta.Exito)
+            {
+                DtoOperacion _operacion = (DtoOperacion)oResultadoOperacion.EntidadDatos;
+                response.oDtoOperacion = _operacion;
+            }
+            else
+            {
+                response.Acknowledge = AcknowledgeType.Failure;
+                response.Message = oResultadoOperacion.Mensaje;
+            }
+
+            return response;
+        }
+
+
         public setRegistrarTransaccion_Response setRegistrarTransaccionEntrada(setRegistrarTransaccion_Request request)
         {
             setRegistrarTransaccion_Response response = new setRegistrarTransaccion_Response();
