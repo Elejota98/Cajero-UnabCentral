@@ -229,6 +229,21 @@ namespace ATM.WinForm.Model
             return oResultadoOperacion;
         }
 
+        public ResultadoOperacion RegistrarOperacionFE(Transaccion oTransaccion, int identificacion)
+        {
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+
+            oResultadoOperacion = _ProxyServicios.RegistrarOperacionFE(oTransaccion, identificacion);
+
+            if (oResultadoOperacion.oEstado == TipoRespuesta.Error)
+            {
+                // Generar Alarma para Base de Datos
+            }
+
+            return oResultadoOperacion;
+        }
+
+
         public ResultadoOperacion RegistrarArqueo(Arqueo oArqueo)
         {
             ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();

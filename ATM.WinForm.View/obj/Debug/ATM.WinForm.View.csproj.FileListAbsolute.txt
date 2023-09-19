@@ -251,3 +251,18 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\ATM.WinForm.View\b
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\ATM.WinForm.View\obj\Debug\ATM.WinForm.View.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\ATM.WinForm.View\obj\Debug\ATM.WinForm.View.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\ATM.WinForm.View\obj\Debug\ATM.WinForm.View.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\bin\Debug\ATM.WinForm.View.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\bin\Debug\ATM.WinForm.View.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\bin\Debug\Ds.BusinessObjects.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\bin\Debug\Ds.CashPaymentDevice.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\bin\Debug\GS.Apdu.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\bin\Debug\EGlobalT.Device.SmartCard.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\bin\Debug\GS.HexLibrary.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\bin\Debug\Ds.Utilidades.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\bin\Debug\EGlobalT.Device.Tools.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\bin\Debug\Ds.BusinessObjects.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\bin\Debug\Ds.CashPaymentDevice.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\bin\Debug\Ds.Utilidades.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\obj\Debug\ATM.WinForm.View.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\obj\Debug\ATM.WinForm.View.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.View\obj\Debug\ATM.WinForm.View.pdb

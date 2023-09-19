@@ -16,6 +16,9 @@ namespace Ds.ModuloService.Messages
         public Operacion oOperacion;
 
         [DataMember]
+        public int oIdentificacion;
+
+        [DataMember]
         public Transaccion oTransaccion;
 
         [DataMember]

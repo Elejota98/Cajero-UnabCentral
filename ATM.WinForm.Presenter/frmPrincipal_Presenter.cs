@@ -501,6 +501,108 @@ namespace ATM.WinForm.Presenter
 
             return ok;
         }
+
+        public bool RegistrarOperacionFE(TipoOperacion oTipoOperacion, int identificacion)
+        {
+            bool ok = false;
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+
+            Transaccion oTransaccion = new Transaccion();
+            string SecuenciaTransaccion = string.Empty;
+            if (View.TipoPago == "MENSUALIDAD")
+            {
+                SecuenciaTransaccion = View.NumeroDocumentoOrigen.ToString();
+                oTransaccion.IdTransaccion = Convert.ToInt64(SecuenciaTransaccion);
+            }
+            else
+            {
+
+                DateTime Entrada = Convert.ToDateTime(View.Tarjeta.DateTimeEntrance);
+                string IdTransaccion = Entrada.ToString("yyyyMMddHHmmss");
+                int Carril = 0;
+
+                if (View.Tarjeta.EntranceModule.Trim().Length > 5)
+                {
+                    string temp = View.Tarjeta.EntranceModule.Trim().Substring(4, 2);
+                    Carril = Convert.ToInt32(temp);
+                }
+                else
+                {
+                    string Modulo = View.Tarjeta.EntranceModule.Trim();
+                    if (Modulo == "ADM01")
+                    {
+                        Carril = 30;
+                    }
+                }
+
+                SecuenciaTransaccion = IdTransaccion + Carril + Globales.iCodigoEstacionamiento;
+                oTransaccion.IdTransaccion = Convert.ToInt64(SecuenciaTransaccion);
+
+            }
+
+            //oTransaccion.ID_Transaccion = 2020031612045771;
+
+
+            oTransaccion.IdModulo = View.DtoModulo.IdModulo;
+            oTransaccion.IdSede = Convert.ToInt64(Globales.iCodigoEstacionamiento);
+
+            if ((oTipoOperacion == TipoOperacion.Carga) || (oTipoOperacion == TipoOperacion.ArqueoParcial) || (oTipoOperacion == TipoOperacion.ArqueoTotal))
+            {
+
+                if (View.Usuario.IdCriptUsuario != null)
+                {
+                    View.Operacion.ID_Usuario = View.Usuario.IdCriptUsuario.ToString();
+                    ok = true;
+                }
+
+                #region old
+                List<DtoIngresos> lstDtoIngresos = null;
+
+                #endregion
+            }
+            else if (oTipoOperacion == TipoOperacion.Pago || oTipoOperacion == TipoOperacion.Mensualidad || oTipoOperacion == TipoOperacion.Reposicion || oTipoOperacion == TipoOperacion.CobroTarjetaMensual)
+            {
+                View.Operacion.ID_Usuario = string.Empty;
+                ok = true;
+            }
+            if (ok)
+            {
+
+                oResultadoOperacion = Model.RegistrarOperacionFE(oTransaccion, identificacion);
+                ok = false;
+
+                if (oResultadoOperacion.oEstado == TipoRespuesta.Exito)
+                {
+
+                    View.IdTransaccion = (string)oResultadoOperacion.EntidadDatos;
+                    View.General_Events = "Presenter-RegistrarOperacion IdTransaccion" + View.IdTransaccion;
+                    View.Operacion.ID_Transaccion = Convert.ToInt64(View.IdTransaccion);
+                    View.General_Events = "Presenter-RegistrarOperacion: " + oResultadoOperacion.Mensaje + " ID_Operacion: " + View.IdTransaccion;
+                    ok = true;
+                    if (oTipoOperacion == TipoOperacion.Carga)
+                    {
+                        oTicketCarga.CodigoCarga = ((DtoOperacion)oResultadoOperacion.EntidadDatos).ID_Operacion.ToString();
+                        oTicketCarga.UsuarioCarga = View.Operacion.ID_Usuario;
+                        oTicketCarga.FechaCarga = DateTime.Now;
+                        oTicketCarga.ModuloCarga = View.Operacion.ID_Modulo;
+                    }
+                    else if (oTipoOperacion == TipoOperacion.ArqueoParcial || oTipoOperacion == TipoOperacion.ArqueoTotal)
+                    {
+                        oTicketArqueo.CodigoArqueo = ((DtoOperacion)oResultadoOperacion.EntidadDatos).ID_Operacion.ToString();
+                    }
+                }
+                else if (oResultadoOperacion.oEstado == TipoRespuesta.Error)
+                {
+                    View.General_Events = "Error Presenter-RegistrarOperacion: " + oResultadoOperacion.Mensaje;
+                    View.General_Events = "Presenter RegistrarOperacion -> ConsultaFallida - Registro Operación Error";
+                    ExpulsarTarjeta();
+                    View.SetearPantalla(Pantalla.ConsultaFallida);
+                }
+            }
+
+            return ok;
+        }
+
         public bool RegistrarArqueo(string Tipo)
         {
             bool ok = false;

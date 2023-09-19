@@ -240,3 +240,16 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.CashPaymentDevi
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.CashPaymentDevice\obj\Debug\Ds.CashPaymentDevice.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.CashPaymentDevice\obj\Debug\Ds.CashPaymentDevice.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.CashPaymentDevice\obj\Debug\Ds.CashPaymentDevice.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\Ds.CashPaymentDevice.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\Ds.CashPaymentDevice.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\Ds.BusinessObjects.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\Ds.Utilidades.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\GS.Apdu.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\EGlobalT.Device.SmartCard.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\GS.HexLibrary.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\EGlobalT.Device.Tools.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\Ds.BusinessObjects.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\Ds.Utilidades.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\obj\Debug\Ds.CashPaymentDevice.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\obj\Debug\Ds.CashPaymentDevice.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\obj\Debug\Ds.CashPaymentDevice.pdb

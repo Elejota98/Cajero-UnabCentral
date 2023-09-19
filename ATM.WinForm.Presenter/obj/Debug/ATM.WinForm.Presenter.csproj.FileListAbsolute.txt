@@ -597,3 +597,40 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\ATM.WinForm.Presen
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\ATM.WinForm.Presenter\obj\Debug\ATM.WinForm.Presenter.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\ATM.WinForm.Presenter\obj\Debug\ATM.WinForm.Presenter.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\ATM.WinForm.Presenter\obj\Debug\ATM.WinForm.Presenter.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\ATM.WinForm.Presenter.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\ATM.WinForm.Presenter.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\ATM.WinForm.Model.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\ATM.WinForm.View.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\CredibancoDevice.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.BusinessObjects.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.CashPaymentDevice.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Datafono.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.LectorDevice.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.ServiceProxy.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Utilidades.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\EGlobalT.Device.SmartCard.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\EGlobalT.Device.SmartCardReaders.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\EGlobalT.Device.Tools.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\GS.Apdu.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\GS.CSharpPCSC.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\GS.HexLibrary.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Newtonsoft.Json.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\KioskosLib.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.WCFProxy.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Exception.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Global.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\ATM.WinForm.Model.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\ATM.WinForm.View.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\CredibancoDevice.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.BusinessObjects.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.CashPaymentDevice.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Datafono.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.LectorDevice.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.ServiceProxy.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Utilidades.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.WCFProxy.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Exception.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Global.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\obj\Debug\ATM.WinForm.Presenter.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\obj\Debug\ATM.WinForm.Presenter.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\obj\Debug\ATM.WinForm.Presenter.pdb

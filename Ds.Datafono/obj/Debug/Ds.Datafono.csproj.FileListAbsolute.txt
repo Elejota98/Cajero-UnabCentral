@@ -172,3 +172,14 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\bin\De
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\obj\Debug\Ds.Datafono.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\Ds.Datafono\obj\Debug\Ds.Datafono.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Datafono\bin\Debug\Ds.Datafono.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Datafono\bin\Debug\Ds.Datafono.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Datafono\bin\Debug\Ds.BusinessObjects.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Datafono\bin\Debug\GS.Apdu.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Datafono\bin\Debug\EGlobalT.Device.SmartCard.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Datafono\bin\Debug\GS.HexLibrary.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Datafono\bin\Debug\EGlobalT.Device.Tools.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Datafono\bin\Debug\Ds.BusinessObjects.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Datafono\obj\Debug\Ds.Datafono.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Datafono\obj\Debug\Ds.Datafono.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Datafono\obj\Debug\Ds.Datafono.pdb

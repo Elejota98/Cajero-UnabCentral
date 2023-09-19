@@ -13,6 +13,7 @@ namespace ATM.WinForm.View
 {
     public interface IView_Principal : IView
     {
+        bool clienteNoRegistrado { get; set; }
         bool pagoFacturaElectronica { get; set; }
         bool bPagoSmart { get; set; }
         string General_Events { set; }

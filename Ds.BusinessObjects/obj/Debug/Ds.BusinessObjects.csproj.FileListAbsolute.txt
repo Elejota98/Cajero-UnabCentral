@@ -75,3 +75,4 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\D
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.Tools.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.csprojResolveAssemblyReference.cache

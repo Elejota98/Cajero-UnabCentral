@@ -58,6 +58,7 @@ namespace Ds.DataService
 
         ResultadoOperacion ObtenerDetalleArqueo(Arqueo oArqueo);
         ResultadoOperacion RegistrarTransaccion(Transaccion oTransaccion);
+        ResultadoOperacion RegistrarTransaccionFE(Transaccion oTransaccion, int identificacion);
 
         ResultadoOperacion ObtenerInformacionFactura(Modulo oModulo);
 

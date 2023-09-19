@@ -216,6 +216,37 @@ namespace Ds.ModuloComercialService.ServiceImplementations
             return response;
         }
 
+        public setRegistrarOperacionFE_Response setRegistrarOperacionFE(setRegistrarOperacionFE_Request request)
+        {
+            setRegistrarOperacionFE_Response response = new setRegistrarOperacionFE_Response();
+
+            response.CorrelationId = request.RequestId;
+
+            if (!ValidRequest(request, response))
+                return response;
+
+            ResultadoOperacion oResultadoOperacion = _DataService.RegistrarTransaccionFE(request.oTransaccion, request.oIdentificacion);
+            if (oResultadoOperacion.oEstado == TipoRespuesta.Exito)
+            {
+                if (oResultadoOperacion.EntidadDatos != string.Empty)
+                {
+                    response.IdTransaccion = (string)oResultadoOperacion.EntidadDatos;
+                }
+                else
+                {
+                    response.Acknowledge = AcknowledgeType.Failure;
+                    response.Message = oResultadoOperacion.Mensaje;
+                }
+            }
+            else
+            {
+                response.Acknowledge = AcknowledgeType.Failure;
+                response.Message = oResultadoOperacion.Mensaje;
+            }
+
+            return response;
+        }
+
         public setRegistrarOperacion_Response setRegistrarArqueo(setRegistrarOperacion_Request request)
         {
             setRegistrarOperacion_Response response = new setRegistrarOperacion_Response();
@@ -382,6 +413,7 @@ namespace Ds.ModuloComercialService.ServiceImplementations
 
             return response;
         }
+
 
         public getObtenerUsuario_Response getObtenerUsuario(getObtenerUsuario_Request request)
         {

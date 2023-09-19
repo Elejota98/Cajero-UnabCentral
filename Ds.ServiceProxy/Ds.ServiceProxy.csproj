@@ -219,6 +219,9 @@
     <None Include="Service References\Ds_ModuloComercialService\Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarMovimiento_Response.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\Ds_ModuloComercialService\Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\Ds_ModuloComercialService\Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacion_Response.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>

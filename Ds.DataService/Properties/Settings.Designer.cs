@@ -12,7 +12,7 @@ namespace Ds.DataService.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.6.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -26,8 +26,8 @@ namespace Ds.DataService.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=localhost;Initial Catalog=SmartCoinLocal;Persist Security Info=True;U" +
-            "ser ID=sa")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PROGRAMACION;Initial Catalog=UnabCentral;User ID=sa;Password=Parquear" +
+            "se123")]
         public string SmartCoinLocalConnectionString {
             get {
                 return ((string)(this["SmartCoinLocalConnectionString"]));
@@ -37,8 +37,8 @@ namespace Ds.DataService.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=190.8.176.202\\MSSQLSERVER2012;Initial Catalog=estadi_SmartCoinCentral" +
-            ";Persist Security Info=True;User ID=estad_123456")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PROGRAMACION;Initial Catalog=UnabCentral;User ID=sa;Password=Parquear" +
+            "se123")]
         public string estadi_SmartCoinCentralConnectionString {
             get {
                 return ((string)(this["estadi_SmartCoinCentralConnectionString"]));
@@ -48,7 +48,8 @@ namespace Ds.DataService.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=172.16.11.3;Initial Catalog=Parking;User ID=sa;Password=M1ll3n5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PROGRAMACION;Initial Catalog=UnabCentral;User ID=sa;Password=Parquear" +
+            "se123")]
         public string SMARTCOINConnectionString {
             get {
                 return ((string)(this["SMARTCOINConnectionString"]));
@@ -58,8 +59,8 @@ namespace Ds.DataService.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=169.47.207.158;Initial Catalog=ATMParquearse;User ID=sa;Password=M1ll" +
-            "3n5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PROGRAMACION;Initial Catalog=UnabCentral;User ID=sa;Password=Parquear" +
+            "se123")]
         public string ATMParquearseConnectionString {
             get {
                 return ((string)(this["ATMParquearseConnectionString"]));
@@ -69,7 +70,8 @@ namespace Ds.DataService.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=172.16.11.3;Initial Catalog=Parking;User ID=sa;Password=M1ll3n5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PROGRAMACION;Initial Catalog=UnabCentral;User ID=sa;Password=Parquear" +
+            "se123")]
         public string TestFloridaConnectionString {
             get {
                 return ((string)(this["TestFloridaConnectionString"]));
@@ -79,7 +81,8 @@ namespace Ds.DataService.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=172.16.11.3;Initial Catalog=Parking;User ID=sa;Password=M1ll3n5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PROGRAMACION;Initial Catalog=UnabCentral;User ID=sa;Password=Parquear" +
+            "se123")]
         public string ParkingFloridaConnectionString {
             get {
                 return ((string)(this["ParkingFloridaConnectionString"]));
@@ -89,7 +92,8 @@ namespace Ds.DataService.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=172.16.11.3;Initial Catalog=Parking;User ID=sa;Password=M1ll3n5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PROGRAMACION;Initial Catalog=UnabCentral;User ID=sa;Password=Parquear" +
+            "se123")]
         public string ParkingConnectionString {
             get {
                 return ((string)(this["ParkingConnectionString"]));
@@ -99,7 +103,8 @@ namespace Ds.DataService.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=172.16.11.3;Initial Catalog=Parking;User ID=sa;Password=M1ll3n5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PROGRAMACION;Initial Catalog=UnabCentral;User ID=sa;Password=Parquear" +
+            "se123")]
         public string ParkingBosqu3ConnectionString {
             get {
                 return ((string)(this["ParkingBosqu3ConnectionString"]));
@@ -109,7 +114,8 @@ namespace Ds.DataService.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=172.16.11.3;Initial Catalog=Parking;User ID=sa;Password=M1ll3n5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PROGRAMACION;Initial Catalog=UnabCentral;User ID=sa;Password=Parquear" +
+            "se123")]
         public string ParkingConnectionString1 {
             get {
                 return ((string)(this["ParkingConnectionString1"]));

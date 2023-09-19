@@ -22,6 +22,7 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getParametrosModulo_Request))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getValidarSaldosMinimos_Request))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacion_Request))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Request))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setConfirmarOperacion_Request))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarMovimiento_Request))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getObtenerSaldosPartes_Request))]
@@ -277,6 +278,109 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
                 if ((object.ReferenceEquals(this.oCargaField, value) != true)) {
                     this.oCargaField = value;
                     this.RaisePropertyChanged("oCarga");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public Ds.ServiceProxy.Ds_ModuloComercialService.ServiceOperacion oOperacion {
+            get {
+                return this.oOperacionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.oOperacionField, value) != true)) {
+                    this.oOperacionField = value;
+                    this.RaisePropertyChanged("oOperacion");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public Ds.ServiceProxy.Ds_ModuloComercialService.ServiceTransaccion oTransaccion {
+            get {
+                return this.oTransaccionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.oTransaccionField, value) != true)) {
+                    this.oTransaccionField = value;
+                    this.RaisePropertyChanged("oTransaccion");
+                }
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="setRegistrarOperacionFE_Request", Namespace="http://www.dsystem.co/types/")]
+    [System.SerializableAttribute()]
+    public partial class setRegistrarOperacionFE_Request : Ds.ServiceProxy.Ds_ModuloComercialService.RequestBase {
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Data.DataTable DataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private Ds.ServiceProxy.Ds_ModuloComercialService.ServiceArqueo oArqueoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private Ds.ServiceProxy.Ds_ModuloComercialService.ServiceCarga oCargaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int oIdentificacionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private Ds.ServiceProxy.Ds_ModuloComercialService.ServiceOperacion oOperacionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private Ds.ServiceProxy.Ds_ModuloComercialService.ServiceTransaccion oTransaccionField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Data.DataTable Data {
+            get {
+                return this.DataField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DataField, value) != true)) {
+                    this.DataField = value;
+                    this.RaisePropertyChanged("Data");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public Ds.ServiceProxy.Ds_ModuloComercialService.ServiceArqueo oArqueo {
+            get {
+                return this.oArqueoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.oArqueoField, value) != true)) {
+                    this.oArqueoField = value;
+                    this.RaisePropertyChanged("oArqueo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public Ds.ServiceProxy.Ds_ModuloComercialService.ServiceCarga oCarga {
+            get {
+                return this.oCargaField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.oCargaField, value) != true)) {
+                    this.oCargaField = value;
+                    this.RaisePropertyChanged("oCarga");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int oIdentificacion {
+            get {
+                return this.oIdentificacionField;
+            }
+            set {
+                if ((this.oIdentificacionField.Equals(value) != true)) {
+                    this.oIdentificacionField = value;
+                    this.RaisePropertyChanged("oIdentificacion");
                 }
             }
         }
@@ -3905,6 +4009,8 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoCarga))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoOperacion))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoPago))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Request))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setConfirmarOperacion_Request))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setConfirmarOperacion_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarMovimiento_Request))]
@@ -5011,6 +5117,7 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getParametrosModulo_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getValidarSaldosMinimos_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacion_Response))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setConfirmarOperacion_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarMovimiento_Response))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(Ds.ServiceProxy.Ds_ModuloComercialService.getObtenerSaldosPartes_Response))]
@@ -7322,6 +7429,93 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
             System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
             if ((propertyChanged != null)) {
                 propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="setRegistrarOperacionFE_Response", Namespace="http://www.dsystem.co/types/")]
+    [System.SerializableAttribute()]
+    public partial class setRegistrarOperacionFE_Response : Ds.ServiceProxy.Ds_ModuloComercialService.ResponseBase {
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string IdTransaccionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool bInsercionExitosaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoArqueo oDtoArqueoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoCarga oDtoCargaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoOperacion oDtoOperacionField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string IdTransaccion {
+            get {
+                return this.IdTransaccionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.IdTransaccionField, value) != true)) {
+                    this.IdTransaccionField = value;
+                    this.RaisePropertyChanged("IdTransaccion");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool bInsercionExitosa {
+            get {
+                return this.bInsercionExitosaField;
+            }
+            set {
+                if ((this.bInsercionExitosaField.Equals(value) != true)) {
+                    this.bInsercionExitosaField = value;
+                    this.RaisePropertyChanged("bInsercionExitosa");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoArqueo oDtoArqueo {
+            get {
+                return this.oDtoArqueoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.oDtoArqueoField, value) != true)) {
+                    this.oDtoArqueoField = value;
+                    this.RaisePropertyChanged("oDtoArqueo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoCarga oDtoCarga {
+            get {
+                return this.oDtoCargaField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.oDtoCargaField, value) != true)) {
+                    this.oDtoCargaField = value;
+                    this.RaisePropertyChanged("oDtoCarga");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public Ds.ServiceProxy.Ds_ModuloComercialService.ServiceDtoOperacion oDtoOperacion {
+            get {
+                return this.oDtoOperacionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.oDtoOperacionField, value) != true)) {
+                    this.oDtoOperacionField = value;
+                    this.RaisePropertyChanged("oDtoOperacion");
+                }
             }
         }
     }
@@ -9720,6 +9914,12 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IModuloService/setRegistrarOperacion", ReplyAction="http://tempuri.org/IModuloService/setRegistrarOperacionResponse")]
         System.Threading.Tasks.Task<Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacion_Response> setRegistrarOperacionAsync(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacion_Request request);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IModuloService/setRegistrarOperacionFE", ReplyAction="http://tempuri.org/IModuloService/setRegistrarOperacionFEResponse")]
+        Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Response setRegistrarOperacionFE(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Request request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IModuloService/setRegistrarOperacionFE", ReplyAction="http://tempuri.org/IModuloService/setRegistrarOperacionFEResponse")]
+        System.Threading.Tasks.Task<Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Response> setRegistrarOperacionFEAsync(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Request request);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IModuloService/setConfirmarOperacionFE", ReplyAction="http://tempuri.org/IModuloService/setConfirmarOperacionFEResponse")]
         Ds.ServiceProxy.Ds_ModuloComercialService.setConfirmarOperacion_Response setConfirmarOperacionFE(Ds.ServiceProxy.Ds_ModuloComercialService.setConfirmarOperacion_Request request);
         
@@ -10060,6 +10260,14 @@ namespace Ds.ServiceProxy.Ds_ModuloComercialService {
         
         public System.Threading.Tasks.Task<Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacion_Response> setRegistrarOperacionAsync(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacion_Request request) {
             return base.Channel.setRegistrarOperacionAsync(request);
+        }
+        
+        public Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Response setRegistrarOperacionFE(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Request request) {
+            return base.Channel.setRegistrarOperacionFE(request);
+        }
+        
+        public System.Threading.Tasks.Task<Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Response> setRegistrarOperacionFEAsync(Ds.ServiceProxy.Ds_ModuloComercialService.setRegistrarOperacionFE_Request request) {
+            return base.Channel.setRegistrarOperacionFEAsync(request);
         }
         
         public Ds.ServiceProxy.Ds_ModuloComercialService.setConfirmarOperacion_Response setConfirmarOperacionFE(Ds.ServiceProxy.Ds_ModuloComercialService.setConfirmarOperacion_Request request) {

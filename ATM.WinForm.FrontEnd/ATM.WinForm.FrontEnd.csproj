@@ -150,6 +150,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Config Library\PaymentManager.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -637,6 +638,7 @@
     <Content Include="NriHidAPI.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\Inserte NIT.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Medios\Swf\" />

@@ -432,6 +432,49 @@ namespace Ds.DataService
             return oResultadoOperacion;
         }
 
+        public ResultadoOperacion RegistrarTransaccionFE(Transaccion oTransaccion, int identificacion)
+        {
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+
+            ModuloDataSet.P_RegistrarTransaccionFEDataTable _OperacionTable = new ModuloDataSet.P_RegistrarTransaccionFEDataTable();
+            ModuloDataSetTableAdapters.P_RegistrarTransaccionFETableAdapter _OperacionAdapter = new ModuloDataSetTableAdapters.P_RegistrarTransaccionFETableAdapter();
+
+            DtoOperacion oDtoOperacion = new DtoOperacion();
+
+            try
+            {
+                _OperacionTable.Constraints.Clear();
+
+                if (_OperacionAdapter.Fill(_OperacionTable, oTransaccion.IdTransaccion, oTransaccion.IdModulo, oTransaccion.IdSede, identificacion) > 0)
+                {
+                    for (int i = 0; i < _OperacionTable.Rows.Count; i++)
+                    {
+                        string status = _OperacionTable.Rows[i][1].ToString();
+                        //long code = Convert.ToInt64(_OperacionTable.Rows[i][1]);
+
+                        oResultadoOperacion.oEstado = TipoRespuesta.Exito;
+                        oResultadoOperacion.Mensaje = "Registro transaccion OK";
+                        oResultadoOperacion.EntidadDatos = status;
+                    }
+                }
+                else
+                {
+                    oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                    oResultadoOperacion.Mensaje = "Registro transaccion ERROR";
+                    oResultadoOperacion.EntidadDatos = string.Empty;
+                }
+            }
+            catch (Exception ex)
+            {
+                // Generar LOG DataBase Exception
+                string exMessage = ex.ToString();
+                oResultadoOperacion.oEstado = TipoRespuesta.Error;
+            }
+
+            return oResultadoOperacion;
+        }
+
+
         public ResultadoOperacion RegistrarArqueo(Arqueo oArqueo)
         {
             ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();

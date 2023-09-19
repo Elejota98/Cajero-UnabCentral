@@ -46,3 +46,15 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\b
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\obj\Debug\CredibancoDevice.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\obj\Debug\CredibancoDevice.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\COD PPA UNAB CENTRAL\ATM\CredibancoDevice\obj\Debug\CredibancoDevice.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\CredibancoDevice.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\CredibancoDevice.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\Ds.BusinessObjects.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\KioskosLib.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\GS.Apdu.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\EGlobalT.Device.SmartCard.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\GS.HexLibrary.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\EGlobalT.Device.Tools.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\Ds.BusinessObjects.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\CredibancoDevice\obj\Debug\CredibancoDevice.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\CredibancoDevice\obj\Debug\CredibancoDevice.dll
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\CredibancoDevice\obj\Debug\CredibancoDevice.pdb

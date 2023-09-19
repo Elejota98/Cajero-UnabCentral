@@ -34,6 +34,9 @@ namespace Ds.ModuloComercialService.ServiceContracts
         setRegistrarOperacion_Response setRegistrarOperacion(setRegistrarOperacion_Request request);
 
         [OperationContract]
+        setRegistrarOperacionFE_Response setRegistrarOperacionFE(setRegistrarOperacionFE_Request request);
+
+        [OperationContract]
         setConfirmarOperacion_Response setConfirmarOperacionFE(setConfirmarOperacion_Request request);
 
         [OperationContract]
@@ -53,6 +56,8 @@ namespace Ds.ModuloComercialService.ServiceContracts
 
         //[OperationContract]
         //setRegistrarTransaccion_Response setRegistrarTransaccion(setRegistrarTransaccion_Request request);
+
+
 
         [OperationContract]
         getObtenerUsuario_Response getObtenerUsuario(getObtenerUsuario_Request request);

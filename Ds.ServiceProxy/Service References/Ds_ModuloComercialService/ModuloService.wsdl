@@ -55,6 +55,12 @@
   <wsdl:message name="IModuloService_setRegistrarOperacion_OutputMessage">
     <wsdl:part name="parameters" element="tns:setRegistrarOperacionResponse" />
   </wsdl:message>
+  <wsdl:message name="IModuloService_setRegistrarOperacionFE_InputMessage">
+    <wsdl:part name="parameters" element="tns:setRegistrarOperacionFE" />
+  </wsdl:message>
+  <wsdl:message name="IModuloService_setRegistrarOperacionFE_OutputMessage">
+    <wsdl:part name="parameters" element="tns:setRegistrarOperacionFEResponse" />
+  </wsdl:message>
   <wsdl:message name="IModuloService_setConfirmarOperacionFE_InputMessage">
     <wsdl:part name="parameters" element="tns:setConfirmarOperacionFE" />
   </wsdl:message>
@@ -342,6 +348,10 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IModuloService/setRegistrarOperacion" message="tns:IModuloService_setRegistrarOperacion_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IModuloService/setRegistrarOperacionResponse" message="tns:IModuloService_setRegistrarOperacion_OutputMessage" />
     </wsdl:operation>
+    <wsdl:operation name="setRegistrarOperacionFE">
+      <wsdl:input wsaw:Action="http://tempuri.org/IModuloService/setRegistrarOperacionFE" message="tns:IModuloService_setRegistrarOperacionFE_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IModuloService/setRegistrarOperacionFEResponse" message="tns:IModuloService_setRegistrarOperacionFE_OutputMessage" />
+    </wsdl:operation>
     <wsdl:operation name="setConfirmarOperacionFE">
       <wsdl:input wsaw:Action="http://tempuri.org/IModuloService/setConfirmarOperacionFE" message="tns:IModuloService_setConfirmarOperacionFE_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IModuloService/setConfirmarOperacionFEResponse" message="tns:IModuloService_setConfirmarOperacionFE_OutputMessage" />
@@ -573,6 +583,15 @@
     </wsdl:operation>
     <wsdl:operation name="setRegistrarOperacion">
       <soap:operation soapAction="http://tempuri.org/IModuloService/setRegistrarOperacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setRegistrarOperacionFE">
+      <soap:operation soapAction="http://tempuri.org/IModuloService/setRegistrarOperacionFE" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

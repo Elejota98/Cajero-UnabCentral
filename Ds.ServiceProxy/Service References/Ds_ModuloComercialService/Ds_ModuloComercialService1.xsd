@@ -479,6 +479,47 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="ServiceDtoPago" nillable="true" type="tns:ServiceDtoPago" />
+  <xs:complexType name="setRegistrarOperacionFE_Request">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RequestBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Data" nillable="true">
+            <xs:complexType>
+              <xs:annotation>
+                <xs:appinfo>
+                  <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+                </xs:appinfo>
+              </xs:annotation>
+              <xs:sequence>
+                <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element minOccurs="0" name="oArqueo" nillable="true" type="tns:ServiceArqueo" />
+          <xs:element minOccurs="0" name="oCarga" nillable="true" type="tns:ServiceCarga" />
+          <xs:element minOccurs="0" name="oIdentificacion" type="xs:int" />
+          <xs:element minOccurs="0" name="oOperacion" nillable="true" type="tns:ServiceOperacion" />
+          <xs:element minOccurs="0" name="oTransaccion" nillable="true" type="tns:ServiceTransaccion" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="setRegistrarOperacionFE_Request" nillable="true" type="tns:setRegistrarOperacionFE_Request" />
+  <xs:complexType name="setRegistrarOperacionFE_Response">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ResponseBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="IdTransaccion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="bInsercionExitosa" type="xs:boolean" />
+          <xs:element minOccurs="0" name="oDtoArqueo" nillable="true" type="tns:ServiceDtoArqueo" />
+          <xs:element minOccurs="0" name="oDtoCarga" nillable="true" type="tns:ServiceDtoCarga" />
+          <xs:element minOccurs="0" name="oDtoOperacion" nillable="true" type="tns:ServiceDtoOperacion" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="setRegistrarOperacionFE_Response" nillable="true" type="tns:setRegistrarOperacionFE_Response" />
   <xs:complexType name="setConfirmarOperacion_Request">
     <xs:complexContent mixed="false">
       <xs:extension base="tns:RequestBase">

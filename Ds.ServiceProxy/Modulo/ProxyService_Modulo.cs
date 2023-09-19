@@ -461,6 +461,71 @@ namespace Ds.ServiceProxy
             return oResultadoOperacion;
         }
 
+        public ResultadoOperacion RegistrarOperacionFE(Transaccion oTransaccion, int identificacion)
+        {
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+
+            string IdTransaccion = string.Empty;
+
+            setRegistrarOperacionFE_Request request = new setRegistrarOperacionFE_Request();
+            request.RequestId = NuevoRequestId;
+
+            ServiceTransaccion oServiceOperacion = new ServiceTransaccion();
+            oServiceOperacion.IdModulo = oTransaccion.IdModulo;
+            oServiceOperacion.IdTransaccion = oTransaccion.IdTransaccion;
+            oServiceOperacion.IdSede = oTransaccion.IdSede;
+
+
+            request.oTransaccion = oServiceOperacion;
+            request.oIdentificacion = identificacion;
+            setRegistrarOperacionFE_Response response = null;
+
+            try
+            {
+                SafeProxy.DoAction<ModuloServiceClient>(_Ds_ModuloServices, client =>
+                { response = client.setRegistrarOperacionFE(request); });
+            }
+            catch (System.Exception)
+            {
+                oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                oResultadoOperacion.Mensaje = "Error conexion Modulo Service";
+                return oResultadoOperacion;
+            }
+
+            if (response != null)
+            {
+                if (request.RequestId == response.CorrelationId)
+                {
+                    if (response.Acknowledge == Ds.ServiceProxy.Ds_ModuloComercialService.AcknowledgeType.Success)
+                    {
+                        IdTransaccion = response.IdTransaccion;
+                    }
+                    else
+                    {
+                        oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                        oResultadoOperacion.Mensaje = response.Message;
+                        return oResultadoOperacion;
+                    }
+                }
+                else
+                {
+                    oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                    oResultadoOperacion.Mensaje = "Respuesta Invalida Modulo Service: setRegistrarOperacion";
+                    return oResultadoOperacion;
+                }
+            }
+            else
+            {
+                oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                oResultadoOperacion.Mensaje = "Error Respuesta Modulo Service: setRegistrarOperacion";
+                return oResultadoOperacion;
+            }
+
+            oResultadoOperacion.EntidadDatos = IdTransaccion;
+
+            return oResultadoOperacion;
+        }
+
         public ResultadoOperacion RegistrarArqueo(Arqueo oArqueo)
         {
             ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
