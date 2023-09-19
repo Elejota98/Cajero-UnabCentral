@@ -865,6 +865,283 @@ namespace Ds.DataService
             }
 
             return oResultadoOperacion;
+        }
+
+
+        public ResultadoOperacion ConfirmarOperacionFE(Operacion oOperacion)
+        {
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+
+            DtoOperacion oDtoOperacion = new DtoOperacion();
+
+            oDtoOperacion.TipoOperacion = oOperacion.TipoOperacion;
+
+            if ((oOperacion.TipoOperacion == TipoOperacion.ArqueoParcial) || (oOperacion.TipoOperacion == TipoOperacion.ArqueoTotal))
+            {
+                ModuloDataSet.P_ConfirmarArqueoDataTable _ArqueoTable = new ModuloDataSet.P_ConfirmarArqueoDataTable();
+                ModuloDataSetTableAdapters.P_ConfirmarArqueoTableAdapter _ArqueoAdapter = new ModuloDataSetTableAdapters.P_ConfirmarArqueoTableAdapter();
+
+                try
+                {
+                    _ArqueoTable.Constraints.Clear();
+
+                    if (_ArqueoAdapter.Fill(_ArqueoTable, oOperacion.ID_Operacion) > 0)
+                    {
+                        for (int i = 0; i < _ArqueoTable.Rows.Count; i++)
+                        {
+                            string status = _ArqueoTable.Rows[i][(int)InfoArqueo_DB.Status].ToString();
+
+                            oDtoOperacion.DtoArqueo.IdArqueo = Convert.ToInt32(_ArqueoTable.Rows[i][(int)InfoArqueo_DB.IdArqueo].ToString());
+                            oDtoOperacion.DtoArqueo.Producido = Convert.ToInt32(_ArqueoTable.Rows[i][(int)InfoArqueo_DB.Producido].ToString());
+                            oDtoOperacion.DtoArqueo.Valor = Convert.ToInt32(_ArqueoTable.Rows[i][(int)InfoArqueo_DB.Valor].ToString());
+
+                            if (status == Operacion_Result.OK.ToString())
+                            {
+                                oResultadoOperacion.oEstado = TipoRespuesta.Exito;
+                                oResultadoOperacion.Mensaje = "Confirmación Arqueo OK";
+                                oResultadoOperacion.EntidadDatos = oDtoOperacion;
+                            }
+                            else if (status == Operacion_Result.ERROR.ToString())
+                            {
+                                oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                                oResultadoOperacion.Mensaje = "Confirmación Arqueo Error";
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Generar LOG DataBase Exception
+                    oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                    string exMessage = ex.ToString();
+                }
+            }
+            else if (oOperacion.TipoOperacion == TipoOperacion.Pago || oOperacion.TipoOperacion == TipoOperacion.Datafono || oOperacion.TipoOperacion == TipoOperacion.Casco || oOperacion.TipoOperacion == TipoOperacion.Evento || oOperacion.TipoOperacion == TipoOperacion.Mensualidad || oOperacion.TipoOperacion == TipoOperacion.Reposicion || oOperacion.TipoOperacion == TipoOperacion.CobroTarjetaMensual)
+            {
+                ModuloDataSet.P_ConfirmarPagoFEDataTable _PagoTable = new ModuloDataSet.P_ConfirmarPagoFEDataTable();
+                ModuloDataSetTableAdapters.P_ConfirmarPagoFETableAdapter _PagoAdapter = new ModuloDataSetTableAdapters.P_ConfirmarPagoFETableAdapter();
+
+
+                int TipoPago = (int)oOperacion.TipoOperacion;
+
+                try
+                {
+
+                    _PagoTable.Constraints.Clear();
+
+                    if (TipoPago == 3)
+                    {
+                        ModuloDataSet.P_RegistrarTransaccionREPODataTable _PagoREPOTable = new ModuloDataSet.P_RegistrarTransaccionREPODataTable();
+                        ModuloDataSetTableAdapters.P_RegistrarTransaccionREPOTableAdapter _PagoREPOAdapter = new ModuloDataSetTableAdapters.P_RegistrarTransaccionREPOTableAdapter();
+
+                        try
+                        {
+                            _PagoREPOTable.Constraints.Clear();
+
+                            if (_PagoREPOAdapter.Fill(_PagoREPOTable, oOperacion.ID_Transaccion) > 0)
+                            {
+                                oResultadoOperacion.oEstado = TipoRespuesta.Exito;
+                                oResultadoOperacion.Mensaje = "Confirmación Pago REPO OK";
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            // Generar LOG DataBase Exception
+                            oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                            string exMessage = ex.ToString();
+                        }
+                    }
+                    //else if (TipoPago == 7)
+                    //{
+                    //    ModuloDataSet.P_RegistrarTransaccioncobroTarjetaDataTable _PagoREPOTable = new ModuloDataSet.P_RegistrarTransaccioncobroTarjetaDataTable();
+                    //    ModuloDataSetTableAdapters.P_RegistrarTransaccioncobroTarjetaTableAdapter _PagoREPOAdapter = new ModuloDataSetTableAdapters.P_RegistrarTransaccioncobroTarjetaTableAdapter();
+
+                    //    try
+                    //    {
+                    //        _PagoREPOTable.Constraints.Clear();
+
+                    //        if (_PagoREPOAdapter.Fill(_PagoREPOTable, oOperacion.ID_Transaccion) > 0)
+                    //        {
+                    //            oResultadoOperacion.oEstado = TipoRespuesta.Exito;
+                    //            oResultadoOperacion.Mensaje = "Confirmación Pago Cobro Tarjeta OK";
+                    //        }
+                    //    }
+                    //    catch (Exception ex)
+                    //    {
+                    //        // Generar LOG DataBase Exception
+                    //        oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                    //        string exMessage = ex.ToString();
+                    //    }
+                    //}
+                    else if (TipoPago == 6)
+                    {
+                        ModuloDataSet.P_RegistrarTransaccionCascoDataTable _PagoREPOTable = new ModuloDataSet.P_RegistrarTransaccionCascoDataTable();
+                        ModuloDataSetTableAdapters.P_RegistrarTransaccionCascoTableAdapter _PagoREPOAdapter = new ModuloDataSetTableAdapters.P_RegistrarTransaccionCascoTableAdapter();
+
+                        try
+                        {
+                            _PagoREPOTable.Constraints.Clear();
+
+                            if (_PagoREPOAdapter.Fill(_PagoREPOTable, oOperacion.ID_Transaccion) > 0)
+                            {
+                                oResultadoOperacion.oEstado = TipoRespuesta.Exito;
+                                oResultadoOperacion.Mensaje = "Confirmación Pago Cobro Casco OK";
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            // Generar LOG DataBase Exception
+                            oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                            string exMessage = ex.ToString();
+                        }
+                    }
+
+                    if (TipoPago == 7)
+                    {
+
+                        ModuloDataSet.P_RegistrarTransaccionDatafonoDataTable _PagoDataTable = new ModuloDataSet.P_RegistrarTransaccionDatafonoDataTable();
+                        ModuloDataSetTableAdapters.P_RegistrarTransaccionDatafonoTableAdapter _PagoDataAdapter = new ModuloDataSetTableAdapters.P_RegistrarTransaccionDatafonoTableAdapter();
+
+                        try
+                        {
+                            _PagoDataTable.Constraints.Clear();
+
+                            //oOperacion.Pago.Factura = "0";
+                            oOperacion.Pago.Referencia = "0";
+                            if (_PagoDataAdapter.Fill(_PagoDataTable, oOperacion.ID_Transaccion, Convert.ToInt32(oOperacion.Pago.Factura), (oOperacion.Pago.NoAutorizacion), oOperacion.Pago.Franquicia, oOperacion.TotalPagado, oOperacion.Pago.CodigoBarras, Convert.ToInt32(oOperacion.Pago.NoTarjeta), oOperacion.Pago.Referencia) > 0)
+                            {
+                                for (int i = 0; i < _PagoDataTable.Count; i++)
+                                {
+
+                                    oResultadoOperacion.oEstado = TipoRespuesta.Exito;
+                                    oResultadoOperacion.Mensaje = "Confirmación Pago OK";
+                                }
+                            }
+                            else
+                            {
+
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            // Generar LOG DataBase Exception
+                            oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                            string exMessage = ex.ToString();
+                        }
+                    }
+                    else if (TipoPago == 5 && (int)oOperacion.Pago.EstadoPago != 2)
+                    {
+                        ModuloDataSet.P_RegistrarTransaccionEventoDataTable _PagoREPOTable = new ModuloDataSet.P_RegistrarTransaccionEventoDataTable();
+                        ModuloDataSetTableAdapters.P_RegistrarTransaccionEventoTableAdapter _PagoREPOAdapter = new ModuloDataSetTableAdapters.P_RegistrarTransaccionEventoTableAdapter();
+
+                        try
+                        {
+                            _PagoREPOTable.Constraints.Clear();
+
+                            if (_PagoREPOAdapter.Fill(_PagoREPOTable, oOperacion.ID_Transaccion) > 0)
+                            {
+                                for (int i = 0; i < _PagoREPOTable.Count; i++)
+                                {
+                                    string Factura = _PagoREPOTable.Rows[i][0].ToString();
+                                    //string CodigoBarras = _PagoTable.Rows[i][1].ToString();
+
+
+                                    oResultadoOperacion.oEstado = TipoRespuesta.Exito;
+                                    oResultadoOperacion.Mensaje = "Confirmación Pago OK";
+                                    oDtoOperacion.DtoPago.Factura = Factura;
+                                    //oDtoOperacion.DtoPago.CodigoBarras = CodigoBarras;
+                                    oResultadoOperacion.EntidadDatos = oDtoOperacion;
+
+
+
+
+                                }
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            // Generar LOG DataBase Exception
+                            oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                            string exMessage = ex.ToString();
+                        }
+                    }
+                    else
+                    {
+
+                        if (oOperacion.ValidacionCobro == 7)
+                        {
+                            TipoPago = 7;
+                        }
+
+                        if (oOperacion.Descripcion != "0" && oOperacion.Total == 0)
+                        {
+                            TipoPago = 4;
+                        }
+
+                        if (_PagoAdapter.Fill(_PagoTable, oOperacion.ID_Transaccion, (int)oOperacion.Pago.EstadoPago, 0, TipoPago, oOperacion.Total, oOperacion.Iva, oOperacion.TotalPagado, oOperacion.Comision) > 0)
+                        {
+                            for (int i = 0; i < _PagoTable.Count; i++)
+                            {
+                                string Factura = _PagoTable.Rows[i][0].ToString();
+                                //string CodigoBarras = _PagoTable.Rows[i][1].ToString();
+
+
+                                oResultadoOperacion.oEstado = TipoRespuesta.Exito;
+                                oResultadoOperacion.Mensaje = "Confirmación Pago OK";
+                                oDtoOperacion.DtoPago.Factura = Factura;
+                                //oDtoOperacion.DtoPago.CodigoBarras = CodigoBarras;
+                                oResultadoOperacion.EntidadDatos = oDtoOperacion;
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Generar LOG DataBase Exception
+                    oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                    string exMessage = ex.ToString();
+                }
+            }
+            else if (oOperacion.TipoOperacion == TipoOperacion.Carga)
+            {
+                ModuloDataSet.P_ConfirmarCargaDataTable _CargaTable = new ModuloDataSet.P_ConfirmarCargaDataTable();
+                ModuloDataSetTableAdapters.P_ConfirmarCargaTableAdapter _CargaAdapter = new ModuloDataSetTableAdapters.P_ConfirmarCargaTableAdapter();
+
+                try
+                {
+                    _CargaTable.Constraints.Clear();
+
+                    if (_CargaAdapter.Fill(_CargaTable, oOperacion.ID_Operacion) > 0)
+                    {
+                        for (int i = 0; i < _CargaTable.Rows.Count; i++)
+                        {
+                            string status = _CargaTable.Rows[i][(int)InfoCarga_DB.Status].ToString();
+
+
+                            if (status == Operacion_Result.OK.ToString())
+                            {
+                                oResultadoOperacion.oEstado = TipoRespuesta.Exito;
+                                oResultadoOperacion.Mensaje = "Confirmación Carga OK";
+                                oResultadoOperacion.EntidadDatos = oDtoOperacion;
+                            }
+                            else if (status == Operacion_Result.ERROR.ToString())
+                            {
+                                oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                                oResultadoOperacion.Mensaje = "Confirmación Carga Error";
+                            }
+
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Generar LOG DataBase Exception
+                    oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                    string exMessage = ex.ToString();
+                }
+            }
+
+            return oResultadoOperacion;
         }       
 
         public ResultadoOperacion ObtenerUsuario(Usuario oUsuario)
