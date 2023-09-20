@@ -95,4 +95,3 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\bin\D
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\bin\Debug\Ds.BusinessService.pdb
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.pdb
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.csprojResolveAssemblyReference.cache

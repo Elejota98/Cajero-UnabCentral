@@ -461,6 +461,35 @@ namespace CredibancoDevice
 
             return oResultadoOperacion;
         }
+
+        public ResultadoOperacion EnviarPantallaPrincipalDatafono()
+        {
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+
+            try
+            {
+                trx.TEFTransactionManager oCLIENT = new trx.TEFTransactionManager();
+                oResultadoOperacion.EntidadDatos = oCLIENT.getTEFAuthorization("06");
+
+                string result = oResultadoOperacion.EntidadDatos.ToString();
+
+                oResultadoOperacion.Mensaje = "Proceso Ok";
+
+            }
+            catch (Exception ex)
+            {
+
+                oResultadoOperacion.oEstado = TipoRespuesta.Error;
+                oResultadoOperacion.Mensaje = ex.ToString();
+            }
+
+            return oResultadoOperacion;
+
+
+
+
+        }
+
         public static char CalculateLRC(string toEncode)
         {
             byte[] bytes = Encoding.ASCII.GetBytes(toEncode);

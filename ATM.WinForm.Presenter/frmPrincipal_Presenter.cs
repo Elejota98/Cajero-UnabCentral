@@ -501,7 +501,6 @@ namespace ATM.WinForm.Presenter
 
             return ok;
         }
-
         public bool RegistrarOperacionFE(TipoOperacion oTipoOperacion, int identificacion)
         {
             bool ok = false;
@@ -602,7 +601,6 @@ namespace ATM.WinForm.Presenter
 
             return ok;
         }
-
         public bool RegistrarArqueo(string Tipo)
         {
             bool ok = false;
@@ -1102,6 +1100,145 @@ namespace ATM.WinForm.Presenter
             View.Operacion.ValidacionCobro = View.RetornoCobro;
 
             oResultadoOperacion = Model.ConfirmarOperacion(View.Operacion);
+
+            if (oResultadoOperacion.oEstado == TipoRespuesta.Exito)
+            {
+                oDtoOperacion = (DtoOperacion)oResultadoOperacion.EntidadDatos;
+
+                ok = true;
+
+                if (oTipoOperacion == TipoOperacion.ArqueoParcial)
+                {
+                    View.General_Events = "Presenter-ConfirmarOperacion: " + oResultadoOperacion.Mensaje;
+                    View.General_Events = "Presenter-ConfirmarOperacion -> Valor : " + oDtoOperacion.DtoArqueo.Valor;
+                    View.General_Events = "Presenter-ConfirmarOperacion -> Producido : " + oDtoOperacion.DtoArqueo.Producido;
+                    //oTicketArqueo.ValorArqueo = oDtoOperacion.DtoArqueo.Valor;
+                    //oTicketArqueo.ProducidoArqueo = oDtoOperacion.DtoArqueo.Producido;
+                    //oTicketArqueo.CodigoArqueo = oDtoOperacion.DtoArqueo.ID_Arqueo.ToString();
+                    //oTicketArqueo.ModuloArqueo = View.DtoModulo.IdModulo;
+                    //oTicketArqueo.UsuarioArqueo = View.Usuario.IdCriptUsuario;
+                    //oTicketArqueo.FechaArqueo = DateTime.Now;
+                }
+                else if (oTipoOperacion == TipoOperacion.ArqueoTotal)
+                {
+
+                    View.General_Events = "Presenter-ConfirmarOperacion: " + oResultadoOperacion.Mensaje;
+                    View.General_Events = "Presenter-ConfirmarOperacion -> Valor : " + oDtoOperacion.DtoArqueo.Valor;
+                    View.General_Events = "Presenter-ConfirmarOperacion -> Producido : " + oDtoOperacion.DtoArqueo.Producido;
+                    //oTicketArqueo.ValorArqueo = oDtoOperacion.DtoArqueo.Valor;
+                    //oTicketArqueo.ProducidoArqueo = oDtoOperacion.DtoArqueo.Producido;
+                    //oTicketArqueo.CodigoArqueo = oDtoOperacion.DtoArqueo.ID_Arqueo;
+                    //oTicketArqueo.ModuloArqueo = View.DtoModulo.IdModulo;
+                    //oTicketArqueo.UsuarioArqueo = View.Usuario.IdCriptUsuario;
+                    //oTicketArqueo.FechaArqueo = DateTime.Now;
+                    //View.ProcesoArqueoTotal = false;
+                    //if (!SincronizarModulo())
+                    //{
+                    //    View.General_Events = "Error (Presenter ConfirmarOperacion): No sincroniza";
+                    //}
+                }
+                else if (oTipoOperacion == TipoOperacion.Carga)
+                {
+                    oTicketCarga.CodigoCarga = View.IdCarga;
+                    oTicketCarga.FechaCarga = DateTime.Now;
+                    oTicketCarga.ModuloCarga = View.DtoModulo.IdModulo;
+                    oTicketCarga.UsuarioCarga = View.Usuario.IdCriptUsuario;
+                }
+                else if (oTipoOperacion == TipoOperacion.Pago || oTipoOperacion == TipoOperacion.Mensualidad || oTipoOperacion == TipoOperacion.Evento)
+                {
+                    View.General_Events = "Presenter-ConfirmarOperacion: " + oResultadoOperacion.Mensaje + " " + oEstadoPago.ToString();
+                    View.DtoOperacion = (DtoOperacion)oResultadoOperacion.EntidadDatos;
+                }
+            }
+            else if (oResultadoOperacion.oEstado == TipoRespuesta.Error)
+            {
+                View.General_Events = "Error Presenter-ConfirmarOperacion: " + oResultadoOperacion.Mensaje;
+                View.General_Events = "Presenter-ConfirmarOperacion -> Sistema Suspendido - Confirmación Operación Error " + oTipoOperacion.ToString();
+                //View.SetearPantalla(Pantalla.SistemaSuspendido);
+            }
+
+            return ok;
+        }
+        public bool ConfirmarOperacionFE(TipoOperacion oTipoOperacion, TipoEstadoPago oEstadoPago)
+        {
+            bool ok = false;
+            ResultadoOperacion oResultadoOperacion = new ResultadoOperacion();
+            DtoOperacion oDtoOperacion = new DtoOperacion();
+
+            if (oTipoOperacion == TipoOperacion.Pago || oTipoOperacion == TipoOperacion.Casco || oTipoOperacion == TipoOperacion.Evento || oTipoOperacion == TipoOperacion.Mensualidad || oTipoOperacion == TipoOperacion.Reposicion || oTipoOperacion == TipoOperacion.CobroTarjetaMensual)
+            {
+                if (View.Operacion.Pago.TipoPago == TipoPago.Efectivo)
+                {
+                    View.Operacion.Pago.TipoPago = TipoPago.Efectivo;
+                }
+                View.Operacion.Pago.EstadoPago = oEstadoPago;
+
+
+                if (View.Operacion.Pago.TipoPago != TipoPago.Efectivo)
+                {
+                    if (View.Operacion.Pago.TipoPago == 0)
+                    {
+                        if (oTipoOperacion != TipoOperacion.Evento && oTipoOperacion != TipoOperacion.Mensualidad)
+                        {
+                            View.Operacion.TipoOperacion = TipoOperacion.Pago;
+                        }
+                        else if (oTipoOperacion == TipoOperacion.Mensualidad)
+                        {
+                            View.Operacion.TipoOperacion = TipoOperacion.Mensualidad;
+                        }
+                        else
+                        {
+                            View.Operacion.TipoOperacion = TipoOperacion.Evento;
+                        }
+                    }
+                    else
+                    {
+                        View.Operacion.TipoOperacion = TipoOperacion.Datafono;
+                    }
+                }
+                else
+                {
+                    View.Operacion.TipoOperacion = oTipoOperacion;
+                }
+                View.Operacion.Descripcion = View.Tarjeta.CodeAgreement1.ToString();
+                if (View.TipoPago == "REPOSICIÓN")
+                {
+                    View.Operacion.Operador = "REPO";
+                }
+                else if (View.TipoPago == "CASCOS")
+                {
+                    View.Operacion.Operador = "CASCO";
+                }
+                else if (View.TipoPago == "EVENTO")
+                {
+                    View.Operacion.Operador = "EVENTO";
+                }
+                else if (View.TipoPago == "MENSUALIDAD")
+                {
+                    View.Operacion.Operador = "MENSUALIDAD";
+                }
+                else
+                {
+                    View.Operacion.Operador = string.Empty;
+                }
+            }
+            else if (oTipoOperacion == TipoOperacion.ArqueoParcial || oTipoOperacion == TipoOperacion.ArqueoTotal)
+            {
+                View.Operacion.ID_Operacion = Convert.ToInt64(View.IdArqueo);
+                View.Operacion.Pago.EstadoPago = oEstadoPago;
+                View.Operacion.TipoOperacion = oTipoOperacion;
+            }
+            else if (oTipoOperacion == TipoOperacion.Carga)
+            {
+                View.Operacion.ID_Operacion = Convert.ToInt64(View.IdCarga);
+                View.Operacion.Pago.EstadoPago = oEstadoPago;
+                View.Operacion.TipoOperacion = oTipoOperacion;
+            }
+
+
+            View.Operacion.ValidacionCobro = View.RetornoCobro;
+
+            oResultadoOperacion = Model.ConfirmarOperacionFE(View.Operacion);
 
             if (oResultadoOperacion.oEstado == TipoRespuesta.Exito)
             {
@@ -4573,10 +4710,22 @@ namespace ATM.WinForm.Presenter
 
                 #region ErrorIniciar
                 case StatesDatafono.ErrorIniciar:
-                    View.SetearPantalla(Pantalla.ConsultaFallida);
-                    View.General_Events = i.result.ToString();
-                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                    ExpulsarTarjeta();
+                    if (!View.pagoFacturaElectronica)
+                    {
+                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                        EnviarPantallaPrincipalDatafono();
+                        ExpulsarTarjeta();
+                        View.SetearPantalla(Pantalla.ConsultaFallida);
+                        View.General_Events = i.result.ToString();
+                    }
+                    else
+                    {
+                        ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                        EnviarPantallaPrincipalDatafono();
+                        ExpulsarTarjeta();
+                        View.SetearPantalla(Pantalla.ConsultaFallida);
+                        View.General_Events = i.result.ToString();
+                    }
                     break;
                 #endregion
 
@@ -4585,6 +4734,12 @@ namespace ATM.WinForm.Presenter
                     if (i.resultString.Mensaje.ToString() == "Ingrese Cuotas")
                     {
                         View.SetearPantalla(Pantalla.DigiteCuotas);
+                    }
+                    else if (i.resultString.Mensaje.ToString() == "CAPTURE PIN EN DATAFONO]69")
+                    {
+                        View.SetearPantalla(Pantalla.DigitePIN);
+                        View.General_Events = i.result.ToString();
+                        RespuestaAhorros();
                     }
                     else
                     {
@@ -4596,10 +4751,32 @@ namespace ATM.WinForm.Presenter
 
                 #region ErrorConexion
                 case StatesDatafono.ErrorLeerTarjeta:
-                    View.General_Events = i.result.ToString();
-                    View.SetearPantalla(Pantalla.ConsultaFallida);
-                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                    ExpulsarTarjeta();
+                    try
+                    {
+                        string[] ResultEndNEW = i.resultString.EntidadDatos.ToString().Split(',');
+                        View.General_Events = ResultEndNEW[3].ToString();
+                        View.General_Events = i.result.ToString();
+                        View.SetearPantalla(Pantalla.ConsultaFallida);
+
+                    }
+                    catch (Exception ex)
+                    {
+                        View.General_Events = ex.ToString();
+                        if (!View.pagoFacturaElectronica)
+                        {
+                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                            EnviarPantallaPrincipalDatafono();
+                            ExpulsarTarjeta();
+                            View.SetearPantalla(Pantalla.ConsultaFallida);
+                        }
+                        else
+                        {
+                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                            EnviarPantallaPrincipalDatafono();
+                            ExpulsarTarjeta();
+                            View.SetearPantalla(Pantalla.ConsultaFallida);
+                        }
+                    }
                     break;
                 #endregion
 
@@ -4624,9 +4801,18 @@ namespace ATM.WinForm.Presenter
                     View.General_Events = i.resultString.EntidadDatos.ToString();
                     if (i.resultString.EntidadDatos == "DATAFONO NO RESPONDE")
                     {
-                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                        View.SetearPantalla(Pantalla.ConsultaFallida);
-                        ExpulsarTarjeta();
+                        if (!View.pagoFacturaElectronica)
+                        {
+                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                            View.SetearPantalla(Pantalla.ConsultaFallida);
+                            ExpulsarTarjeta();
+                        }
+                        else
+                        {
+                            ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                            View.SetearPantalla(Pantalla.ConsultaFallida);
+                            ExpulsarTarjeta();
+                        }
                     }
                     else
                     {
@@ -4660,14 +4846,24 @@ namespace ATM.WinForm.Presenter
                             {
                                 View.Operacion.Pago.TipoPago = TipoPago.CreditoRotativo;
                             }
+                            if (!View.pagoFacturaElectronica)
+                            {
+                                TipoCuenta = View.Operacion.Pago.TipoPago.ToString();
+                                ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
 
-                            TipoCuenta = View.Operacion.Pago.TipoPago.ToString();
-                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+                                View.Operacion.Pago.TipoPago = TipoPago.Efectivo;
 
-                            View.Operacion.Pago.TipoPago = TipoPago.Efectivo;
+                                ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+                            }
+                            else
+                            {
+                                TipoCuenta = View.Operacion.Pago.TipoPago.ToString();
+                                ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
 
-                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+                                View.Operacion.Pago.TipoPago = TipoPago.Efectivo;
 
+                                ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+                            }
 
                             View.SetearPantalla(Pantalla.ImprimirFactura);
                         }
@@ -4677,23 +4873,53 @@ namespace ATM.WinForm.Presenter
                         }
                         else if (ResultEnd[3].ToString() == "LLAME A SU BANCO;;]4E")
                         {
-                            View.General_Events = "Presenter Respuesta Datafono LLAME A SU BANCO";
-                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                            View.SetearPantalla(Pantalla.ConsultaFallida);
+                            if (!View.pagoFacturaElectronica)
+                            {
+
+                                View.General_Events = "Presenter Respuesta Datafono LLAME A SU BANCO";
+                                ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                            }
+                            else
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono LLAME A SU BANCO";
+                                ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                            }
                         }
                         else if (ResultEnd[2].ToString().Substring(0, 2) == "02")
                         {
-                            View.General_Events = "Presenter Respuesta Datafono Fondos Insuficientes – Clave Inválida – Tarjeta Vencida";
-                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                            View.SetearPantalla(Pantalla.ConsultaFallida);
-                            ExpulsarTarjeta();
+                            if (!View.pagoFacturaElectronica)
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono Fondos Insuficientes – Clave Inválida – Tarjeta Vencida";
+                                ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                                ExpulsarTarjeta();
+                            }
+                            else
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono Fondos Insuficientes – Clave Inválida – Tarjeta Vencida";
+                                ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                                ExpulsarTarjeta();
+                            }
                         }
                         else if (ResultEnd[2].ToString().Substring(0, 2) == "05")
                         {
-                            View.General_Events = "Presenter Respuesta Datafono (Error Apertura Puerto Serial – Problemas Comunicación";
-                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                            View.SetearPantalla(Pantalla.ConsultaFallida);
-                            ExpulsarTarjeta();
+                            if (!View.pagoFacturaElectronica)
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono (Error Apertura Puerto Serial – Problemas Comunicación";
+                                ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                                ExpulsarTarjeta();
+                            }
+                            else
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono (Error Apertura Puerto Serial – Problemas Comunicación";
+                                ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                                ExpulsarTarjeta();
+                            }
                         }
                         else if (ResultEnd[3].ToString() == "PIN Incorrecto;;]60")
                         {
@@ -4705,19 +4931,39 @@ namespace ATM.WinForm.Presenter
                             }
                             else
                             {
-                                View.General_Events = "Presenter Respuesta Datafono PIN Incorrecto intento 2";
-                                ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                                View.SetearPantalla(Pantalla.ConsultaFallida);
-                                ExpulsarTarjeta();
+                                if (!View.pagoFacturaElectronica)
+                                {
+                                    View.General_Events = "Presenter Respuesta Datafono PIN Incorrecto intento 2";
+                                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                    View.SetearPantalla(Pantalla.ConsultaFallida);
+                                    ExpulsarTarjeta();
+                                }
+                                else
+                                {
+                                    View.General_Events = "Presenter Respuesta Datafono PIN Incorrecto intento 2";
+                                    ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                    View.SetearPantalla(Pantalla.ConsultaFallida);
+                                    ExpulsarTarjeta();
+                                }
                             }
 
                         }
                         else
                         {
-                            View.General_Events = "Presenter Respuesta Datafono (Error Apertura Puerto Serial – Problemas Comunicación";
-                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                            View.SetearPantalla(Pantalla.ConsultaFallida);
-                            ExpulsarTarjeta();
+                            if (!View.pagoFacturaElectronica)
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono (Error Apertura Puerto Serial – Problemas Comunicación";
+                                ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                                ExpulsarTarjeta();
+                            }
+                            else
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono (Error Apertura Puerto Serial – Problemas Comunicación";
+                                ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                                ExpulsarTarjeta();
+                            }
                         }
                     }
                     break;
@@ -4771,9 +5017,20 @@ namespace ATM.WinForm.Presenter
                     View.General_Events = i.result.ToString();
                     if (i.resultString.EntidadDatos == "DATAFONO NO RESPONDE")
                     {
-                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                        View.SetearPantalla(Pantalla.ConsultaFallida);
-                        ExpulsarTarjeta();
+                        if (!View.pagoFacturaElectronica)
+                        {
+                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                            EnviarPantallaPrincipalDatafono();
+                            ExpulsarTarjeta();
+                            View.SetearPantalla(Pantalla.ConsultaFallida);
+                        }
+                        else
+                        {
+                            ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                            EnviarPantallaPrincipalDatafono();
+                            ExpulsarTarjeta();
+                            View.SetearPantalla(Pantalla.ConsultaFallida);
+                        }
                     }
                     else
                     {
@@ -4782,10 +5039,20 @@ namespace ATM.WinForm.Presenter
 
                         if (ResultEnd[2].ToString().Substring(0, 2) == "02")
                         {
-                            View.General_Events = "Presenter Respuesta Datafono Fondos Insuficientes – Clave Inválida – Tarjeta Vencida";
-                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                            View.SetearPantalla(Pantalla.ConsultaFallida);
-                            ExpulsarTarjeta();
+                            if (!View.pagoFacturaElectronica)
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono Fondos Insuficientes – Clave Inválida – Tarjeta Vencida";
+                                ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                                ExpulsarTarjeta();
+                            }
+                            else
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono Fondos Insuficientes – Clave Inválida – Tarjeta Vencida";
+                                ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                                ExpulsarTarjeta();
+                            }
                         }
                         else if (ResultEnd[2].ToString().Substring(0, 2) == "00")
                         {
@@ -4816,31 +5083,63 @@ namespace ATM.WinForm.Presenter
                             }
 
                             TipoCuenta = View.Operacion.Pago.TipoPago.ToString();
-                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+                            if (!View.pagoFacturaElectronica)
+                              {
+                                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
 
-                            View.Operacion.Pago.TipoPago = TipoPago.Efectivo;
+                                    View.Operacion.Pago.TipoPago = TipoPago.Efectivo;
 
-                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
-
-
-                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
 
 
+                                    View.SetearPantalla(Pantalla.ImprimirFactura);
+                                }
+                                else
+                                {
+                                    ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+
+                                    View.Operacion.Pago.TipoPago = TipoPago.Efectivo;
+
+                                    ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+
+
+                                    View.SetearPantalla(Pantalla.ImprimirFactura);
+                                }
 
                         }
                         else if (ResultEnd[2].ToString().Substring(0, 2) == "05")
                         {
-                            View.General_Events = "Presenter Respuesta Datafono (Error Apertura Puerto Serial – Problemas Comunicación";
-                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                            View.SetearPantalla(Pantalla.ConsultaFallida);
-                            ExpulsarTarjeta();
+                            if (!View.pagoFacturaElectronica)
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono (Error Apertura Puerto Serial – Problemas Comunicación";
+                                ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                                ExpulsarTarjeta();
+                            }
+                            else
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono (Error Apertura Puerto Serial – Problemas Comunicación";
+                                ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                                ExpulsarTarjeta();
+                            }
                         }
                         else if (ResultEnd[2].ToString() == "ERROR")
                         {
-                            View.General_Events = "Presenter Respuesta Datafono FONDOS INSUFICIENTES";
-                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                            View.SetearPantalla(Pantalla.ConsultaFallida);
-                            ExpulsarTarjeta();
+                            if (!View.pagoFacturaElectronica)
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono FONDOS INSUFICIENTES";
+                                ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                                ExpulsarTarjeta();
+                            }
+                            else
+                            {
+                                View.General_Events = "Presenter Respuesta Datafono FONDOS INSUFICIENTES";
+                                ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                View.SetearPantalla(Pantalla.ConsultaFallida);
+                                ExpulsarTarjeta();
+                            }
                         }
 
                     }
@@ -4858,36 +5157,76 @@ namespace ATM.WinForm.Presenter
                 #region CancelacionTipoCuenta
                 case StatesDatafono.CancelacionTipoCuenta:
                     View.General_Events = i.result.ToString();
-                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                    Expulsar();
-                    View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                    if (!View.pagoFacturaElectronica)
+                    {
+                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                        Expulsar();
+                        View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                    }
+                    else
+                    {
+                        ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                        Expulsar();
+                        View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                    }
                     break;
                 #endregion
 
                 #region ErrorCancelacionTipoCuenta
                 case StatesDatafono.ErrorCancelacionTipoCuenta:
                     View.General_Events = i.result.ToString();
-                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                    Expulsar();
-                    View.SetearPantalla(Pantalla.SistemaSuspendido);
+                    if (!View.pagoFacturaElectronica)
+                    {
+                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                        EnviarPantallaPrincipalDatafono();
+                        Expulsar();
+                        View.SetearPantalla(Pantalla.SistemaSuspendido);
+                    }
+                    else
+                    {
+                        ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                        EnviarPantallaPrincipalDatafono();
+                        Expulsar();
+                        View.SetearPantalla(Pantalla.SistemaSuspendido);
+                    }
                     break;
                 #endregion
 
                 #region CancelacionCuotas
                 case StatesDatafono.CancelacionCuotas:
                     View.General_Events = i.result.ToString();
-                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                    Expulsar();
-                    View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                    if (!View.pagoFacturaElectronica)
+                    {
+                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                        Expulsar();
+                        View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                    }
+                    else
+                    {
+                        ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                        Expulsar();
+                        View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                    }
                     break;
                 #endregion
 
                 #region ErrorCancelacionCuotas
                 case StatesDatafono.ErrorCancelacionCuotas:
                     View.General_Events = i.result.ToString();
-                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                    Expulsar();
-                    View.SetearPantalla(Pantalla.SistemaSuspendido);
+                    if (!View.pagoFacturaElectronica)
+                    {
+                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                        EnviarPantallaPrincipalDatafono();
+                        Expulsar();
+                        View.SetearPantalla(Pantalla.SistemaSuspendido);
+                    }
+                    else
+                    {
+                        ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                        EnviarPantallaPrincipalDatafono();
+                        Expulsar();
+                        View.SetearPantalla(Pantalla.SistemaSuspendido);
+                    }
                     break;
                 #endregion
             }
@@ -4943,6 +5282,10 @@ namespace ATM.WinForm.Presenter
         public void CancelacionCuotas()
         {
             oDatafonoDevice.CanelarCuotas();
+        }
+        public void EnviarPantallaPrincipalDatafono()
+        {
+            oDatafonoDevice.EnviarPantallaPrincipalDatafono();
         }
         #endregion
 
@@ -5317,7 +5660,9 @@ namespace ATM.WinForm.Presenter
                 }
 
 
-                SecuenciaTransaccion = View.Tarjeta.CodeCard;
+                //SecuenciaTransaccion = View.Tarjeta.CodeCard;
+                SecuenciaTransaccion = View.lstDtoAutorizado[0].IdTarjeta;
+
                 oResultadoOperacion = Model.ConsultaValor(SecuenciaTransaccion,0, true, REPO, "");
 
 
@@ -5873,6 +6218,151 @@ namespace ATM.WinForm.Presenter
 
             facturacion.TablaValidacion.AddTablaValidacionRow(rowDatosFactura);
 
+
+            return facturacion;
+        }
+
+        public DataSetTicketPago GenerarTicketPagoFE()
+        {
+            DataSetTicketPago facturacion = new DataSetTicketPago();
+
+            double total = 0;
+            foreach (var item in View.lstDtoLiquidacion)
+            {
+                total += Convert.ToDouble(item.Total);
+            }
+
+            foreach (var item in View.lstDtoLiquidacion)
+            {
+                DataSetTicketPago.TablaTicketPagoRow rowDatosFactura = facturacion.TablaTicketPago.NewTablaTicketPagoRow();
+
+                rowDatosFactura.Cambio = View.PagoEfectivo.ValorCambio;
+                rowDatosFactura.Direccion = "AV 42 # 48-11";
+                rowDatosFactura.Fecha = ObtenerFechaServer().ToString();
+                rowDatosFactura.IdTransaccion = View.Operacion.ID_Transaccion.ToString();
+                rowDatosFactura.Informacion = "Esta infromacion esta quemada en el codigo, deberia obtenerse de algun lugar";
+                rowDatosFactura.Modulo = Globales.sSerial;
+                rowDatosFactura.Nombre = "UNAB CENTRAL";
+                rowDatosFactura.NumeroFactura = View.DtoOperacion.DtoPago.Factura;
+                rowDatosFactura.Placa = View.Tarjeta.EntrancePlate;
+                rowDatosFactura.Recibido = View.PagoEfectivo.ValorRecibido;
+                rowDatosFactura.Resolucion = View.DtoModulo.Factura.NumeroResolucion.ToString();
+                rowDatosFactura.Rut = "NIT 900554696-8";
+                rowDatosFactura.Telefono = "6520587";
+
+                rowDatosFactura.TotalFinal = total;
+                rowDatosFactura.Total = item.Total;
+                rowDatosFactura.Subtotal = item.SubTotal;
+                rowDatosFactura.Iva = item.Iva;
+
+                string tp = string.Empty;
+                if (item.Tipo == 1)
+                {
+                    tp = "Estacionamiento";
+                }
+                else if (item.Tipo == 2)
+                {
+                    tp = "Mensualidad";
+                }
+                else if (item.Tipo == 3)
+                {
+                    tp = "Reposicion";
+                }
+
+                rowDatosFactura.TipoPago = tp;
+                rowDatosFactura.Fecha2 = View.Tarjeta.DateTimeEntrance.ToString();
+                string TIPO = string.Empty;
+                if (View.Tarjeta.TypeVehicle == TYPEVEHICLE_TARJETAPARKING_V1.AUTOMOBILE)
+                {
+                    TIPO = "CARRO";
+                }
+                else
+                {
+                    TIPO = "MOTO";
+                }
+                rowDatosFactura.Vehiculo = TIPO;
+                rowDatosFactura.Convenio = View.NombreConvenio;
+                rowDatosFactura.VigenciaFactura = View.DtoModulo.Factura.FechaFinResolucion;
+
+                facturacion.TablaTicketPago.AddTablaTicketPagoRow(rowDatosFactura);
+            }
+
+            return facturacion;
+        }
+        public DataSetTicketPago GenerarTicketPagoMensualidadFE()
+        {
+            DataSetTicketPago facturacion = new DataSetTicketPago();
+
+
+            double total = 0;
+            foreach (var item in View.lstDtoLiquidacion)
+            {
+                total += Convert.ToDouble(item.Total);
+            }
+
+            foreach (var item in View.lstDtoLiquidacion)
+            {
+                DataSetTicketPago.TablaTicketPagoRow rowDatosFactura = facturacion.TablaTicketPago.NewTablaTicketPagoRow();
+
+                rowDatosFactura.Cambio = View.PagoEfectivo.ValorCambio;
+                rowDatosFactura.Direccion = "AV 42 # 48-11";
+                rowDatosFactura.Fecha = ObtenerFechaServer().ToString();
+                rowDatosFactura.IdTransaccion = View.Operacion.ID_Transaccion.ToString();
+                rowDatosFactura.Informacion = "Esta infromacion esta quemada en el codigo, deberia obtenerse de algun lugar";
+                rowDatosFactura.Modulo = Globales.sSerial;
+                rowDatosFactura.Nombre = "UNAB CENTRAL";
+                rowDatosFactura.NumeroFactura = View.DtoOperacion.DtoPago.Factura;
+                rowDatosFactura.Placa = View.Tarjeta.EntrancePlate;
+                rowDatosFactura.Recibido = View.PagoEfectivo.ValorRecibido;
+                rowDatosFactura.Resolucion = View.DtoModulo.Factura.NumeroResolucion.ToString();
+                rowDatosFactura.Rut = "NIT 900554696-8";
+                rowDatosFactura.Telefono = "6520587";
+
+
+                rowDatosFactura.TotalFinal = total;
+                rowDatosFactura.Total = item.Total;
+                rowDatosFactura.Subtotal = item.SubTotal;
+                rowDatosFactura.Iva = item.Iva;
+
+                string tp = string.Empty;
+                if (item.Tipo == 2)
+                {
+                    tp = "Mensualidad";
+                }
+                else if (item.Tipo == 7)
+                {
+                    tp = "Tarjeta";
+                }
+
+                rowDatosFactura.TipoPago = tp;
+
+
+
+
+                rowDatosFactura.Fecha2 = View.Tarjeta.DateTimeEntrance.ToString();
+                string TIPO = string.Empty;
+                if (View.Tarjeta.TypeVehicle == TYPEVEHICLE_TARJETAPARKING_V1.AUTOMOBILE)
+                {
+                    TIPO = "CARRO";
+                }
+                else
+                {
+                    TIPO = "MOTO";
+                }
+                rowDatosFactura.Vehiculo = TIPO;
+                rowDatosFactura.Convenio = View.NombreConvenio;
+                rowDatosFactura.VigenciaFactura = View.DtoModulo.Factura.FechaFinResolucion;
+
+                rowDatosFactura.Fecha = ObtenerFechaServer().ToString();
+
+                rowDatosFactura.NombreAutorizado = View.lstDtoAutorizado[0].NombresAutorizado;
+                rowDatosFactura.Documento = View.lstDtoAutorizado[0].Documento;
+                rowDatosFactura.NombreAutorizacion = View.lstDtoAutorizado[0].NombreAutorizacion;
+                rowDatosFactura.Nit = View.lstDtoAutorizado[0].NIT;
+                rowDatosFactura.NombreEmpresa = View.lstDtoAutorizado[0].NombreEmpresa;
+
+                facturacion.TablaTicketPago.AddTablaTicketPagoRow(rowDatosFactura);
+            }
 
             return facturacion;
         }

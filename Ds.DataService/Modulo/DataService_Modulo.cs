@@ -2053,14 +2053,14 @@ namespace Ds.DataService
 
             List<DtoAutorizado> olstDtoAutorizado = new List<DtoAutorizado>();
 
-            ModuloDataSet.P_ValidarAutorizadoDataTable _InfoAutorizadoTable = new ModuloDataSet.P_ValidarAutorizadoDataTable();
-            ModuloDataSetTableAdapters.P_ValidarAutorizadoTableAdapter _InfoAutorizadoAdapter = new ModuloDataSetTableAdapters.P_ValidarAutorizadoTableAdapter();
+            ModuloDataSet.P_ValidarAutorizadoPorTarjetaYPlacaDataTable _InfoAutorizadoTable = new ModuloDataSet.P_ValidarAutorizadoPorTarjetaYPlacaDataTable();
+            ModuloDataSetTableAdapters.P_ValidarAutorizadoPorTarjetaYPlacaTableAdapter _InfoAutorizadoAdapter = new ModuloDataSetTableAdapters.P_ValidarAutorizadoPorTarjetaYPlacaTableAdapter();
 
             try
             {
                 _InfoAutorizadoTable.Constraints.Clear();
 
-                if (_InfoAutorizadoAdapter.Fill(_InfoAutorizadoTable, oAutorizado.IdTarjeta) > 0)
+                if (_InfoAutorizadoAdapter.Fill(_InfoAutorizadoTable, oAutorizado.IdTarjeta, oAutorizado.Placa1) > 0)
                 {
                     oResultadoOperacion.oEstado = TipoRespuesta.Exito;
                     oResultadoOperacion.Mensaje = "Info Autorizado OK";

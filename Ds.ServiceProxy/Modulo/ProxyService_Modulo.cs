@@ -2936,11 +2936,18 @@ namespace Ds.ServiceProxy
 
             ServiceAutorizado oServiceAutorizado = new ServiceAutorizado();
             oServiceAutorizado.IdTarjeta = oAutorizado.IdTarjeta;
-
-
+            if (oAutorizado.Placa1 == string.Empty)
+            {
+                oServiceAutorizado.Placa1 = null;
+            }
+            else
+            {
+                oServiceAutorizado.Placa1 = oAutorizado.Placa1;
+            }
             request.oAutorizado = oServiceAutorizado;
 
             getInfoAutorizado_Response response = null;
+
 
             try
             {

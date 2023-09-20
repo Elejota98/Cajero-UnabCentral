@@ -2,7 +2,7 @@
 <xs:schema id="ModuloDataSet" targetNamespace="http://tempuri.org/ModuloDataSet.xsd" xmlns:mstns="http://tempuri.org/ModuloDataSet.xsd" xmlns="http://tempuri.org/ModuloDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
   <xs:annotation>
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
-      <DataSource DefaultConnectionIndex="7" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="8" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
           <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SMARTCOINConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SMARTCOINConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Ds.DataService.Properties.Settings.GlobalReference.Default.SMARTCOINConnectionString" Provider="System.Data.SqlClient" />
           <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ATMParquearseConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ATMParquearseConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Ds.DataService.Properties.Settings.GlobalReference.Default.ATMParquearseConnectionString" Provider="System.Data.SqlClient" />
@@ -12,6 +12,7 @@
           <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ParkingBosqu3ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ParkingBosqu3ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Ds.DataService.Properties.Settings.GlobalReference.Default.ParkingBosqu3ConnectionString" Provider="System.Data.SqlClient" />
           <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ParkingConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ParkingConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Ds.DataService.Properties.Settings.GlobalReference.Default.ParkingConnectionString1" Provider="System.Data.SqlClient" />
           <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="UnabCentralConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="UnabCentralConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Ds.DataService.Properties.Settings.GlobalReference.Default.UnabCentralConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SmartCoinLocalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SmartCoinLocalConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Ds.DataService.Properties.Settings.GlobalReference.Default.SmartCoinLocalConnectionString" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="P_ConfirmarTransaccionTableAdapter" GeneratorDataComponentClassName="P_ConfirmarTransaccionTableAdapter" Name="P_ConfirmarTransaccion" UserDataComponentName="P_ConfirmarTransaccionTableAdapter">
@@ -1643,6 +1644,37 @@
             </Mappings>
             <Sources />
           </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="P_ValidarAutorizadoPorTarjetaYPlacaTableAdapter" GeneratorDataComponentClassName="P_ValidarAutorizadoPorTarjetaYPlacaTableAdapter" Name="P_ValidarAutorizadoPorTarjetaYPlaca" UserDataComponentName="P_ValidarAutorizadoPorTarjetaYPlacaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SmartCoinLocalConnectionString (Settings)" DbObjectName="UnabCentral.dbo.P_ValidarAutorizadoPorTarjetaYPlaca" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.P_ValidarAutorizadoPorTarjetaYPlaca</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@IdTtarjeta" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@Placa" Precision="0" ProviderType="VarChar" Scale="0" Size="10" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Documento" DataSetColumn="Documento" />
+              <Mapping SourceColumn="IdAutorizacion" DataSetColumn="IdAutorizacion" />
+              <Mapping SourceColumn="Estado" DataSetColumn="Estado" />
+              <Mapping SourceColumn="EstadoAutorizacion" DataSetColumn="EstadoAutorizacion" />
+              <Mapping SourceColumn="IdTarjeta" DataSetColumn="IdTarjeta" />
+              <Mapping SourceColumn="NombreApellidos" DataSetColumn="NombreApellidos" />
+              <Mapping SourceColumn="FechaInicio" DataSetColumn="FechaInicio" />
+              <Mapping SourceColumn="FechaFin" DataSetColumn="FechaFin" />
+              <Mapping SourceColumn="IdEstacionamiento" DataSetColumn="IdEstacionamiento" />
+              <Mapping SourceColumn="NombreAutorizacion" DataSetColumn="NombreAutorizacion" />
+              <Mapping SourceColumn="NombreEmpresa" DataSetColumn="NombreEmpresa" />
+              <Mapping SourceColumn="Nit" DataSetColumn="Nit" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
         </Tables>
         <Sources />
       </DataSource>
@@ -2779,7 +2811,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="P_ConfirmarPagoFE" msprop:Generator_TableClassName="P_ConfirmarPagoFEDataTable" msprop:Generator_TableVarName="tableP_ConfirmarPagoFE" msprop:Generator_RowChangedName="P_ConfirmarPagoFERowChanged" msprop:Generator_TablePropName="P_ConfirmarPagoFE" msprop:Generator_RowDeletingName="P_ConfirmarPagoFERowDeleting" msprop:Generator_RowChangingName="P_ConfirmarPagoFERowChanging" msprop:Generator_RowEvHandlerName="P_ConfirmarPagoFERowChangeEventHandler" msprop:Generator_RowDeletedName="P_ConfirmarPagoFERowDeleted" msprop:Generator_RowClassName="P_ConfirmarPagoFERow" msprop:Generator_UserTableName="P_ConfirmarPagoFE" msprop:Generator_RowEvArgName="P_ConfirmarPagoFERowChangeEvent">
+        <xs:element name="P_ConfirmarPagoFE" msprop:Generator_TableClassName="P_ConfirmarPagoFEDataTable" msprop:Generator_TableVarName="tableP_ConfirmarPagoFE" msprop:Generator_TablePropName="P_ConfirmarPagoFE" msprop:Generator_RowDeletingName="P_ConfirmarPagoFERowDeleting" msprop:Generator_RowChangingName="P_ConfirmarPagoFERowChanging" msprop:Generator_RowEvHandlerName="P_ConfirmarPagoFERowChangeEventHandler" msprop:Generator_RowDeletedName="P_ConfirmarPagoFERowDeleted" msprop:Generator_UserTableName="P_ConfirmarPagoFE" msprop:Generator_RowChangedName="P_ConfirmarPagoFERowChanged" msprop:Generator_RowEvArgName="P_ConfirmarPagoFERowChangeEvent" msprop:Generator_RowClassName="P_ConfirmarPagoFERow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Factura" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFactura" msprop:Generator_ColumnPropNameInRow="Factura" msprop:Generator_ColumnPropNameInTable="FacturaColumn" msprop:Generator_UserColumnName="Factura" minOccurs="0">
@@ -2792,7 +2824,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="P_RegistrarTransaccionFE" msprop:Generator_TableClassName="P_RegistrarTransaccionFEDataTable" msprop:Generator_TableVarName="tableP_RegistrarTransaccionFE" msprop:Generator_TablePropName="P_RegistrarTransaccionFE" msprop:Generator_RowDeletingName="P_RegistrarTransaccionFERowDeleting" msprop:Generator_RowChangingName="P_RegistrarTransaccionFERowChanging" msprop:Generator_RowEvHandlerName="P_RegistrarTransaccionFERowChangeEventHandler" msprop:Generator_RowDeletedName="P_RegistrarTransaccionFERowDeleted" msprop:Generator_UserTableName="P_RegistrarTransaccionFE" msprop:Generator_RowChangedName="P_RegistrarTransaccionFERowChanged" msprop:Generator_RowEvArgName="P_RegistrarTransaccionFERowChangeEvent" msprop:Generator_RowClassName="P_RegistrarTransaccionFERow">
+        <xs:element name="P_RegistrarTransaccionFE" msprop:Generator_TableClassName="P_RegistrarTransaccionFEDataTable" msprop:Generator_TableVarName="tableP_RegistrarTransaccionFE" msprop:Generator_RowChangedName="P_RegistrarTransaccionFERowChanged" msprop:Generator_TablePropName="P_RegistrarTransaccionFE" msprop:Generator_RowDeletingName="P_RegistrarTransaccionFERowDeleting" msprop:Generator_RowChangingName="P_RegistrarTransaccionFERowChanging" msprop:Generator_RowEvHandlerName="P_RegistrarTransaccionFERowChangeEventHandler" msprop:Generator_RowDeletedName="P_RegistrarTransaccionFERowDeleted" msprop:Generator_RowClassName="P_RegistrarTransaccionFERow" msprop:Generator_UserTableName="P_RegistrarTransaccionFE" msprop:Generator_RowEvArgName="P_RegistrarTransaccionFERowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Status" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" minOccurs="0">
@@ -2803,6 +2835,60 @@
                 </xs:simpleType>
               </xs:element>
               <xs:element name="CODIGO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCODIGO" msprop:Generator_ColumnPropNameInRow="CODIGO" msprop:Generator_ColumnPropNameInTable="CODIGOColumn" msprop:Generator_UserColumnName="CODIGO" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="P_ValidarAutorizadoPorTarjetaYPlaca" msprop:Generator_TableClassName="P_ValidarAutorizadoPorTarjetaYPlacaDataTable" msprop:Generator_TableVarName="tableP_ValidarAutorizadoPorTarjetaYPlaca" msprop:Generator_TablePropName="P_ValidarAutorizadoPorTarjetaYPlaca" msprop:Generator_RowDeletingName="P_ValidarAutorizadoPorTarjetaYPlacaRowDeleting" msprop:Generator_RowChangingName="P_ValidarAutorizadoPorTarjetaYPlacaRowChanging" msprop:Generator_RowEvHandlerName="P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEventHandler" msprop:Generator_RowDeletedName="P_ValidarAutorizadoPorTarjetaYPlacaRowDeleted" msprop:Generator_UserTableName="P_ValidarAutorizadoPorTarjetaYPlaca" msprop:Generator_RowChangedName="P_ValidarAutorizadoPorTarjetaYPlacaRowChanged" msprop:Generator_RowEvArgName="P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEvent" msprop:Generator_RowClassName="P_ValidarAutorizadoPorTarjetaYPlacaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Documento" msprop:Generator_ColumnVarNameInTable="columnDocumento" msprop:Generator_ColumnPropNameInRow="Documento" msprop:Generator_ColumnPropNameInTable="DocumentoColumn" msprop:Generator_UserColumnName="Documento">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdAutorizacion" msprop:Generator_ColumnVarNameInTable="columnIdAutorizacion" msprop:Generator_ColumnPropNameInRow="IdAutorizacion" msprop:Generator_ColumnPropNameInTable="IdAutorizacionColumn" msprop:Generator_UserColumnName="IdAutorizacion" type="xs:long" />
+              <xs:element name="Estado" msprop:Generator_ColumnVarNameInTable="columnEstado" msprop:Generator_ColumnPropNameInRow="Estado" msprop:Generator_ColumnPropNameInTable="EstadoColumn" msprop:Generator_UserColumnName="Estado" type="xs:boolean" />
+              <xs:element name="EstadoAutorizacion" msprop:Generator_ColumnVarNameInTable="columnEstadoAutorizacion" msprop:Generator_ColumnPropNameInRow="EstadoAutorizacion" msprop:Generator_ColumnPropNameInTable="EstadoAutorizacionColumn" msprop:Generator_UserColumnName="EstadoAutorizacion" type="xs:boolean" />
+              <xs:element name="IdTarjeta" msprop:Generator_ColumnVarNameInTable="columnIdTarjeta" msprop:Generator_ColumnPropNameInRow="IdTarjeta" msprop:Generator_ColumnPropNameInTable="IdTarjetaColumn" msprop:Generator_UserColumnName="IdTarjeta">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreApellidos" msprop:Generator_ColumnVarNameInTable="columnNombreApellidos" msprop:Generator_ColumnPropNameInRow="NombreApellidos" msprop:Generator_ColumnPropNameInTable="NombreApellidosColumn" msprop:Generator_UserColumnName="NombreApellidos">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaInicio" msprop:Generator_ColumnVarNameInTable="columnFechaInicio" msprop:Generator_ColumnPropNameInRow="FechaInicio" msprop:Generator_ColumnPropNameInTable="FechaInicioColumn" msprop:Generator_UserColumnName="FechaInicio" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FechaFin" msprop:Generator_ColumnVarNameInTable="columnFechaFin" msprop:Generator_ColumnPropNameInRow="FechaFin" msprop:Generator_ColumnPropNameInTable="FechaFinColumn" msprop:Generator_UserColumnName="FechaFin" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IdEstacionamiento" msprop:Generator_ColumnVarNameInTable="columnIdEstacionamiento" msprop:Generator_ColumnPropNameInRow="IdEstacionamiento" msprop:Generator_ColumnPropNameInTable="IdEstacionamientoColumn" msprop:Generator_UserColumnName="IdEstacionamiento" type="xs:long" />
+              <xs:element name="NombreAutorizacion" msprop:Generator_ColumnVarNameInTable="columnNombreAutorizacion" msprop:Generator_ColumnPropNameInRow="NombreAutorizacion" msprop:Generator_ColumnPropNameInTable="NombreAutorizacionColumn" msprop:Generator_UserColumnName="NombreAutorizacion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreEmpresa" msprop:Generator_ColumnVarNameInTable="columnNombreEmpresa" msprop:Generator_ColumnPropNameInRow="NombreEmpresa" msprop:Generator_ColumnPropNameInTable="NombreEmpresaColumn" msprop:Generator_UserColumnName="NombreEmpresa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nit" msprop:Generator_ColumnVarNameInTable="columnNit" msprop:Generator_ColumnPropNameInRow="Nit" msprop:Generator_ColumnPropNameInTable="NitColumn" msprop:Generator_UserColumnName="Nit" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -2868,6 +2954,11 @@
     <xs:unique name="P_ObtenerInfoFactura_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
       <xs:selector xpath=".//mstns:P_ObtenerInfoFactura" />
       <xs:field xpath="mstns:IdFacturacion" />
+    </xs:unique>
+    <xs:unique name="P_ValidarAutorizadoPorTarjetaYPlaca_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:P_ValidarAutorizadoPorTarjetaYPlaca" />
+      <xs:field xpath="mstns:IdAutorizacion" />
+      <xs:field xpath="mstns:IdEstacionamiento" />
     </xs:unique>
   </xs:element>
 </xs:schema>

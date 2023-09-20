@@ -160,6 +160,8 @@ namespace Ds.DataService {
         
         private P_RegistrarTransaccionFEDataTable tableP_RegistrarTransaccionFE;
         
+        private P_ValidarAutorizadoPorTarjetaYPlacaDataTable tableP_ValidarAutorizadoPorTarjetaYPlaca;
+        
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -391,6 +393,9 @@ namespace Ds.DataService {
                 }
                 if ((ds.Tables["P_RegistrarTransaccionFE"] != null)) {
                     base.Tables.Add(new P_RegistrarTransaccionFEDataTable(ds.Tables["P_RegistrarTransaccionFE"]));
+                }
+                if ((ds.Tables["P_ValidarAutorizadoPorTarjetaYPlaca"] != null)) {
+                    base.Tables.Add(new P_ValidarAutorizadoPorTarjetaYPlacaDataTable(ds.Tables["P_ValidarAutorizadoPorTarjetaYPlaca"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -1092,6 +1097,16 @@ namespace Ds.DataService {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        [global::System.ComponentModel.Browsable(false)]
+        [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
+        public P_ValidarAutorizadoPorTarjetaYPlacaDataTable P_ValidarAutorizadoPorTarjetaYPlaca {
+            get {
+                return this.tableP_ValidarAutorizadoPorTarjetaYPlaca;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.BrowsableAttribute(true)]
         [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Visible)]
         public override global::System.Data.SchemaSerializationMode SchemaSerializationMode {
@@ -1360,6 +1375,9 @@ namespace Ds.DataService {
                 }
                 if ((ds.Tables["P_RegistrarTransaccionFE"] != null)) {
                     base.Tables.Add(new P_RegistrarTransaccionFEDataTable(ds.Tables["P_RegistrarTransaccionFE"]));
+                }
+                if ((ds.Tables["P_ValidarAutorizadoPorTarjetaYPlaca"] != null)) {
+                    base.Tables.Add(new P_ValidarAutorizadoPorTarjetaYPlacaDataTable(ds.Tables["P_ValidarAutorizadoPorTarjetaYPlaca"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -1802,6 +1820,12 @@ namespace Ds.DataService {
                     this.tableP_RegistrarTransaccionFE.InitVars();
                 }
             }
+            this.tableP_ValidarAutorizadoPorTarjetaYPlaca = ((P_ValidarAutorizadoPorTarjetaYPlacaDataTable)(base.Tables["P_ValidarAutorizadoPorTarjetaYPlaca"]));
+            if ((initTable == true)) {
+                if ((this.tableP_ValidarAutorizadoPorTarjetaYPlaca != null)) {
+                    this.tableP_ValidarAutorizadoPorTarjetaYPlaca.InitVars();
+                }
+            }
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1948,6 +1972,8 @@ namespace Ds.DataService {
             base.Tables.Add(this.tableP_ConfirmarPagoFE);
             this.tableP_RegistrarTransaccionFE = new P_RegistrarTransaccionFEDataTable();
             base.Tables.Add(this.tableP_RegistrarTransaccionFE);
+            this.tableP_ValidarAutorizadoPorTarjetaYPlaca = new P_ValidarAutorizadoPorTarjetaYPlacaDataTable();
+            base.Tables.Add(this.tableP_ValidarAutorizadoPorTarjetaYPlaca);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2360,6 +2386,12 @@ namespace Ds.DataService {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        private bool ShouldSerializeP_ValidarAutorizadoPorTarjetaYPlaca() {
+            return false;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void SchemaChanged(object sender, global::System.ComponentModel.CollectionChangeEventArgs e) {
             if ((e.Action == global::System.ComponentModel.CollectionChangeAction.Remove)) {
                 this.InitVars();
@@ -2616,6 +2648,9 @@ namespace Ds.DataService {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         public delegate void P_RegistrarTransaccionFERowChangeEventHandler(object sender, P_RegistrarTransaccionFERowChangeEvent e);
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        public delegate void P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEventHandler(object sender, P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
@@ -22385,6 +22420,432 @@ namespace Ds.DataService {
         }
         
         /// <summary>
+        ///Represents the strongly named DataTable class.
+        ///</summary>
+        [global::System.Serializable()]
+        [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
+        public partial class P_ValidarAutorizadoPorTarjetaYPlacaDataTable : global::System.Data.TypedTableBase<P_ValidarAutorizadoPorTarjetaYPlacaRow> {
+            
+            private global::System.Data.DataColumn columnDocumento;
+            
+            private global::System.Data.DataColumn columnIdAutorizacion;
+            
+            private global::System.Data.DataColumn columnEstado;
+            
+            private global::System.Data.DataColumn columnEstadoAutorizacion;
+            
+            private global::System.Data.DataColumn columnIdTarjeta;
+            
+            private global::System.Data.DataColumn columnNombreApellidos;
+            
+            private global::System.Data.DataColumn columnFechaInicio;
+            
+            private global::System.Data.DataColumn columnFechaFin;
+            
+            private global::System.Data.DataColumn columnIdEstacionamiento;
+            
+            private global::System.Data.DataColumn columnNombreAutorizacion;
+            
+            private global::System.Data.DataColumn columnNombreEmpresa;
+            
+            private global::System.Data.DataColumn columnNit;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public P_ValidarAutorizadoPorTarjetaYPlacaDataTable() {
+                this.TableName = "P_ValidarAutorizadoPorTarjetaYPlaca";
+                this.BeginInit();
+                this.InitClass();
+                this.EndInit();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            internal P_ValidarAutorizadoPorTarjetaYPlacaDataTable(global::System.Data.DataTable table) {
+                this.TableName = table.TableName;
+                if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
+                    this.CaseSensitive = table.CaseSensitive;
+                }
+                if ((table.Locale.ToString() != table.DataSet.Locale.ToString())) {
+                    this.Locale = table.Locale;
+                }
+                if ((table.Namespace != table.DataSet.Namespace)) {
+                    this.Namespace = table.Namespace;
+                }
+                this.Prefix = table.Prefix;
+                this.MinimumCapacity = table.MinimumCapacity;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected P_ValidarAutorizadoPorTarjetaYPlacaDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+                    base(info, context) {
+                this.InitVars();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn DocumentoColumn {
+                get {
+                    return this.columnDocumento;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn IdAutorizacionColumn {
+                get {
+                    return this.columnIdAutorizacion;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn EstadoColumn {
+                get {
+                    return this.columnEstado;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn EstadoAutorizacionColumn {
+                get {
+                    return this.columnEstadoAutorizacion;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn IdTarjetaColumn {
+                get {
+                    return this.columnIdTarjeta;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn NombreApellidosColumn {
+                get {
+                    return this.columnNombreApellidos;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn FechaInicioColumn {
+                get {
+                    return this.columnFechaInicio;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn FechaFinColumn {
+                get {
+                    return this.columnFechaFin;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn IdEstacionamientoColumn {
+                get {
+                    return this.columnIdEstacionamiento;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn NombreAutorizacionColumn {
+                get {
+                    return this.columnNombreAutorizacion;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn NombreEmpresaColumn {
+                get {
+                    return this.columnNombreEmpresa;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn NitColumn {
+                get {
+                    return this.columnNit;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            [global::System.ComponentModel.Browsable(false)]
+            public int Count {
+                get {
+                    return this.Rows.Count;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public P_ValidarAutorizadoPorTarjetaYPlacaRow this[int index] {
+                get {
+                    return ((P_ValidarAutorizadoPorTarjetaYPlacaRow)(this.Rows[index]));
+                }
+            }
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public event P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEventHandler P_ValidarAutorizadoPorTarjetaYPlacaRowChanging;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public event P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEventHandler P_ValidarAutorizadoPorTarjetaYPlacaRowChanged;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public event P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEventHandler P_ValidarAutorizadoPorTarjetaYPlacaRowDeleting;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public event P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEventHandler P_ValidarAutorizadoPorTarjetaYPlacaRowDeleted;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void AddP_ValidarAutorizadoPorTarjetaYPlacaRow(P_ValidarAutorizadoPorTarjetaYPlacaRow row) {
+                this.Rows.Add(row);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public P_ValidarAutorizadoPorTarjetaYPlacaRow AddP_ValidarAutorizadoPorTarjetaYPlacaRow(string Documento, long IdAutorizacion, bool Estado, bool EstadoAutorizacion, string IdTarjeta, string NombreApellidos, System.DateTime FechaInicio, System.DateTime FechaFin, long IdEstacionamiento, string NombreAutorizacion, string NombreEmpresa, string Nit) {
+                P_ValidarAutorizadoPorTarjetaYPlacaRow rowP_ValidarAutorizadoPorTarjetaYPlacaRow = ((P_ValidarAutorizadoPorTarjetaYPlacaRow)(this.NewRow()));
+                object[] columnValuesArray = new object[] {
+                        Documento,
+                        IdAutorizacion,
+                        Estado,
+                        EstadoAutorizacion,
+                        IdTarjeta,
+                        NombreApellidos,
+                        FechaInicio,
+                        FechaFin,
+                        IdEstacionamiento,
+                        NombreAutorizacion,
+                        NombreEmpresa,
+                        Nit};
+                rowP_ValidarAutorizadoPorTarjetaYPlacaRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowP_ValidarAutorizadoPorTarjetaYPlacaRow);
+                return rowP_ValidarAutorizadoPorTarjetaYPlacaRow;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public P_ValidarAutorizadoPorTarjetaYPlacaRow FindByIdAutorizacionIdEstacionamiento(long IdAutorizacion, long IdEstacionamiento) {
+                return ((P_ValidarAutorizadoPorTarjetaYPlacaRow)(this.Rows.Find(new object[] {
+                            IdAutorizacion,
+                            IdEstacionamiento})));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public override global::System.Data.DataTable Clone() {
+                P_ValidarAutorizadoPorTarjetaYPlacaDataTable cln = ((P_ValidarAutorizadoPorTarjetaYPlacaDataTable)(base.Clone()));
+                cln.InitVars();
+                return cln;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override global::System.Data.DataTable CreateInstance() {
+                return new P_ValidarAutorizadoPorTarjetaYPlacaDataTable();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            internal void InitVars() {
+                this.columnDocumento = base.Columns["Documento"];
+                this.columnIdAutorizacion = base.Columns["IdAutorizacion"];
+                this.columnEstado = base.Columns["Estado"];
+                this.columnEstadoAutorizacion = base.Columns["EstadoAutorizacion"];
+                this.columnIdTarjeta = base.Columns["IdTarjeta"];
+                this.columnNombreApellidos = base.Columns["NombreApellidos"];
+                this.columnFechaInicio = base.Columns["FechaInicio"];
+                this.columnFechaFin = base.Columns["FechaFin"];
+                this.columnIdEstacionamiento = base.Columns["IdEstacionamiento"];
+                this.columnNombreAutorizacion = base.Columns["NombreAutorizacion"];
+                this.columnNombreEmpresa = base.Columns["NombreEmpresa"];
+                this.columnNit = base.Columns["Nit"];
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            private void InitClass() {
+                this.columnDocumento = new global::System.Data.DataColumn("Documento", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnDocumento);
+                this.columnIdAutorizacion = new global::System.Data.DataColumn("IdAutorizacion", typeof(long), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnIdAutorizacion);
+                this.columnEstado = new global::System.Data.DataColumn("Estado", typeof(bool), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnEstado);
+                this.columnEstadoAutorizacion = new global::System.Data.DataColumn("EstadoAutorizacion", typeof(bool), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnEstadoAutorizacion);
+                this.columnIdTarjeta = new global::System.Data.DataColumn("IdTarjeta", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnIdTarjeta);
+                this.columnNombreApellidos = new global::System.Data.DataColumn("NombreApellidos", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnNombreApellidos);
+                this.columnFechaInicio = new global::System.Data.DataColumn("FechaInicio", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnFechaInicio);
+                this.columnFechaFin = new global::System.Data.DataColumn("FechaFin", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnFechaFin);
+                this.columnIdEstacionamiento = new global::System.Data.DataColumn("IdEstacionamiento", typeof(long), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnIdEstacionamiento);
+                this.columnNombreAutorizacion = new global::System.Data.DataColumn("NombreAutorizacion", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnNombreAutorizacion);
+                this.columnNombreEmpresa = new global::System.Data.DataColumn("NombreEmpresa", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnNombreEmpresa);
+                this.columnNit = new global::System.Data.DataColumn("Nit", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnNit);
+                this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
+                                this.columnIdAutorizacion,
+                                this.columnIdEstacionamiento}, true));
+                this.columnDocumento.AllowDBNull = false;
+                this.columnDocumento.MaxLength = 100;
+                this.columnIdAutorizacion.AllowDBNull = false;
+                this.columnEstado.AllowDBNull = false;
+                this.columnEstadoAutorizacion.AllowDBNull = false;
+                this.columnIdTarjeta.AllowDBNull = false;
+                this.columnIdTarjeta.MaxLength = 50;
+                this.columnNombreApellidos.AllowDBNull = false;
+                this.columnNombreApellidos.MaxLength = 100;
+                this.columnIdEstacionamiento.AllowDBNull = false;
+                this.columnNombreAutorizacion.AllowDBNull = false;
+                this.columnNombreAutorizacion.MaxLength = 50;
+                this.columnNombreEmpresa.MaxLength = 50;
+                this.columnNit.MaxLength = 50;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public P_ValidarAutorizadoPorTarjetaYPlacaRow NewP_ValidarAutorizadoPorTarjetaYPlacaRow() {
+                return ((P_ValidarAutorizadoPorTarjetaYPlacaRow)(this.NewRow()));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
+                return new P_ValidarAutorizadoPorTarjetaYPlacaRow(builder);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override global::System.Type GetRowType() {
+                return typeof(P_ValidarAutorizadoPorTarjetaYPlacaRow);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanged(e);
+                if ((this.P_ValidarAutorizadoPorTarjetaYPlacaRowChanged != null)) {
+                    this.P_ValidarAutorizadoPorTarjetaYPlacaRowChanged(this, new P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEvent(((P_ValidarAutorizadoPorTarjetaYPlacaRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanging(e);
+                if ((this.P_ValidarAutorizadoPorTarjetaYPlacaRowChanging != null)) {
+                    this.P_ValidarAutorizadoPorTarjetaYPlacaRowChanging(this, new P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEvent(((P_ValidarAutorizadoPorTarjetaYPlacaRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleted(e);
+                if ((this.P_ValidarAutorizadoPorTarjetaYPlacaRowDeleted != null)) {
+                    this.P_ValidarAutorizadoPorTarjetaYPlacaRowDeleted(this, new P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEvent(((P_ValidarAutorizadoPorTarjetaYPlacaRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleting(e);
+                if ((this.P_ValidarAutorizadoPorTarjetaYPlacaRowDeleting != null)) {
+                    this.P_ValidarAutorizadoPorTarjetaYPlacaRowDeleting(this, new P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEvent(((P_ValidarAutorizadoPorTarjetaYPlacaRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void RemoveP_ValidarAutorizadoPorTarjetaYPlacaRow(P_ValidarAutorizadoPorTarjetaYPlacaRow row) {
+                this.Rows.Remove(row);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
+                global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
+                global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
+                ModuloDataSet ds = new ModuloDataSet();
+                global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
+                any1.Namespace = "http://www.w3.org/2001/XMLSchema";
+                any1.MinOccurs = new decimal(0);
+                any1.MaxOccurs = decimal.MaxValue;
+                any1.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any1);
+                global::System.Xml.Schema.XmlSchemaAny any2 = new global::System.Xml.Schema.XmlSchemaAny();
+                any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1";
+                any2.MinOccurs = new decimal(1);
+                any2.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any2);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute1 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute1.Name = "namespace";
+                attribute1.FixedValue = ds.Namespace;
+                type.Attributes.Add(attribute1);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute2.Name = "tableTypeName";
+                attribute2.FixedValue = "P_ValidarAutorizadoPorTarjetaYPlacaDataTable";
+                type.Attributes.Add(attribute2);
+                type.Particle = sequence;
+                global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
+                if (xs.Contains(dsSchema.TargetNamespace)) {
+                    global::System.IO.MemoryStream s1 = new global::System.IO.MemoryStream();
+                    global::System.IO.MemoryStream s2 = new global::System.IO.MemoryStream();
+                    try {
+                        global::System.Xml.Schema.XmlSchema schema = null;
+                        dsSchema.Write(s1);
+                        for (global::System.Collections.IEnumerator schemas = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator(); schemas.MoveNext(); ) {
+                            schema = ((global::System.Xml.Schema.XmlSchema)(schemas.Current));
+                            s2.SetLength(0);
+                            schema.Write(s2);
+                            if ((s1.Length == s2.Length)) {
+                                s1.Position = 0;
+                                s2.Position = 0;
+                                for (; ((s1.Position != s1.Length) 
+                                            && (s1.ReadByte() == s2.ReadByte())); ) {
+                                    ;
+                                }
+                                if ((s1.Position == s1.Length)) {
+                                    return type;
+                                }
+                            }
+                        }
+                    }
+                    finally {
+                        if ((s1 != null)) {
+                            s1.Close();
+                        }
+                        if ((s2 != null)) {
+                            s2.Close();
+                        }
+                    }
+                }
+                xs.Add(dsSchema);
+                return type;
+            }
+        }
+        
+        /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class P_ConfirmarTransaccionRow : global::System.Data.DataRow {
@@ -29219,6 +29680,225 @@ namespace Ds.DataService {
         }
         
         /// <summary>
+        ///Represents strongly named DataRow class.
+        ///</summary>
+        public partial class P_ValidarAutorizadoPorTarjetaYPlacaRow : global::System.Data.DataRow {
+            
+            private P_ValidarAutorizadoPorTarjetaYPlacaDataTable tableP_ValidarAutorizadoPorTarjetaYPlaca;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            internal P_ValidarAutorizadoPorTarjetaYPlacaRow(global::System.Data.DataRowBuilder rb) : 
+                    base(rb) {
+                this.tableP_ValidarAutorizadoPorTarjetaYPlaca = ((P_ValidarAutorizadoPorTarjetaYPlacaDataTable)(this.Table));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Documento {
+                get {
+                    return ((string)(this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.DocumentoColumn]));
+                }
+                set {
+                    this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.DocumentoColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public long IdAutorizacion {
+                get {
+                    return ((long)(this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.IdAutorizacionColumn]));
+                }
+                set {
+                    this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.IdAutorizacionColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool Estado {
+                get {
+                    return ((bool)(this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.EstadoColumn]));
+                }
+                set {
+                    this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.EstadoColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool EstadoAutorizacion {
+                get {
+                    return ((bool)(this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.EstadoAutorizacionColumn]));
+                }
+                set {
+                    this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.EstadoAutorizacionColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string IdTarjeta {
+                get {
+                    return ((string)(this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.IdTarjetaColumn]));
+                }
+                set {
+                    this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.IdTarjetaColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string NombreApellidos {
+                get {
+                    return ((string)(this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.NombreApellidosColumn]));
+                }
+                set {
+                    this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.NombreApellidosColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public System.DateTime FechaInicio {
+                get {
+                    try {
+                        return ((global::System.DateTime)(this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.FechaInicioColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'FechaInicio\' de la tabla \'P_ValidarAutorizadoPorTarjetaYP" +
+                                "laca\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.FechaInicioColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public System.DateTime FechaFin {
+                get {
+                    try {
+                        return ((global::System.DateTime)(this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.FechaFinColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'FechaFin\' de la tabla \'P_ValidarAutorizadoPorTarjetaYPlac" +
+                                "a\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.FechaFinColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public long IdEstacionamiento {
+                get {
+                    return ((long)(this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.IdEstacionamientoColumn]));
+                }
+                set {
+                    this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.IdEstacionamientoColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string NombreAutorizacion {
+                get {
+                    return ((string)(this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.NombreAutorizacionColumn]));
+                }
+                set {
+                    this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.NombreAutorizacionColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string NombreEmpresa {
+                get {
+                    try {
+                        return ((string)(this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.NombreEmpresaColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'NombreEmpresa\' de la tabla \'P_ValidarAutorizadoPorTarjeta" +
+                                "YPlaca\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.NombreEmpresaColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Nit {
+                get {
+                    try {
+                        return ((string)(this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.NitColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'Nit\' de la tabla \'P_ValidarAutorizadoPorTarjetaYPlaca\' es" +
+                                " DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.NitColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsFechaInicioNull() {
+                return this.IsNull(this.tableP_ValidarAutorizadoPorTarjetaYPlaca.FechaInicioColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetFechaInicioNull() {
+                this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.FechaInicioColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsFechaFinNull() {
+                return this.IsNull(this.tableP_ValidarAutorizadoPorTarjetaYPlaca.FechaFinColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetFechaFinNull() {
+                this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.FechaFinColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsNombreEmpresaNull() {
+                return this.IsNull(this.tableP_ValidarAutorizadoPorTarjetaYPlaca.NombreEmpresaColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetNombreEmpresaNull() {
+                this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.NombreEmpresaColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsNitNull() {
+                return this.IsNull(this.tableP_ValidarAutorizadoPorTarjetaYPlaca.NitColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetNitNull() {
+                this[this.tableP_ValidarAutorizadoPorTarjetaYPlaca.NitColumn] = global::System.Convert.DBNull;
+            }
+        }
+        
+        /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
@@ -31516,6 +32196,40 @@ namespace Ds.DataService {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public P_RegistrarTransaccionFERow Row {
+                get {
+                    return this.eventRow;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataRowAction Action {
+                get {
+                    return this.eventAction;
+                }
+            }
+        }
+        
+        /// <summary>
+        ///Row event argument class
+        ///</summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        public class P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEvent : global::System.EventArgs {
+            
+            private P_ValidarAutorizadoPorTarjetaYPlacaRow eventRow;
+            
+            private global::System.Data.DataRowAction eventAction;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public P_ValidarAutorizadoPorTarjetaYPlacaRowChangeEvent(P_ValidarAutorizadoPorTarjetaYPlacaRow row, global::System.Data.DataRowAction action) {
+                this.eventRow = row;
+                this.eventAction = action;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public P_ValidarAutorizadoPorTarjetaYPlacaRow Row {
                 get {
                     return this.eventRow;
                 }
@@ -46064,6 +46778,211 @@ namespace Ds.DataService.ModuloDataSetTableAdapters {
                 this.Adapter.SelectCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
             ModuloDataSet.P_RegistrarTransaccionFEDataTable dataTable = new ModuloDataSet.P_RegistrarTransaccionFEDataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+    }
+    
+    /// <summary>
+    ///Represents the connection and commands used to retrieve and save data.
+    ///</summary>
+    [global::System.ComponentModel.DesignerCategoryAttribute("code")]
+    [global::System.ComponentModel.ToolboxItem(true)]
+    [global::System.ComponentModel.DataObjectAttribute(true)]
+    [global::System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner" +
+        ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+    [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+    public partial class P_ValidarAutorizadoPorTarjetaYPlacaTableAdapter : global::System.ComponentModel.Component {
+        
+        private global::System.Data.SqlClient.SqlDataAdapter _adapter;
+        
+        private global::System.Data.SqlClient.SqlConnection _connection;
+        
+        private global::System.Data.SqlClient.SqlTransaction _transaction;
+        
+        private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
+        
+        private bool _clearBeforeFill;
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        public P_ValidarAutorizadoPorTarjetaYPlacaTableAdapter() {
+            this.ClearBeforeFill = true;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
+            get {
+                if ((this._adapter == null)) {
+                    this.InitAdapter();
+                }
+                return this._adapter;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        internal global::System.Data.SqlClient.SqlConnection Connection {
+            get {
+                if ((this._connection == null)) {
+                    this.InitConnection();
+                }
+                return this._connection;
+            }
+            set {
+                this._connection = value;
+                if ((this.Adapter.InsertCommand != null)) {
+                    this.Adapter.InsertCommand.Connection = value;
+                }
+                if ((this.Adapter.DeleteCommand != null)) {
+                    this.Adapter.DeleteCommand.Connection = value;
+                }
+                if ((this.Adapter.UpdateCommand != null)) {
+                    this.Adapter.UpdateCommand.Connection = value;
+                }
+                for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
+                    if ((this.CommandCollection[i] != null)) {
+                        ((global::System.Data.SqlClient.SqlCommand)(this.CommandCollection[i])).Connection = value;
+                    }
+                }
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        internal global::System.Data.SqlClient.SqlTransaction Transaction {
+            get {
+                return this._transaction;
+            }
+            set {
+                this._transaction = value;
+                for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
+                    this.CommandCollection[i].Transaction = this._transaction;
+                }
+                if (((this.Adapter != null) 
+                            && (this.Adapter.DeleteCommand != null))) {
+                    this.Adapter.DeleteCommand.Transaction = this._transaction;
+                }
+                if (((this.Adapter != null) 
+                            && (this.Adapter.InsertCommand != null))) {
+                    this.Adapter.InsertCommand.Transaction = this._transaction;
+                }
+                if (((this.Adapter != null) 
+                            && (this.Adapter.UpdateCommand != null))) {
+                    this.Adapter.UpdateCommand.Transaction = this._transaction;
+                }
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
+            get {
+                if ((this._commandCollection == null)) {
+                    this.InitCommandCollection();
+                }
+                return this._commandCollection;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        public bool ClearBeforeFill {
+            get {
+                return this._clearBeforeFill;
+            }
+            set {
+                this._clearBeforeFill = value;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        private void InitAdapter() {
+            this._adapter = new global::System.Data.SqlClient.SqlDataAdapter();
+            global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
+            tableMapping.SourceTable = "Table";
+            tableMapping.DataSetTable = "P_ValidarAutorizadoPorTarjetaYPlaca";
+            tableMapping.ColumnMappings.Add("Documento", "Documento");
+            tableMapping.ColumnMappings.Add("IdAutorizacion", "IdAutorizacion");
+            tableMapping.ColumnMappings.Add("Estado", "Estado");
+            tableMapping.ColumnMappings.Add("EstadoAutorizacion", "EstadoAutorizacion");
+            tableMapping.ColumnMappings.Add("IdTarjeta", "IdTarjeta");
+            tableMapping.ColumnMappings.Add("NombreApellidos", "NombreApellidos");
+            tableMapping.ColumnMappings.Add("FechaInicio", "FechaInicio");
+            tableMapping.ColumnMappings.Add("FechaFin", "FechaFin");
+            tableMapping.ColumnMappings.Add("IdEstacionamiento", "IdEstacionamiento");
+            tableMapping.ColumnMappings.Add("NombreAutorizacion", "NombreAutorizacion");
+            tableMapping.ColumnMappings.Add("NombreEmpresa", "NombreEmpresa");
+            tableMapping.ColumnMappings.Add("Nit", "Nit");
+            this._adapter.TableMappings.Add(tableMapping);
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        private void InitConnection() {
+            this._connection = new global::System.Data.SqlClient.SqlConnection();
+            this._connection.ConnectionString = global::Ds.DataService.Properties.Settings.Default.SmartCoinLocalConnectionString;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        private void InitCommandCollection() {
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[0].Connection = this.Connection;
+            this._commandCollection[0].CommandText = "dbo.P_ValidarAutorizadoPorTarjetaYPlaca";
+            this._commandCollection[0].CommandType = global::System.Data.CommandType.StoredProcedure;
+            this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IdTtarjeta", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Placa", global::System.Data.SqlDbType.VarChar, 10, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
+        public virtual int Fill(ModuloDataSet.P_ValidarAutorizadoPorTarjetaYPlacaDataTable dataTable, string IdTtarjeta, string Placa) {
+            this.Adapter.SelectCommand = this.CommandCollection[0];
+            if ((IdTtarjeta == null)) {
+                this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[1].Value = ((string)(IdTtarjeta));
+            }
+            if ((Placa == null)) {
+                this.Adapter.SelectCommand.Parameters[2].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[2].Value = ((string)(Placa));
+            }
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
+        public virtual ModuloDataSet.P_ValidarAutorizadoPorTarjetaYPlacaDataTable GetData(string IdTtarjeta, string Placa) {
+            this.Adapter.SelectCommand = this.CommandCollection[0];
+            if ((IdTtarjeta == null)) {
+                this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[1].Value = ((string)(IdTtarjeta));
+            }
+            if ((Placa == null)) {
+                this.Adapter.SelectCommand.Parameters[2].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[2].Value = ((string)(Placa));
+            }
+            ModuloDataSet.P_ValidarAutorizadoPorTarjetaYPlacaDataTable dataTable = new ModuloDataSet.P_ValidarAutorizadoPorTarjetaYPlacaDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }

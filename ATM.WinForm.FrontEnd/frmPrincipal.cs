@@ -890,6 +890,8 @@ namespace ATM.WinForm.FrontEnd
         private string _sCodigoInvalido = string.Empty;
         private string _sConsultaFallida = string.Empty;
         private string _sTarifa = string.Empty;
+        private string _sDigitePlaca = string.Empty;
+
         #endregion
 
         private const int APPCOMMAND_VOLUME_MUTE = 0x80000;
@@ -2823,7 +2825,6 @@ namespace ATM.WinForm.FrontEnd
             //Presentacion = Pantalla.DetallePagoDatafono;
             #endregion
 
-
             #region New
             //Presentacion = Pantalla.Procesando;
             if (_pagoFacturaElectronica)
@@ -3230,8 +3231,8 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_ConfirmarPagoMensual_Click(object sender, EventArgs e)
         {
-            //_pagoFacturaElectronica = false;
-            //pagoFacturaElectronica = _pagoFacturaElectronica;
+            _pagoFacturaElectronica = false;
+            pagoFacturaElectronica = _pagoFacturaElectronica;
             _PagoEfectivo.ValorPago = 0;
             Presentacion = Pantalla.SeleccionPago;
         }
@@ -3574,6 +3575,9 @@ namespace ATM.WinForm.FrontEnd
                 CapaSuspendidoCaleto.Text = string.Empty;
                 CapaSuspendidoCaleto.Parent = Imagen_SistemaSupendido;
 
+                btn_AnularPagoMensualParcial.Text = string.Empty;
+                btn_AnularPagoMensualParcial.LockPush = false;
+
                 btn_ConfirmarPagoParcial.Text = string.Empty;
                 btn_ConfirmarPagoParcial.LockPush = false;
 
@@ -3593,6 +3597,12 @@ namespace ATM.WinForm.FrontEnd
 
                 //btn_NoPrint.Text = string.Empty;
                 //btn_NoPrint.LockPush = false;
+
+                btn_ConfirmarPagoMensual.Text = string.Empty;
+                btn_ConfirmarPagoMensual.LockPush = false;
+
+                btn_ConfirmarPagoMensualFE.Text = string.Empty;
+                btn_ConfirmarPagoMensualFE.LockPush = false;
 
                 btn_CancelarPagoEfectivo.Text = string.Empty;
                 btn_CancelarPagoEfectivo.LockPush = false;
@@ -4026,11 +4036,16 @@ namespace ATM.WinForm.FrontEnd
                 Imagen_TarjetaVisitante.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_Inicio.jpg"));
                 Imagen_NoMensual.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_NoMensual.jpg"));
                 Imagen_DigiteNitCliente.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_InserteNit.jpg"));
+                Imagen_DigitePlaca.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_DigitePlaca.jpg"));
 
 
                 #endregion
 
                 #region ImagenesBotones
+                btn_ConfirmarPagoMensual.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"));
+                btn_ConfirmarPagoMensualFE.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"));
+                btn_AnularPagoMensualParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"));
+
 
                 //btn_Monedas.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PuertaMonedas.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PuertaMonedas.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PuertaMonedasPresionado.png"));
                 //btn_PuertaBilletes.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PuertaBilltes.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PuertaBilltes.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PuertaBilltesPresionado.png"));
@@ -4234,6 +4249,7 @@ namespace ATM.WinForm.FrontEnd
                 _sAtasco = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Wav\Sonido_Atasco.wav");
                 _sConsultaFallida = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Wav\Sonido_ConsultaError.wav");
                 _sTarifa = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Wav\Sonido_SeleccioneTarifaPago.wav");
+                _sDigitePlaca = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Wav\Sonido_DigitePlaca.wav");
 
                 ok = true;
             }
@@ -5048,6 +5064,7 @@ namespace ATM.WinForm.FrontEnd
 
             Autorizado oAutorizado = new Autorizado();
             oAutorizado.IdTarjeta = _Tarjeta.CodeCard;
+            oAutorizado.Placa1 = lblPlaca.Text;
             //oAutorizado.IdTarjeta = "06F7486A";
             //_Tarjeta.CodeCard = "06F7486A";
             General_Events = "FrondEnd-ValidarMensualidad" + " IdTarjeta: " + oAutorizado.IdTarjeta;
@@ -5115,6 +5132,12 @@ namespace ATM.WinForm.FrontEnd
                         Cnt_Reinicio = 0;
                         Limpiartext();
                         TabControlPrincipal.SelectedTab = tabPrincipal;
+                        break;
+                    case Pantalla.DigitePlaca:
+                        Cnt_Reinicio = 0;
+                        simpleSound = new SoundPlayer(_sDigitePlaca);
+                        simpleSound.Play();
+                        TabControlPrincipal.SelectedTab = tabDigitePlaca;
                         break;
                     case Pantalla.TarjetaVisitante:
                         Cnt_Reinicio = 0;

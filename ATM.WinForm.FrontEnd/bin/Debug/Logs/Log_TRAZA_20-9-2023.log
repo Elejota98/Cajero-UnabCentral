@@ -1,0 +1,166 @@
+2023/09/20 03:38:58.996 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 03:39:11.723 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 03:39:11.758 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 03:39:11.788 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 03:39:11.817 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 03:39:15.395 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 03:45:08.939 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 03:45:15.144 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 03:45:15.154 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 03:45:15.167 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 03:45:15.183 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 03:45:16.891 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 03:48:50.354 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 03:48:55.506 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 03:48:55.515 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 03:48:55.530 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 03:48:55.545 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 03:48:55.556 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 03:50:11.738 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 03:50:16.386 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 03:50:16.396 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 03:50:16.410 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 03:50:16.425 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 03:50:16.437 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 03:50:39.937 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 03:50:42.372 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 03:50:42.380 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 03:50:42.395 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 03:50:42.411 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 03:50:42.421 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 03:51:00.773 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 03:51:03.164 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 03:51:03.172 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 03:51:03.186 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 03:51:03.202 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 03:51:03.213 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 03:51:21.257 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 03:51:23.623 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 03:51:23.632 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 03:51:23.647 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 03:51:23.662 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 03:51:23.674 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 03:51:40.340 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 03:51:42.824 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 03:51:42.832 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 03:51:42.846 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 03:51:42.862 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 03:51:42.873 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 03:52:11.154 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 03:52:13.505 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 03:52:13.514 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 03:52:13.528 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 03:52:13.544 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 03:52:13.569 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 03:52:46.091 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 03:52:46.637 - MENSAJE: ObtenerAutorizado Error
+2023/09/20 03:52:59.537 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 03:53:04.715 - MENSAJE: ObtenerAutorizado Error
+2023/09/20 04:01:42.980 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:01:47.932 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 04:01:47.948 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 04:01:47.969 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 04:01:47.991 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 04:01:48.007 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 04:02:10.663 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:02:11.086 - MENSAJE: ObtenerAutorizado Error
+2023/09/20 04:02:29.202 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:02:29.711 - MENSAJE: ObtenerAutorizado Error
+2023/09/20 04:02:44.416 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:02:59.493 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:03:02.002 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 04:03:02.010 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 04:03:02.024 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 04:03:02.041 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 04:03:02.053 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 04:03:16.271 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:08:45.800 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:08:48.503 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 04:08:48.514 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 04:08:48.548 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 04:08:48.563 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 04:08:48.580 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 04:08:58.290 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:09:23.049 - MENSAJE: ObtenerAutorizado ok
+2023/09/20 04:09:27.952 - MENSAJE: _NumeroDocumentoOrigen 37843178
+2023/09/20 04:13:04.084 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:13:06.843 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 04:13:06.853 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 04:13:06.896 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 04:13:06.912 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 04:13:06.924 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 04:13:21.185 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:13:32.560 - MENSAJE: ObtenerAutorizado ok
+2023/09/20 04:13:32.561 - MENSAJE: _NumeroDocumentoOrigen 37843178
+2023/09/20 04:14:29.399 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:14:32.077 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 04:14:32.114 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 04:14:32.131 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 04:14:32.148 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 04:14:32.161 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 04:14:40.646 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:14:40.673 - MENSAJE: ObtenerAutorizado ok
+2023/09/20 04:14:40.673 - MENSAJE: _NumeroDocumentoOrigen 37843178
+2023/09/20 04:15:00.074 - MENSAJE: Presenter-ConsultaValor ok 
+2023/09/20 04:21:15.625 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:21:17.641 - MENSAJE: FrondEnd-CargaImagenes -> Excepcion en CargaImagenes: 
+2023/09/20 04:21:26.776 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:22:23.861 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:22:26.389 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 04:22:26.400 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 04:22:26.416 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 04:22:26.433 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 04:22:26.444 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 04:22:35.577 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:22:35.602 - MENSAJE: ObtenerAutorizado ok
+2023/09/20 04:22:35.603 - MENSAJE: _NumeroDocumentoOrigen 37843178
+2023/09/20 04:22:48.048 - MENSAJE: Presenter-ConsultaValor ok 
+2023/09/20 04:25:24.096 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:25:26.667 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 04:25:26.677 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 04:25:26.694 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 04:25:26.711 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 04:25:26.725 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 04:25:36.538 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:25:36.565 - MENSAJE: ObtenerAutorizado ok
+2023/09/20 04:25:36.565 - MENSAJE: _NumeroDocumentoOrigen 37843178
+2023/09/20 04:25:45.935 - MENSAJE: Presenter-ConsultaValor ok 
+2023/09/20 04:29:19.148 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:29:21.625 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 04:29:21.636 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 04:29:21.652 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 04:29:21.667 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 04:29:21.680 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 04:29:30.776 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:29:30.805 - MENSAJE: ObtenerAutorizado ok
+2023/09/20 04:29:30.805 - MENSAJE: _NumeroDocumentoOrigen 37843178
+2023/09/20 04:29:33.272 - MENSAJE: Presenter-ConsultaValor ok 
+2023/09/20 04:30:14.865 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:30:14.875 - MENSAJE: ObtenerAutorizado ok
+2023/09/20 04:30:14.875 - MENSAJE: _NumeroDocumentoOrigen 37843178
+2023/09/20 04:30:17.729 - MENSAJE: Presenter-ConsultaValor ok 
+2023/09/20 04:31:21.832 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:31:24.362 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 04:31:24.373 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 04:31:24.388 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 04:31:24.405 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 04:31:24.417 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 04:31:32.839 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:31:33.473 - MENSAJE: ObtenerAutorizado ok
+2023/09/20 04:33:18.999 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:33:21.466 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 04:33:21.476 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 04:33:21.493 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 04:33:21.509 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 04:33:21.522 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 04:33:29.979 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:36:04.850 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/20 04:36:07.337 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/20 04:36:07.348 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/20 04:36:07.364 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/20 04:36:07.382 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/20 04:36:07.393 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/20 04:36:28.672 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/20 04:36:28.706 - MENSAJE: ObtenerAutorizado ok
+2023/09/20 04:36:28.706 - MENSAJE: _NumeroDocumentoOrigen 1007571255
+2023/09/20 04:36:32.736 - MENSAJE: Presenter-ConsultaValor ok 
