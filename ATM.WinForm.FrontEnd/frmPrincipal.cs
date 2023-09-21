@@ -3338,12 +3338,13 @@ namespace ATM.WinForm.FrontEnd
             }
             else
             {
-                _clienteNoRegistrado = true;
-                clienteNoRegistrado = _clienteNoRegistrado;
+                _pagoFacturaElectronica = false;
+                pagoFacturaElectronica = _pagoFacturaElectronica;
                 lblRtaCliente.Text = "El nit ingresado no se encuentra registrado";
                 Thread.Sleep(3000);
-
-                Presentacion = Pantalla.SeleccionPago;
+                btn_ConfirmarPagoNitCliente.Visible = true;
+                btn_CancelarPagoNitCliente.Visible = true;
+                //Presentacion = Pantalla.SeleccionPago;
             }
         }
         #endregion
@@ -3580,6 +3581,13 @@ namespace ATM.WinForm.FrontEnd
 
                 btn_ConfirmarPagoParcial.Text = string.Empty;
                 btn_ConfirmarPagoParcial.LockPush = false;
+
+                btn_ConfirmarPagoNitCliente.Text = string.Empty;
+                btn_ConfirmarPagoNitCliente.LockPush = false;
+
+                btn_CancelarPagoNitCliente.Text = string.Empty;
+                btn_CancelarPagoNitCliente.LockPush = false;
+
 
                 btn_AnularPagoParcial.Text = string.Empty;
                 btn_AnularPagoParcial.LockPush = false;
@@ -4037,6 +4045,9 @@ namespace ATM.WinForm.FrontEnd
                 Imagen_NoMensual.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_NoMensual.jpg"));
                 Imagen_DigiteNitCliente.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_InserteNit.jpg"));
                 Imagen_DigitePlaca.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_DigitePlaca.jpg"));
+                btn_ConfirmarPagoNitCliente.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"));
+                btn_CancelarPagoNitCliente.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"));
+
 
 
                 #endregion
@@ -5212,6 +5223,13 @@ namespace ATM.WinForm.FrontEnd
                         lblValorPagarAutoN.Text = "$" + String.Format("{0:#,##0.##}", Convert.ToDouble(valorCobroMensualidad.Replace("$", "").Replace(".", "")));
                         TabControlPrincipal.SelectedTab = tabTarjetaMensual;
                         break;
+
+                    case Pantalla.DigiteNitCliente:
+                        Cnt_Reinicio = 0;
+                        btn_ConfirmarPagoNitCliente.Visible = false;
+                        btn_CancelarPagoNitCliente.Visible = false;
+                        TabControlPrincipal.SelectedTab = tabNitCliente;
+                        break;
                     case Pantalla.PagoEfectivo:
                         Cnt_Reinicio = 0;                        
                         
@@ -5575,6 +5593,17 @@ namespace ATM.WinForm.FrontEnd
 
         }
         #endregion       
+
+        private void btn_CancelarPagoNitCliente_Click(object sender, EventArgs e)
+        {
+            _frmPrincipal_Presenter.Expulsar();
+            Presentacion = Pantalla.TransaccionCancelada;
+        }
+
+        private void btn_ConfirmarPagoNitCliente_Click(object sender, EventArgs e)
+        {
+            Presentacion = Pantalla.SeleccionPago;
+        }
 
 
     }

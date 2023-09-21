@@ -3547,3 +3547,5 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.FrontEnd\obj
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.FrontEnd\obj\Debug\ATM.WinForm.FrontEnd.csproj.GenerateResource.Cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.FrontEnd\obj\Debug\RdlCompile.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.FrontEnd\obj\Debug\RdlCompile.compiled
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.FrontEnd\bin\Debug\Facturas\ticketPagoFE.rdlc
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\ATM.WinForm.FrontEnd\bin\Debug\Facturas\ticketPagoMensualidadFE.rdlc

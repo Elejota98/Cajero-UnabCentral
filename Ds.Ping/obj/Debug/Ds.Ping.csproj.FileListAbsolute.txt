@@ -133,4 +133,3 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Pin
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.pdb
-D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
