@@ -3146,223 +3146,449 @@ namespace ATM.WinForm.Presenter
         }
         public void EfectuarPagoCancelado(long VALOR)
         {
-            View.General_Events = "Presenter-AdministrarProcesoCambio Preparando para Efectuar Pago";
-
-            View.PagoEfectivo.ValorProcesoCambio = Convert.ToInt64(VALOR);
-            View.PagoEfectivo.ValorCambio = Convert.ToInt32(View.PagoEfectivo.ValorProcesoCambio);
-
-            View.Operacion.ID_Transaccion = Convert.ToInt64(View.IdTransaccion);
-            View.Operacion.Comision = View.PagoEfectivo.ValorCambio;
-            View.Operacion.ID_Modulo = Globales.sSerial;
-            //View.SetearPantalla(Pantalla.Procesando);
-
-            if (View.PagoEfectivo.ValorCambio > 0)
+            if (View.pagoFacturaElectronica)
             {
-                if (View.PagoEfectivo.ValorProcesoCambio >= 2000)
+                View.General_Events = "Presenter-AdministrarProcesoCambio Preparando para Efectuar Pago";
+
+                View.PagoEfectivo.ValorProcesoCambio = Convert.ToInt64(VALOR);
+                View.PagoEfectivo.ValorCambio = Convert.ToInt32(View.PagoEfectivo.ValorProcesoCambio);
+
+                View.Operacion.ID_Transaccion = Convert.ToInt64(View.IdTransaccion);
+                View.Operacion.Comision = View.PagoEfectivo.ValorCambio;
+                View.Operacion.ID_Modulo = Globales.sSerial;
+                //View.SetearPantalla(Pantalla.Procesando);
+
+                if (View.PagoEfectivo.ValorCambio > 0)
                 {
-                    if (View.PagoEfectivo.ValorProcesoCambio > 0)
+                    if (View.PagoEfectivo.ValorProcesoCambio >= 2000)
                     {
-                        Model.DispensarBilletes(Convert.ToInt32(View.PagoEfectivo.ValorCambio), View.DtoModulo);
+                        if (View.PagoEfectivo.ValorProcesoCambio > 0)
+                        {
+                            Model.DispensarBilletes(Convert.ToInt32(View.PagoEfectivo.ValorCambio), View.DtoModulo);
+                        }
+                    }
+                    else
+                    {
+                        if (View.PagoEfectivo.ValorProcesoCambio > 0)
+                        {
+                            View.General_Events = "Presenter-AdministrarProcesoCambio Monedas -> Prepara Proceso Cambio Monedas";
+                            if (AdministrarProcesoPago(View.PagoEfectivo, TipoMedioPago.Moneda))
+                            {
+                                if (View.BanderaCancelacion)
+                                {
+                                    if (View.TipoPago == "MENSUALIDAD")
+                                    {
+                                        ConfirmarOperacionFE(TipoOperacion.Mensualidad, TipoEstadoPago.Cancelado);
+                                        if (ValidarSaldosMinimos())
+                                        {
+                                            View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                                        }
+                                    }
+                                    else if (View.TipoPago == "EVENTO")
+                                    {
+                                        ConfirmarOperacionFE(TipoOperacion.Evento, TipoEstadoPago.Cancelado);
+                                        if (ValidarSaldosMinimos())
+                                        {
+                                            View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                        if (ValidarSaldosMinimos())
+                                        {
+                                            View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                                        }
+                                    }
+
+                                }
+                                else if (!View.BanderaRecaudo)
+                                {
+                                    if (View.BanderaPagoFinal)
+                                    {
+                                        if (View.TipoPago == "MENSUALIDAD")
+                                        {
+                                            EscribirTarjeta();
+                                            View.Efectivo = true;
+                                            ConfirmarOperacionFE(TipoOperacion.Mensualidad, TipoEstadoPago.Aprobado);
+                                            if (View.CobroTarjetaMensual)
+                                            {
+                                                ConfirmarOperacionFE(TipoOperacion.CobroTarjetaMensual, TipoEstadoPago.Aprobado);
+                                            }
+                                            View.Cnt_Reinicio = 0;
+                                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                                            View.BanderaRecaudo = false;
+                                            View.BanderaPagoFinal = false;
+                                        }
+                                        else if (View.TipoPago == "EVENTO")
+                                        {
+                                            EscribirTarjeta();
+                                            View.Efectivo = true;
+                                            ConfirmarOperacionFE(TipoOperacion.Evento, TipoEstadoPago.Aprobado);
+                                            View.Cnt_Reinicio = 0;
+                                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                                            View.BanderaRecaudo = false;
+                                            View.BanderaPagoFinal = false;
+                                        }
+                                        else
+                                        {
+                                            EscribirTarjeta();
+                                            View.Efectivo = true;
+                                            ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+                                            if (View.TipoPago == "REPOSICIÓN")
+                                            {
+                                                ConfirmarOperacionFE(TipoOperacion.Reposicion, TipoEstadoPago.Aprobado);
+                                            }
+                                            else if (View.TipoPago == "CASCOS")
+                                            {
+                                                ConfirmarOperacionFE(TipoOperacion.Casco, TipoEstadoPago.Aprobado);
+                                            }
+                                            else if (View.TipoPago == "EVENTO")
+                                            {
+                                                ConfirmarOperacionFE(TipoOperacion.Evento, TipoEstadoPago.Aprobado);
+                                            }
+                                            View.Cnt_Reinicio = 0;
+                                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                                            View.BanderaRecaudo = false;
+                                            View.BanderaPagoFinal = false;
+                                        }
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                if (View.BanderaCancelacion)
+                                {
+
+                                    View.TicketDevolucion = true;
+                                    View.Imprimir();
+                                    ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Error_Dispositivo);
+
+                                    if (ValidarSaldosMinimos())
+                                    {
+                                        View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                                    }
+
+                                }
+                                else if (!View.BanderaRecaudo)
+                                {
+                                    if (View.BanderaPagoFinal)
+                                    {
+                                        EscribirTarjeta();
+                                        View.TicketDevolucion = true;
+                                        View.Imprimir();
+                                        View.Efectivo = true;
+                                        ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Error_Dispositivo);
+                                        View.SetearPantalla(Pantalla.ImprimirFactura);
+                                        View.BanderaRecaudo = false;
+                                        View.BanderaPagoFinal = false;
+                                    }
+
+                                }
+                            }
+                        }
                     }
                 }
                 else
                 {
-                    if (View.PagoEfectivo.ValorProcesoCambio > 0)
+                    if (View.BanderaCancelacion)
                     {
-                        View.General_Events = "Presenter-AdministrarProcesoCambio Monedas -> Prepara Proceso Cambio Monedas";
-                        if (AdministrarProcesoPago(View.PagoEfectivo, TipoMedioPago.Moneda))
+                        if (View.TipoPago == "MENSUALIDAD")
                         {
-                            if (View.BanderaCancelacion)
+                            ConfirmarOperacionFE(TipoOperacion.Mensualidad, TipoEstadoPago.Cancelado);
+                            if (ValidarSaldosMinimos())
                             {
-                                if (View.TipoPago == "MENSUALIDAD")
-                                {
-                                    ConfirmarOperacion(TipoOperacion.Mensualidad, TipoEstadoPago.Cancelado);
-                                    if (ValidarSaldosMinimos())
-                                    {
-                                        View.SetearPantalla(Pantalla.PublicidadPrincipal);
-                                    }
-                                }
-                                else if (View.TipoPago == "EVENTO")
-                                {
-                                    ConfirmarOperacion(TipoOperacion.Evento, TipoEstadoPago.Cancelado);
-                                    if (ValidarSaldosMinimos())
-                                    {
-                                        View.SetearPantalla(Pantalla.PublicidadPrincipal);
-                                    }
-                                }
-                                else
-                                {
-                                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                                    if (ValidarSaldosMinimos())
-                                    {
-                                        View.SetearPantalla(Pantalla.PublicidadPrincipal);
-                                    }
-                                }
-
+                                View.SetearPantalla(Pantalla.PublicidadPrincipal);
                             }
-                            else if (!View.BanderaRecaudo)
+                        }
+                        else if (View.TipoPago == "EVENTO")
+                        {
+                            ConfirmarOperacionFE(TipoOperacion.Evento, TipoEstadoPago.Cancelado);
+                            if (ValidarSaldosMinimos())
                             {
-                                if (View.BanderaPagoFinal)
-                                {
-                                    if (View.TipoPago == "MENSUALIDAD")
-                                    {
-                                        EscribirTarjeta();
-                                        View.Efectivo = true;
-                                        ConfirmarOperacion(TipoOperacion.Mensualidad, TipoEstadoPago.Aprobado);
-                                        if (View.CobroTarjetaMensual)
-                                        {
-                                            ConfirmarOperacion(TipoOperacion.CobroTarjetaMensual, TipoEstadoPago.Aprobado);
-                                        }
-                                        View.Cnt_Reinicio = 0;
-                                        View.SetearPantalla(Pantalla.ImprimirFactura);
-                                        View.BanderaRecaudo = false;
-                                        View.BanderaPagoFinal = false;
-                                    }
-                                    else if (View.TipoPago == "EVENTO")
-                                    {
-                                        EscribirTarjeta();
-                                        View.Efectivo = true;
-                                        ConfirmarOperacion(TipoOperacion.Evento, TipoEstadoPago.Aprobado);
-                                        View.Cnt_Reinicio = 0;
-                                        View.SetearPantalla(Pantalla.ImprimirFactura);
-                                        View.BanderaRecaudo = false;
-                                        View.BanderaPagoFinal = false;
-                                    }
-                                    else
-                                    {
-                                        EscribirTarjeta();
-                                        View.Efectivo = true;
-                                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
-                                        if (View.TipoPago == "REPOSICIÓN")
-                                        {
-                                            ConfirmarOperacion(TipoOperacion.Reposicion, TipoEstadoPago.Aprobado);
-                                        }
-                                        else if (View.TipoPago == "CASCOS")
-                                        {
-                                            ConfirmarOperacion(TipoOperacion.Casco, TipoEstadoPago.Aprobado);
-                                        }
-                                        else if (View.TipoPago == "EVENTO")
-                                        {
-                                            ConfirmarOperacion(TipoOperacion.Evento, TipoEstadoPago.Aprobado);
-                                        }
-                                        View.Cnt_Reinicio = 0;
-                                        View.SetearPantalla(Pantalla.ImprimirFactura);
-                                        View.BanderaRecaudo = false;
-                                        View.BanderaPagoFinal = false;
-                                    }
-                                }
+                                View.SetearPantalla(Pantalla.PublicidadPrincipal);
                             }
                         }
                         else
                         {
-                            if (View.BanderaCancelacion)
+                            ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                            if (ValidarSaldosMinimos())
                             {
-
-                                View.TicketDevolucion = true;
-                                View.Imprimir();
-                                ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Error_Dispositivo);
-
-                                if (ValidarSaldosMinimos())
-                                {
-                                    View.SetearPantalla(Pantalla.PublicidadPrincipal);
-                                }
-
+                                View.SetearPantalla(Pantalla.PublicidadPrincipal);
                             }
-                            else if (!View.BanderaRecaudo)
+                        }
+                    }
+                    else if (View.BanderaPagoFinal)
+                    {
+                        if (View.TipoPago == "MENSUALIDAD")
+                        {
+                            EscribirTarjeta();
+                            View.Efectivo = true;
+                            ConfirmarOperacionFE(TipoOperacion.Mensualidad, TipoEstadoPago.Aprobado);
+                            View.Cnt_Reinicio = 0;
+                            if (View.CobroTarjetaMensual)
                             {
-                                if (View.BanderaPagoFinal)
-                                {
-                                    EscribirTarjeta();
-                                    View.TicketDevolucion = true;
-                                    View.Imprimir();
-                                    View.Efectivo = true;
-                                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Error_Dispositivo);
-                                    View.SetearPantalla(Pantalla.ImprimirFactura);
-                                    View.BanderaRecaudo = false;
-                                    View.BanderaPagoFinal = false;
-                                }
-
+                                ConfirmarOperacionFE(TipoOperacion.CobroTarjetaMensual, TipoEstadoPago.Aprobado);
                             }
+                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                            View.BanderaRecaudo = false;
+                            View.BanderaPagoFinal = false;
+                        }
+                        else if (View.TipoPago == "EVENTO")
+                        {
+                            EscribirTarjeta();
+                            View.Efectivo = true;
+                            ConfirmarOperacionFE(TipoOperacion.Evento, TipoEstadoPago.Aprobado);
+                            View.Cnt_Reinicio = 0;
+                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                            View.BanderaRecaudo = false;
+                            View.BanderaPagoFinal = false;
+                        }
+                        else
+                        {
+                            EscribirTarjeta();
+                            View.Efectivo = true;
+                            ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+                            if (View.TipoPago == "REPOSICIÓN")
+                            {
+                                ConfirmarOperacionFE(TipoOperacion.Reposicion, TipoEstadoPago.Aprobado);
+                            }
+                            else if (View.TipoPago == "CASCOS")
+                            {
+                                ConfirmarOperacionFE(TipoOperacion.Casco, TipoEstadoPago.Aprobado);
+                            }
+                            else if (View.TipoPago == "EVENTO")
+                            {
+                                ConfirmarOperacionFE(TipoOperacion.Evento, TipoEstadoPago.Aprobado);
+                            }
+                            View.Cnt_Reinicio = 0;
+                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                            View.BanderaRecaudo = false;
+                            View.BanderaPagoFinal = false;
                         }
                     }
                 }
             }
             else
             {
-                if (View.BanderaCancelacion)
+                View.General_Events = "Presenter-AdministrarProcesoCambio Preparando para Efectuar Pago";
+
+                View.PagoEfectivo.ValorProcesoCambio = Convert.ToInt64(VALOR);
+                View.PagoEfectivo.ValorCambio = Convert.ToInt32(View.PagoEfectivo.ValorProcesoCambio);
+
+                View.Operacion.ID_Transaccion = Convert.ToInt64(View.IdTransaccion);
+                View.Operacion.Comision = View.PagoEfectivo.ValorCambio;
+                View.Operacion.ID_Modulo = Globales.sSerial;
+                //View.SetearPantalla(Pantalla.Procesando);
+
+                if (View.PagoEfectivo.ValorCambio > 0)
                 {
-                    if (View.TipoPago == "MENSUALIDAD")
+                    if (View.PagoEfectivo.ValorProcesoCambio >= 2000)
                     {
-                        ConfirmarOperacion(TipoOperacion.Mensualidad, TipoEstadoPago.Cancelado);
-                        if (ValidarSaldosMinimos())
+                        if (View.PagoEfectivo.ValorProcesoCambio > 0)
                         {
-                            View.SetearPantalla(Pantalla.PublicidadPrincipal);
-                        }
-                    }
-                    else if (View.TipoPago == "EVENTO")
-                    {
-                        ConfirmarOperacion(TipoOperacion.Evento, TipoEstadoPago.Cancelado);
-                        if (ValidarSaldosMinimos())
-                        {
-                            View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                            Model.DispensarBilletes(Convert.ToInt32(View.PagoEfectivo.ValorCambio), View.DtoModulo);
                         }
                     }
                     else
                     {
-                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
-                        if (ValidarSaldosMinimos())
+                        if (View.PagoEfectivo.ValorProcesoCambio > 0)
                         {
-                            View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                            View.General_Events = "Presenter-AdministrarProcesoCambio Monedas -> Prepara Proceso Cambio Monedas";
+                            if (AdministrarProcesoPago(View.PagoEfectivo, TipoMedioPago.Moneda))
+                            {
+                                if (View.BanderaCancelacion)
+                                {
+                                    if (View.TipoPago == "MENSUALIDAD")
+                                    {
+                                        ConfirmarOperacion(TipoOperacion.Mensualidad, TipoEstadoPago.Cancelado);
+                                        if (ValidarSaldosMinimos())
+                                        {
+                                            View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                                        }
+                                    }
+                                    else if (View.TipoPago == "EVENTO")
+                                    {
+                                        ConfirmarOperacion(TipoOperacion.Evento, TipoEstadoPago.Cancelado);
+                                        if (ValidarSaldosMinimos())
+                                        {
+                                            View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                                        if (ValidarSaldosMinimos())
+                                        {
+                                            View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                                        }
+                                    }
+
+                                }
+                                else if (!View.BanderaRecaudo)
+                                {
+                                    if (View.BanderaPagoFinal)
+                                    {
+                                        if (View.TipoPago == "MENSUALIDAD")
+                                        {
+                                            EscribirTarjeta();
+                                            View.Efectivo = true;
+                                            ConfirmarOperacion(TipoOperacion.Mensualidad, TipoEstadoPago.Aprobado);
+                                            if (View.CobroTarjetaMensual)
+                                            {
+                                                ConfirmarOperacion(TipoOperacion.CobroTarjetaMensual, TipoEstadoPago.Aprobado);
+                                            }
+                                            View.Cnt_Reinicio = 0;
+                                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                                            View.BanderaRecaudo = false;
+                                            View.BanderaPagoFinal = false;
+                                        }
+                                        else if (View.TipoPago == "EVENTO")
+                                        {
+                                            EscribirTarjeta();
+                                            View.Efectivo = true;
+                                            ConfirmarOperacion(TipoOperacion.Evento, TipoEstadoPago.Aprobado);
+                                            View.Cnt_Reinicio = 0;
+                                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                                            View.BanderaRecaudo = false;
+                                            View.BanderaPagoFinal = false;
+                                        }
+                                        else
+                                        {
+                                            EscribirTarjeta();
+                                            View.Efectivo = true;
+                                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+                                            if (View.TipoPago == "REPOSICIÓN")
+                                            {
+                                                ConfirmarOperacion(TipoOperacion.Reposicion, TipoEstadoPago.Aprobado);
+                                            }
+                                            else if (View.TipoPago == "CASCOS")
+                                            {
+                                                ConfirmarOperacion(TipoOperacion.Casco, TipoEstadoPago.Aprobado);
+                                            }
+                                            else if (View.TipoPago == "EVENTO")
+                                            {
+                                                ConfirmarOperacion(TipoOperacion.Evento, TipoEstadoPago.Aprobado);
+                                            }
+                                            View.Cnt_Reinicio = 0;
+                                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                                            View.BanderaRecaudo = false;
+                                            View.BanderaPagoFinal = false;
+                                        }
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                if (View.BanderaCancelacion)
+                                {
+
+                                    View.TicketDevolucion = true;
+                                    View.Imprimir();
+                                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Error_Dispositivo);
+
+                                    if (ValidarSaldosMinimos())
+                                    {
+                                        View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                                    }
+
+                                }
+                                else if (!View.BanderaRecaudo)
+                                {
+                                    if (View.BanderaPagoFinal)
+                                    {
+                                        EscribirTarjeta();
+                                        View.TicketDevolucion = true;
+                                        View.Imprimir();
+                                        View.Efectivo = true;
+                                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Error_Dispositivo);
+                                        View.SetearPantalla(Pantalla.ImprimirFactura);
+                                        View.BanderaRecaudo = false;
+                                        View.BanderaPagoFinal = false;
+                                    }
+
+                                }
+                            }
                         }
                     }
                 }
-                else if (View.BanderaPagoFinal)
+                else
                 {
-                    if (View.TipoPago == "MENSUALIDAD")
+                    if (View.BanderaCancelacion)
                     {
-                        EscribirTarjeta();
-                        View.Efectivo = true;
-                        ConfirmarOperacion(TipoOperacion.Mensualidad, TipoEstadoPago.Aprobado);
-                        View.Cnt_Reinicio = 0;
-                        if (View.CobroTarjetaMensual)
+                        if (View.TipoPago == "MENSUALIDAD")
                         {
-                            ConfirmarOperacion(TipoOperacion.CobroTarjetaMensual, TipoEstadoPago.Aprobado);
-                        }
-                        View.SetearPantalla(Pantalla.ImprimirFactura);
-                        View.BanderaRecaudo = false;
-                        View.BanderaPagoFinal = false;
-                    }
-                    else if (View.TipoPago == "EVENTO")
-                    {
-                        EscribirTarjeta();
-                        View.Efectivo = true;
-                        ConfirmarOperacion(TipoOperacion.Evento, TipoEstadoPago.Aprobado);
-                        View.Cnt_Reinicio = 0;
-                        View.SetearPantalla(Pantalla.ImprimirFactura);
-                        View.BanderaRecaudo = false;
-                        View.BanderaPagoFinal = false;
-                    }
-                    else
-                    {
-                        EscribirTarjeta();
-                        View.Efectivo = true;
-                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
-                        if (View.TipoPago == "REPOSICIÓN")
-                        {
-                            ConfirmarOperacion(TipoOperacion.Reposicion, TipoEstadoPago.Aprobado);
-                        }
-                        else if (View.TipoPago == "CASCOS")
-                        {
-                            ConfirmarOperacion(TipoOperacion.Casco, TipoEstadoPago.Aprobado);
+                            ConfirmarOperacion(TipoOperacion.Mensualidad, TipoEstadoPago.Cancelado);
+                            if (ValidarSaldosMinimos())
+                            {
+                                View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                            }
                         }
                         else if (View.TipoPago == "EVENTO")
                         {
-                            ConfirmarOperacion(TipoOperacion.Evento, TipoEstadoPago.Aprobado);
+                            ConfirmarOperacion(TipoOperacion.Evento, TipoEstadoPago.Cancelado);
+                            if (ValidarSaldosMinimos())
+                            {
+                                View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                            }
                         }
-                        View.Cnt_Reinicio = 0;
-                        View.SetearPantalla(Pantalla.ImprimirFactura);
-                        View.BanderaRecaudo = false;
-                        View.BanderaPagoFinal = false;
+                        else
+                        {
+                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                            if (ValidarSaldosMinimos())
+                            {
+                                View.SetearPantalla(Pantalla.PublicidadPrincipal);
+                            }
+                        }
+                    }
+                    else if (View.BanderaPagoFinal)
+                    {
+                        if (View.TipoPago == "MENSUALIDAD")
+                        {
+                            EscribirTarjeta();
+                            View.Efectivo = true;
+                            ConfirmarOperacion(TipoOperacion.Mensualidad, TipoEstadoPago.Aprobado);
+                            View.Cnt_Reinicio = 0;
+                            if (View.CobroTarjetaMensual)
+                            {
+                                ConfirmarOperacion(TipoOperacion.CobroTarjetaMensual, TipoEstadoPago.Aprobado);
+                            }
+                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                            View.BanderaRecaudo = false;
+                            View.BanderaPagoFinal = false;
+                        }
+                        else if (View.TipoPago == "EVENTO")
+                        {
+                            EscribirTarjeta();
+                            View.Efectivo = true;
+                            ConfirmarOperacion(TipoOperacion.Evento, TipoEstadoPago.Aprobado);
+                            View.Cnt_Reinicio = 0;
+                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                            View.BanderaRecaudo = false;
+                            View.BanderaPagoFinal = false;
+                        }
+                        else
+                        {
+                            EscribirTarjeta();
+                            View.Efectivo = true;
+                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+                            if (View.TipoPago == "REPOSICIÓN")
+                            {
+                                ConfirmarOperacion(TipoOperacion.Reposicion, TipoEstadoPago.Aprobado);
+                            }
+                            else if (View.TipoPago == "CASCOS")
+                            {
+                                ConfirmarOperacion(TipoOperacion.Casco, TipoEstadoPago.Aprobado);
+                            }
+                            else if (View.TipoPago == "EVENTO")
+                            {
+                                ConfirmarOperacion(TipoOperacion.Evento, TipoEstadoPago.Aprobado);
+                            }
+                            View.Cnt_Reinicio = 0;
+                            View.SetearPantalla(Pantalla.ImprimirFactura);
+                            View.BanderaRecaudo = false;
+                            View.BanderaPagoFinal = false;
+                        }
                     }
                 }
             }
