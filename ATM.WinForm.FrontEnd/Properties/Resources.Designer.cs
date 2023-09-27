@@ -63,6 +63,26 @@ namespace ATM.WinForm.FrontEnd.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Imagen_DetallePago {
+            get {
+                object obj = ResourceManager.GetObject("Imagen_DetallePago", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Imagen_PagoParcial {
+            get {
+                object obj = ResourceManager.GetObject("Imagen_PagoParcial", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Inserte_NIT {
             get {
                 object obj = ResourceManager.GetObject("Inserte NIT", resourceCulture);

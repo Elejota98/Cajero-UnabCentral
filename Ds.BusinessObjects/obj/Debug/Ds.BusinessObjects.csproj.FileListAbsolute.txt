@@ -75,3 +75,13 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\D
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.Tools.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\Debug\GS.CSharpPCSC.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessObjects\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessObjects\obj\Debug\Ds.BusinessObjects.pdb

@@ -101,3 +101,8 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BaseService\bin\Debug
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BaseService\bin\Debug\Ds.BaseService.pdb
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BaseService\obj\Debug\Ds.BaseService.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BaseService\obj\Debug\Ds.BaseService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BaseService\bin\Debug\Ds.BaseService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BaseService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BaseService\obj\Debug\Ds.BaseService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BaseService\obj\Debug\Ds.BaseService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BaseService\obj\Debug\Ds.BaseService.pdb

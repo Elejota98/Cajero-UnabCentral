@@ -302,3 +302,17 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.A
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\obj\Debug\EGlobalT_ATM.Host.ActionServer.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\obj\Debug\EGlobalT_ATM.Host.ActionServer.pdb
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\obj\Debug\Ds.HostModuloComercial.ActionServer.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\EGlobalT_ATM.Host.ActionServer.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\EGlobalT_ATM.Host.ActionServer.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.ModuloService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.BaseService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.BusinessService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.DataService.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.ModuloService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.BaseService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.BusinessService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\bin\Ds.DataService.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\obj\Debug\Ds.HostModuloComercial.ActionServer.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\obj\Debug\EGlobalT_ATM.Host.ActionServer.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.HostModuloComercial.ActionServer\obj\Debug\EGlobalT_ATM.Host.ActionServer.pdb

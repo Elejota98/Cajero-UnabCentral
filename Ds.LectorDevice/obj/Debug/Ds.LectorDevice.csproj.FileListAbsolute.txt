@@ -86,3 +86,14 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.LectorDevice\bin\Debu
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.LectorDevice\obj\Debug\Ds.LectorDevice.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.LectorDevice\obj\Debug\Ds.LectorDevice.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.LectorDevice\obj\Debug\Ds.LectorDevice.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.LectorDevice\bin\Debug\Ds.LectorDevice.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.LectorDevice\bin\Debug\Ds.LectorDevice.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.LectorDevice\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.LectorDevice\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.LectorDevice\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.LectorDevice\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.LectorDevice\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.LectorDevice\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.LectorDevice\obj\Debug\Ds.LectorDevice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.LectorDevice\obj\Debug\Ds.LectorDevice.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.LectorDevice\obj\Debug\Ds.LectorDevice.pdb

@@ -133,3 +133,11 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Pin
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Ping\bin\Debug\Ds.Ping.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Ping\bin\Debug\Ds.Ping.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.Ping.resources
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Ping\obj\Debug\Ds.Ping.csprojResolveAssemblyReference.cache

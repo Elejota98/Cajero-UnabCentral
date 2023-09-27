@@ -12,8 +12,8 @@ namespace Ds.BusinessObjects.Enums
         /// TimeOut en Segundos
         /// </summary>
         TimeOut_CondicionesRestricciones = 150,
-        TimeOut_TransaccionCancelada = 5,
-        TimeOut_RetiroRecibo = 8,
+        TimeOut_TransaccionCancelada = 3,
+        TimeOut_RetiroRecibo = 3,
         TimeOut_ContraseñaIncorrecta = 5,
         TimeOut_ConteoMonedas = 40,
         TimeOut_Video = 64,

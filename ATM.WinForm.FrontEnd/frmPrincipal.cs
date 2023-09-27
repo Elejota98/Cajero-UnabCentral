@@ -1325,6 +1325,15 @@ namespace ATM.WinForm.FrontEnd
                     }
 
                     break;
+
+                case Pantalla.NoMensual:
+                    if (Cnt_Reinicio == (int)TimeOut.TimeOut_Publicidad0)
+                    {
+                        Cnt_Reinicio = 0;
+                        Presentacion = Pantalla.PublicidadPrincipal;
+                    }
+
+                    break;
                 case Pantalla.TarjetaSinEntrada:
                     if (Cnt_Reinicio == (int)TimeOut.TimeOut_Publicidad0)
                     {
@@ -1366,7 +1375,7 @@ namespace ATM.WinForm.FrontEnd
                     if (Cnt_Reinicio == (int)TimeOut.TimeOut_Flujo)
                     {
                         Cnt_Reinicio = 0;
-                        Presentacion = Pantalla.TransaccionCancelada;
+                        Presentacion = Pantalla.PublicidadPrincipal;
                     }
 
                     break;
@@ -2005,12 +2014,7 @@ namespace ATM.WinForm.FrontEnd
         {
             kbUsuarioPass.Show();
         }
-        private void CapaMenuPrincipal_Click(object sender, EventArgs e)
-        {
-            General_Events = "FrondEnd-CapaAyudaPrincipal_Click -> boton acceso Usuario";
-            Cnt_Reinicio = 0;
-            Presentacion = Pantalla.IngresoPass;
-        }
+
         private void btn_Pagar_Click(object sender, EventArgs e)
         {
             
@@ -3170,9 +3174,9 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_BorrarNitCliente_Click(object sender, EventArgs e)
         {
-            if (lblDigitosCredito.Text != string.Empty)
+            if (lblNitCliente.Text != string.Empty)
             {
-                lblDigitosCredito.Text = lblDigitosCredito.Text.Remove(lblDigitosCredito.Text.Length - 1, 1);
+                lblNitCliente.Text = lblNitCliente.Text.Remove(lblNitCliente.Text.Length - 1, 1);
             }
         }
 
@@ -3245,7 +3249,7 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_NitCliente1_Click(object sender, EventArgs e)
         {
-            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            if (lblNitCliente.Text.Replace("-", "").Length < 11)
             {
                 lblNitCliente.Text += "1";
             }
@@ -3253,7 +3257,7 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_NitCliente2_Click(object sender, EventArgs e)
         {
-            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            if (lblNitCliente.Text.Replace("-", "").Length < 11)
             {
                 lblNitCliente.Text += "2";
             }
@@ -3261,7 +3265,7 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_NitCliente3_Click(object sender, EventArgs e)
         {
-            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            if (lblNitCliente.Text.Replace("-", "").Length < 11)
             {
                 lblNitCliente.Text += "3";
             }
@@ -3269,15 +3273,15 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_NitCliente4_Click(object sender, EventArgs e)
         {
-            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            if (lblNitCliente.Text.Replace("-", "").Length < 11)
             {
-                lblNitCliente.Text += "5";
+                lblNitCliente.Text += "4";
             }
         }
 
         private void btn_NitCliente5_Click(object sender, EventArgs e)
         {
-            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            if (lblNitCliente.Text.Replace("-", "").Length < 11)
             {
                 lblNitCliente.Text += "5";
             }
@@ -3285,7 +3289,7 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_NitCliente6_Click(object sender, EventArgs e)
         {
-            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            if (lblNitCliente.Text.Replace("-", "").Length < 11)
             {
                 lblNitCliente.Text += "6";
             }
@@ -3293,7 +3297,7 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_NitCliente7_Click(object sender, EventArgs e)
         {
-            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            if (lblNitCliente.Text.Replace("-", "").Length < 11)
             {
                 lblNitCliente.Text += "7";
             }
@@ -3301,7 +3305,7 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_NitCliente8_Click(object sender, EventArgs e)
         {
-            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            if (lblNitCliente.Text.Replace("-", "").Length < 11)
             {
                 lblNitCliente.Text += "8";
             }
@@ -3309,7 +3313,7 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_NitCliente9_Click(object sender, EventArgs e)
         {
-            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            if (lblNitCliente.Text.Replace("-", "").Length < 11)
             {
                 lblNitCliente.Text += "9";
             }
@@ -3317,7 +3321,7 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_NitCliente0_Click(object sender, EventArgs e)
         {
-            if (lblNitCliente.Text.Replace("-", "").Length < 4)
+            if (lblNitCliente.Text.Replace("-", "").Length < 11)
             {
                 lblNitCliente.Text += "0";
             }
@@ -3331,9 +3335,10 @@ namespace ATM.WinForm.FrontEnd
                 pagoFacturaElectronica = _pagoFacturaElectronica;
 
                 lblRtaCliente.Text = rtaCliente.ToString();
-                Thread.Sleep(2000);
-
+                lblRtaCliente.Update();
+                Thread.Sleep(5000);
                 Presentacion = Pantalla.SeleccionPago;
+
 
             }
             else
@@ -3341,7 +3346,7 @@ namespace ATM.WinForm.FrontEnd
                 _pagoFacturaElectronica = false;
                 pagoFacturaElectronica = _pagoFacturaElectronica;
                 lblRtaCliente.Text = "El nit ingresado no se encuentra registrado";
-                Thread.Sleep(3000);
+                lblRtaCliente.Update();
                 btn_ConfirmarPagoNitCliente.Visible = true;
                 btn_CancelarPagoNitCliente.Visible = true;
                 //Presentacion = Pantalla.SeleccionPago;
@@ -3515,6 +3520,12 @@ namespace ATM.WinForm.FrontEnd
 
             try
             {
+                btn_ConfirmarPagoFE.Text = string.Empty;
+                btn_ConfirmarPagoFE.LockPush = false;
+
+                btn_TecladoPlaca.Text = string.Empty;
+                btn_TecladoPlaca.LockPush = false;
+
                 btn_CancelarPlaca.Text = string.Empty;
                 btn_CancelarPlaca.LockPush = false;
 
@@ -3689,7 +3700,7 @@ namespace ATM.WinForm.FrontEnd
                 Imagen_TipoCuenta.Dock = DockStyle.Fill;
                 Imagen_DetallePagoDatafono.Dock = DockStyle.Fill;
                 Imagen_PagoParcial.Dock = DockStyle.Fill;
-                Imagen_TarjetaVisitante.Dock = DockStyle.Fill;
+                pPublicidadTarjetaVisitante.Dock = DockStyle.Fill;
                 Imagen_NoMensual.Dock = DockStyle.Fill;
                 Imagen_DigiteNitCliente.Dock = DockStyle.Fill;
 
@@ -3697,14 +3708,14 @@ namespace ATM.WinForm.FrontEnd
                 kbUsuarioPass.Keyboard = CreateCustomKeyboard();
                 kbUsuarioPass.Parent = Imagen_IngresoPass;
 
-                kbUsuarioPass.Location = new Point(16, 679);
-                kbUsuarioPass.Size = new System.Drawing.Size(804, 282);
+                kbUsuarioPass.Location = new Point(200, 575);
+                kbUsuarioPass.Size = new System.Drawing.Size(900, 187);
 
                 kbPlaca.Keyboard = CreateCustomKeyboard();
                 kbPlaca.Parent = Imagen_DigitePlaca;
 
-                kbPlaca.Location = new Point(74, 550);
-                kbPlaca.Size = new System.Drawing.Size(988, 287);
+                kbPlaca.Location = new Point(200, 575);
+                kbPlaca.Size = new System.Drawing.Size(900, 187);
 
                 KeyBoardLoad();
 
@@ -3924,6 +3935,7 @@ namespace ATM.WinForm.FrontEnd
 
                 pInicio.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Gif\Animacion_Inicio.gif"));
                 Animacion_InserteTarjeta.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Gif\Animacion_InserteTarjeta.gif"));
+                Animacion_Inserte.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Gif\Animacion_InserteTarjeta.gif"));
                 AnimacionBoxTotal.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Gif\Animacion_RetireBox.gif"));
                 Animacion_RetireBox.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Gif\Animacion_RetireBox.gif"));
 
@@ -4025,6 +4037,7 @@ namespace ATM.WinForm.FrontEnd
                 Imagen_GraciasPago.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_GraciasPago.jpg"));
                 Imagen_ImprimirFactura.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_ImprimirFactura.jpg"));
                 Imagen_TransaccionCanceladaPago.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_CanceladaPago.jpg"));
+                Imagen_TransaccionCancelada.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_CanceladaPago.jpg"));
                 Imagen_TarjetaInvalida.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_TarjetaInvalida.jpg"));
                 Imagen_TarjetaMensual.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_TarjetaMensualidad.jpg"));
                 Imagen_DetallePagoMensual.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_DetallePagoMensualidad.jpg"));
@@ -4041,7 +4054,7 @@ namespace ATM.WinForm.FrontEnd
                 Imagen_PagoParcial.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_PagoParcial.png"));
                 btn_ConfirmarPagoParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"));
                 btn_AnularPagoParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"));
-                Imagen_TarjetaVisitante.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_Inicio.jpg"));
+                pPublicidadTarjetaVisitante.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_Inicio.jpg"));
                 Imagen_NoMensual.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_NoMensual.jpg"));
                 Imagen_DigiteNitCliente.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_InserteNit.jpg"));
                 Imagen_DigitePlaca.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_DigitePlaca.jpg"));
@@ -4056,6 +4069,8 @@ namespace ATM.WinForm.FrontEnd
                 btn_ConfirmarPagoMensual.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"));
                 btn_ConfirmarPagoMensualFE.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"));
                 btn_AnularPagoMensualParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"));
+                btn_ConfirmarPagoFE.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"));
+                btn_TecladoPlaca.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoard.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoard.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoardPresionado.png"));
 
 
                 //btn_Monedas.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PuertaMonedas.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PuertaMonedas.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PuertaMonedasPresionado.png"));
@@ -4067,10 +4082,10 @@ namespace ATM.WinForm.FrontEnd
                 btn_MostrarTecladoPass.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoard.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoard.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoardPresionado.png"));
                 btn_MostrarTecladoSegunda.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoard.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoard.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoardPresionado.png"));
 
-                btn_Aceptar.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Aceptar.png"));
+                btn_Aceptar.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarUsuario.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionadoUsuario.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarUsuario.png"));
                 btn_ConfirmarDetalle.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Aceptar.png"));
-                btn_Cancelar.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPresionado.png"));
-                btn_AceptarSegunda.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Aceptar.png"));
+                btn_Cancelar.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_VolverUsuario.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_VolverPresionadoUsuario.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_VolverUsuario.png"));
+                btn_AceptarSegunda.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionadoUsuario.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionadoUsuario.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarUsuario.png"));
                 btn_CancelarSegunda.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPresionado.png"));
 
                 btn_CancelarPagoAuto.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPresionado.png"));
@@ -4417,7 +4432,7 @@ namespace ATM.WinForm.FrontEnd
             //insertar transaccion
             if (_TipoPago == "MENSUALIDAD")
             {
-                if (_frmPrincipal_Presenter.RegistrarOperacionFE(TipoOperacion.Mensualidad, Convert.ToInt32(_rtaCliente)))
+                if (_frmPrincipal_Presenter.RegistrarOperacionFE(TipoOperacion.Mensualidad, Convert.ToInt32(lblNitCliente.Text)))
                 {
 
                     if (_bEfectivo)
@@ -4475,7 +4490,7 @@ namespace ATM.WinForm.FrontEnd
             }
             else
             {
-                if (_frmPrincipal_Presenter.RegistrarOperacionFE(TipoOperacion.Pago, Convert.ToInt32(_rtaCliente)))
+                if (_frmPrincipal_Presenter.RegistrarOperacionFE(TipoOperacion.Pago, Convert.ToInt32(lblNitCliente.Text)))
                 {
 
                     if (_bEfectivo)
@@ -4600,6 +4615,7 @@ namespace ATM.WinForm.FrontEnd
 
             kbUsuarioPass.ColorTable = _ColorTableCustom;
             kbPlaca.ColorTable = _ColorTableCustom;
+
 
         }
         private Keyboard CreateCustomKeyboard()
@@ -5136,6 +5152,11 @@ namespace ATM.WinForm.FrontEnd
                 switch (value)
                 {
 
+                    case Pantalla.NoMensual:
+                        Cnt_Reinicio = 0;
+                        TabControlPrincipal.SelectedTab = tabNoMensual;
+                        break;
+
                     case Pantalla.Inicio:
                         TabControlPrincipal.SelectedTab = tabInicio;
                         break;
@@ -5217,10 +5238,13 @@ namespace ATM.WinForm.FrontEnd
                     case Pantalla.TarjetaMensual:
                         Cnt_Reinicio = 0;
                         _ComPrint = false;
-                        lblNombreAutoN.Text = _DatosAuto;
-                        lblFechaFinAutoN.Text = _FechaFinAuto;
+                        //lblNombreAutoN.Text = _DatosAuto;
+                        lblNombreAutoN.Text = "MENSUALIDAD DE PRUEBA";
+                        //lblFechaFinAutoN.Text = _FechaFinAuto;
+                        lblFechaFinAutoN.Text="2023-09-27 23:59:59";
                         string valorCobroMensualidad = _PagoEfectivo.ValorPago.ToString();
-                        lblValorPagarAutoN.Text = "$" + String.Format("{0:#,##0.##}", Convert.ToDouble(valorCobroMensualidad.Replace("$", "").Replace(".", "")));
+                        //lblValorPagarAutoN.Text = "$" + String.Format("{0:#,##0.##}", Convert.ToDouble(valorCobroMensualidad.Replace("$", "").Replace(".", "")));
+                        lblValorPagarAutoN.Text="$50.000";
                         TabControlPrincipal.SelectedTab = tabTarjetaMensual;
                         break;
 
@@ -5228,6 +5252,11 @@ namespace ATM.WinForm.FrontEnd
                         Cnt_Reinicio = 0;
                         btn_ConfirmarPagoNitCliente.Visible = false;
                         btn_CancelarPagoNitCliente.Visible = false;
+                        lblNitCliente.Text = "";
+                        lblRtaCliente.Text = "";
+                        btn_OkNitCliente.Text = "";
+                        btn_BorrarNitCliente.Text = "";
+                        btn_NitCliente0.Text = "";
                         TabControlPrincipal.SelectedTab = tabNitCliente;
                         break;
                     case Pantalla.PagoEfectivo:
@@ -5313,6 +5342,7 @@ namespace ATM.WinForm.FrontEnd
                         Cnt_Reinicio = 0;
                         TabControlPrincipal.SelectedTab = tabTarjetaNoGeneraPago;
                         break;
+
                     case Pantalla.TipoCuenta:
                         Cnt_Reinicio = 0;
                         TabControlPrincipal.SelectedTab = tabTipoCuenta;
@@ -5457,37 +5487,73 @@ namespace ATM.WinForm.FrontEnd
                 }
                 else if (_ProcesoPago)
                 {
-
-                    if (_TipoPago == "MENSUALIDAD")
+                    if (!_pagoFacturaElectronica)
                     {
-                        datasource = new ReportDataSource("DataSetTicketPago", _frmPrincipal_Presenter.GenerarTicketPagoMensualidad().Tables[0]);
-                        oLocalReport.ReportPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, string.Format(@"Facturas\{0}.rdlc", "ticketPagoMensualidad"));
-                        oLocalReport.DataSources.Add(datasource);
-                        oLocalReport.Refresh();
-                        ReportPrintDocument ore = new ReportPrintDocument(oLocalReport);
-                        //ore.PrinterSettings.PrinterName = Globales.sNombreImpresoraTickets;
-                        ore.PrintController = new StandardPrintController();
-                        ore.Print();
-                        ore.Dispose();
-                        ore = null;
-                        oLocalReport.Dispose();
-                        oLocalReport = null;
+                        if (_TipoPago == "MENSUALIDAD")
+                        {
+                            datasource = new ReportDataSource("DataSetTicketPago", _frmPrincipal_Presenter.GenerarTicketPagoMensualidad().Tables[0]);
+                            oLocalReport.ReportPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, string.Format(@"Facturas\{0}.rdlc", "ticketPagoMensualidad"));
+                            oLocalReport.DataSources.Add(datasource);
+                            oLocalReport.Refresh();
+                            ReportPrintDocument ore = new ReportPrintDocument(oLocalReport);
+                            //ore.PrinterSettings.PrinterName = Globales.sNombreImpresoraTickets;
+                            ore.PrintController = new StandardPrintController();
+                            ore.Print();
+                            ore.Dispose();
+                            ore = null;
+                            oLocalReport.Dispose();
+                            oLocalReport = null;
+                        }
+                        else
+                        {
+                            datasource = new ReportDataSource("DataSetTicketPago", _frmPrincipal_Presenter.GenerarTicketPago().Tables[0]);
+                            oLocalReport.ReportPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, string.Format(@"Facturas\{0}.rdlc", "ticketPago"));
+                            oLocalReport.DataSources.Add(datasource);
+                            oLocalReport.Refresh();
+                            ReportPrintDocument ore = new ReportPrintDocument(oLocalReport);
+                            //ore.PrinterSettings.PrinterName = Globales.sNombreImpresoraTickets;
+                            ore.PrintController = new StandardPrintController();
+                            ore.Print();
+                            ore.Dispose();
+                            ore = null;
+                            oLocalReport.Dispose();
+                            oLocalReport = null;
+                        }
                     }
                     else
                     {
-                        datasource = new ReportDataSource("DataSetTicketPago", _frmPrincipal_Presenter.GenerarTicketPago().Tables[0]);
-                        oLocalReport.ReportPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, string.Format(@"Facturas\{0}.rdlc", "ticketPago"));
-                        oLocalReport.DataSources.Add(datasource);
-                        oLocalReport.Refresh();
-                        ReportPrintDocument ore = new ReportPrintDocument(oLocalReport);
-                        //ore.PrinterSettings.PrinterName = Globales.sNombreImpresoraTickets;
-                        ore.PrintController = new StandardPrintController();
-                        ore.Print();
-                        ore.Dispose();
-                        ore = null;
-                        oLocalReport.Dispose();
-                        oLocalReport = null;
+                        if (_TipoPago == "MENSUALIDAD")
+                        {
+                            datasource = new ReportDataSource("DataSetTicketPago", _frmPrincipal_Presenter.GenerarTicketPagoMensualidadFE().Tables[0]);
+                            oLocalReport.ReportPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, string.Format(@"Facturas\{0}.rdlc", "ticketPagoMensualidadFE"));
+                            oLocalReport.DataSources.Add(datasource);
+                            oLocalReport.Refresh();
+                            ReportPrintDocument ore = new ReportPrintDocument(oLocalReport);
+                            //ore.PrinterSettings.PrinterName = Globales.sNombreImpresoraTickets;
+                            ore.PrintController = new StandardPrintController();
+                            ore.Print();
+                            ore.Dispose();
+                            ore = null;
+                            oLocalReport.Dispose();
+                            oLocalReport = null;
+                        }
+                        else
+                        {
+                            datasource = new ReportDataSource("DataSetTicketPago", _frmPrincipal_Presenter.GenerarTicketPagoFE().Tables[0]);
+                            oLocalReport.ReportPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, string.Format(@"Facturas\{0}.rdlc", "ticketPagoFE"));
+                            oLocalReport.DataSources.Add(datasource);
+                            oLocalReport.Refresh();
+                            ReportPrintDocument ore = new ReportPrintDocument(oLocalReport);
+                            //ore.PrinterSettings.PrinterName = Globales.sNombreImpresoraTickets;
+                            ore.PrintController = new StandardPrintController();
+                            ore.Print();
+                            ore.Dispose();
+                            ore = null;
+                            oLocalReport.Dispose();
+                            oLocalReport = null;
+                        }
                     }
+
                 }
             }
             catch (Exception ex)
@@ -5603,6 +5669,19 @@ namespace ATM.WinForm.FrontEnd
         private void btn_ConfirmarPagoNitCliente_Click(object sender, EventArgs e)
         {
             Presentacion = Pantalla.SeleccionPago;
+        }
+
+        private void btn_TecladoPlaca_Click(object sender, EventArgs e)
+        {
+            kbPlaca.Show();
+
+        }
+
+        private void CapaMenuPrincipal_Click(object sender, EventArgs e)
+        {
+            General_Events = "FrondEnd-CapaAyudaPrincipal_Click -> boton acceso Usuario";
+            Cnt_Reinicio = 0;
+            Presentacion = Pantalla.IngresoPass;
         }
 
 

@@ -253,3 +253,16 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\obj\Debug\Ds.CashPaymentDevice.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\obj\Debug\Ds.CashPaymentDevice.dll
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\obj\Debug\Ds.CashPaymentDevice.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\Ds.CashPaymentDevice.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\Ds.CashPaymentDevice.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\Ds.Utilidades.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\obj\Debug\Ds.CashPaymentDevice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\obj\Debug\Ds.CashPaymentDevice.dll
+C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.CashPaymentDevice\obj\Debug\Ds.CashPaymentDevice.pdb
