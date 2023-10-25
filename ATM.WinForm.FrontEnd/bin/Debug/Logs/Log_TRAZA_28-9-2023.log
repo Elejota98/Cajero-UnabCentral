@@ -1,0 +1,100 @@
+2023/09/28 04:58:42.284 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/28 04:58:47.630 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/28 04:58:47.653 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/28 04:58:47.689 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/28 04:58:47.726 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/28 04:58:56.073 - MENSAJE: Error_Conexion
+2023/09/28 04:58:56.073 - MENSAJE: FrondEnd-ConectarDispositivos -> ConectarLector not Ready
+2023/09/28 04:59:09.715 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/28 04:59:13.893 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/28 04:59:13.912 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/28 04:59:13.938 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/28 04:59:13.961 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/28 04:59:18.544 - MENSAJE: Error_Conexion
+2023/09/28 05:00:03.399 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/28 05:00:08.326 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/28 05:00:08.347 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/28 05:00:08.375 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/28 05:00:08.406 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/28 05:00:10.785 - MENSAJE: Conexion_Exitosa
+2023/09/28 05:00:14.761 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/09/28 05:00:22.170 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/09/28 05:00:50.998 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/28 05:00:54.703 - MENSAJE: ObtenerIdTarjeta
+2023/09/28 05:00:54.905 - MENSAJE: LecturaOK
+2023/09/28 05:00:54.906 - MENSAJE: Presenter-LeerTarjeta CONVENIO = 0
+2023/09/28 05:00:54.925 - MENSAJE: Presenter-DatosConvenio
+2023/09/28 05:00:54.926 - MENSAJE: Presenter-Tarjeta sin convenio
+2023/09/28 05:00:55.012 - MENSAJE: TARJETA ESTADO TRUE
+2023/09/28 05:00:55.379 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 7E9FC8CB
+2023/09/28 05:00:55.424 - MENSAJE: ObtenerAutorizado Error
+2023/09/28 05:00:55.447 - MENSAJE: (Presenter ObtenerFechaServer) OK
+2023/09/28 05:00:55.470 - MENSAJE: Presenter-ConsultaValor SecuenciaTransaccion =2023092816514328 REPO = False TipoVehiculo = 2 Codigo = 0
+2023/09/28 05:00:55.674 - MENSAJE: Presenter-ConsultaValor ok 
+2023/09/28 05:00:55.676 - MENSAJE: Presenter-IVA 176 SUBTOTAL 924 TOTAL 1100
+2023/09/28 05:01:01.015 - MENSAJE: ExpulsarOK
+2023/09/28 05:03:24.984 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/28 05:03:30.134 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/28 05:03:30.157 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/28 05:03:30.187 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/28 05:03:30.218 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/28 05:03:42.659 - MENSAJE: Conexion_Exitosa
+2023/09/28 05:03:42.688 - MENSAJE: ExpulsarOK
+2023/09/28 05:03:46.640 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/09/28 05:03:54.069 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/09/28 05:04:22.852 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/28 05:06:03.133 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/28 05:06:08.304 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/28 05:06:08.324 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/28 05:06:08.354 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/28 05:06:08.386 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/28 05:06:44.528 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/28 05:06:49.473 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/28 05:06:49.510 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/28 05:06:49.541 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/28 05:06:49.575 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/28 05:06:49.598 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/28 05:07:44.859 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/28 05:07:49.684 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/28 05:07:49.701 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/28 05:07:49.730 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/28 05:07:49.761 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/28 05:07:52.657 - MENSAJE: Conexion_Exitosa
+2023/09/28 05:07:56.648 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/09/28 05:08:04.088 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/09/28 05:08:32.850 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/28 05:09:15.881 - MENSAJE: ObtenerIdTarjeta
+2023/09/28 05:09:16.084 - MENSAJE: LecturaOK
+2023/09/28 05:09:16.085 - MENSAJE: Presenter-LeerTarjeta CONVENIO = 0
+2023/09/28 05:09:16.101 - MENSAJE: Presenter-DatosConvenio
+2023/09/28 05:09:16.101 - MENSAJE: Presenter-Tarjeta sin convenio
+2023/09/28 05:09:16.171 - MENSAJE: TARJETA ESTADO TRUE
+2023/09/28 05:09:16.538 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 7E9FC8CB
+2023/09/28 05:09:16.564 - MENSAJE: ObtenerAutorizado Error
+2023/09/28 05:09:16.582 - MENSAJE: (Presenter ObtenerFechaServer) OK
+2023/09/28 05:09:16.601 - MENSAJE: Presenter-ConsultaValor SecuenciaTransaccion =2023092816514328 REPO = False TipoVehiculo = 2 Codigo = 0
+2023/09/28 05:09:16.694 - MENSAJE: Presenter-ConsultaValor ok 
+2023/09/28 05:09:16.696 - MENSAJE: Presenter-IVA 271 SUBTOTAL 1429 TOTAL 1700
+2023/09/28 05:09:47.638 - MENSAJE: Presenter-RegistrarOperacion IdTransaccion2023092816514328
+2023/09/28 05:09:47.639 - MENSAJE: Presenter-RegistrarOperacion:  ID_Operacion: 2023092816514328
+2023/09/28 05:09:47.639 - MENSAJE: FrondEnd-RegistrarOperacionPago -> Total : 1700
+2023/09/28 05:10:16.668 - MENSAJE: Presenter RegistrarMovimiento Entrada Billetes Denominacion 2000
+2023/09/28 05:10:16.671 - MENSAJE: idtransaccion movimiento 2023092816514328
+2023/09/28 05:10:17.009 - MENSAJE: Presenter-RegistrarMovimiento:  Denominacion: 2000 Cantidad: 1
+2023/09/28 05:10:17.010 - MENSAJE: Presenter RegistrarMovimiento ok
+2023/09/28 05:10:17.010 - MENSAJE: Presenter ValorRecibido 2000
+2023/09/28 05:10:29.991 - MENSAJE: Presenter-AdministrarProcesoCambio Preparando para Efectuar Pago
+2023/09/28 05:10:36.735 - MENSAJE: Presenter-AdministrarProcesoCambio Monedas -> Prepara Proceso Cambio Monedas
+2023/09/28 05:10:37.282 - MENSAJE: Presenter-AdministrarProcesoPago -> ValorCambio: 300 ValorPago: 1700 ValorProcesoCambio: 300
+2023/09/28 05:10:37.284 - Set_Coin_Pay: pago_parcial_hopper: 200 oPay_Unit Hopper2
+2023/09/28 05:10:45.054 - Set_Coin_Pay: pago_parcial_hopper: 100 oPay_Unit Hopper1
+2023/09/28 05:10:46.167 - MENSAJE: idtransaccion movimiento 2023092816514328
+2023/09/28 05:10:46.194 - MENSAJE: Presenter-RegistrarMovimiento:  Denominacion: 200 Cantidad: 1
+2023/09/28 05:10:46.194 - MENSAJE: idtransaccion movimiento 2023092816514328
+2023/09/28 05:10:46.208 - MENSAJE: Presenter-RegistrarMovimiento:  Denominacion: 100 Cantidad: 1
+2023/09/28 05:10:46.216 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/28 05:11:22.814 - MENSAJE: Presenter-ConfirmarOperacion:  Aprobado
+2023/09/28 05:11:56.259 - MENSAJE: FrondEnd-Imprimir -> Ingresa a funcion imprimir.
+2023/09/28 05:12:18.637 - MENSAJE: (Presenter ObtenerFechaServer) OK
+2023/09/28 05:12:43.822 - MENSAJE: ExpulsarOK
+2023/09/28 05:12:43.832 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK

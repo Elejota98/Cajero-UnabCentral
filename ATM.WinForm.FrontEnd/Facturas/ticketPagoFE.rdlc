@@ -120,8 +120,8 @@
         </Style>
       </Textbox>
       <Line Name="Line2">
-        <Top>11.18997cm</Top>
-        <Left>0.40352cm</Left>
+        <Top>11.33108cm</Top>
+        <Left>0.42475cm</Left>
         <Height>0cm</Height>
         <Width>7.14142cm</Width>
         <ZIndex>1</ZIndex>
@@ -148,8 +148,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox3</rd:DefaultName>
-        <Top>10.49295cm</Top>
-        <Left>0.50415cm</Left>
+        <Top>10.63406cm</Top>
+        <Left>0.52538cm</Left>
         <Height>0.52063cm</Height>
         <Width>2.89687cm</Width>
         <ZIndex>2</ZIndex>
@@ -184,8 +184,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox4</rd:DefaultName>
-        <Top>10.49295cm</Top>
-        <Left>3.40102cm</Left>
+        <Top>10.63406cm</Top>
+        <Left>3.42225cm</Left>
         <Height>0.52063cm</Height>
         <Width>4.14392cm</Width>
         <ZIndex>3</ZIndex>
@@ -200,8 +200,8 @@
         </Style>
       </Textbox>
       <Line Name="Line3">
-        <Top>10.41181cm</Top>
-        <Left>0.40352cm</Left>
+        <Top>10.55292cm</Top>
+        <Left>0.42475cm</Left>
         <Height>0cm</Height>
         <Width>7.14142cm</Width>
         <ZIndex>4</ZIndex>
@@ -249,46 +249,6 @@
           <PaddingBottom>2pt</PaddingBottom>
         </Style>
       </Textbox>
-      <Textbox Name="Resolucion">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>RESOLUCION </Value>
-                <Style>
-                  <FontSize>9pt</FontSize>
-                </Style>
-              </TextRun>
-              <TextRun>
-                <Value>=First(Fields!Resolucion.Value, "DataSetTicketPago")</Value>
-                <Style>
-                  <FontSize>9pt</FontSize>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Center</TextAlign>
-            </Style>
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Resolucion</rd:DefaultName>
-        <Top>12.66337cm</Top>
-        <Left>0.50416cm</Left>
-        <Height>0.6cm</Height>
-        <Width>6.67038cm</Width>
-        <ZIndex>6</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
       <Textbox Name="Textbox9">
         <CanGrow>true</CanGrow>
         <KeepTogether>true</KeepTogether>
@@ -316,7 +276,7 @@
         <Left>0.55495cm</Left>
         <Height>0.6cm</Height>
         <Width>6.61958cm</Width>
-        <ZIndex>7</ZIndex>
+        <ZIndex>6</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -651,11 +611,11 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSetTicketPago</DataSetName>
-        <Top>9.07052cm</Top>
-        <Left>0.50415cm</Left>
+        <Top>9.21163cm</Top>
+        <Left>0.52538cm</Left>
         <Height>1.2cm</Height>
         <Width>7.04079cm</Width>
-        <ZIndex>8</ZIndex>
+        <ZIndex>7</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -695,7 +655,7 @@
         <Left>0.55496cm</Left>
         <Height>0.6cm</Height>
         <Width>6.61957cm</Width>
-        <ZIndex>9</ZIndex>
+        <ZIndex>8</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -733,43 +693,7 @@
         <Left>0.55496cm</Left>
         <Height>0.6cm</Height>
         <Width>6.61957cm</Width>
-        <ZIndex>10</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox10">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>VENCE: </Value>
-                <Style />
-              </TextRun>
-              <TextRun>
-                <Value>=Fields!VigenciaFactura.Value</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Center</TextAlign>
-            </Style>
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox10</rd:DefaultName>
-        <Top>13.43976cm</Top>
-        <Left>0.50412cm</Left>
-        <Height>0.6cm</Height>
-        <Width>6.6704cm</Width>
-        <ZIndex>11</ZIndex>
+        <ZIndex>9</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -807,7 +731,7 @@
         <Left>0.55495cm</Left>
         <Height>0.6cm</Height>
         <Width>6.61957cm</Width>
-        <ZIndex>12</ZIndex>
+        <ZIndex>10</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -838,11 +762,11 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox13</rd:DefaultName>
-        <Top>11.26053cm</Top>
-        <Left>0.50415cm</Left>
+        <Top>11.40164cm</Top>
+        <Left>0.52538cm</Left>
         <Height>0.52062cm</Height>
         <Width>6.67039cm</Width>
-        <ZIndex>13</ZIndex>
+        <ZIndex>11</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -873,11 +797,11 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox15</rd:DefaultName>
-        <Top>11.92226cm</Top>
-        <Left>0.50415cm</Left>
+        <Top>12.02809cm</Top>
+        <Left>0.50413cm</Left>
         <Height>0.56472cm</Height>
         <Width>6.67039cm</Width>
-        <ZIndex>14</ZIndex>
+        <ZIndex>12</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -893,51 +817,13 @@
         <Left>0.35834cm</Left>
         <Height>0cm</Height>
         <Width>7.14142cm</Width>
-        <ZIndex>15</ZIndex>
+        <ZIndex>13</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
           </Border>
         </Style>
       </Line>
-      <Textbox Name="Textbox17">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Medio de pago: </Value>
-                <Style>
-                  <FontSize>9pt</FontSize>
-                </Style>
-              </TextRun>
-              <TextRun>
-                <Value>=Fields!Informacion.Value</Value>
-                <Style>
-                  <FontSize>9pt</FontSize>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox2</rd:DefaultName>
-        <Top>7.16552cm</Top>
-        <Left>0.55498cm</Left>
-        <Height>0.6cm</Height>
-        <Width>6.61957cm</Width>
-        <ZIndex>16</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
       <Textbox Name="Textbox18">
         <CanGrow>true</CanGrow>
         <KeepTogether>true</KeepTogether>
@@ -961,11 +847,11 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox2</rd:DefaultName>
-        <Top>7.76552cm</Top>
-        <Left>0.55495cm</Left>
+        <Top>7.90663cm</Top>
+        <Left>0.57618cm</Left>
         <Height>0.6cm</Height>
         <Width>6.61957cm</Width>
-        <ZIndex>17</ZIndex>
+        <ZIndex>14</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -999,11 +885,11 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox2</rd:DefaultName>
-        <Top>8.36552cm</Top>
-        <Left>0.55495cm</Left>
+        <Top>8.50663cm</Top>
+        <Left>0.57618cm</Left>
         <Height>0.6cm</Height>
         <Width>6.61957cm</Width>
-        <ZIndex>18</ZIndex>
+        <ZIndex>15</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1035,11 +921,124 @@ NIT: 901308148-3</Value>
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox15</rd:DefaultName>
-        <Top>14.384cm</Top>
-        <Left>0.8621cm</Left>
+        <Top>12.73392cm</Top>
+        <Left>1.07827cm</Left>
         <Height>0.97394cm</Height>
         <Width>5.72792cm</Width>
-        <ZIndex>19</ZIndex>
+        <ZIndex>16</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox16">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>MEDIO DE PAGO : </Value>
+                <Style>
+                  <FontSize>9pt</FontSize>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>=First(Fields!TipoPago.Value, "DataSetTicketPago")</Value>
+                <Style>
+                  <FontSize>9pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox2</rd:DefaultName>
+        <Top>7.23608cm</Top>
+        <Left>0.52538cm</Left>
+        <Height>0.6cm</Height>
+        <Width>6.61957cm</Width>
+        <ZIndex>17</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox17">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Cualquier inquietud sobre su factura electrónica, por favor enviar correo a: </Value>
+                <Style>
+                  <FontSize>9pt</FontSize>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>auxiliar@parquearse.com</Value>
+                <Style>
+                  <FontSize>9pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value />
+                <Style>
+                  <FontSize>9pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Telefono:</Value>
+                <Style>
+                  <FontSize>9pt</FontSize>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value> (607) 6520587 ext 102</Value>
+                <Style>
+                  <FontSize>9pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox13</rd:DefaultName>
+        <Top>14.11355cm</Top>
+        <Left>0.52536cm</Left>
+        <Height>2.17339cm</Height>
+        <Width>6.67039cm</Width>
+        <ZIndex>18</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1051,7 +1050,7 @@ NIT: 901308148-3</Value>
         </Style>
       </Textbox>
     </ReportItems>
-    <Height>6.18937in</Height>
+    <Height>6.62687in</Height>
     <Style />
   </Body>
   <Width>3.09374in</Width>

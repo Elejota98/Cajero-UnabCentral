@@ -94,6 +94,11 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Mensajes\obj\Debug\Ds
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Mensajes\obj\Debug\Ds.Mensajes.pdb
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Mensajes\bin\Debug\Ds.Mensajes.dll
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Mensajes\bin\Debug\Ds.Mensajes.pdb
-C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Mensajes\obj\Debug\Ds.Mensajes.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Mensajes\obj\Debug\Ds.Mensajes.dll
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Mensajes\obj\Debug\Ds.Mensajes.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.Mensajes\obj\Debug\Ds.Mensajes.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Mensajes\bin\Debug\Ds.Mensajes.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Mensajes\bin\Debug\Ds.Mensajes.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Mensajes\obj\Debug\Ds.Mensajes.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Mensajes\obj\Debug\Ds.Mensajes.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Mensajes\obj\Debug\Ds.Mensajes.pdb

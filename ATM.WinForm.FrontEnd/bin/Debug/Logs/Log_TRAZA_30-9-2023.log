@@ -1,0 +1,26 @@
+2023/09/30 01:25:55.533 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/30 01:26:01.192 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/30 01:26:01.216 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/30 01:26:01.250 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/30 01:26:01.285 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/30 01:26:01.324 - MENSAJE: Conexion_Exitosa
+2023/09/30 01:26:05.288 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/09/30 01:26:12.683 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/09/30 01:26:41.458 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/30 01:27:02.456 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/30 01:27:02.516 - MENSAJE: ObtenerAutorizado ok
+2023/09/30 01:27:02.517 - MENSAJE: _NumeroDocumentoOrigen 91521535
+2023/09/30 01:27:02.556 - MENSAJE: Presenter-ConsultaValor ok 
+2023/09/30 01:28:37.541 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/09/30 01:28:41.929 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/09/30 01:28:41.949 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/09/30 01:28:41.974 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/09/30 01:28:42.000 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/09/30 01:28:42.039 - MENSAJE: Conexion_Exitosa
+2023/09/30 01:28:46.005 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/09/30 01:28:53.434 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/09/30 01:29:22.205 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/09/30 01:31:10.915 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 
+2023/09/30 01:31:10.954 - MENSAJE: ObtenerAutorizado ok
+2023/09/30 01:31:10.955 - MENSAJE: _NumeroDocumentoOrigen 91521535
+2023/09/30 01:31:10.988 - MENSAJE: Presenter-ConsultaValor ok 

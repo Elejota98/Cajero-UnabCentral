@@ -258,3 +258,15 @@ C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.ModuloComercial
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.ModuloService.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.DataService.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.BaseService.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.ModuloComercialService\bin\Debug\Ds.DataService.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloComercialService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.ModuloComercialService\obj\Debug\Ds.ModuloService.pdb

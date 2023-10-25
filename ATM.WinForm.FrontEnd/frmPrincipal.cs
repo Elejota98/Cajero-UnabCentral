@@ -1106,17 +1106,30 @@ namespace ATM.WinForm.FrontEnd
                                     Presentacion = Pantalla.Procesando;
                                     if (ValidarMensualidad())
                                     {
-                                        Presentacion = Pantalla.TarjetaMensual;
-                                        //if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
-                                        //{
-                                        //    lblConvenio.Text = _TipoPago;
-                                        //    RegistrarOperacionPago();
-                                        //}
-                                        //else
-                                        //{
-                                        //    _frmPrincipal_Presenter.ExpulsarTarjeta();
-                                        //    Presentacion = Pantalla.TransaccionCancelada;
-                                        //}
+                                        //Presentacion = Pantalla.TarjetaMensual;
+                                        ////if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                                        ////{
+                                        ////    lblConvenio.Text = _TipoPago;
+                                        ////    RegistrarOperacionPago();
+                                        ////}
+                                        ////else
+                                        ////{
+                                        ////    _frmPrincipal_Presenter.ExpulsarTarjeta();
+                                        ////    Presentacion = Pantalla.TransaccionCancelada;
+                                        ////}
+
+                                        if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                                        {
+                                            if (_PagoEfectivo.ValorPago > 0)
+                                            {
+                                                Presentacion = Pantalla.TarjetaMensual;
+
+                                            }
+                                            else
+                                            {
+                                                Presentacion = Pantalla.PublicidadPrincipal;
+                                            }
+                                        }
                                     }
                                     else
                                     {
@@ -1128,17 +1141,29 @@ namespace ATM.WinForm.FrontEnd
                                     Presentacion = Pantalla.Procesando;
                                     if (ValidarMensualidad())
                                     {
-                                        Presentacion = Pantalla.TarjetaMensual;
-                                        //if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
-                                        //{
-                                        //    lblConvenio.Text = _TipoPago;
-                                        //    RegistrarOperacionPago();
-                                        //}
-                                        //else
-                                        //{
-                                        //    _frmPrincipal_Presenter.ExpulsarTarjeta();
-                                        //    Presentacion = Pantalla.TransaccionCancelada;
-                                        //}
+                                        //Presentacion = Pantalla.TarjetaMensual;
+                                        ////if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                                        ////{
+                                        ////    lblConvenio.Text = _TipoPago;
+                                        ////    RegistrarOperacionPago();
+                                        ////}
+                                        ////else
+                                        ////{
+                                        ////    _frmPrincipal_Presenter.ExpulsarTarjeta();
+                                        ////    Presentacion = Pantalla.TransaccionCancelada;
+                                        ////}
+                                        if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                                        {
+                                            if (_PagoEfectivo.ValorPago > 0)
+                                            {
+                                                Presentacion = Pantalla.TarjetaMensual;
+
+                                            }
+                                            else
+                                            {
+                                                Presentacion = Pantalla.PublicidadPrincipal;
+                                            }
+                                        }
 
                                     }
                                     else
@@ -2102,19 +2127,22 @@ namespace ATM.WinForm.FrontEnd
             else
             {
                 _frmPrincipal_Presenter.DesConectarLector();
-                Inicio();
+                Inicio2();
             }
         }
         private void CapaMantenimientoCaleto_Click(object sender, EventArgs e)
         {
+            Cnt_Reinicio = 0;
             Presentacion = Pantalla.IngresoPass;
         }
         private void CapaSuspendidoCaleto_Click(object sender, EventArgs e)
         {
+            Cnt_Reinicio = 0;
             Presentacion = Pantalla.IngresoPass;
         }
         private void capaAtasco_Click(object sender, EventArgs e)
         {
+            Cnt_Reinicio = 0;
             Presentacion = Pantalla.IngresoPass;
         }
         private void btn_Arqueo_Click(object sender, EventArgs e)
@@ -2130,7 +2158,80 @@ namespace ATM.WinForm.FrontEnd
         private void btn_Iniciar_Click(object sender, EventArgs e)
         {
             _frmPrincipal_Presenter.DesConectarLector();
-            Inicio();
+            Inicio2();
+
+
+
+        }
+
+        private async Task Inicio2()
+        {
+
+            if (Globales.sTestMode != string.Empty)
+            {
+                if (Convert.ToBoolean(Globales.sTestMode) != true)
+                {
+                    Cursor.Hide();
+                    this.TopMost = true;
+                    this.ControlBox = false;
+                    this.WindowState = FormWindowState.Maximized;
+                }
+                else
+                {
+                    Cursor.Show();
+                    this.TopMost = false;
+                    this.ControlBox = true;
+                    this.WindowState = FormWindowState.Maximized;
+                }
+            }
+            else
+            {
+                Cursor.Hide();
+                this.TopMost = true;
+                this.ControlBox = false;
+                this.WindowState = FormWindowState.Maximized;
+            }
+
+            General_Events = "INICIO APP ATM / TestMode = " + Globales.sTestMode;
+
+            //if (CargaImagenes())
+            //{
+                //if (CargaRecursos())
+                //{
+                    //if (CargaSonidos())
+                    //{
+                        if (CargarParametros())
+                        {
+
+                            Presentacion = Pantalla.Inicio;
+                            var th1 = await ConectarDispositivos();
+
+                            if (th1)
+                            {
+                                if (_frmPrincipal_Presenter.ValidarSaldosMinimos())
+                                {
+                                    //_frmPrincipal_Presenter.GestionarAlarma(true);
+                                    Presentacion = Pantalla.PublicidadPrincipal;
+                                }
+                                else
+                                {
+                                    Presentacion = Pantalla.SistemaSuspendido;
+                                }
+                                //_frmPrincipal_Presenter.GestionarAlarma(false);
+                                //_frmPrincipal_Presenter.SolucionarAlarmas();
+                            }
+                            else
+                            {
+                                Presentacion = Pantalla.SistemaSuspendido;
+                            }
+                        }
+                        else
+                        {
+                            Presentacion = Pantalla.SistemaSuspendido;
+                        }
+                    //}
+                //}
+            //}
         }
         private void btn_Mantenimiento_Click(object sender, EventArgs e)
         {
@@ -2171,6 +2272,8 @@ namespace ATM.WinForm.FrontEnd
         {
             //if (_frmPrincipal_Presenter.ValidarSaldosMinimos())
             //{
+            _pagoFacturaElectronica = false;
+            lblNitCliente.Text = "";
                 Presentacion = Pantalla.GarciasPago;
             //}
         }
@@ -2663,7 +2766,6 @@ namespace ATM.WinForm.FrontEnd
         }
         private void btn_Efectivo_Click_1(object sender, EventArgs e)
         {
-
             if (_pagoFacturaElectronica)
             {
                 if (!_bOcasional)
@@ -2690,8 +2792,8 @@ namespace ATM.WinForm.FrontEnd
                     #endregion
 
                     #region New
-                    if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
-                    {
+                    //if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                    //{
                         if (_PagoEfectivo.ValorPago > 0)
                         {
                             lblConvenio.Text = _TipoPago;
@@ -2700,14 +2802,34 @@ namespace ATM.WinForm.FrontEnd
                         }
                         else
                         {
-                            Presentacion = Pantalla.PublicidadPrincipal;
+                            //Presentacion = Pantalla.PublicidadPrincipal;
+                            if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                            {
+                                if (_PagoEfectivo.ValorPago > 0)
+                                {
+                                    lblConvenio.Text = _TipoPago;
+                                    _bEfectivo = true;                                    
+                                    RegistrarOperacionPagoFE();
+                                }
+                                else
+                                {
+                                    _frmPrincipal_Presenter.ExpulsarTarjeta();
+                                    Presentacion = Pantalla.PublicidadPrincipal;
+
+                                }
+                            }
+                            else
+                            {
+                                _frmPrincipal_Presenter.ExpulsarTarjeta();
+                                Presentacion = Pantalla.PublicidadPrincipal;
+                            }
                         }
-                    }
-                    else
-                    {
-                        _frmPrincipal_Presenter.ExpulsarTarjeta();
-                        Presentacion = Pantalla.PublicidadPrincipal;
-                    }
+                    //}
+                    //else
+                    //{
+                    //    _frmPrincipal_Presenter.ExpulsarTarjeta();
+                    //    Presentacion = Pantalla.PublicidadPrincipal;
+                    //}
                     #endregion
                 }
                 else
@@ -2750,8 +2872,8 @@ namespace ATM.WinForm.FrontEnd
                     #endregion
 
                     #region New
-                    if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
-                    {
+                    //if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                    //{
                         if (_PagoEfectivo.ValorPago > 0)
                         {
                             lblConvenio.Text = _TipoPago;
@@ -2760,14 +2882,34 @@ namespace ATM.WinForm.FrontEnd
                         }
                         else
                         {
-                            Presentacion = Pantalla.PublicidadPrincipal;
+                            //Presentacion = Pantalla.PublicidadPrincipal;
+                            if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                            {
+                                if (_PagoEfectivo.ValorPago > 0)
+                                {
+                                    lblConvenio.Text = _TipoPago;
+                                    _bEfectivo = true;                                    
+                                    RegistrarOperacionPago();
+                                }
+                                else
+                                {
+                                    _frmPrincipal_Presenter.ExpulsarTarjeta();
+                                    Presentacion = Pantalla.PublicidadPrincipal;
+
+                                }
+                            }
+                            else
+                            {
+                                _frmPrincipal_Presenter.ExpulsarTarjeta();
+                                Presentacion = Pantalla.PublicidadPrincipal;
+                            }
                         }
-                    }
-                    else
-                    {
-                        _frmPrincipal_Presenter.ExpulsarTarjeta();
-                        Presentacion = Pantalla.PublicidadPrincipal;
-                    }
+                    //}
+                    //else
+                    //{
+                    //    _frmPrincipal_Presenter.ExpulsarTarjeta();
+                    //    Presentacion = Pantalla.PublicidadPrincipal;
+                    //}
                     #endregion
                 }
                 else
@@ -2789,6 +2931,7 @@ namespace ATM.WinForm.FrontEnd
         }
         private void btn_Datafono_Click_1(object sender, EventArgs e)
         {
+            _bEfectivo = false;
             #region Old
             //Presentacion = Pantalla.Procesando;
 
@@ -2835,8 +2978,8 @@ namespace ATM.WinForm.FrontEnd
             {
                 if (!_bOcasional)
                 {
-                    if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
-                    {
+                    //if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                    //{
                         if (_PagoEfectivo.ValorPago > 0)
                         {
                             lblConvenio.Text = _TipoPago;
@@ -2845,14 +2988,28 @@ namespace ATM.WinForm.FrontEnd
                         }
                         else
                         {
-                            Presentacion = Pantalla.PublicidadPrincipal;
+                            //Presentacion = Pantalla.PublicidadPrincipal;
+                            if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                            {
+                            if (_PagoEfectivo.ValorPago > 0)
+                            {
+                                lblConvenio.Text = _TipoPago;
+                                _bEfectivo = false;
+                                RegistrarOperacionPagoFE();
+                            }
+                            }
+                            else
+                            {
+                                _frmPrincipal_Presenter.ExpulsarTarjeta();
+                                Presentacion = Pantalla.PublicidadPrincipal;
+                            }
                         }
-                    }
-                    else
-                    {
-                        _frmPrincipal_Presenter.ExpulsarTarjeta();
-                        Presentacion = Pantalla.PublicidadPrincipal;
-                    }
+                    //}
+                    //else
+                    //{
+                    //    _frmPrincipal_Presenter.ExpulsarTarjeta();
+                    //    Presentacion = Pantalla.PublicidadPrincipal;
+                    //}
                 }
                 else
                 {
@@ -2872,8 +3029,8 @@ namespace ATM.WinForm.FrontEnd
             {
                 if (!_bOcasional)
                 {
-                    if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
-                    {
+                    //if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                    //{
                         if (_PagoEfectivo.ValorPago > 0)
                         {
                             lblConvenio.Text = _TipoPago;
@@ -2882,14 +3039,34 @@ namespace ATM.WinForm.FrontEnd
                         }
                         else
                         {
-                            Presentacion = Pantalla.PublicidadPrincipal;
+                            //Presentacion = Pantalla.PublicidadPrincipal;
+                            if (_frmPrincipal_Presenter.ConsultaValorMensualidad())
+                            {
+                                if (_PagoEfectivo.ValorPago > 0)
+                                {
+                                    lblConvenio.Text = _TipoPago;
+                                    _bEfectivo = false;
+                                    RegistrarOperacionPago();
+                                }
+                                else
+                                {
+                                    _frmPrincipal_Presenter.ExpulsarTarjeta();
+                                    Presentacion = Pantalla.PublicidadPrincipal;
+
+                                }
+                            }
+                            else
+                            {
+                                _frmPrincipal_Presenter.ExpulsarTarjeta();
+                                Presentacion = Pantalla.PublicidadPrincipal;
+                            }
                         }
-                    }
-                    else
-                    {
-                        _frmPrincipal_Presenter.ExpulsarTarjeta();
-                        Presentacion = Pantalla.PublicidadPrincipal;
-                    }
+                    //}
+                    //else
+                    //{
+                    //    _frmPrincipal_Presenter.ExpulsarTarjeta();
+                    //    Presentacion = Pantalla.PublicidadPrincipal;
+                    //}
                 }
                 else
                 {
@@ -3164,12 +3341,20 @@ namespace ATM.WinForm.FrontEnd
         private void btn_ConfirmarPagoParcial_Click(object sender, EventArgs e)
         {
             Presentacion = Pantalla.SeleccionPago;
+            _pagoFacturaElectronica = false;
+            lblNitCliente.Text = "";
+            General_Events = "Confirma pago parcial";
+
         }
 
         private void btn_AnularPagoParcial_Click(object sender, EventArgs e)
         {
             _frmPrincipal_Presenter.Expulsar();
             Presentacion = Pantalla.TransaccionCancelada;
+            _pagoFacturaElectronica = false;
+            lblNitCliente.Text = "";
+            General_Events = "Cancela transacción";
+
         }
 
         private void btn_BorrarNitCliente_Click(object sender, EventArgs e)
@@ -3183,6 +3368,8 @@ namespace ATM.WinForm.FrontEnd
         private void btn_ConfirmarPagoFE_Click(object sender, EventArgs e)
         {
             Presentacion = Pantalla.DigiteNitCliente;
+            General_Events = "Confirma pago parcial - Facturación Electrónica";
+
         }
 
         private void btn_Placa_Click(object sender, EventArgs e)
@@ -3230,6 +3417,7 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_ConfirmarPagoMensualFE_Click(object sender, EventArgs e)
         {
+            _PagoEfectivo.ValorPago = 0;
             Presentacion = Pantalla.DigiteNitCliente;
         }
 
@@ -3329,28 +3517,51 @@ namespace ATM.WinForm.FrontEnd
 
         private void btn_OkNitCliente_Click(object sender, EventArgs e)
         {
-            if (_frmPrincipal_Presenter.ObtenerInfoCliente(Convert.ToInt32(lblNitCliente.Text)))
+            if (lblNitCliente.Text != string.Empty || lblNitCliente.Text != "")
             {
-                _pagoFacturaElectronica = true;
-                pagoFacturaElectronica = _pagoFacturaElectronica;
+                if (_frmPrincipal_Presenter.ObtenerInfoCliente(Convert.ToInt32(lblNitCliente.Text)))
+                {
 
-                lblRtaCliente.Text = rtaCliente.ToString();
-                lblRtaCliente.Update();
-                Thread.Sleep(5000);
-                Presentacion = Pantalla.SeleccionPago;
+                    _pagoFacturaElectronica = true;
+                    pagoFacturaElectronica = _pagoFacturaElectronica;
+                    General_Events = "Cliente con nit: " + lblNitCliente.Text + " Registrado OK";
+
+                    lblRtaCliente.Text = rtaCliente.ToString();
+                    lblRtaCliente.Update();
+                    btn_ConfirmarPagoNitCliente.Visible = false;
+                    btn_CancelarPagoNitCliente.Visible = false;
+                    Thread.Sleep(5000);
+                    Presentacion = Pantalla.SeleccionPago;
+                    General_Events = "Selecciona Medio De Pago";
 
 
+                }
+                else
+                {
+                    General_Events = "El cliente no está registrado";
+                    _pagoFacturaElectronica = false;
+                    pagoFacturaElectronica = _pagoFacturaElectronica;
+                    lblRtaCliente.Text = "El nit ingresado no se encuentra registrado";
+                    lblRtaCliente.Update();
+                    btn_ConfirmarPagoNitCliente.Visible = true;
+                    btn_CancelarPagoNitCliente.Visible = true;
+                    lblNitCliente.Text = "";
+                    //Presentacion = Pantalla.SeleccionPago;
+                }
             }
             else
             {
+                General_Events = "El cliente no está registrado";
                 _pagoFacturaElectronica = false;
                 pagoFacturaElectronica = _pagoFacturaElectronica;
                 lblRtaCliente.Text = "El nit ingresado no se encuentra registrado";
                 lblRtaCliente.Update();
                 btn_ConfirmarPagoNitCliente.Visible = true;
                 btn_CancelarPagoNitCliente.Visible = true;
+                lblNitCliente.Text = "";
                 //Presentacion = Pantalla.SeleccionPago;
             }
+
         }
         #endregion
 
@@ -3426,7 +3637,7 @@ namespace ATM.WinForm.FrontEnd
         }
         private async Task<bool> ConectarDispositivos()
         {
-            return true;
+            //return true;
             bool ok = true;
             string sMensaje = string.Empty;
             _BanderaJam = false;
@@ -3703,19 +3914,22 @@ namespace ATM.WinForm.FrontEnd
                 pPublicidadTarjetaVisitante.Dock = DockStyle.Fill;
                 Imagen_NoMensual.Dock = DockStyle.Fill;
                 Imagen_DigiteNitCliente.Dock = DockStyle.Fill;
+                Imagen_DigitePlaca.Dock = DockStyle.Fill;
 
 
                 kbUsuarioPass.Keyboard = CreateCustomKeyboard();
                 kbUsuarioPass.Parent = Imagen_IngresoPass;
 
-                kbUsuarioPass.Location = new Point(200, 575);
-                kbUsuarioPass.Size = new System.Drawing.Size(900, 187);
+                kbUsuarioPass.Location = new Point(74, 550);
+                kbUsuarioPass.Size = new System.Drawing.Size(788, 100);
 
                 kbPlaca.Keyboard = CreateCustomKeyboard();
                 kbPlaca.Parent = Imagen_DigitePlaca;
 
-                kbPlaca.Location = new Point(200, 575);
-                kbPlaca.Size = new System.Drawing.Size(900, 187);
+                //kbPlaca.Location = new Point(200, 575);
+                //kbPlaca.Size = new System.Drawing.Size(900, 187);
+                kbPlaca.Location = new Point(74, 550);
+                kbPlaca.Size = new System.Drawing.Size(788, 100);
 
                 KeyBoardLoad();
 
@@ -4049,27 +4263,27 @@ namespace ATM.WinForm.FrontEnd
                 Imagen_NumeroCuotas.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_DigiteCuotas.jpg"));
                 Imagen_TipoCuenta.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_SeleccionTipoCuenta.png"));
                 Imagen_DigiteCredito.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_DigiteCredito.jpg"));
-                Imagen_DetallePagoDatafono.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_DetallePagoDatafono.png"));
+                Imagen_DetallePagoDatafono.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_DetallePagoDatafono.jpg"));
                 pPublicidadPagoParcial.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_Publicidad.jpg"));
                 Imagen_PagoParcial.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_PagoParcial.png"));
-                btn_ConfirmarPagoParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"));
-                btn_AnularPagoParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"));
+                btn_ConfirmarPagoParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcialPresionado.png"));
+                btn_AnularPagoParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcialPresionado.png"));
                 pPublicidadTarjetaVisitante.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_Inicio.jpg"));
                 Imagen_NoMensual.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_NoMensual.jpg"));
                 Imagen_DigiteNitCliente.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_InserteNit.jpg"));
                 Imagen_DigitePlaca.BackgroundImage = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Jpg\Imagen_DigitePlaca.jpg"));
-                btn_ConfirmarPagoNitCliente.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"));
-                btn_CancelarPagoNitCliente.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"));
+                btn_ConfirmarPagoNitCliente.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcialPresionado.png"));
+                btn_CancelarPagoNitCliente.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcialPresionado.png"));
 
 
 
                 #endregion
 
                 #region ImagenesBotones
-                btn_ConfirmarPagoMensual.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"));
-                btn_ConfirmarPagoMensualFE.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"));
-                btn_AnularPagoMensualParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"));
-                btn_ConfirmarPagoFE.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"));
+                btn_ConfirmarPagoMensual.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoParcialPresionado.png"));
+                btn_ConfirmarPagoMensualFE.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFEPresionado.png"));
+                btn_AnularPagoMensualParcial.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcial.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoParcialPresionado.png"));
+                btn_ConfirmarPagoFE.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFE.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_ConfirmarPagoFEPresionado.png"));
                 btn_TecladoPlaca.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoard.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoard.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoardPresionado.png"));
 
 
@@ -4078,12 +4292,12 @@ namespace ATM.WinForm.FrontEnd
                 btn_Placa.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Placa.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Placa.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Placa.png"));
                 btn_InserteTarjeta.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btnInserteTarjeta.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btnInserteTarjeta.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btnInserteTarjeta.png"));
 
-                btn_CancelarPagoEfectivo.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPresionado.png"));
+                btn_CancelarPagoEfectivo.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoEfectivo.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoEfectivo.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPagoEfectivoPresionado.png"));
                 btn_MostrarTecladoPass.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoard.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoard.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoardPresionado.png"));
                 btn_MostrarTecladoSegunda.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoard.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoard.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Imagen_KeyBoardPresionado.png"));
 
                 btn_Aceptar.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarUsuario.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionadoUsuario.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarUsuario.png"));
-                btn_ConfirmarDetalle.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Aceptar.png"));
+                btn_ConfirmarDetalle.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Aceptar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Aceptar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"));
                 btn_Cancelar.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_VolverUsuario.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_VolverPresionadoUsuario.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_VolverUsuario.png"));
                 btn_AceptarSegunda.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionadoUsuario.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionadoUsuario.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarUsuario.png"));
                 btn_CancelarSegunda.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPresionado.png"));
@@ -4135,12 +4349,12 @@ namespace ATM.WinForm.FrontEnd
                 btn_NoMensual.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PrintNo.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PrintNo.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PrintNoPresionado.png"));
                 btn_SiMensual.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Print.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Print.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_PrintPresionado.png"));
 
-                btn_Datafono.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Datafono.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Datafono.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Datafono.png"));
-                btn_Efectivo.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Efectivo.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Efectivo.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Efectivo.png"));
+                btn_Datafono.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Datafono.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Datafono.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_DatafonoPresionado.png"));
+                btn_Efectivo.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Efectivo.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Efectivo.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_EfectivoPresionado.png"));
 
-                btn_Ahorros.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Ahorro.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Ahorro.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Ahorro.png"));
-                btn_Corriente.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Corriente.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Corriente.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Corriente.png"));
-                btn_Credito.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Credito.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Credito.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Credito.png"));
+                btn_Ahorros.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Ahorro.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Ahorro.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AhorroPresionado.png"));
+                btn_Corriente.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Corriente.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Corriente.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CorrientePresionado.png"));
+                btn_Credito.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Credito.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Credito.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CreditoPresionado.png"));
 
                 btn_0Cuotas.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Btn_Numero0Carga_Normal.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Btn_Numero0Carga_Normal.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Btn_Numero0Carga_Presionado.png"));
                 btn_1Cuotas.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Btn_Numero1Carga_Normal.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Btn_Numero1Carga_Normal.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Btn_Numero1Carga_Presionado.png"));
@@ -4174,7 +4388,7 @@ namespace ATM.WinForm.FrontEnd
                 btn_CancelarCredito.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Volver1.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Volver1.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Volver1.png"));
 
                 btn_CancelarPlaca.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Cancelar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_CancelarPresionado.png"));
-                btn_AceptarPlaca.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Aceptar.png"));
+                btn_AceptarPlaca.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Aceptar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_Aceptar.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\btn_AceptarPresionado.png"));
 
                 btn_NitCliente0.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Btn_Numero0Carga_Normal.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Btn_Numero0Carga_Normal.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Btn_Numero0Carga_Presionado.png"));
                 btn_NitCliente1.ImageSettings(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Btn_Numero1Carga_Normal.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Btn_Numero1Carga_Normal.png"), Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Medios\Btn\Btn_Numero1Carga_Presionado.png"));
@@ -4437,6 +4651,7 @@ namespace ATM.WinForm.FrontEnd
 
                     if (_bEfectivo)
                     {
+                        General_Events = "Selecciona tipo pago Efectivo";
                         lblConvenio.Text = "MENSUALIDAD";
                         //ValorCobro = "2000";
                         ValorCobro = _PagoEfectivo.ValorPago.ToString();
@@ -4460,7 +4675,7 @@ namespace ATM.WinForm.FrontEnd
                         lblConvenio.Text = "MENSUALIDAD";
                         //ValorCobro = "2000";
                         ValorCobro = _PagoEfectivo.ValorPago.ToString();
-
+                        General_Events = "Selecciona tipo pago Datafono";
                         General_Events = "FrondEnd-RegistrarOperacionPago -> Total : " + ValorCobro;
                         _PagoEfectivo.ValorRecibido = 0;
                         _PagoEfectivo.ValorCambio = 0;
@@ -4498,6 +4713,7 @@ namespace ATM.WinForm.FrontEnd
 
                         //ValorCobro = "2000";
                         ValorCobro = _PagoEfectivo.ValorPago.ToString();
+                        General_Events = "Selecciona tipo pago Efectivo";
 
                         General_Events = "FrondEnd-RegistrarOperacionPago -> Total : " + ValorCobro;
                         _PagoEfectivo.ValorRecibido = 0;
@@ -4516,6 +4732,7 @@ namespace ATM.WinForm.FrontEnd
                     {
                         //DATAFONO
                         ValorCobro = _PagoEfectivo.ValorPago.ToString();
+                        General_Events = "Selecciona tipo pago Datafono";
 
                         General_Events = "FrondEnd-RegistrarOperacionPago -> Total : " + ValorCobro;
                         _PagoEfectivo.ValorRecibido = 0;
@@ -5190,8 +5407,8 @@ namespace ATM.WinForm.FrontEnd
                         break;
                     case Pantalla.PagoParcial:
                         Cnt_Reinicio = 0;
-                        simpleSound = new SoundPlayer(_sTarifa);
-                        simpleSound.Play();
+                        //simpleSound = new SoundPlayer(_sTarifa);
+                        //simpleSound.Play();
                         TabControlPrincipal.SelectedTab = tabPagoParcial;
                         break;
                     case Pantalla.SeleccionPago:
@@ -5238,13 +5455,13 @@ namespace ATM.WinForm.FrontEnd
                     case Pantalla.TarjetaMensual:
                         Cnt_Reinicio = 0;
                         _ComPrint = false;
-                        //lblNombreAutoN.Text = _DatosAuto;
-                        lblNombreAutoN.Text = "MENSUALIDAD DE PRUEBA";
-                        //lblFechaFinAutoN.Text = _FechaFinAuto;
-                        lblFechaFinAutoN.Text="2023-09-27 23:59:59";
+                        lblNombreAutoN.Text = _DatosAuto;
+                        //lblNombreAutoN.Text = "MENSUALIDAD DE PRUEBA";
+                        lblFechaFinAutoN.Text = _FechaFinAuto;
+                        //lblFechaFinAutoN.Text="2023-09-27 23:59:59";
                         string valorCobroMensualidad = _PagoEfectivo.ValorPago.ToString();
-                        //lblValorPagarAutoN.Text = "$" + String.Format("{0:#,##0.##}", Convert.ToDouble(valorCobroMensualidad.Replace("$", "").Replace(".", "")));
-                        lblValorPagarAutoN.Text="$50.000";
+                        lblValorPagarAutoN.Text = "$" + String.Format("{0:#,##0.##}", Convert.ToDouble(valorCobroMensualidad.Replace("$", "").Replace(".", "")));
+                        //lblValorPagarAutoN.Text="$50.000";
                         TabControlPrincipal.SelectedTab = tabTarjetaMensual;
                         break;
 
@@ -5536,6 +5753,8 @@ namespace ATM.WinForm.FrontEnd
                             ore = null;
                             oLocalReport.Dispose();
                             oLocalReport = null;
+                            lblNitCliente.Text = "";
+                            _pagoFacturaElectronica = false;
                         }
                         else
                         {
@@ -5551,6 +5770,8 @@ namespace ATM.WinForm.FrontEnd
                             ore = null;
                             oLocalReport.Dispose();
                             oLocalReport = null;
+                            _pagoFacturaElectronica = false;
+                            lblNitCliente.Text = "";
                         }
                     }
 
@@ -5664,11 +5885,16 @@ namespace ATM.WinForm.FrontEnd
         {
             _frmPrincipal_Presenter.Expulsar();
             Presentacion = Pantalla.TransaccionCancelada;
+            lblNitCliente.Text = "";
+            General_Events = "Cancela la transacción";
         }
 
         private void btn_ConfirmarPagoNitCliente_Click(object sender, EventArgs e)
         {
+            _PagoEfectivo.ValorPago = 0;
+            lblNitCliente.Text = "";
             Presentacion = Pantalla.SeleccionPago;
+            General_Events = "Selecciona medio de pago";
         }
 
         private void btn_TecladoPlaca_Click(object sender, EventArgs e)
@@ -5682,6 +5908,12 @@ namespace ATM.WinForm.FrontEnd
             General_Events = "FrondEnd-CapaAyudaPrincipal_Click -> boton acceso Usuario";
             Cnt_Reinicio = 0;
             Presentacion = Pantalla.IngresoPass;
+        }
+
+        private void btn_Carga_Click_1(object sender, EventArgs e)
+        {
+            General_Events = "FrondEnd-btn_Carga_Click -> Presion boton Carga.";
+            Presentacion = Pantalla.Carga;
         }
 
 

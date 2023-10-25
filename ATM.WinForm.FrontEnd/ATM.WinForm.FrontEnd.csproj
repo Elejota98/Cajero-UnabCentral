@@ -521,9 +521,6 @@
     <Content Include="Medios\Jpg\Imagen_DetallePago.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Medios\Jpg\Imagen_DetallePagoDatafono.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Medios\Jpg\Imagen_DetallePagoMensualidad.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

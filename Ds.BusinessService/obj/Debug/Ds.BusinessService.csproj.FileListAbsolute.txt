@@ -97,6 +97,11 @@ D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\obj\D
 D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.pdb
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessService\bin\Debug\Ds.BusinessService.dll
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessService\bin\Debug\Ds.BusinessService.pdb
-C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.dll
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.pdb
+D:\PROYECTOS\PARQUEARSE\UNAB CENTRAL\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.BusinessService\bin\Debug\Ds.BusinessService.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.BusinessService\bin\Debug\Ds.BusinessService.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.BusinessService\obj\Debug\Ds.BusinessService.pdb

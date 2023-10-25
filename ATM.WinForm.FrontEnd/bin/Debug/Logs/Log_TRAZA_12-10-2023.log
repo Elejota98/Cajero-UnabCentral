@@ -1,0 +1,169 @@
+2023/10/12 02:26:44.566 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/10/12 02:26:48.982 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/10/12 02:26:49.047 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/10/12 02:26:49.081 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/10/12 02:26:49.112 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/10/12 02:26:49.176 - MENSAJE: Conexion_Exitosa
+2023/10/12 02:26:53.161 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/10/12 02:27:00.590 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/10/12 02:27:29.372 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/10/12 02:29:36.629 - MENSAJE: ObtenerIdTarjeta
+2023/10/12 02:29:36.832 - MENSAJE: LecturaOK
+2023/10/12 02:29:36.833 - MENSAJE: Presenter-LeerTarjeta CONVENIO = 0
+2023/10/12 02:29:36.849 - MENSAJE: Presenter-DatosConvenio
+2023/10/12 02:29:36.850 - MENSAJE: Presenter-Tarjeta sin convenio
+2023/10/12 02:29:36.972 - MENSAJE: TARJETA ESTADO TRUE
+2023/10/12 02:29:37.336 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 63859879
+2023/10/12 02:29:37.366 - MENSAJE: ObtenerAutorizado Error
+2023/10/12 02:29:37.383 - MENSAJE: (Presenter ObtenerFechaServer) OK
+2023/10/12 02:29:37.403 - MENSAJE: Presenter-ConsultaValor SecuenciaTransaccion =2023101214284528 REPO = False TipoVehiculo = 2 Codigo = 0
+2023/10/12 02:29:39.351 - MENSAJE: Presenter-ConsultaValor ok 
+2023/10/12 02:29:39.352 - MENSAJE: Presenter-IVA 176 SUBTOTAL 924 TOTAL 1100
+2023/10/12 02:29:45.629 - MENSAJE: Confirma pago parcial
+2023/10/12 02:29:49.416 - MENSAJE: Presenter-RegistrarOperacion IdTransaccion2023101214284528
+2023/10/12 02:29:49.417 - MENSAJE: Presenter-RegistrarOperacion:  ID_Operacion: 2023101214284528
+2023/10/12 02:29:49.417 - MENSAJE: FrondEnd-RegistrarOperacionPago -> Total : 1100
+2023/10/12 02:29:53.148 - MENSAJE: ExpulsarOK
+2023/10/12 02:29:53.153 - MENSAJE: Presenter-AdministrarProcesoCambio Preparando para Efectuar Pago
+2023/10/12 02:29:53.271 - MENSAJE: Presenter-ConfirmarOperacion:  Cancelado
+2023/10/12 02:29:53.278 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/10/12 02:29:55.615 - MENSAJE: ObtenerIdTarjeta
+2023/10/12 02:29:55.810 - MENSAJE: LecturaOK
+2023/10/12 02:29:55.810 - MENSAJE: Presenter-LeerTarjeta CONVENIO = 0
+2023/10/12 02:29:55.819 - MENSAJE: Presenter-DatosConvenio
+2023/10/12 02:29:55.820 - MENSAJE: Presenter-Tarjeta sin convenio
+2023/10/12 02:29:55.930 - MENSAJE: TARJETA ESTADO TRUE
+2023/10/12 02:29:56.286 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 63859879
+2023/10/12 02:29:56.297 - MENSAJE: ObtenerAutorizado Error
+2023/10/12 02:29:56.305 - MENSAJE: (Presenter ObtenerFechaServer) OK
+2023/10/12 02:29:56.314 - MENSAJE: Presenter-ConsultaValor SecuenciaTransaccion =2023101214284528 REPO = False TipoVehiculo = 2 Codigo = 0
+2023/10/12 02:29:56.377 - MENSAJE: Presenter-ConsultaValor ok 
+2023/10/12 02:29:56.377 - MENSAJE: Presenter-IVA 176 SUBTOTAL 924 TOTAL 1100
+2023/10/12 02:29:58.593 - MENSAJE: Confirma pago parcial
+2023/10/12 02:29:59.776 - MENSAJE: Presenter-RegistrarOperacion IdTransaccion2023101214284528
+2023/10/12 02:29:59.776 - MENSAJE: Presenter-RegistrarOperacion:  ID_Operacion: 2023101214284528
+2023/10/12 02:29:59.777 - MENSAJE: FrondEnd-RegistrarOperacionPago -> Total : 1100
+2023/10/12 02:30:02.874 - MENSAJE: Inicializarok
+2023/10/12 02:30:14.537 - MENSAJE: System.IndexOutOfRangeException: Índice fuera de los límites de la matriz.
+   en ATM.WinForm.Presenter.frmPrincipal_Presenter.oDatafonoDevice_DeviceMessage(Object sender, EventArgs e) en c:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\frmPrincipal_Presenter.cs:línea 4983
+2023/10/12 02:30:14.558 - MENSAJE: Presenter-ConfirmarOperacion:  Cancelado
+2023/10/12 02:30:44.590 - MENSAJE: ExpulsarOK
+2023/10/12 02:32:54.816 - MENSAJE: ObtenerIdTarjeta
+2023/10/12 02:32:55.012 - MENSAJE: LecturaOK
+2023/10/12 02:32:55.013 - MENSAJE: Presenter-LeerTarjeta CONVENIO = 0
+2023/10/12 02:32:55.023 - MENSAJE: Presenter-DatosConvenio
+2023/10/12 02:32:55.024 - MENSAJE: Presenter-Tarjeta sin convenio
+2023/10/12 02:32:55.140 - MENSAJE: TARJETA ESTADO TRUE
+2023/10/12 02:32:55.497 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 63859879
+2023/10/12 02:32:55.512 - MENSAJE: ObtenerAutorizado Error
+2023/10/12 02:32:55.520 - MENSAJE: (Presenter ObtenerFechaServer) OK
+2023/10/12 02:32:55.528 - MENSAJE: Presenter-ConsultaValor SecuenciaTransaccion =2023101214284528 REPO = False TipoVehiculo = 2 Codigo = 0
+2023/10/12 02:32:55.642 - MENSAJE: Presenter-ConsultaValor ok 
+2023/10/12 02:32:55.643 - MENSAJE: Presenter-IVA 176 SUBTOTAL 924 TOTAL 1100
+2023/10/12 02:32:58.341 - MENSAJE: Confirma pago parcial
+2023/10/12 02:32:59.674 - MENSAJE: Presenter-RegistrarOperacion IdTransaccion2023101214284528
+2023/10/12 02:32:59.675 - MENSAJE: Presenter-RegistrarOperacion:  ID_Operacion: 2023101214284528
+2023/10/12 02:32:59.675 - MENSAJE: FrondEnd-RegistrarOperacionPago -> Total : 1100
+2023/10/12 02:33:01.882 - MENSAJE: Inicializarok
+2023/10/12 02:33:10.990 - MENSAJE: System.IndexOutOfRangeException: Índice fuera de los límites de la matriz.
+   en ATM.WinForm.Presenter.frmPrincipal_Presenter.oDatafonoDevice_DeviceMessage(Object sender, EventArgs e) en c:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\frmPrincipal_Presenter.cs:línea 4983
+2023/10/12 02:33:11.006 - MENSAJE: Presenter-ConfirmarOperacion:  Cancelado
+2023/10/12 02:33:44.379 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/10/12 02:33:48.365 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/10/12 02:33:48.380 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/10/12 02:33:48.405 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/10/12 02:33:48.431 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/10/12 02:33:48.472 - MENSAJE: Conexion_Exitosa
+2023/10/12 02:33:48.502 - MENSAJE: ExpulsarOK
+2023/10/12 02:33:52.445 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/10/12 02:33:59.935 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/10/12 02:34:28.653 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/10/12 02:36:34.836 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/10/12 02:36:38.841 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/10/12 02:36:38.856 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/10/12 02:36:38.884 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/10/12 02:36:38.910 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/10/12 02:36:38.952 - MENSAJE: Conexion_Exitosa
+2023/10/12 02:36:42.909 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/10/12 02:36:50.417 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/10/12 02:37:19.113 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/10/12 02:37:51.325 - MENSAJE: ObtenerIdTarjeta
+2023/10/12 02:37:51.529 - MENSAJE: LecturaOK
+2023/10/12 02:37:51.530 - MENSAJE: Presenter-LeerTarjeta CONVENIO = 0
+2023/10/12 02:37:51.545 - MENSAJE: Presenter-DatosConvenio
+2023/10/12 02:37:51.545 - MENSAJE: Presenter-Tarjeta sin convenio
+2023/10/12 02:37:51.668 - MENSAJE: TARJETA ESTADO TRUE
+2023/10/12 02:37:52.042 - MENSAJE: FrondEnd-ValidarMensualidad IdTarjeta: 63859879
+2023/10/12 02:37:52.071 - MENSAJE: ObtenerAutorizado Error
+2023/10/12 02:37:52.086 - MENSAJE: (Presenter ObtenerFechaServer) OK
+2023/10/12 02:37:52.102 - MENSAJE: Presenter-ConsultaValor SecuenciaTransaccion =2023101214284528 REPO = False TipoVehiculo = 2 Codigo = 0
+2023/10/12 02:37:52.187 - MENSAJE: Presenter-ConsultaValor ok 
+2023/10/12 02:37:52.189 - MENSAJE: Presenter-IVA 176 SUBTOTAL 924 TOTAL 1100
+2023/10/12 02:37:54.175 - MENSAJE: Confirma pago parcial
+2023/10/12 02:37:55.382 - MENSAJE: Presenter-RegistrarOperacion IdTransaccion2023101214284528
+2023/10/12 02:37:55.382 - MENSAJE: Presenter-RegistrarOperacion:  ID_Operacion: 2023101214284528
+2023/10/12 02:37:55.383 - MENSAJE: FrondEnd-RegistrarOperacionPago -> Total : 1100
+2023/10/12 02:38:03.071 - MENSAJE: Inicializarok
+2023/10/12 02:39:41.684 - MENSAJE: System.IndexOutOfRangeException: Índice fuera de los límites de la matriz.
+   en ATM.WinForm.Presenter.frmPrincipal_Presenter.oDatafonoDevice_DeviceMessage(Object sender, EventArgs e) en c:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\frmPrincipal_Presenter.cs:línea 4983
+2023/10/12 02:39:44.956 - MENSAJE: Presenter-ConfirmarOperacion:  Cancelado
+2023/10/12 02:39:46.986 - MENSAJE: ExpulsarOK
+2023/10/12 02:41:17.111 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/10/12 02:41:21.364 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/10/12 02:41:21.434 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/10/12 02:41:21.462 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/10/12 02:41:21.503 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/10/12 02:41:21.541 - MENSAJE: Conexion_Exitosa
+2023/10/12 02:41:25.492 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/10/12 02:41:33.019 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/10/12 02:42:01.743 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/10/12 02:42:10.189 - MENSAJE: Presenter-AdministrarProcesoCambio Preparando para Efectuar Pago
+2023/10/12 02:44:33.998 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/10/12 02:44:37.975 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/10/12 02:44:37.992 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/10/12 02:44:38.019 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/10/12 02:44:38.045 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/10/12 02:44:38.084 - MENSAJE: Conexion_Exitosa
+2023/10/12 02:44:42.032 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/10/12 02:44:49.459 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/10/12 02:45:18.247 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/10/12 02:45:41.303 - MENSAJE: Presenter-AdministrarProcesoCambio Preparando para Efectuar Pago
+2023/10/12 02:48:03.341 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/10/12 02:48:07.493 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/10/12 02:48:07.508 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/10/12 02:48:07.535 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/10/12 02:48:07.562 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/10/12 02:48:07.606 - MENSAJE: Conexion_Exitosa
+2023/10/12 02:48:07.636 - MENSAJE: ExpulsarOK
+2023/10/12 02:48:11.566 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/10/12 02:48:19.047 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/10/12 02:48:47.793 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/10/12 02:48:58.571 - MENSAJE: Presenter-AdministrarProcesoCambio Preparando para Efectuar Pago
+2023/10/12 02:49:39.161 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/10/12 02:49:43.149 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/10/12 02:49:43.165 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/10/12 02:49:43.192 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/10/12 02:49:43.217 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/10/12 02:49:43.254 - MENSAJE: Conexion_Exitosa
+2023/10/12 02:49:47.207 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/10/12 02:49:54.660 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/10/12 02:50:23.457 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/10/12 02:51:04.105 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/10/12 02:51:07.998 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/10/12 02:51:08.013 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/10/12 02:51:08.054 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/10/12 02:51:08.078 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/10/12 02:51:08.116 - MENSAJE: Conexion_Exitosa
+2023/10/12 02:51:12.072 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/10/12 02:51:19.571 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/10/12 02:51:48.293 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/10/12 02:52:19.707 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/10/12 02:52:23.638 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/10/12 02:52:23.653 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/10/12 02:52:23.680 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/10/12 02:52:23.706 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/10/12 02:52:23.743 - MENSAJE: Conexion_Exitosa
+2023/10/12 02:52:27.690 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/10/12 02:52:35.164 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device
+2023/10/12 02:53:03.900 - MENSAJE: Presenter-ValidarSaldosMinimos: Saldos Mínimos OK
+2023/10/12 02:53:20.046 - MENSAJE: Presenter-AdministrarProcesoCambio Preparando para Efectuar Pago

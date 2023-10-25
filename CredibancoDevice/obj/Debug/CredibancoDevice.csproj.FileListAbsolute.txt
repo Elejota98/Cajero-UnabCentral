@@ -70,3 +70,15 @@ C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\CredibancoDevice\b
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\CredibancoDevice\obj\Debug\CredibancoDevice.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\CredibancoDevice\obj\Debug\CredibancoDevice.dll
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\CredibancoDevice\obj\Debug\CredibancoDevice.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\CredibancoDevice.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\CredibancoDevice.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\KioskosLib.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\CredibancoDevice\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\CredibancoDevice\obj\Debug\CredibancoDevice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\CAJERO-UnabCentral\CredibancoDevice\obj\Debug\CredibancoDevice.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\CredibancoDevice\obj\Debug\CredibancoDevice.pdb

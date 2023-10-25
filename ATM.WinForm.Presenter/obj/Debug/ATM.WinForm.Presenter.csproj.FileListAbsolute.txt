@@ -671,3 +671,40 @@ C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\ATM.WinForm.Presen
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\obj\Debug\ATM.WinForm.Presenter.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\obj\Debug\ATM.WinForm.Presenter.dll
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\ATM.WinForm.Presenter\obj\Debug\ATM.WinForm.Presenter.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\ATM.WinForm.Presenter.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\ATM.WinForm.Presenter.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\ATM.WinForm.Model.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\ATM.WinForm.View.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\CredibancoDevice.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.CashPaymentDevice.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Datafono.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.LectorDevice.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.ServiceProxy.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Utilidades.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\EGlobalT.Device.SmartCardReaders.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\GS.CSharpPCSC.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\KioskosLib.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.WCFProxy.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Exception.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Global.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\ATM.WinForm.Model.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\ATM.WinForm.View.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\CredibancoDevice.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.CashPaymentDevice.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Datafono.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.LectorDevice.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.ServiceProxy.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.WCFProxy.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Exception.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\bin\Debug\Ds.Global.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\obj\Debug\ATM.WinForm.Presenter.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\obj\Debug\ATM.WinForm.Presenter.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\ATM.WinForm.Presenter\obj\Debug\ATM.WinForm.Presenter.pdb

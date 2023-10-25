@@ -1,0 +1,9 @@
+2023/10/13 11:07:52.569 - MENSAJE: INICIO APP ATM / TestMode = true
+2023/10/13 11:07:57.547 - MENSAJE: Presenter-ObtenerInfoModulo OK 
+2023/10/13 11:07:57.564 - MENSAJE: Presenter-ObtenerInfoFactura OK 
+2023/10/13 11:07:57.591 - MENSAJE: Presenter-ObtenerInfoPartes: 
+2023/10/13 11:07:57.620 - MENSAJE: Presenter-ObtenerInfoParametros OK 
+2023/10/13 11:07:57.684 - MENSAJE: Conexion_Exitosa
+2023/10/13 11:07:57.714 - MENSAJE: ExpulsarOK
+2023/10/13 11:08:01.661 - MENSAJE: Presenter-EventosBilletero FinInicio OK
+2023/10/13 11:08:09.206 - MENSAJE: Presenter-AdministrarConexionMiniHub: Conexión Exitosa Cash Payment Device

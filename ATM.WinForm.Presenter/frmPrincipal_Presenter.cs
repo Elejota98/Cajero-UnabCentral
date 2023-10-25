@@ -5120,6 +5120,7 @@ namespace ATM.WinForm.Presenter
                                 View.General_Events = "Presenter Respuesta Datafono Fondos Insuficientes – Clave Inválida – Tarjeta Vencida";
                                 ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
                                 View.SetearPantalla(Pantalla.ConsultaFallida);
+                                EnviarPantallaPrincipalDatafono();
                                 ExpulsarTarjeta();
                             }
                             else
@@ -5127,6 +5128,7 @@ namespace ATM.WinForm.Presenter
                                 View.General_Events = "Presenter Respuesta Datafono Fondos Insuficientes – Clave Inválida – Tarjeta Vencida";
                                 ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
                                 View.SetearPantalla(Pantalla.ConsultaFallida);
+                                EnviarPantallaPrincipalDatafono();
                                 ExpulsarTarjeta();
                             }
                         }
@@ -5137,6 +5139,7 @@ namespace ATM.WinForm.Presenter
                                 View.General_Events = "Presenter Respuesta Datafono (Error Apertura Puerto Serial – Problemas Comunicación";
                                 ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
                                 View.SetearPantalla(Pantalla.ConsultaFallida);
+                                EnviarPantallaPrincipalDatafono();
                                 ExpulsarTarjeta();
                             }
                             else
@@ -5162,6 +5165,7 @@ namespace ATM.WinForm.Presenter
                                     View.General_Events = "Presenter Respuesta Datafono PIN Incorrecto intento 2";
                                     ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
                                     View.SetearPantalla(Pantalla.ConsultaFallida);
+                                    EnviarPantallaPrincipalDatafono();
                                     ExpulsarTarjeta();
                                 }
                                 else
@@ -5169,6 +5173,7 @@ namespace ATM.WinForm.Presenter
                                     View.General_Events = "Presenter Respuesta Datafono PIN Incorrecto intento 2";
                                     ConfirmarOperacionFE(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
                                     View.SetearPantalla(Pantalla.ConsultaFallida);
+                                    EnviarPantallaPrincipalDatafono();
                                     ExpulsarTarjeta();
                                 }
                             }
@@ -5199,20 +5204,86 @@ namespace ATM.WinForm.Presenter
                 case StatesDatafono.ErrorRespuestaFinal:
                     View.General_Events = i.result.ToString();
                     View.SetearPantalla(Pantalla.ConsultaFallida);
+                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                    EnviarPantallaPrincipalDatafono();
+                    ExpulsarTarjeta();
                     break;
                 #endregion
 
                 #region ProcesoCredito
+                //case StatesDatafono.ProcesoCredito:
+                //    View.General_Events = i.result.ToString();
+
+                //    if (i.resultString.Mensaje == "Ingrese Cuotas")
+                //    {
+                //        View.SetearPantalla(Pantalla.DigiteCuotas);
+                //    }
+                //    else
+                //    {
+                //        View.SetearPantalla(Pantalla.DigiteCredito);
+                //    }
+                //    break;
                 case StatesDatafono.ProcesoCredito:
                     View.General_Events = i.result.ToString();
+                    string[] Result = i.resultString.EntidadDatos.ToString().Split(',');
 
-                    if (i.resultString.Mensaje == "Ingrese Cuotas")
+
+                    if (Result[2].ToString() == "00")
+                    {
+                        View.General_Events = "Presenter Respuesta Datafono Aprobado";
+
+                        View.Operacion.Pago.NoAutorizacion = Result[3].ToString();
+                        View.Operacion.Pago.Franquicia = Result[13].ToString();
+                        View.Operacion.Pago.CodigoBarras = Result[8].ToString();
+                        View.Operacion.Pago.Referencia = string.Empty;
+                        View.Operacion.Pago.NoTarjeta = Result[16].ToString();
+                        View.Operacion.Pago.Factura = Result[7].ToString();
+
+                        if (Result[14].ToString() == "DB")
+                        {
+                            View.Operacion.Pago.TipoPago = TipoPago.Ahorros;
+                        }
+                        else if (Result[14].ToString() == "EL")
+                        {
+                            View.Operacion.Pago.TipoPago = TipoPago.Corriente;
+                        }
+                        else if (Result[14].ToString() == "CR")
+                        {
+                            View.Operacion.Pago.TipoPago = TipoPago.Credito;
+                        }
+                        else if (Result[14].ToString() == "RO")
+                        {
+                            View.Operacion.Pago.TipoPago = TipoPago.CreditoRotativo;
+                        }
+
+                        TipoCuenta = View.Operacion.Pago.TipoPago.ToString();
+                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+
+                        View.Operacion.Pago.TipoPago = TipoPago.Efectivo;
+
+                        ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Aprobado);
+                        View.SetearPantalla(Pantalla.ImprimirFactura);
+                    }
+                    else if (Result[3].ToString() == "Ingrese Cuotas")
                     {
                         View.SetearPantalla(Pantalla.DigiteCuotas);
                     }
                     else
                     {
-                        View.SetearPantalla(Pantalla.DigiteCredito);
+                        if (Result[3].ToString() == "TRANSACCION INVALIDA;;]42")
+                        {
+                            View.General_Events = "Presenter Respuesta Datafono TRANSACCION INVALIDA";
+                            ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                            View.SetearPantalla(Pantalla.ConsultaFallida);
+                            EnviarPantallaPrincipalDatafono();
+                            ExpulsarTarjeta();
+                        }
+                        else
+                        {
+                            View.SetearPantalla(Pantalla.DigiteCredito);
+                        }
+
+
                     }
                     break;
                 #endregion
@@ -5221,6 +5292,9 @@ namespace ATM.WinForm.Presenter
                 case StatesDatafono.ErrorRespuestaCredito:
                     View.General_Events = i.result.ToString();
                     View.SetearPantalla(Pantalla.ConsultaFallida);
+                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                    EnviarPantallaPrincipalDatafono();
+                    ExpulsarTarjeta();
                     break;
                 #endregion
 
@@ -5377,6 +5451,9 @@ namespace ATM.WinForm.Presenter
                 case StatesDatafono.ErrorIngresoCuotas:
                     View.General_Events = i.result.ToString();
                     View.SetearPantalla(Pantalla.ConsultaFallida);
+                    ConfirmarOperacion(TipoOperacion.Pago, TipoEstadoPago.Cancelado);
+                    EnviarPantallaPrincipalDatafono();
+                    ExpulsarTarjeta();
                     break;
                 #endregion
 

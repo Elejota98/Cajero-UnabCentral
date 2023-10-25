@@ -12,46 +12,46 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Ds.BaseService.dll">
-      <publishTime>07/21/2023 11:22:21</publishTime>
+      <publishTime>09/27/2023 17:12:40</publishTime>
     </File>
     <File Include="bin/Ds.BaseService.pdb">
-      <publishTime>07/21/2023 11:22:21</publishTime>
+      <publishTime>09/27/2023 17:12:40</publishTime>
     </File>
     <File Include="bin/Ds.BusinessService.dll">
-      <publishTime>07/21/2023 15:41:08</publishTime>
+      <publishTime>09/27/2023 17:12:40</publishTime>
     </File>
     <File Include="bin/Ds.BusinessService.pdb">
-      <publishTime>07/21/2023 15:41:08</publishTime>
+      <publishTime>09/27/2023 17:12:40</publishTime>
     </File>
     <File Include="bin/Ds.DataService.dll">
-      <publishTime>07/21/2023 15:41:09</publishTime>
+      <publishTime>09/28/2023 17:28:20</publishTime>
     </File>
     <File Include="bin/Ds.DataService.pdb">
-      <publishTime>07/21/2023 15:41:09</publishTime>
+      <publishTime>09/28/2023 17:28:20</publishTime>
     </File>
     <File Include="bin/Ds.ModuloService.dll">
-      <publishTime>07/21/2023 15:41:26</publishTime>
+      <publishTime>09/28/2023 17:28:21</publishTime>
     </File>
     <File Include="bin/Ds.ModuloService.pdb">
-      <publishTime>07/21/2023 15:41:26</publishTime>
+      <publishTime>09/28/2023 17:28:21</publishTime>
     </File>
     <File Include="bin/EGlobalT_ATM.Host.ActionServer.dll">
-      <publishTime>07/21/2023 15:41:27</publishTime>
+      <publishTime>09/28/2023 17:28:22</publishTime>
     </File>
     <File Include="bin/EGlobalT_ATM.Host.ActionServer.pdb">
-      <publishTime>07/21/2023 15:41:27</publishTime>
+      <publishTime>09/28/2023 17:28:22</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>10/31/2020 11:28:46</publishTime>
+      <publishTime>09/18/2023 16:31:47</publishTime>
     </File>
     <File Include="Ds_ModuloComercialService.svc">
-      <publishTime>10/31/2020 11:29:10</publishTime>
+      <publishTime>09/18/2023 16:31:47</publishTime>
     </File>
     <File Include="Mensajes.xml">
-      <publishTime>10/31/2020 11:29:09</publishTime>
+      <publishTime>09/18/2023 16:31:47</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>03/25/2022 16:10:11</publishTime>
+      <publishTime>09/28/2023 16:58:09</publishTime>
     </File>
   </ItemGroup>
 </Project>

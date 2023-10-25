@@ -218,3 +218,14 @@ C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Utilidades\bin\
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Utilidades\obj\Debug\Ds.Utilidades.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Utilidades\obj\Debug\Ds.Utilidades.dll
 C:\Users\Admin\Documents\PARQUEARSE INSTAL\CAJERO-UnabCentral\Ds.Utilidades\obj\Debug\Ds.Utilidades.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Utilidades\bin\Debug\Ds.Utilidades.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Utilidades\bin\Debug\Ds.Utilidades.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Utilidades\bin\Debug\Ds.BusinessObjects.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Utilidades\bin\Debug\GS.Apdu.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Utilidades\bin\Debug\EGlobalT.Device.SmartCard.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Utilidades\bin\Debug\GS.HexLibrary.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Utilidades\bin\Debug\EGlobalT.Device.Tools.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Utilidades\bin\Debug\Ds.BusinessObjects.pdb
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Utilidades\obj\Debug\Ds.Utilidades.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Utilidades\obj\Debug\Ds.Utilidades.dll
+C:\Users\Admin\Documents\CAJERO-UnabCentral\Ds.Utilidades\obj\Debug\Ds.Utilidades.pdb
